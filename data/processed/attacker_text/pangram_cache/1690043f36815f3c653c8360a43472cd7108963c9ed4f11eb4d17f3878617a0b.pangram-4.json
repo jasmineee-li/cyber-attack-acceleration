@@ -1,0 +1,76 @@
+{
+ "text_sha256": "1690043f36815f3c653c8360a43472cd7108963c9ed4f11eb4d17f3878617a0b",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:52:48+00:00",
+ "word_count": 71,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We have a small misunderstanding here. We were encrypted by your group, but we were contacted initially by other group. They are also requiring ransom. However they claim to have all 320.000 files. They proved it with sharing with us the selected files. If we pay them, you will post us online, if we pay you, they will post us. We have no actual choice to not get posted. Thats clear.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 4.1014877751518596e-22,
+  "fraction_ai_assisted": 1.0835630518747043e-32,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We have a small misunderstanding here. We were encrypted by your group, but we were contacted initially by other group. They are also requiring ransom. However they claim to have all 320.000 files. They proved it with sharing with us the selected files. If we pay them, you will post us online, if we pay you, they will post us. We have no actual choice to not get posted. Thats clear.",
+    "label": "Human Written",
+    "ai_assistance_score": 4.1014880275873493e-22,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 385,
+    "word_count": 72,
+    "token_length": 93,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.0835629784063074e-32,
+     4.1014880275873493e-22
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.998595489837337
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002597402548417449,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 4.1014877751518596e-22,
+    "std": 3.721448496585289e-12,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.721448496585289e-12,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

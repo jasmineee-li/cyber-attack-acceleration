@@ -1,0 +1,76 @@
+{
+ "text_sha256": "19cb6716a20843119436bf898d63ede25ef96b80cbd2a1c8e6622a137fe58130",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-19T23:57:48+00:00",
+ "word_count": 200,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "As it is clear for you, We are an elite group who've been in this business for a very long time , that means We are well aware of how securing finance works and what your True cap is.\nYou can easily get approval for a couple of hundred thousand to a million dollars in loans.\nWith that being said, adding your background and the amount and the quality of the data involved, We will not settle for any similar figures to the ones you have offered so far whatsoever.\nTo prove Our generosity , We have temporarily paused the timer; however, your post stays on Our website with a part of your name until you make the right decision and bring a realistic offer on the table.\nBut We have to emphasize that We will not wait forever.\nSo to prove to you that you truly want to save your business and bring an end to this matter, you need to speed up the process; otherwise, as We always kept Our word, your data will be published and you will face unbearable consequences beyond your capabilities to survive.\nAn offer must be brought by tomorrow 12 pm Central time.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 7.567011707354012e-44,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "As it is clear for you, We are an elite group who've been in this business for a very long time , that means We are well aware of how securing finance works and what your True cap is.\nYou can easily get approval for a couple of hundred thousand to a million dollars in loans.\nWith that being said, adding your background and the amount and the quality of the data involved, We will not settle for any similar figures to the ones you have offered so far whatsoever.\nTo prove Our generosity , We have temporarily paused the timer; however, your post stays on Our website with a part of your name until you make the right decision and bring a realistic offer on the table.\nBut We have to emphasize that We will not wait forever.\nSo to prove to you that you truly want to save your business and bring an end to this matter, you need to speed up the process; otherwise, as We always kept Our word, your data will be published and you will face unbearable consequences beyond your capabilities to survive.\nAn offer must be brought by tomorrow 12 pm Central time.",
+    "label": "Human Written",
+    "ai_assistance_score": 7.567011707354012e-44,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 1056,
+    "word_count": 199,
+    "token_length": 222,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     7.567011707354012e-44
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990025617729525
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0018939394503831863,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 7.567011707354012e-44,
+    "std": 6.322077707025198e-23,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 6.322077707025198e-23,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,116 @@
+{
+ "text_sha256": "cfa7a563ef30812d92aec1618b8a7ce62d6509ac742351f211b563c776e2e37e",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:43:34+00:00",
+ "word_count": 224,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hello. Since you are a new person, we will repeat it again for you. We have a huge number of critical files for you. Even a small number of your files will not only put an end to your business and the career of your employees, but will also lead to a large number of lawsuits for the distribution of confidential information of your customers and partners. A bonus for you will be sending all of your documentation (including accounting) - to the relevant regulatory agencies, which will be interested in the fact of the spread of your critical data, and someone may want to take the chance and improve their career. You understand that the law in any country is an extremely subjective thing, which can be turned either in your direction or against you. We have not published your data just because we have a lot of work to do right now, and we are very creative in spreading client information - we want as many people connected with you as possible to know that you have allowed a situation where their finances and safety are in danger due to your fault. We are attaching some screenshots of the most interesting, from our point of view, files. This is not everything, just a small part of what we have. Think about it.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 3.7700363122138147e-13,
+  "fraction_ai_assisted": 3.501232607761883e-18,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 3,
+  "windows": [
+   {
+    "text": "Hello.",
+    "label": "Human Written",
+    "ai_assistance_score": 7.68232907844002e-11,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 6,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     7.13667927346466e-16,
+     7.68229369008111e-11
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9511600701891206
+   },
+   {
+    "text": " Since you are a new person, we will repeat it again for you. We have a huge number of critical files for you. Even a small number of your files will not only put an end to your business and the career of your employees, but will also lead to a large number of lawsuits for the distribution of confidential information of your customers and partners. A bonus for you will be sending all of your documentation (including accounting) - to the relevant regulatory agencies, which will be interested in the fact of the spread of your critical data, and someone may want to take the chance and improve their career. You understand that the law in any country is an extremely subjective thing, which can be turned either in your direction or against you. We have not published your data just because we have a lot of work to do right now, and we are very creative in spreading client information - we want as many people connected with you as possible to know that you have allowed a situation where their finances and safety are in danger due to your fault. We are attaching some screenshots of the most interesting, from our point of view, files. This is not everything, just a small part of what we have.",
+    "label": "Human Written",
+    "ai_assistance_score": 5.74532370373175e-44,
+    "confidence": "High",
+    "start_index": 6,
+    "end_index": 1207,
+    "word_count": 218,
+    "token_length": 241,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     5.74532370373175e-44
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990189770255052
+   },
+   {
+    "text": " Think about it.",
+    "label": "Human Written",
+    "ai_assistance_score": 8.61518396498475e-15,
+    "confidence": "Medium",
+    "start_index": 1207,
+    "end_index": 1223,
+    "word_count": 3,
+    "token_length": 4,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.0252943052070087e-26,
+     8.61518396498475e-15
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9867167280997569
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0016353229293599725,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 3.7700363122138147e-13,
+    "std": 4.3017319484306427e-08,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.585172692055494e-08,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

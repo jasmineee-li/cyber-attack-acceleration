@@ -1,0 +1,76 @@
+{
+ "text_sha256": "ac49dae5a641de9b55b2e43e2e9b233eb0ed12645792ce29e81de338114b3fb2",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:08:10+00:00",
+ "word_count": 104,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Following up on our message from yesterday, we are still in the process of verifying information. In order to prove that you hold the actual data and not just a list of files, please can you provide the following files as proof of data held: I:\\continental2\\upload3\\did01447\\040_QAC_Cleanliness\\11_Partikelmonitoring\\02_Luftsauberkeit\\01_Monitoring\\Arbeits-Sheet-Luftsauberkeit_Auswertung Q2 2022 und Sondermessungen.xlsx, H:\\continental\\upload4_c2\\didr1618\\MMA_Fahrversuch\\06_NVH-DL_Sommer_2022\\Daten_NVH-DL_Block1\\ATF_10\\180622_004\\EKB_Data\\EEW\\180622_004_rl_nr00109_chn0007_eew.wav, H:\\continental\\upload4_c2\\didf3403\\Common\\Projects\\JR-Jeff Ross\\Instrumentation Master Database\\Archive\\Master Database Allentare Fixes March 2016.xlsx, H:\\continental\\upload4_c2\\didb3040\\MCAD\\ptc\\Help\\Creo3\\help\\creo_help_pma\\italian\\pma\\rendering\\To_Open_a_Room_File.html, I:\\continental2\\upload3\\hpfs002.tiretech.contiwan.com\\HPG-Orga\\GCF_TS\\PROJEKTE\\CT-Mexikana\\!Erweiterung 6\\CE\\Einbauerklärung Elektrotechnik Konwima + Kernsetzer Türkei 2110791.pdf, E:\\continental3\\upload_c2\\did43391\\31_ProductDevelopment\\40_Software\\20_Development\\BOT\\CPC4_V4_16\\pvcs\\config\\BS_Common_src.arl, F:\\continental\\upload4\\did77091\\PROJETS\\Radio\\RD45\\07_MP\\02_MP_QualityAssurance\\210-Capabilité_equipements\\Bizerte\\Inspection optique\\repetabilité vision SICKconnecteur MOST ilot 1 RD45 BCL tiroir droite.xls, E:\\continental3\\upload_c2\\did43391\\99_Workuser\\Satvanyi\\Boot_v04_16_with Source Address 0x32\\config\\BS_Appl_src.arl, F:\\continental\\upload4\\didb3019\\Konstrukce_Archiv\\P-pomocne\\P1-1103_Paletka_vytvrzení\\Data\\(5) Pojistka_výkres.idw, I:\\continental2\\upload3\\did35017\\Interior_Innovation_Vehicle\\03_Development\\05_Hardware\\03_Parts_Components\\14_HMI_PC\\02_OS\\Image_WINXPembed\\2_Anpassungen-Tools\\app\\DemoFPK\\DemoFPK\\msgina.dll, F:\\continental\\upload4\\didb3020\\Neplatne_NotValid\\Kvalita_Qualitaet\\Statistika\\Brandys\\KS\\Vn-Auswertung\\2002\\11_2002\\VDO\\Colorado\\VnPlovákSest-VDO.xls, E:\\continental3\\upload_c2\\did01155\\pua\\01_Operations Controlling\\2022\\01_Actual\\01 Reporting\\00_general dashboard, E:\\continental3\\upload_c2\\did02299\\TM_community_RBG\\140415_Documentation_Test_Strategy_Safety_MY16, F:\\continental\\upload\\10Werkstoffe\\CR\\ROHSTOFF\\CC\\03\\58\\02 VULCAN 5H (Cabot, Botlek, NET)\\2 - Specification, TDS, CoA",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 0.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Following up on our message from yesterday, we are still in the process of verifying information. In order to prove that you hold the actual data and not just a list of files, please can you provide the following files as proof of data held: I:\\continental2\\upload3\\did01447\\040_QAC_Cleanliness\\11_Partikelmonitoring\\02_Luftsauberkeit\\01_Monitoring\\Arbeits-Sheet-Luftsauberkeit_Auswertung Q2 2022 und Sondermessungen.xlsx, H:\\continental\\upload4_c2\\didr1618\\MMA_Fahrversuch\\06_NVH-DL_Sommer_2022\\Daten_NVH-DL_Block1\\ATF_10\\180622_004\\EKB_Data\\EEW\\180622_004_rl_nr00109_chn0007_eew.wav, H:\\continental\\upload4_c2\\didf3403\\Common\\Projects\\JR-Jeff Ross\\Instrumentation Master Database\\Archive\\Master Database Allentare Fixes March 2016.xlsx, H:\\continental\\upload4_c2\\didb3040\\MCAD\\ptc\\Help\\Creo3\\help\\creo_help_pma\\italian\\pma\\rendering\\To_Open_a_Room_File.html, I:\\continental2\\upload3\\hpfs002.tiretech.contiwan.com\\HPG-Orga\\GCF_TS\\PROJEKTE\\CT-Mexikana\\!Erweiterung 6\\CE\\Einbauerklärung Elektrotechnik Konwima + Kernsetzer Türkei 2110791.pdf, E:\\continental3\\upload_c2\\did43391\\31_ProductDevelopment\\40_Software\\20_Development\\BOT\\CPC4_V4_16\\pvcs\\config\\BS_Common_src.arl, F:\\continental\\upload4\\did77091\\PROJETS\\Radio\\RD45\\07_MP\\02_MP_QualityAssurance\\210-Capabilité_equipements\\Bizerte\\Inspection optique\\repetabilité vision SICKconnecteur MOST ilot 1 RD45 BCL tiroir droite.xls, E:\\continental3\\upload_c2\\did43391\\99_Workuser\\Satvanyi\\Boot_v04_16_with Source Address 0x32\\config\\BS_Appl_src.arl, F:\\continental\\upload4\\didb3019\\Konstrukce_Archiv\\P-pomocne\\P1-1103_Paletka_vytvrzení\\Data\\(5) Pojistka_výkres.idw, I:\\continental2\\upload3\\did35017\\Interior_Innovation_Vehicle\\03_Development\\05_Hardware\\03_Parts_Components\\14_HMI_PC\\02_OS\\Image_WINXPembed\\2_Anpassungen-Tools\\app\\DemoFPK\\DemoFPK\\msgina.dll, F:\\continental\\upload4\\didb3020\\Neplatne_NotValid\\Kvalita_Qualitaet\\Statistika\\Brandys\\KS\\Vn-Auswertung\\2002\\11_2002\\VDO\\Colorado\\VnPlovákSest-VDO.xls, E:\\continental3\\upload_c2\\did01155\\pua\\01_Operations Controlling\\2022\\01_Actual\\01 Reporting\\00_general dashboard, E:\\continental3\\upload_c2\\did02299\\TM_community_RBG\\140415_Documentation_Test_Strategy_Safety_MY16, F:\\continental\\upload\\10Werkstoffe\\CR\\ROHSTOFF\\CC\\03\\58\\02 VULCAN 5H (Cabot, Botlek, NET)\\2 - Specification, TDS, CoA",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 2291,
+    "word_count": 272,
+    "token_length": 951,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0013094719033688307,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.0,
+    "std": 3.7535320169462675e-28,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.7990740008587063e-28,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

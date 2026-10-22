@@ -1,0 +1,236 @@
+{
+ "text_sha256": "57869badc52aeb62f6f84727d31855a975c7be607b354a01fa763f3ad773ebc1",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:42:39+00:00",
+ "word_count": 282,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Don’t shift the blame—you are the ones who caused this \"disruption\" by ignoring our demands. You had 10 hours to respond with an offer after we told you what would happen if you didn’t reply. We refuse to enter into a deal with you under these terms. Now keep a close eye on the timer—you should understand by now that we do what we promise.\n1. Offering $15,000 to protect the integrity of your company’s reputation is unacceptable.\n2. The volume and sensitivity of the data are so significant that the leak of such a dataset will destroy your reputation. This will have a long-term impact on your organization, and you will not be able to recover from it.\nAnd this cannot be resolved for $15,000.\n3. We will publish much more of your data on our website if an agreement is not reached. Just imagine what your customers will think when they see that you were only willing to pay $15,000 to protect their data—it looks like a joke\nSo the best way for you to prevent your organization from significant reputational and financial losses and further attacks by us is to offer a reasonable amount close to ours.\nWe have reset the timer to 18 hours. Before the timer expires, we must see a more reasonable figure from you, and if it is in the five-figure range, this will be considered the end of the dialogue on your part, and your data will be published, and all our actions will be carried out.\nIn the meantime, as a sign of our willingness to work with you, we are offering an initial discount and lowering our asking price to $1,330,000 USD.",
+  "version": "4.1",
+  "prediction": "We believe that this text is a mix of AI and human-written content.",
+  "prediction_short": "Mixed",
+  "fraction_ai": 0.16016294062137604,
+  "fraction_ai_assisted": 1.0045160233132511e-13,
+  "fraction_human": 0.8398370742797852,
+  "headline": "AI Detected",
+  "num_ai_segments": 3,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 6,
+  "windows": [
+   {
+    "text": "Don’t shift the blame—you are the ones who caused this \"disruption\" by ignoring our demands.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 92,
+    "word_count": 17,
+    "token_length": 22,
+    "is_humanized": false,
+    "humanizer_score": 0.18100225925445557,
+    "class_probabilities": [
+     5.882073581046337e-20,
+     0.0,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9936515400893486
+   },
+   {
+    "text": " You had 10 hours to respond with an offer after we told you what would happen if you didn’t reply.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 92,
+    "end_index": 191,
+    "word_count": 21,
+    "token_length": 24,
+    "is_humanized": false,
+    "humanizer_score": 0.18100225925445557,
+    "class_probabilities": [
+     2.069363777557065e-11,
+     2.1019476964872256e-44,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9612121212121212
+   },
+   {
+    "text": " We refuse to enter into a deal with you under these terms.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9431516528129578,
+    "confidence": "Low",
+    "start_index": 191,
+    "end_index": 250,
+    "word_count": 12,
+    "token_length": 13,
+    "is_humanized": false,
+    "humanizer_score": 0.18100225925445557,
+    "class_probabilities": [
+     0.056848324835300446,
+     2.4364759459400126e-26,
+     0.9431516528129578
+    ],
+    "confidence_score": 0.9431516528129578,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.5309585690261428
+   },
+   {
+    "text": " Now keep a close eye on the timer—you should understand by now that we do what we promise.\n1.",
+    "label": "Human Written",
+    "ai_assistance_score": 5.2908711950294673e-05,
+    "confidence": "Low",
+    "start_index": 250,
+    "end_index": 344,
+    "word_count": 20,
+    "token_length": 24,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     0.9999470710754395,
+     1.2139660318180871e-15,
+     5.2908711950294673e-05
+    ],
+    "confidence_score": 0.9999470710754395,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.670299983014909
+   },
+   {
+    "text": " Offering $15,000 to protect the integrity of your company’s reputation is unacceptable.\n",
+    "label": "Human Written",
+    "ai_assistance_score": 2.6461623174367353e-24,
+    "confidence": "High",
+    "start_index": 344,
+    "end_index": 433,
+    "word_count": 14,
+    "token_length": 22,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.2154528720975358e-42,
+     2.6461623174367353e-24
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9955053143577733
+   },
+   {
+    "text": "2.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.619529482217331e-09,
+    "confidence": "Medium",
+    "start_index": 433,
+    "end_index": 435,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     6.850848360828721e-11,
+     2.585275327149361e-09
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9026359534552363
+   },
+   {
+    "text": " The volume and sensitivity of the data are so significant that the leak of such a dataset will destroy your reputation. This will have a long-term impact on your organization, and you will not be able to recover from it.\nAnd this cannot be resolved for $15,000.\n",
+    "label": "Human Written",
+    "ai_assistance_score": 1.0886632609265795e-19,
+    "confidence": "High",
+    "start_index": 435,
+    "end_index": 698,
+    "word_count": 49,
+    "token_length": 59,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.4511203689342293e-35,
+     1.0886632609265795e-19
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9950315865835706
+   },
+   {
+    "text": "3.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.0003196049268581e-09,
+    "confidence": "Medium",
+    "start_index": 698,
+    "end_index": 700,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     8.78219112016021e-12,
+     9.959284508198607e-10
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9141218415749496
+   },
+   {
+    "text": " We will publish much more of your data on our website if an agreement is not reached. Just imagine what your customers will think when they see that you were only willing to pay $15,000 to protect their data—it looks like a joke\nSo the best way for you to prevent your organization from significant reputational and financial losses and further attacks by us is to offer a reasonable amount close to ours.\nWe have reset the timer to 18 hours. Before the timer expires, we must see a more reasonable figure from you, and if it is in the five-figure range, this will be considered the end of the dialogue on your part, and your data will be published, and all our actions will be carried out.\nIn the meantime, as a sign of our willingness to work with you, we are offering an initial discount and lowering our asking price to $1,330,000 USD.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.818493410127222e-21,
+    "confidence": "High",
+    "start_index": 700,
+    "end_index": 1540,
+    "word_count": 160,
+    "token_length": 189,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.0265781216933418e-31,
+     6.818493410127222e-21
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9982504138139899
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Medium",
+   "boundary": "human"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0012987012742087245,
+   "human": 2.069363777557065e-11,
+   "mixed": 1.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.1601998507976532,
+    "std": 0.008732660673558712,
+    "p10": 0.16233766078948975,
+    "p50": 0.16233766078948975,
+    "p90": 0.16233766078948975
+   },
+   "human_coverage": {
+    "mean": 0.8398001194000244,
+    "std": 0.008732660673558712,
+    "p10": 0.8376623392105103,
+    "p50": 0.8376623392105103,
+    "p90": 0.8376623392105103
+   }
+  }
+ },
+ "error": null
+}

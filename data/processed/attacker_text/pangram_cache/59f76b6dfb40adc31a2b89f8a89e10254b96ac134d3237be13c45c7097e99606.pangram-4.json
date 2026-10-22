@@ -1,0 +1,76 @@
+{
+ "text_sha256": "59f76b6dfb40adc31a2b89f8a89e10254b96ac134d3237be13c45c7097e99606",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:37:06+00:00",
+ "word_count": 105,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We've discussed, despite the fact that my boss considers our last offer reasonable I managed to convince him to review it. He agreed to go down to $600k if the deal will be closed by the end of this week. Once the transfer is made you will be provided with security recommendations on network improvement, breach details, all you files will be completely wiped from our servers once and for all.\nAlso we can upload your files to mega.nz secure share and provide you with full access to it. That's a fair offer and I did everything possible to make it work. Hope you appreciate.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.8721150673322194e-20,
+  "fraction_ai_assisted": 7.855442302777515e-33,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We've discussed, despite the fact that my boss considers our last offer reasonable I managed to convince him to review it. He agreed to go down to $600k if the deal will be closed by the end of this week. Once the transfer is made you will be provided with security recommendations on network improvement, breach details, all you files will be completely wiped from our servers once and for all.\nAlso we can upload your files to mega.nz secure share and provide you with full access to it. That's a fair offer and I did everything possible to make it work. Hope you appreciate.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.8721150673322194e-20,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 577,
+    "word_count": 108,
+    "token_length": 122,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     7.855442302777515e-33,
+     1.8721150673322194e-20
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988554498657289
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001733102253638208,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.8721150673322194e-20,
+    "std": 2.6102854253085006e-11,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.6102854253085006e-11,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

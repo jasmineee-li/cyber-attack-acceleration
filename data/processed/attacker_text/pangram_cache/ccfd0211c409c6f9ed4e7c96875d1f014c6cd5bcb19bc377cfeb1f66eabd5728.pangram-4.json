@@ -1,0 +1,136 @@
+{
+ "text_sha256": "ccfd0211c409c6f9ed4e7c96875d1f014c6cd5bcb19bc377cfeb1f66eabd5728",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:01:22+00:00",
+ "word_count": 64,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Let’s take this one step at a time. We’re actively working to find the funds to increase our offer to you, and that takes effort and time — so please bear with us.\nWe’re very grateful for the discount, and we’ll be discussing it with the rest of the team. In the meantime, here are the additional 3 files we’re requesting:\n[Redacted].docx\n[Redacted].docx\n[Redacted].pdf",
+  "version": "4.1",
+  "prediction": "We believe that this text is a mix of AI and human-written content.",
+  "prediction_short": "Mixed",
+  "fraction_ai": 0.5643972158432007,
+  "fraction_ai_assisted": 8.345394230405362e-16,
+  "fraction_human": 0.4356027841567993,
+  "headline": "AI Detected",
+  "num_ai_segments": 2,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Let’s take this one step at a time.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9999952912330627,
+    "confidence": "Low",
+    "start_index": 0,
+    "end_index": 35,
+    "word_count": 9,
+    "token_length": 10,
+    "is_humanized": false,
+    "humanizer_score": 0.013663982041180134,
+    "class_probabilities": [
+     4.692190032073995e-06,
+     8.798418367299537e-15,
+     0.9999952912330627
+    ],
+    "confidence_score": 0.9999952912330627,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.7271657596705399
+   },
+   {
+    "text": " We’re actively working to find the funds to increase our offer to you, and that takes effort and time — so please bear with us.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 35,
+    "end_index": 163,
+    "word_count": 25,
+    "token_length": 28,
+    "is_humanized": false,
+    "humanizer_score": 0.013663982041180134,
+    "class_probabilities": [
+     2.686018629738385e-10,
+     1.2647336388723068e-27,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9333150006874742
+   },
+   {
+    "text": "\nWe’re very grateful for the discount, and we’ll be discussing it with the rest of the team.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.4919862151145935,
+    "confidence": "Low",
+    "start_index": 163,
+    "end_index": 255,
+    "word_count": 19,
+    "token_length": 21,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     0.5080137848854065,
+     4.5166121318991024e-21,
+     0.4919862151145935
+    ],
+    "confidence_score": 0.5080137848854065,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.5027589796980739
+   },
+   {
+    "text": " In the meantime, here are the additional 3 files we’re requesting:\n[Redacted].docx\n[Redacted].docx\n[Redacted].pdf",
+    "label": "Human Written",
+    "ai_assistance_score": 4.531299124778045e-35,
+    "confidence": "High",
+    "start_index": 255,
+    "end_index": 369,
+    "word_count": 18,
+    "token_length": 35,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.951661669395984e-41,
+     4.5312971158765665e-35
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9971368998964039
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Low",
+   "boundary": "ai"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002710027154535055,
+   "human": 2.686018629738385e-10,
+   "mixed": 1.0,
+   "ai": 4.5312971158765665e-35,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.5643972158432007,
+    "std": 0.1246454045176506,
+    "p10": 0.4417344033718109,
+    "p50": 0.4417344033718109,
+    "p90": 0.6910569071769714
+   },
+   "human_coverage": {
+    "mean": 0.4356027841567993,
+    "std": 0.1246454045176506,
+    "p10": 0.30894309282302856,
+    "p50": 0.5582655668258667,
+    "p90": 0.5582655668258667
+   }
+  }
+ },
+ "error": null
+}

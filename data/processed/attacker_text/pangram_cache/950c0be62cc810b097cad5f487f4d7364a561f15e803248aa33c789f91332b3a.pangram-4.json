@@ -1,0 +1,116 @@
+{
+ "text_sha256": "950c0be62cc810b097cad5f487f4d7364a561f15e803248aa33c789f91332b3a",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:50:39+00:00",
+ "word_count": 58,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hello, We are responsible for handling communications regarding this matter. To properly assess the situation, we need a complete list of exfiltrated files to understand the scope of the impact. Additionally, we would like to clarify the timeframe available for reaching an agreement before any further actions are taken on your side. We look forward to your response.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 1.0,
+  "fraction_ai_assisted": 2.703201402171111e-22,
+  "fraction_human": 1.1060501473036943e-12,
+  "headline": "AI Generated",
+  "num_ai_segments": 3,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "Hello, We are responsible for handling communications regarding this matter.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 76,
+    "word_count": 10,
+    "token_length": 12,
+    "is_humanized": false,
+    "humanizer_score": 0.008437897078692913,
+    "class_probabilities": [
+     3.1720039463979666e-13,
+     1.2802621287820213e-21,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9786812097174021
+   },
+   {
+    "text": " To properly assess the situation, we need a complete list of exfiltrated files to understand the scope of the impact. Additionally, we would like to clarify the timeframe available for reaching an agreement before any further actions are taken on your side.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 76,
+    "end_index": 334,
+    "word_count": 42,
+    "token_length": 50,
+    "is_humanized": false,
+    "humanizer_score": 0.008437897078692913,
+    "class_probabilities": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412403
+   },
+   {
+    "text": " We look forward to your response.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 334,
+    "end_index": 368,
+    "word_count": 6,
+    "token_length": 7,
+    "is_humanized": false,
+    "humanizer_score": 0.008437897078692913,
+    "class_probabilities": [
+     1.1262330477934679e-11,
+     6.405537928620132e-23,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9625564139830184
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Medium",
+   "boundary": "ai"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0027173913549631834,
+   "human": 0.0,
+   "mixed": 3.171907181354072e-13,
+   "ai": 1.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.0,
+    "std": 3.311585317078425e-07,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   },
+   "human_coverage": {
+    "mean": 1.1060501473036943e-12,
+    "std": 3.311585317078425e-07,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

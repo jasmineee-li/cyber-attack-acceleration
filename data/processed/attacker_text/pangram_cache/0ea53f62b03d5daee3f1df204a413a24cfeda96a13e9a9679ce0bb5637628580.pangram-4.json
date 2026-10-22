@@ -1,0 +1,136 @@
+{
+ "text_sha256": "0ea53f62b03d5daee3f1df204a413a24cfeda96a13e9a9679ce0bb5637628580",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:51:01+00:00",
+ "word_count": 130,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "As I mentionned, we already face a loss of 490K$ and have less than 80K$ left on our bank account, mainly reserved to pay the salaries of our employees the next month (22 people in 2025, 32 in 2024). If we pay more than 50K$, our company will shut down and we'll be forced to lay off everyone in the next couple of months... This is not what we want and that’s why I’m asking you to consider a final price of 50K$. In exchange, we agree to select options (1) Full decryption support and (4) Guarantee that our data will not be published or resold. It's simply the maximum we can pay to survive. I hope you can understand and accept this so we can resolve the situation quickly.",
+  "version": "4.1",
+  "prediction": "We believe that this text is a mix of AI and human-written content.",
+  "prediction_short": "Mixed",
+  "fraction_ai": 0.19205589592456818,
+  "fraction_ai_assisted": 7.206584408676585e-31,
+  "fraction_human": 0.807944118976593,
+  "headline": "AI Detected",
+  "num_ai_segments": 2,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "As I mentionned, we already face a loss of 490K$ and have less than 80K$ left on our bank account, mainly reserved to pay the salaries of our employees the next month (22 people in 2025, 32 in 2024). If we pay more than 50K$, our company will shut down and we'll be forced to lay off everyone in the next couple of months...",
+    "label": "Human Written",
+    "ai_assistance_score": 1.9384754078463867e-32,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 324,
+    "word_count": 65,
+    "token_length": 96,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     1.9384754078463867e-32
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9982808505380775
+   },
+   {
+    "text": " This is not what we want and that’s why I’m asking you to consider a final price of 50K$. In exchange, we agree to select options (1) Full decryption support and (4) Guarantee that our data will not be published or resold.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.00013008109817747027,
+    "confidence": "Low",
+    "start_index": 324,
+    "end_index": 547,
+    "word_count": 44,
+    "token_length": 58,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     0.9998698830604553,
+     0.0,
+     0.00013008109817747027
+    ],
+    "confidence_score": 0.9998698830604553,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.6751712124494574
+   },
+   {
+    "text": " It's simply the maximum we can pay to survive.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9998474717140198,
+    "confidence": "Low",
+    "start_index": 547,
+    "end_index": 594,
+    "word_count": 10,
+    "token_length": 11,
+    "is_humanized": false,
+    "humanizer_score": 0.10290750861167908,
+    "class_probabilities": [
+     0.0001525409461464733,
+     1.0380547990077611e-29,
+     0.9998474717140198
+    ],
+    "confidence_score": 0.9998474717140198,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.6493428912783752
+   },
+   {
+    "text": " I hope you can understand and accept this so we can resolve the situation quickly.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 594,
+    "end_index": 677,
+    "word_count": 15,
+    "token_length": 16,
+    "is_humanized": false,
+    "humanizer_score": 0.10290750861167908,
+    "class_probabilities": [
+     4.307426360039557e-10,
+     0.0,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9333150006874742
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Medium",
+   "boundary": "human"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0014771048445254564,
+   "human": 4.307426360039557e-10,
+   "mixed": 1.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.19205589592456818,
+    "std": 0.003045695135369897,
+    "p10": 0.1920236349105835,
+    "p50": 0.1920236349105835,
+    "p90": 0.1920236349105835
+   },
+   "human_coverage": {
+    "mean": 0.807944118976593,
+    "std": 0.003045695135369897,
+    "p10": 0.8079763650894165,
+    "p50": 0.8079763650894165,
+    "p90": 0.8079763650894165
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,76 @@
+{
+ "text_sha256": "2270a8ea9fd9a0578ce4ce2d10b001f1517c8d112b31494d7dd617e246191dd8",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:59:56+00:00",
+ "word_count": 88,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "I also know that you would say anything to get paid and it's hard for me to believe anything you say. I also lost my house and everything I own two weeks ago. I don't have a lot of money since I have to rebuild my life again. I will have to think about what part of my life I need to fix first and how much the stuff you stole is worth to me if anything. I will get back to you once I think it over.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 8.519894663094888e-43,
+  "fraction_ai_assisted": 3.6573889918877726e-43,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "I also know that you would say anything to get paid and it's hard for me to believe anything you say. I also lost my house and everything I own two weeks ago. I don't have a lot of money since I have to rebuild my life again. I will have to think about what part of my life I need to fix first and how much the stuff you stole is worth to me if anything. I will get back to you once I think it over.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.034158266671715e-42,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 399,
+    "word_count": 90,
+    "token_length": 95,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.6573889918877726e-43,
+     8.519894663094888e-43
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989221301288594
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002506265649572015,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 8.519894663094888e-43,
+    "std": 3.0992742000774145e-22,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.705424064923184e-22,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

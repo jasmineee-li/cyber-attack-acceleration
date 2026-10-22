@@ -1,0 +1,76 @@
+{
+ "text_sha256": "68ba5999fd3a99e1578b5bbcb3880904bd4d8e08c55442f570f6023f685f4ecb",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:05:11+00:00",
+ "word_count": 50,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Ok that's good to know. My boss wanted to see if you would be willing\nto let us pay $10,000 for the decryption. We know it's not what you are\nasking for but this is short notice and we are trying to do what we can\nto find available cash.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 8.839015894992955e-34,
+  "fraction_ai_assisted": 6.040310782478941e-33,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Ok that's good to know. My boss wanted to see if you would be willing\nto let us pay $10,000 for the decryption. We know it's not what you are\nasking for but this is short notice and we are trying to do what we can\nto find available cash.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.904056980738766e-33,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 237,
+    "word_count": 53,
+    "token_length": 62,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     6.040310782478941e-33,
+     8.839016813347917e-34
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988742887124448
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.004219409078359604,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 8.839015894992955e-34,
+    "std": 9.261721288713312e-18,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.5922384559533794e-17,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

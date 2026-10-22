@@ -1,0 +1,96 @@
+{
+ "text_sha256": "d37d1972d1fa85930a14d66359437b0da38802c6e3de7b76e8e5696850b251eb",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:47:26+00:00",
+ "word_count": 66,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "After careful consideration and very extensive discussions, we have reached our maximum budget capacity of $135,000. It's important to understand that this figure already stretches our financial limits well beyond the available funding. The amount we're proposing is a significant six-figure sum that we are paying out of our personal pockets. Please accept! we can make payment immediately. Please recognize our constraints and work with us.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 1.0,
+  "fraction_ai_assisted": 2.6629359285470616e-18,
+  "fraction_human": 1.9389424961435697e-12,
+  "headline": "AI Generated",
+  "num_ai_segments": 2,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "After careful consideration and very extensive discussions, we have reached our maximum budget capacity of $135,000. It's important to understand that this figure already stretches our financial limits well beyond the available funding. The amount we're proposing is a significant six-figure sum that we are paying out of our personal pockets.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 343,
+    "word_count": 55,
+    "token_length": 66,
+    "is_humanized": false,
+    "humanizer_score": 0.13095851242542267,
+    "class_probabilities": [
+     1.651920785288141e-24,
+     0.0,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9967616695636892
+   },
+   {
+    "text": " Please accept! we can make payment immediately. Please recognize our constraints and work with us.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 343,
+    "end_index": 442,
+    "word_count": 15,
+    "token_length": 18,
+    "is_humanized": false,
+    "humanizer_score": 0.13095851242542267,
+    "class_probabilities": [
+     8.656692550290668e-12,
+     1.1889066944224667e-17,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9691894570884539
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Medium",
+   "boundary": "ai"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0022624435368925333,
+   "human": 0.0,
+   "mixed": 3.652633751016765e-14,
+   "ai": 1.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.0,
+    "std": 3.940186843465199e-07,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   },
+   "human_coverage": {
+    "mean": 1.9389424961435697e-12,
+    "std": 3.9401857065968215e-07,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

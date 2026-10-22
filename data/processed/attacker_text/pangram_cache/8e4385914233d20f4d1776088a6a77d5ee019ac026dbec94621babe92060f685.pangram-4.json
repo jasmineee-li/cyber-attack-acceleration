@@ -1,0 +1,116 @@
+{
+ "text_sha256": "8e4385914233d20f4d1776088a6a77d5ee019ac026dbec94621babe92060f685",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:36:06+00:00",
+ "word_count": 56,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We agree on 300,000 USD. 50% discount.\nWe know that banks are closed on the weekend, so prolong a timer till Tuesday.\nBTC Wallet: [redacted]\nAlso we confirm that after the payment you will receive a decryptor to unlock all systems and we will delete all files from our servers and provide a receipt of deletion.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 4.3967389179382197e-17,
+  "fraction_ai_assisted": 1.7880173799137112e-36,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 3,
+  "windows": [
+   {
+    "text": "We agree on 300,000 USD. ",
+    "label": "Human Written",
+    "ai_assistance_score": 2.7635363111567807e-17,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 25,
+    "word_count": 6,
+    "token_length": 14,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     2.7635363111567807e-17
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9914585936379836
+   },
+   {
+    "text": "50% discount.",
+    "label": "Human Written",
+    "ai_assistance_score": 9.986902789328018e-16,
+    "confidence": "Medium",
+    "start_index": 25,
+    "end_index": 38,
+    "word_count": 2,
+    "token_length": 5,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.27748791131362e-35,
+     9.986902789328018e-16
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9887529685889681
+   },
+   {
+    "text": "\nWe know that banks are closed on the weekend, so prolong a timer till Tuesday.\nBTC Wallet: [redacted]\nAlso we confirm that after the payment you will receive a decryptor to unlock all systems and we will delete all files from our servers and provide a receipt of deletion.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.816330222303025e-28,
+    "confidence": "High",
+    "start_index": 38,
+    "end_index": 311,
+    "word_count": 49,
+    "token_length": 59,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     6.816330222303025e-28
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9973386348653965
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.003215434029698372,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 4.3967389179382197e-17,
+    "std": 1.3869343451489158e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.3869343451489158e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

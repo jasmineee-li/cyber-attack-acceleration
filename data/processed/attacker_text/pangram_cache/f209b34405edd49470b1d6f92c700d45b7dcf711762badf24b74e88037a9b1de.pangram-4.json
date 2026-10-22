@@ -1,0 +1,76 @@
+{
+ "text_sha256": "f209b34405edd49470b1d6f92c700d45b7dcf711762badf24b74e88037a9b1de",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:38:00+00:00",
+ "word_count": 113,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Evaluate our offer, it is balanced and realistic, we understand your desire to reduce the costs of this incident. But let's be realistic, we have blocked all your infrastructure and threaten to publish data that in the long run + not installed infrastructure will make your losses many times the amount we ask. Let's go ahead, people who tell the management of your company that they can reduce the price - make mistakes, this will not happen. Our price is final. It will only grow. Ahead of the pullout of your data. You need to discuss this well before pulling time and then biting your elbows why the price has risen so much.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 4.0353769383502704e-29,
+  "fraction_ai_assisted": 8.323712878089413e-43,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Evaluate our offer, it is balanced and realistic, we understand your desire to reduce the costs of this incident. But let's be realistic, we have blocked all your infrastructure and threaten to publish data that in the long run + not installed infrastructure will make your losses many times the amount we ask. Let's go ahead, people who tell the management of your company that they can reduce the price - make mistakes, this will not happen. Our price is final. It will only grow. Ahead of the pullout of your data. You need to discuss this well before pulling time and then biting your elbows why the price has risen so much.",
+    "label": "Human Written",
+    "ai_assistance_score": 4.0353769383502704e-29,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 628,
+    "word_count": 113,
+    "token_length": 130,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     8.323712878089413e-43,
+     4.0353769383502704e-29
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988397600196288
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0015923567116260529,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 4.0353769383502704e-29,
+    "std": 1.1187563521731516e-15,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.1187563521731516e-15,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

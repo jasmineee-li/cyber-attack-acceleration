@@ -1,0 +1,96 @@
+{
+ "text_sha256": "6b6a388ec20c543ce60505dadead5a3a052c21d699fdfdc0db865b57f94eb715",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:39:22+00:00",
+ "word_count": 57,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "I don't know which hosts your data was downloaded from. We took only those files that were of interest and could be sold to third parties. Typically, customer data, databases, financial reports, corporate email archives and other classified and confidential data related to the company's activities (technological developments, blueprints, drug clinical trials, software codes, etc.) are downloaded.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.7623686232994315e-15,
+  "fraction_ai_assisted": 2.6164620100580763e-16,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "I don't know which hosts your data was downloaded from. We took only those files that were of interest and could be sold to third parties. Typically, customer data, databases, financial reports, corporate email archives and other classified and confidential data related to the company's activities (technological developments, blueprints, drug clinical trials, software codes, etc.)",
+    "label": "Human Written",
+    "ai_assistance_score": 2.3157384782550985e-38,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 383,
+    "word_count": 57,
+    "token_length": 71,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.368309741793682e-38,
+     1.3158374748810395e-39
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988372610074384
+   },
+   {
+    "text": " are downloaded.",
+    "label": "Human Written",
+    "ai_assistance_score": 7.21489721807779e-14,
+    "confidence": "Medium",
+    "start_index": 383,
+    "end_index": 399,
+    "word_count": 2,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     6.524801942367703e-15,
+     6.888656718618755e-14
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9821373680795109
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002506265649572015,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.7623686232994315e-15,
+    "std": 1.0524812132928218e-08,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.1011982437025836e-08,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

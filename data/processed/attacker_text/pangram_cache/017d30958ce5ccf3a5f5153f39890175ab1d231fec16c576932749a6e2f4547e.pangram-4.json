@@ -1,0 +1,236 @@
+{
+ "text_sha256": "017d30958ce5ccf3a5f5153f39890175ab1d231fec16c576932749a6e2f4547e",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:37:58+00:00",
+ "word_count": 187,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Your network was hacked, infrastructure encrypted and we downloaded many private information from your servers.\nImportant!\nWe have instructions and follow them, they do not change.\nImportant!\nRead carefully:\n1. The BASE PRICE for decrypt and non-recoverable deletion is $1,200,000.\n2. We have 14 days to negotiate! the end of the term, the BASE PRICE will be doubled & we will publish you for the purpose of selling access to your network and datas of your company.\n3. But there is also a positive point in our conditions, if you pay quickly during the week, then the discount will be from the BASE PRICE of -30%.\n4. The DISCOUNT PRICE (14 days from that date) will be: $840,000\n5. BTC Wallet: [redacted]\n6. To make sure that the decoder works, you can give us some files that do not contain important information, and we decode them to show performance.\n7. As for the evidence that we have private information from your network, we can provide some of the tree files taken from you. You will select 5 files and we will provide them to you as evidence.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 6.342451948328969e-16,
+  "fraction_ai_assisted": 7.995624736165599e-21,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 9,
+  "windows": [
+   {
+    "text": "Your network was hacked, infrastructure encrypted and we downloaded many private information from your servers.\nImportant!\nWe have instructions and follow them, they do not change.\nImportant!\nRead carefully:\n1. The BASE PRICE for decrypt and non-recoverable deletion is $1,200,000.\n",
+    "label": "Human Written",
+    "ai_assistance_score": 1.771572304314513e-18,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 282,
+    "word_count": 43,
+    "token_length": 65,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.648202903563357e-23,
+     1.7715640325083876e-18
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9983554515509023
+   },
+   {
+    "text": "2.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.776206657420347e-14,
+    "confidence": "Medium",
+    "start_index": 282,
+    "end_index": 284,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.1740994376747315e-18,
+     6.776147703927218e-14
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9826592442977486
+   },
+   {
+    "text": " We have 14 days to negotiate! the end of the term, the BASE PRICE will be doubled & we will publish you for the purpose of selling access to your network and datas of your company.\n",
+    "label": "Human Written",
+    "ai_assistance_score": 2.3903663848646793e-34,
+    "confidence": "High",
+    "start_index": 284,
+    "end_index": 466,
+    "word_count": 35,
+    "token_length": 43,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     2.3903663848646793e-34
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987420528667303
+   },
+   {
+    "text": "3.",
+    "label": "Human Written",
+    "ai_assistance_score": 5.717893199934723e-14,
+    "confidence": "Medium",
+    "start_index": 466,
+    "end_index": 468,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     8.763789372434207e-19,
+     5.717849154221466e-14
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9826592442977486
+   },
+   {
+    "text": " But there is also a positive point in our conditions, if you pay quickly during the week, then the discount will be from the BASE PRICE of -30%.\n",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 468,
+    "end_index": 614,
+    "word_count": 28,
+    "token_length": 35,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412406
+   },
+   {
+    "text": "4.",
+    "label": "Human Written",
+    "ai_assistance_score": 7.061218336391548e-14,
+    "confidence": "Medium",
+    "start_index": 614,
+    "end_index": 616,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.3958787608142334e-18,
+     7.061148540876694e-14
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9821373680795109
+   },
+   {
+    "text": " The DISCOUNT PRICE (14 days from that date) will be: $840,000\n5. BTC Wallet: [redacted]\n6. To make sure that the decoder works, you can give us some files that do not contain important information, and we decode them to show performance.\n",
+    "label": "Human Written",
+    "ai_assistance_score": 1.9968503116628643e-41,
+    "confidence": "High",
+    "start_index": 616,
+    "end_index": 855,
+    "word_count": 43,
+    "token_length": 70,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     1.9968503116628643e-41
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989122319994213
+   },
+   {
+    "text": "7.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.378120978879488e-13,
+    "confidence": "Medium",
+    "start_index": 855,
+    "end_index": 857,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     7.570173952374782e-19,
+     1.3781171841718842e-13
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9817138980542107
+   },
+   {
+    "text": " As for the evidence that we have private information from your network, we can provide some of the tree files taken from you. You will select 5 files and we will provide them to you as evidence.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 857,
+    "end_index": 1052,
+    "word_count": 37,
+    "token_length": 41,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0019011406693607569,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 3.7225425141755673e-16,
+    "std": 8.437853193932199e-10,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 8.437927578874849e-10,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

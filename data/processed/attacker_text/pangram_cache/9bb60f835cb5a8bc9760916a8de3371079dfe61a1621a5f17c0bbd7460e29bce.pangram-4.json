@@ -1,0 +1,96 @@
+{
+ "text_sha256": "9bb60f835cb5a8bc9760916a8de3371079dfe61a1621a5f17c0bbd7460e29bce",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:04:18+00:00",
+ "word_count": 61,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Okay. Can we discuss this price then? We're a non-profit organization\nwith the majority of services covered by tax payers/state government. We\nhelp treat a variety of patients from cancer to mental health. It's\nvery important we get our systems back quickly. My manager said we can\npromise you an almost immediate payment, but not at $1M. It would be\nimpossible",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.4844738597543337e-14,
+  "fraction_ai_assisted": 7.345480730017607e-15,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Okay.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.3369589723505326e-12,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 5,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.303436726236677e-13,
+     1.0717870818285902e-12
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9738478027867096
+   },
+   {
+    "text": " Can we discuss this price then? We're a non-profit organization\nwith the majority of services covered by tax payers/state government. We\nhelp treat a variety of patients from cancer to mental health. It's\nvery important we get our systems back quickly. My manager said we can\npromise you an almost immediate payment, but not at $1M. It would be\nimpossible",
+    "label": "Human Written",
+    "ai_assistance_score": 4.228475236184906e-20,
+    "confidence": "High",
+    "start_index": 5,
+    "end_index": 361,
+    "word_count": 64,
+    "token_length": 74,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.556987200722495e-22,
+     4.210690206780162e-20
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9985121500606967
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002770083025097847,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.4844738597543337e-14,
+    "std": 1.4339033072019447e-08,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.753128131554149e-08,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

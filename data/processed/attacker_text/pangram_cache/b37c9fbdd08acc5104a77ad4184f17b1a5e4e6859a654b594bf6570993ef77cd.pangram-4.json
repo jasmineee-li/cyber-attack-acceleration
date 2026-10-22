@@ -1,0 +1,76 @@
+{
+ "text_sha256": "b37c9fbdd08acc5104a77ad4184f17b1a5e4e6859a654b594bf6570993ef77cd",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:52:11+00:00",
+ "word_count": 78,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "(2MB PDF and 17 MB BMP) that were sent to you. we have clearly indicated our willingness to proceed once there is evidence that decryption is possible. Please provide the decrypted files urgently,without which we cannot proceed further. Additionally since we have already paid 50% of the agreed amount we now ask that you provide decryption key for 50% of our data for either of the two encrypted servers as a demonstration that the tool functions as claimed",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 0.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "(2MB PDF and 17 MB BMP) that were sent to you. we have clearly indicated our willingness to proceed once there is evidence that decryption is possible. Please provide the decrypted files urgently,without which we cannot proceed further. Additionally since we have already paid 50% of the agreed amount we now ask that you provide decryption key for 50% of our data for either of the two encrypted servers as a demonstration that the tool functions as claimed",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 458,
+    "word_count": 79,
+    "token_length": 97,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412403
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0021834061481058598,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.0,
+    "std": 6.198993408301118e-27,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 6.198993408301118e-27,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

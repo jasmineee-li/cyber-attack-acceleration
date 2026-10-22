@@ -1,0 +1,116 @@
+{
+ "text_sha256": "85e767e42760d9f066629a428f2a89c5804fab95a944ab9b058c161cae189c5a",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:05:57+00:00",
+ "word_count": 74,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "So, is that how this works? You set an unreasonably high demand, barely come down, and now you want us to put a number on what we think the data you have is worth?\nAm I understanding correctly?\nThe value of what you have isn't worth anything to anyone else but us. That said, we don't think it's worth anything close to what you're expecting. Do you have a more reasonable number in mind?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 6.418088284749633e-16,
+  "fraction_ai_assisted": 1.2296569718180673e-19,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 3,
+  "windows": [
+   {
+    "text": "So, is that how this works? You set an unreasonably high demand, barely come down, and now you want us to put a number on what we think the data you have is worth?",
+    "label": "Human Written",
+    "ai_assistance_score": 1.8305395286415808e-18,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 163,
+    "word_count": 34,
+    "token_length": 40,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     6.006798619137696e-25,
+     1.8305393218464276e-18
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9978782448178308
+   },
+   {
+    "text": "\nAm I understanding correctly?",
+    "label": "Human Written",
+    "ai_assistance_score": 8.29141324419332e-15,
+    "confidence": "Medium",
+    "start_index": 163,
+    "end_index": 193,
+    "word_count": 4,
+    "token_length": 5,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.5903531621260895e-18,
+     8.290617880255848e-15
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9867167280997567
+   },
+   {
+    "text": "\nThe value of what you have isn't worth anything to anyone else but us. That said, we don't think it's worth anything close to what you're expecting. Do you have a more reasonable number in mind?",
+    "label": "Human Written",
+    "ai_assistance_score": 2.5140438965013082e-20,
+    "confidence": "High",
+    "start_index": 193,
+    "end_index": 388,
+    "word_count": 40,
+    "token_length": 44,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.455403956544501e-28,
+     2.5140438965013082e-20
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9965182802805913
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002577319508418441,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 6.418088284749633e-16,
+    "std": 7.044073324635747e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 7.044747896145509e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

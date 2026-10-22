@@ -1,0 +1,76 @@
+{
+ "text_sha256": "f0ba5381c1e7daf72366348459301ef61aca52e562beab747787cf754b24a632",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:48:14+00:00",
+ "word_count": 85,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Dear Sirs, we are in the final stages of making the arrangements to make a payment. We value your understanding and patience whilst we make sure this can be resolved without risk to you from the banks closing our accounts. Before we can agree a final value, what assurances and guarantees can you give me that our data, files, file names or company name has not already been sold or leaked by Akira or your colleagues? This is a most important element to us. [redacted]",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.2843258352947406e-21,
+  "fraction_ai_assisted": 1.8148556964266247e-29,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Dear Sirs, we are in the final stages of making the arrangements to make a payment. We value your understanding and patience whilst we make sure this can be resolved without risk to you from the banks closing our accounts. Before we can agree a final value, what assurances and guarantees can you give me that our data, files, file names or company name has not already been sold or leaked by Akira or your colleagues? This is a most important element to us. [redacted]",
+    "label": "Human Written",
+    "ai_assistance_score": 1.2843258352947406e-21,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 469,
+    "word_count": 85,
+    "token_length": 99,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.8148555459633478e-29,
+     1.2843258352947406e-21
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988219511946024
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0021321962121874094,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.2843258352947406e-21,
+    "std": 5.488422216703981e-12,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 5.488422216703981e-12,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

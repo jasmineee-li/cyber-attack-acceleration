@@ -1,0 +1,76 @@
+{
+ "text_sha256": "985cf9bc5d9243fa68243cfb906e4e3beda9aad5cb64dd64ada3350c20c9fada",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:54:36+00:00",
+ "word_count": 107,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "What is meager to you, is not to us. Since this event we are struggling to get operational and have experienced tremendous losses. Leadership is prepared to offer $44,990 with all fees included. This would include the decryptor with any assistance we may need with it, proof that all our data has been removed from your systems and deleted with the promise not to ask for any additional money for anything after payment is received, a detailed explanation on how you got into our systems, and the promise to never attack us again. Please consider this offer as we are trying to get our business back operational.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.3247541523148715e-42,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "What is meager to you, is not to us. Since this event we are struggling to get operational and have experienced tremendous losses. Leadership is prepared to offer $44,990 with all fees included. This would include the decryptor with any assistance we may need with it, proof that all our data has been removed from your systems and deleted with the promise not to ask for any additional money for anything after payment is received, a detailed explanation on how you got into our systems, and the promise to never attack us again. Please consider this offer as we are trying to get our business back operational.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.3247541523148715e-42,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 612,
+    "word_count": 108,
+    "token_length": 124,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     2.3247541523148715e-42
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989864060141029
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0016339869471266866,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.3247541523148715e-42,
+    "std": 3.6980163454787967e-22,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.6980163454787967e-22,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

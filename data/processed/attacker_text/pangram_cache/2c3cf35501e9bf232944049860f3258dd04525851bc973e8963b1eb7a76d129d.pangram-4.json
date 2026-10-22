@@ -1,0 +1,96 @@
+{
+ "text_sha256": "2c3cf35501e9bf232944049860f3258dd04525851bc973e8963b1eb7a76d129d",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:48:52+00:00",
+ "word_count": 119,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hello and thank you for the significant step you have taken towards us and towards a mutually liveable solution to the situation. Unfortunately, the results of us scraping our finances come to a top of about $180,000. I know it is well below your last offer, but maybe if we only go for the part of securing our data and forget the decrypting part your bosses will accept it. I do afraid that if we don't reach an agreement both You and us stay with nothing. An agreement will let us alive and you still get money. If we agree the transfer could be made on a short schedule. Expecting your consideration to finally get ovet this. Thank You.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.647306144077719e-18,
+  "fraction_ai_assisted": 4.515916293471825e-24,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Hello and thank you for the significant step you have taken towards us and towards a mutually liveable solution to the situation. Unfortunately, the results of us scraping our finances come to a top of about $180,000. I know it is well below your last offer, but maybe if we only go for the part of securing our data and forget the decrypting part your bosses will accept it. I do afraid that if we don't reach an agreement both You and us stay with nothing. An agreement will let us alive and you still get money. If we agree the transfer could be made on a short schedule. Expecting your consideration to finally get ovet this.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 629,
+    "word_count": 119,
+    "token_length": 138,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   },
+   {
+    "text": " Thank You.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.5402521228255082e-16,
+    "confidence": "Medium",
+    "start_index": 629,
+    "end_index": 640,
+    "word_count": 2,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.627442230059561e-22,
+     1.5402507993365281e-16
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9892909364252322
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0015625000232830644,
+   "human": 1.0,
+   "mixed": 1.1102230246251565e-16,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.647306144077719e-18,
+    "std": 2.1330863464452676e-10,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.1330881505576826e-10,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

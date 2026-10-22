@@ -1,0 +1,76 @@
+{
+ "text_sha256": "770f20ea6ce20ff219415146a323f51efd17cbdd919ef43e9494e24d10d5efe2",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:48:03+00:00",
+ "word_count": 211,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Dear Sirs, we reply to you in good time and thank you for your patience. We are taking this matter extremely seriously but we have never faced this kind of issue before and we hope you understand from your previous experiences and great skills that we cannot pay within 24 hours, but we do wish to resolve this with you. Please understand the time we need. We can prove we do much for charity to help children in our world: [redacted]. We tell you the truth and here is proof. We do not have enough funds available to meet your request, but we can make you a very generous payment of USD$900,000 in exchange for the decrption of our data. There is a big risk for you that a larger payment would alert our bank and their regulations would mean our account would be frozen for weeks whilst they investigate. This would mean major delays, maybe zero for you and no decryption for us. Is this what you want? Please accept our generous and sensible offer and share your BTC wallet so we can begin to move funds and make the payment. We will never deal if you leak any of our data or mention our company on any blog. [redacted]",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.64759204123279e-22,
+  "fraction_ai_assisted": 1.9996697509105558e-21,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Dear Sirs, we reply to you in good time and thank you for your patience. We are taking this matter extremely seriously but we have never faced this kind of issue before and we hope you understand from your previous experiences and great skills that we cannot pay within 24 hours, but we do wish to resolve this with you. Please understand the time we need. We can prove we do much for charity to help children in our world: [redacted]. We tell you the truth and here is proof. We do not have enough funds available to meet your request, but we can make you a very generous payment of USD$900,000 in exchange for the decrption of our data. There is a big risk for you that a larger payment would alert our bank and their regulations would mean our account would be frozen for weeks whilst they investigate. This would mean major delays, maybe zero for you and no decryption for us. Is this what you want? Please accept our generous and sensible offer and share your BTC wallet so we can begin to move funds and make the payment. We will never deal if you leak any of our data or mention our company on any blog. [redacted]",
+    "label": "Human Written",
+    "ai_assistance_score": 1.1645940669567824e-21,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 1121,
+    "word_count": 213,
+    "token_length": 249,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.9996697509105558e-21,
+     1.64759204123279e-22
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987547960389389
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001784121268428862,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.497814113493225e-22,
+    "std": 1.155929301929759e-12,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 0.9991079568862915,
+    "std": 4.19407824442386e-12,
+    "p10": 0.9991079568862915,
+    "p50": 0.9991079568862915,
+    "p90": 0.9991079568862915
+   }
+  }
+ },
+ "error": null
+}

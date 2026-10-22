@@ -1,0 +1,76 @@
+{
+ "text_sha256": "8234ec944fcc2231d150f30e6e9f1af4cd3514d4c196b379701438bb43bd9731",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:40:09+00:00",
+ "word_count": 87,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "So, none information will be saved after leaked. You weird man. GLF’s ship is going down.\n1 pm today we’ll send screenshots of this conversation to [Redacted], [Redacted], [Redacted], [Redacted], and [Redacted]. They will be delivered, have no doubt. We want them to know your actions bringing their data to leaked.\n5 pm today samples of GLF’s sensitive data will be posted on our website. This will be leakage beginning.\nWe always do what we say. So, we’ll do what we have to do. You have timelines.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.4339981574360628e-24,
+  "fraction_ai_assisted": 4.021757965489779e-28,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "So, none information will be saved after leaked. You weird man. GLF’s ship is going down.\n1 pm today we’ll send screenshots of this conversation to [Redacted], [Redacted], [Redacted], [Redacted], and [Redacted]. They will be delivered, have no doubt. We want them to know your actions bringing their data to leaked.\n5 pm today samples of GLF’s sensitive data will be posted on our website. This will be leakage beginning.\nWe always do what we say. So, we’ll do what we have to do. You have timelines.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.434199218359281e-24,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 500,
+    "word_count": 91,
+    "token_length": 130,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.021757965489779e-28,
+     1.4339981574360628e-24
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9985051675250048
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0020000000949949026,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.4339981574360628e-24,
+    "std": 2.3949855228362626e-13,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.395321083408647e-13,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

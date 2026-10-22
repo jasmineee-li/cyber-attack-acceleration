@@ -1,0 +1,156 @@
+{
+ "text_sha256": "3a538df020c859ee98b52c2120bf3ce8841e76ebe2464e68f19ce873a7ee6cff",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:59:28+00:00",
+ "word_count": 155,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We really appreciate you working with us. While we understand that your original payment ask was 15 BTC, we currently don’t have that kind of cash on hand to reach that number. Would you be willing to work with us on the pricing? We genuinely want to resolve this and reach an agreement. In the meantime, we want to assure you that we are doing everything we can on our end to find more cash. We have a meeting with our bank on Monday to see what funds we are approved for. Could you please extend the timer to the end of next week so we don’t get automatically posted while we are getting the funding approved? We are expediting the process as much as we can on our side and will keep you updated on our progress. I hope our good faith communication so far shows that we are serious about engaging with you.",
+  "version": "4.1",
+  "prediction": "We believe that this text is a mix of AI and human-written content.",
+  "prediction_short": "Mixed",
+  "fraction_ai": 0.7288573384284973,
+  "fraction_ai_assisted": 4.360032875005571e-28,
+  "fraction_human": 0.2711426317691803,
+  "headline": "AI Detected",
+  "num_ai_segments": 4,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We really appreciate you working with us.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9999985694885254,
+    "confidence": "Low",
+    "start_index": 0,
+    "end_index": 41,
+    "word_count": 7,
+    "token_length": 8,
+    "is_humanized": false,
+    "humanizer_score": 0.5492522716522217,
+    "class_probabilities": [
+     1.4205127172317589e-06,
+     8.592454787454011e-27,
+     0.9999985694885254
+    ],
+    "confidence_score": 0.9999985694885254,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.7536111111111111
+   },
+   {
+    "text": " While we understand that your original payment ask was 15 BTC, we currently don’t have that kind of cash on hand to reach that number. Would you be willing to work with us on the pricing? We genuinely want to resolve this and reach an agreement.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 41,
+    "end_index": 287,
+    "word_count": 47,
+    "token_length": 54,
+    "is_humanized": false,
+    "humanizer_score": 0.5492522716522217,
+    "class_probabilities": [
+     5.715428824659696e-11,
+     2.5643761897144152e-43,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9584253583059505
+   },
+   {
+    "text": " In the meantime, we want to assure you that we are doing everything we can on our end to find more cash.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9999955892562866,
+    "confidence": "Low",
+    "start_index": 287,
+    "end_index": 392,
+    "word_count": 22,
+    "token_length": 24,
+    "is_humanized": false,
+    "humanizer_score": 0.5492522716522217,
+    "class_probabilities": [
+     4.4052353587176185e-06,
+     0.0,
+     0.9999955892562866
+    ],
+    "confidence_score": 0.9999955892562866,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.7271657596705399
+   },
+   {
+    "text": " We have a meeting with our bank on Monday to see what funds we are approved for. Could you please extend the timer to the end of next week so we don’t get automatically posted while we are getting the funding approved?",
+    "label": "Human Written",
+    "ai_assistance_score": 2.2055465365156124e-07,
+    "confidence": "Low",
+    "start_index": 392,
+    "end_index": 611,
+    "word_count": 43,
+    "token_length": 45,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     0.9999997615814209,
+     0.0,
+     2.2055465365156124e-07
+    ],
+    "confidence_score": 0.9999997615814209,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.7929973066564063
+   },
+   {
+    "text": " We are expediting the process as much as we can on our side and will keep you updated on our progress. I hope our good faith communication so far shows that we are serious about engaging with you.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9995797872543335,
+    "confidence": "Low",
+    "start_index": 611,
+    "end_index": 808,
+    "word_count": 38,
+    "token_length": 41,
+    "is_humanized": false,
+    "humanizer_score": 0.5492522716522217,
+    "class_probabilities": [
+     0.00042021312401629984,
+     0.0,
+     0.9995797872543335
+    ],
+    "confidence_score": 0.9995797872543335,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.6269541778975741
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Low",
+   "boundary": "ai"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0012376237427815795,
+   "human": 3.438830528865886e-20,
+   "mixed": 0.9999997615814209,
+   "ai": 2.243724281925097e-07,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.7288573384284973,
+    "std": 0.004919146187603474,
+    "p10": 0.728960394859314,
+    "p50": 0.728960394859314,
+    "p90": 0.728960394859314
+   },
+   "human_coverage": {
+    "mean": 0.2711426317691803,
+    "std": 0.004919146187603474,
+    "p10": 0.27103960514068604,
+    "p50": 0.27103960514068604,
+    "p90": 0.27103960514068604
+   }
+  }
+ },
+ "error": null
+}

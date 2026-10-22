@@ -1,0 +1,156 @@
+{
+ "text_sha256": "eff830f036e47c8782312df5b2aeba29e1ca75bc8193ef525e9a4a443cc6d335",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:43:30+00:00",
+ "word_count": 107,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hello. We told you that on January 15 our decryptor will stop working and your servers will remain encrypted forever. We didn't promise you anything about a price increase. Your employees made a mistake - the price is not 350.000 but 250.000 and will increase every two days. The next increase of 50,000 will be January 9. This is payment for your slowness. And on January 15 we will begin to publish your confidential information on the shadow forums, as well as send it to your clients, competitors and regulatory agencies in the United States. For now, the solution to the problem is entirely in your hands.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.184051257041574e-08,
+  "fraction_ai_assisted": 3.9927523770967935e-15,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 5,
+  "windows": [
+   {
+    "text": "Hello.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.2037799024255946e-06,
+    "confidence": "Low",
+    "start_index": 0,
+    "end_index": 6,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     0.9999988079071045,
+     4.05929819922643e-13,
+     1.2037796750519192e-06
+    ],
+    "confidence_score": 0.9999988079071045,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.7536111111111111
+   },
+   {
+    "text": " We told you that on January 15 our decryptor will stop working and your servers will remain encrypted forever. We didn't promise you anything about a price increase. Your employees made a mistake - the price is not 350.000 but 250.000 and will increase every two days. The next increase of 50,000 will be January 9.",
+    "label": "Human Written",
+    "ai_assistance_score": 5.745851409819573e-19,
+    "confidence": "High",
+    "start_index": 6,
+    "end_index": 322,
+    "word_count": 59,
+    "token_length": 85,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     5.745851409819573e-19
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9945953883836384
+   },
+   {
+    "text": " This is payment for your slowness.",
+    "label": "Human Written",
+    "ai_assistance_score": 4.975353354134959e-13,
+    "confidence": "Medium",
+    "start_index": 322,
+    "end_index": 357,
+    "word_count": 6,
+    "token_length": 9,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.8357009882655104e-42,
+     4.975353354134959e-13
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9773000171536396
+   },
+   {
+    "text": " And on January 15 we will begin to publish your confidential information on the shadow forums, as well as send it to your clients, competitors and regulatory agencies in the United States.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.2423488711015755e-29,
+    "confidence": "High",
+    "start_index": 357,
+    "end_index": 546,
+    "word_count": 32,
+    "token_length": 37,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     1.2423488711015755e-29
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9966912431256421
+   },
+   {
+    "text": " For now, the solution to the problem is entirely in your hands.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.7338653801715906e-13,
+    "confidence": "Medium",
+    "start_index": 546,
+    "end_index": 610,
+    "word_count": 12,
+    "token_length": 14,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     2.7338653801715906e-13
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9799575258826653
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Medium",
+   "boundary": "human"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0016393442638218403,
+   "human": 1.0,
+   "mixed": 2.7333690866271354e-13,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.184051257041574e-08,
+    "std": 1.0792034117912408e-05,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.0792035936901812e-05,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

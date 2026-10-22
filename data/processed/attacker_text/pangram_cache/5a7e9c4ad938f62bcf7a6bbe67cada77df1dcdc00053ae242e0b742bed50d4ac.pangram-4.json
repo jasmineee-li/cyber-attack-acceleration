@@ -1,0 +1,76 @@
+{
+ "text_sha256": "5a7e9c4ad938f62bcf7a6bbe67cada77df1dcdc00053ae242e0b742bed50d4ac",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:04:11+00:00",
+ "word_count": 155,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hi\nAppreciate your reply.\nWe wish to pay $75,000 and settle amicably. However, it is still very tough for us. We are willing to double our initial offer to $40,000.\nWe have only one condition (just to safeguard our side here), that is we pay 50% first and in return, you give us the decryption tool for our files in two (2) hosts :\n1) Host name 'SAP-VEEAM' (file extension .[redacted]), and\n2) Host name 'apps-fs' (file extension .[redacted], .[redacted], [redacted])\nOnce we successfully decrypt the above-mentioned files, we shall immediately settle the balance 50% without delay in return for all the balance decryption.\n(Please be reassured that once we achieve agreement to pay, we shall honor our word)\nFor payment to you in XMR (currently trad around US$ 287 now), our local Crypto platform do not support this transfer network. Can we pay you in Bitcoin/Ethereum instead?\nHope to see your favorable reply soon.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 3.980874594533702e-37,
+  "fraction_ai_assisted": 3.7550682389536297e-37,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Hi\nAppreciate your reply.\nWe wish to pay $75,000 and settle amicably. However, it is still very tough for us. We are willing to double our initial offer to $40,000.\nWe have only one condition (just to safeguard our side here), that is we pay 50% first and in return, you give us the decryption tool for our files in two (2) hosts :\n1) Host name 'SAP-VEEAM' (file extension .[redacted]), and\n2) Host name 'apps-fs' (file extension .[redacted], .[redacted], [redacted])\nOnce we successfully decrypt the above-mentioned files, we shall immediately settle the balance 50% without delay in return for all the balance decryption.\n(Please be reassured that once we achieve agreement to pay, we shall honor our word)\nFor payment to you in XMR (currently trad around US$ 287 now), our local Crypto platform do not support this transfer network. Can we pay you in Bitcoin/Ethereum instead?\nHope to see your favorable reply soon.",
+    "label": "Human Written",
+    "ai_assistance_score": 5.858408714010517e-37,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 918,
+    "word_count": 160,
+    "token_length": 244,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.7550682389536297e-37,
+     3.980874594533702e-37
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989463100021384
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0010893245926126838,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 3.980874594533702e-37,
+    "std": 1.1328238488913714e-19,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.5185247268398942e-19,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,76 @@
+{
+ "text_sha256": "e1d922425ddf49d478e0950eedbe7b93624a753490ee06430bb07f863dbee01b",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:00:40+00:00",
+ "word_count": 102,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Our company does not have the resources to make a seven digit payment. This attack has caused significant hardship to us. Please reconsider your position. This company employs 58 people, and these jobs will be lost if we cannot recover our operations. Hardship will fall upon them, and their families and children. We do not want these innocent people to suffer, and we hope you feel the same way. We are actively reaching out to our friends and family this weekend to try to raise additional funds. If we can get to a $125,000 payment, could we resolve this very difficult situation?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 8.530277294757435e-27,
+  "fraction_ai_assisted": 4.630608698822478e-28,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Our company does not have the resources to make a seven digit payment. This attack has caused significant hardship to us. Please reconsider your position. This company employs 58 people, and these jobs will be lost if we cannot recover our operations. Hardship will fall upon them, and their families and children. We do not want these innocent people to suffer, and we hope you feel the same way. We are actively reaching out to our friends and family this weekend to try to raise additional funds. If we can get to a $125,000 payment, could we resolve this very difficult situation?",
+    "label": "Human Written",
+    "ai_assistance_score": 8.761807970439802e-27,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 584,
+    "word_count": 103,
+    "token_length": 125,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.630608698822478e-28,
+     8.530277294757435e-27
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9985696147682808
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0017123287543654442,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 8.530277294757435e-27,
+    "std": 2.1954933056571486e-14,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.2542963657346156e-14,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

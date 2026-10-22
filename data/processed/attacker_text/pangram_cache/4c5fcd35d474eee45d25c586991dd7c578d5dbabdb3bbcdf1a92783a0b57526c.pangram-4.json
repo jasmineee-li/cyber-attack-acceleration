@@ -1,0 +1,76 @@
+{
+ "text_sha256": "4c5fcd35d474eee45d25c586991dd7c578d5dbabdb3bbcdf1a92783a0b57526c",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:47:58+00:00",
+ "word_count": 177,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Dear Sirs, We acknowledge your request and the amount, but we are sad to say that is simply much too high a number for us to deliver on. We are not a big law firm. Your attack has damaged our company and upset all our staff. We care about our staff and clients and we are a small family law firm, which does much work for charity. We particularly raise funds for very sick children. Whatever we could pay would reduce the amount we can give to charity. Also, if we move a large amount our banks will be suspicious and will lock down our accounts. This would also mean you get zero. We do wish to resolve this, but ask that you are more realistic and demonstrate good judgement on lower number. We ask you for credit as we contacted you early. We do not play games or waste your time. We only want to decrypt our files and save our family business. Please show us a good discount and tell us how to pay? [redacted]",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 3.1409057032617292e-24,
+  "fraction_ai_assisted": 7.137054703018939e-35,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Dear Sirs, We acknowledge your request and the amount, but we are sad to say that is simply much too high a number for us to deliver on. We are not a big law firm. Your attack has damaged our company and upset all our staff. We care about our staff and clients and we are a small family law firm, which does much work for charity. We particularly raise funds for very sick children. Whatever we could pay would reduce the amount we can give to charity. Also, if we move a large amount our banks will be suspicious and will lock down our accounts. This would also mean you get zero. We do wish to resolve this, but ask that you are more realistic and demonstrate good judgement on lower number. We ask you for credit as we contacted you early. We do not play games or waste your time. We only want to decrypt our files and save our family business. Please show us a good discount and tell us how to pay? [redacted]",
+    "label": "Human Written",
+    "ai_assistance_score": 3.1409057032617292e-24,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 913,
+    "word_count": 177,
+    "token_length": 200,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     7.137054703018939e-35,
+     3.1409057032617292e-24
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987814435677372
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001095290295779705,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 3.1409057032617292e-24,
+    "std": 1.9453081994639382e-13,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.9453081994639382e-13,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

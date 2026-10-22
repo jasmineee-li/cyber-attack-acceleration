@@ -1,0 +1,76 @@
+{
+ "text_sha256": "53f8dc77fea4505107eed0bc0967e04883905c2519c29ed1e2975135105e28d8",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:47:40+00:00",
+ "word_count": 95,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "However, the amount you are asking for is beyond our capacity. As a gesture of good faith and our intent to resolve this matter amicably, we are prepared to offer $50,000. This amount represents a significant stretch for our organization but reflects our earnest desire to find a middle ground. We believe this offer is reasonable considering our situation and hope it demonstrates our willingness to cooperate. We request you to reconsider your demands in light of this offer. Ensuring a quick and fair resolution would be in the best interest of all parties involved.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 1.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 6.240092764217092e-39,
+  "headline": "AI Generated",
+  "num_ai_segments": 1,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "However, the amount you are asking for is beyond our capacity. As a gesture of good faith and our intent to resolve this matter amicably, we are prepared to offer $50,000. This amount represents a significant stretch for our organization but reflects our earnest desire to find a middle ground. We believe this offer is reasonable considering our situation and hope it demonstrates our willingness to cooperate. We request you to reconsider your demands in light of this offer. Ensuring a quick and fair resolution would be in the best interest of all parties involved.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 569,
+    "word_count": 96,
+    "token_length": 111,
+    "is_humanized": false,
+    "humanizer_score": 0.048014163970947266,
+    "class_probabilities": [
+     6.240091362918628e-39,
+     0.0,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988952695291669
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0017574692610651255,
+   "human": 0.0,
+   "mixed": 0.0,
+   "ai": 1.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.0,
+    "std": 2.607565388920951e-20,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   },
+   "human_coverage": {
+    "mean": 6.240092764217092e-39,
+    "std": 2.607565388920951e-20,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

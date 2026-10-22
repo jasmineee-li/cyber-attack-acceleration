@@ -1,0 +1,76 @@
+{
+ "text_sha256": "d43694a9153032f834550996d714065a1eb9bd4dc38920fe36d069e871f2b02f",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:35:07+00:00",
+ "word_count": 62,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "First of all, we aren't going to deal with 6 figures. Second, let's imagine you don't have 5 million coverage and you can still handle our demand without impacting your operations. Our price is justified, and we have proven it. If you can't come up with even 2.5 million, you could log out and face consequences that will empty your pockets significantly.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.422602406600597e-17,
+  "fraction_ai_assisted": 1.2782508744834859e-26,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "First of all, we aren't going to deal with 6 figures. Second, let's imagine you don't have 5 million coverage and you can still handle our demand without impacting your operations. Our price is justified, and we have proven it. If you can't come up with even 2.5 million, you could log out and face consequences that will empty your pockets significantly.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.422602406600597e-17,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 355,
+    "word_count": 67,
+    "token_length": 79,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.2782508744834859e-26,
+     2.422602406600597e-17
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9949305215901578
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002816901309415698,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.422602406600597e-17,
+    "std": 2.9554980685020382e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.9554980685020382e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,76 @@
+{
+ "text_sha256": "6f8c4d14e6bcf2046facbe45f1582e1c2012074ef5b43691d27e880b12520002",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:45:08+00:00",
+ "word_count": 176,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hello, this is boss Lockbit, my partner asked if he can make an additional discount and agree to your miserable pennies, I refused him. The thing is that since October 1, according to the new rules it is strictly forbidden to make a discount of more than 50% of the originally announced redemption amount, so the partner has no right to make a discount on a single dollar even if he wants it very much and believed in your funny fairy tales about your poverty and the last possible price for you $7.500.000. I as the Boss will be very happy to see your information on my blog, your information will be kept there forever. The only way to prevent the leak is to accept my last possible price, otherwise you will not only suffer losses from the leak but will be repeatedly attacked again in the future and will not know in what original way your very profitable and successful company was hacked until now. All the best, you can continue negotiations with my partner.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.8216880036222622e-44,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Hello, this is boss Lockbit, my partner asked if he can make an additional discount and agree to your miserable pennies, I refused him. The thing is that since October 1, according to the new rules it is strictly forbidden to make a discount of more than 50% of the originally announced redemption amount, so the partner has no right to make a discount on a single dollar even if he wants it very much and believed in your funny fairy tales about your poverty and the last possible price for you $7.500.000. I as the Boss will be very happy to see your information on my blog, your information will be kept there forever. The only way to prevent the leak is to accept my last possible price, otherwise you will not only suffer losses from the leak but will be repeatedly attacked again in the future and will not know in what original way your very profitable and successful company was hacked until now. All the best, you can continue negotiations with my partner.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.8216880036222622e-44,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 965,
+    "word_count": 178,
+    "token_length": 206,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     1.8216880036222622e-44
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989888962759921
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0010362694738432765,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.8216880036222622e-44,
+    "std": 3.4215402881670264e-23,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.4215402881670264e-23,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

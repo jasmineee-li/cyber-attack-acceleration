@@ -1,0 +1,766 @@
+series,month,observed,fitted
+DeFiHackLabs: logic / accounting,2023-01,8.0,9.049383117945636
+DeFiHackLabs: logic / accounting,2023-02,7.0,8.816044086862375
+DeFiHackLabs: logic / accounting,2023-03,4.0,8.588721720419926
+DeFiHackLabs: logic / accounting,2023-04,4.0,8.367260878463496
+DeFiHackLabs: logic / accounting,2023-05,7.0,8.15151042113898
+DeFiHackLabs: logic / accounting,2023-06,9.0,7.941323105744881
+DeFiHackLabs: logic / accounting,2023-07,8.0,7.7365554862439545
+DeFiHackLabs: logic / accounting,2023-08,3.0,7.537067815365912
+DeFiHackLabs: logic / accounting,2023-09,7.0,7.342723949234454
+DeFiHackLabs: logic / accounting,2023-10,8.0,7.153391254453468
+DeFiHackLabs: logic / accounting,2023-11,13.0,6.968940517589034
+DeFiHackLabs: logic / accounting,2023-12,13.0,6.789245856985445
+DeFiHackLabs: logic / accounting,2024-01,4.0,6.614184636855043
+DeFiHackLabs: logic / accounting,2024-02,4.0,6.443637383583275
+DeFiHackLabs: logic / accounting,2024-03,9.0,6.277487704191811
+DeFiHackLabs: logic / accounting,2024-04,13.0,6.11562220690411
+DeFiHackLabs: logic / accounting,2024-05,8.0,5.957930423759204
+DeFiHackLabs: logic / accounting,2024-06,11.0,5.8043047352208825
+DeFiHackLabs: logic / accounting,2024-07,3.0,5.654640296730861
+DeFiHackLabs: logic / accounting,2024-08,2.0,5.508834967155748
+DeFiHackLabs: logic / accounting,2024-09,5.0,5.366789239079034
+DeFiHackLabs: logic / accounting,2024-10,1.0,5.2284061708905085
+DeFiHackLabs: logic / accounting,2024-11,5.0,5.0935913206267385
+DeFiHackLabs: logic / accounting,2024-12,4.0,4.962252681517494
+DeFiHackLabs: logic / accounting,2025-01,8.0,4.8343006191941065
+DeFiHackLabs: logic / accounting,2025-02,3.0,4.709647810516906
+DeFiHackLabs: logic / accounting,2025-03,8.0,4.5882091839800205
+DeFiHackLabs: logic / accounting,2025-04,4.0,4.469901861652809
+DeFiHackLabs: logic / accounting,2025-05,2.0,4.354645102618377
+DeFiHackLabs: logic / accounting,2025-06,10.0,4.242360247870497
+DeFiHackLabs: logic / accounting,2025-07,9.0,4.132970666631399
+DeFiHackLabs: logic / accounting,2025-08,9.0,4.026401704053734
+DeFiHackLabs: logic / accounting,2025-09,0.0,3.922580630271064
+DeFiHackLabs: logic / accounting,2025-10,0.0,3.8214365907620818
+DeFiHackLabs: logic / accounting,2025-11,1.0,3.722900557994693
+DeFiHackLabs: logic / accounting,2025-12,0.0,3.6269052843169653
+DeFiHackLabs: logic / accounting,2026-01,4.0,3.5333852560627736
+DeFiHackLabs: logic / accounting,2026-02,1.0,3.4422766488408554
+DeFiHackLabs: logic / accounting,2026-03,5.0,3.738229186090026
+DeFiHackLabs: logic / accounting,2026-04,2.0,4.059626483664814
+DeFiHackLabs: logic / accounting,2026-05,4.0,4.40865617554885
+DeFiHackLabs: logic / accounting,2026-06,12.0,4.787693979338462
+DeFiHackLabs: logic / accounting,2026-07,2.0,5.199319866884409
+DeFiHackLabs: logic / accounting,2026-08,3.0,5.646335625217668
+DeFiHackLabs: logic / accounting,2026-09,7.0,6.13178392729015
+DeFiLlama: Access Control,2023-01,0.0,3.723186214848196
+DeFiLlama: Access Control,2023-02,7.0,3.6750193563790283
+DeFiLlama: Access Control,2023-03,2.0,3.627475632537277
+DeFiLlama: Access Control,2023-04,2.0,3.5805469818305315
+DeFiLlama: Access Control,2023-05,3.0,3.53422544705791
+DeFiLlama: Access Control,2023-06,5.0,3.488503173960831
+DeFiLlama: Access Control,2023-07,8.0,3.443372409891255
+DeFiLlama: Access Control,2023-08,2.0,3.3988255024971448
+DeFiLlama: Access Control,2023-09,2.0,3.354854898424941
+DeFiLlama: Access Control,2023-10,2.0,3.3114531420388142
+DeFiLlama: Access Control,2023-11,2.0,3.2686128741564926
+DeFiLlama: Access Control,2023-12,2.0,3.226326830801442
+DeFiLlama: Access Control,2024-01,3.0,3.184587841971192
+DeFiLlama: Access Control,2024-02,2.0,3.143388830421588
+DeFiLlama: Access Control,2024-03,7.0,3.102722810466781
+DeFiLlama: Access Control,2024-04,5.0,3.0625828867947367
+DeFiLlama: Access Control,2024-05,7.0,3.0229622532980716
+DeFiLlama: Access Control,2024-06,2.0,2.983854191920008
+DeFiLlama: Access Control,2024-07,5.0,2.9452520715152666
+DeFiLlama: Access Control,2024-08,3.0,2.9071493467256917
+DeFiLlama: Access Control,2024-09,1.0,2.8695395568704245
+DeFiLlama: Access Control,2024-10,1.0,2.8324163248504295
+DeFiLlama: Access Control,2024-11,5.0,2.795773356067201
+DeFiLlama: Access Control,2024-12,2.0,2.7596044373554496
+DeFiLlama: Access Control,2025-01,1.0,2.7239034359296026
+DeFiLlama: Access Control,2025-02,0.0,2.688664298343934
+DeFiLlama: Access Control,2025-03,5.0,2.6538810494661402
+DeFiLlama: Access Control,2025-04,4.0,2.6195477914642025
+DeFiLlama: Access Control,2025-05,2.0,2.585658702806352
+DeFiLlama: Access Control,2025-06,2.0,2.5522080372739744
+DeFiLlama: Access Control,2025-07,3.0,2.5191901229872835
+DeFiLlama: Access Control,2025-08,1.0,2.486599361443598
+DeFiLlama: Access Control,2025-09,4.0,2.7205168601433787
+DeFiLlama: Access Control,2025-10,2.0,2.9764392692627446
+DeFiLlama: Access Control,2025-11,1.0,3.256436618129409
+DeFiLlama: Access Control,2025-12,6.0,3.56277366630792
+DeFiLlama: Access Control,2026-01,2.0,3.897928222115563
+DeFiLlama: Access Control,2026-02,1.0,4.2646111843838455
+DeFiLlama: Access Control,2026-03,4.0,4.665788469573462
+DeFiLlama: Access Control,2026-04,10.0,5.104705001600274
+DeFiLlama: Access Control,2026-05,14.0,5.584910958414071
+DeFiLlama: Access Control,2026-06,2.0,6.110290487625714
+DeFiLlama: Access Control,2026-07,4.0,6.685093123449079
+DeFiLlama: Access Control,2026-08,9.0,7.313968159073826
+DeFiLlama: Access Control,2026-09,5.0,8.002002252490124
+DeFiHackLabs: access control / arbitrary call,2023-01,0.0,2.8905699187508027
+DeFiHackLabs: access control / arbitrary call,2023-02,5.0,2.895139529384441
+DeFiHackLabs: access control / arbitrary call,2023-03,2.0,2.8997163639711157
+DeFiHackLabs: access control / arbitrary call,2023-04,1.0,2.904300433930947
+DeFiHackLabs: access control / arbitrary call,2023-05,3.0,2.9088917507021073
+DeFiHackLabs: access control / arbitrary call,2023-06,3.0,2.913490325740851
+DeFiHackLabs: access control / arbitrary call,2023-07,5.0,2.918096170521544
+DeFiHackLabs: access control / arbitrary call,2023-08,1.0,2.922709296536692
+DeFiHackLabs: access control / arbitrary call,2023-09,2.0,2.9273297152969686
+DeFiHackLabs: access control / arbitrary call,2023-10,2.0,2.931957438331244
+DeFiHackLabs: access control / arbitrary call,2023-11,4.0,2.9365924771866134
+DeFiHackLabs: access control / arbitrary call,2023-12,1.0,2.941234843428428
+DeFiHackLabs: access control / arbitrary call,2024-01,4.0,2.9458845486403216
+DeFiHackLabs: access control / arbitrary call,2024-02,2.0,2.950541604424239
+DeFiHackLabs: access control / arbitrary call,2024-03,4.0,2.9552060224004686
+DeFiHackLabs: access control / arbitrary call,2024-04,6.0,2.9598778142076667
+DeFiHackLabs: access control / arbitrary call,2024-05,4.0,2.9645569915028895
+DeFiHackLabs: access control / arbitrary call,2024-06,1.0,2.9692435659616216
+DeFiHackLabs: access control / arbitrary call,2024-07,1.0,2.973937549277806
+DeFiHackLabs: access control / arbitrary call,2024-08,4.0,2.9786389531638706
+DeFiHackLabs: access control / arbitrary call,2024-09,10.0,2.9833477893507596
+DeFiHackLabs: access control / arbitrary call,2024-10,1.0,2.988064069587962
+DeFiHackLabs: access control / arbitrary call,2024-11,5.0,2.9927878056435437
+DeFiHackLabs: access control / arbitrary call,2024-12,1.0,2.9975190093041704
+DeFiHackLabs: access control / arbitrary call,2025-01,2.0,3.002257692375143
+DeFiHackLabs: access control / arbitrary call,2025-02,2.0,3.0070038666804266
+DeFiHackLabs: access control / arbitrary call,2025-03,3.0,3.011757544062675
+DeFiHackLabs: access control / arbitrary call,2025-04,3.0,3.016518736383267
+DeFiHackLabs: access control / arbitrary call,2025-05,5.0,3.0212874555223292
+DeFiHackLabs: access control / arbitrary call,2025-06,7.0,3.0260637133787727
+DeFiHackLabs: access control / arbitrary call,2025-07,4.0,3.0308475218703173
+DeFiHackLabs: access control / arbitrary call,2025-08,11.0,3.0356388929335227
+DeFiHackLabs: access control / arbitrary call,2025-09,1.0,3.040437838523819
+DeFiHackLabs: access control / arbitrary call,2025-10,1.0,3.0452443706155385
+DeFiHackLabs: access control / arbitrary call,2025-11,0.0,3.0500585012019408
+DeFiHackLabs: access control / arbitrary call,2025-12,0.0,3.054880242295245
+DeFiHackLabs: access control / arbitrary call,2026-01,0.0,3.0597096059266624
+DeFiHackLabs: access control / arbitrary call,2026-02,0.0,3.0645466041464218
+DeFiHackLabs: access control / arbitrary call,2026-03,3.0,3.069391249023803
+DeFiHackLabs: access control / arbitrary call,2026-04,4.0,3.074243552647164
+DeFiHackLabs: access control / arbitrary call,2026-05,8.0,3.0791035271239764
+DeFiHackLabs: access control / arbitrary call,2026-06,4.0,3.0839711845808493
+DeFiHackLabs: access control / arbitrary call,2026-07,0.0,3.0888465371635623
+DeFiHackLabs: access control / arbitrary call,2026-08,1.0,5.017323101110459
+DeFiHackLabs: access control / arbitrary call,2026-09,11.0,8.14981605530104
+DeFiHackLabs: price / oracle manipulation,2023-01,1.0,4.094306862027258
+DeFiHackLabs: price / oracle manipulation,2023-02,1.0,4.02558387481405
+DeFiHackLabs: price / oracle manipulation,2023-03,2.0,3.9580144037222915
+DeFiHackLabs: price / oracle manipulation,2023-04,2.0,3.8915790869707725
+DeFiHackLabs: price / oracle manipulation,2023-05,6.0,3.8262588877660026
+DeFiHackLabs: price / oracle manipulation,2023-06,6.0,3.7620350888472847
+DeFiHackLabs: price / oracle manipulation,2023-07,6.0,3.6988892871233574
+DeFiHackLabs: price / oracle manipulation,2023-08,6.0,3.6368033883990525
+DeFiHackLabs: price / oracle manipulation,2023-09,3.0,3.5757596021904767
+DeFiHackLabs: price / oracle manipulation,2023-10,5.0,3.515740436627208
+DeFiHackLabs: price / oracle manipulation,2023-11,6.0,3.45672869344007
+DeFiHackLabs: price / oracle manipulation,2023-12,6.0,3.39870746303303
+DeFiHackLabs: price / oracle manipulation,2024-01,2.0,3.3416601196378153
+DeFiHackLabs: price / oracle manipulation,2024-02,3.0,3.285570316549865
+DeFiHackLabs: price / oracle manipulation,2024-03,2.0,3.2304219814442368
+DeFiHackLabs: price / oracle manipulation,2024-04,4.0,3.176199311770148
+DeFiHackLabs: price / oracle manipulation,2024-05,2.0,3.1228867702228107
+DeFiHackLabs: price / oracle manipulation,2024-06,1.0,3.0704690802912715
+DeFiHackLabs: price / oracle manipulation,2024-07,0.0,3.01893122188099
+DeFiHackLabs: price / oracle manipulation,2024-08,3.0,2.968258427009881
+DeFiHackLabs: price / oracle manipulation,2024-09,4.0,2.9184361755766086
+DeFiHackLabs: price / oracle manipulation,2024-10,7.0,2.869450191199901
+DeFiHackLabs: price / oracle manipulation,2024-11,2.0,2.8212864371277098
+DeFiHackLabs: price / oracle manipulation,2024-12,0.0,2.7739311122150276
+DeFiHackLabs: price / oracle manipulation,2025-01,3.0,2.7273706469692245
+DeFiHackLabs: price / oracle manipulation,2025-02,3.0,2.681591699661759
+DeFiHackLabs: price / oracle manipulation,2025-03,4.0,2.6365811525051517
+DeFiHackLabs: price / oracle manipulation,2025-04,4.0,2.592326107894138
+DeFiHackLabs: price / oracle manipulation,2025-05,3.0,2.548813884709903
+DeFiHackLabs: price / oracle manipulation,2025-06,5.0,2.506032014686357
+DeFiHackLabs: price / oracle manipulation,2025-07,3.0,2.463968238837395
+DeFiHackLabs: price / oracle manipulation,2025-08,4.0,2.422610503944137
+DeFiHackLabs: price / oracle manipulation,2025-09,1.0,2.3819469591011155
+DeFiHackLabs: price / oracle manipulation,2025-10,0.0,2.3419659523204484
+DeFiHackLabs: price / oracle manipulation,2025-11,2.0,2.302656027193001
+DeFiHackLabs: price / oracle manipulation,2025-12,0.0,2.264005919605597
+DeFiHackLabs: price / oracle manipulation,2026-01,1.0,2.226004554513328
+DeFiHackLabs: price / oracle manipulation,2026-02,1.0,2.1886410427660388
+DeFiHackLabs: price / oracle manipulation,2026-03,2.0,2.1519046779880853
+DeFiHackLabs: price / oracle manipulation,2026-04,1.0,2.115784933510459
+DeFiHackLabs: price / oracle manipulation,2026-05,5.0,2.0802714593544107
+DeFiHackLabs: price / oracle manipulation,2026-06,3.0,2.0453540792657017
+DeFiHackLabs: price / oracle manipulation,2026-07,1.0,2.0110227877986375
+DeFiHackLabs: price / oracle manipulation,2026-08,4.0,3.783774836966648
+DeFiHackLabs: price / oracle manipulation,2026-09,7.0,7.1192390776108345
+DeFiLlama: Protocol Logic,2023-01,3.0,2.493485771950605
+DeFiLlama: Protocol Logic,2023-02,1.0,2.4819940714139075
+DeFiLlama: Protocol Logic,2023-03,1.0,2.470555332551469
+DeFiLlama: Protocol Logic,2023-04,2.0,2.4591693112794033
+DeFiLlama: Protocol Logic,2023-05,7.0,2.447835764638729
+DeFiLlama: Protocol Logic,2023-06,2.0,2.436554450790188
+DeFiLlama: Protocol Logic,2023-07,4.0,2.425325129009084
+DeFiLlama: Protocol Logic,2023-08,0.0,2.414147559680145
+DeFiLlama: Protocol Logic,2023-09,1.0,2.4030215042924135
+DeFiLlama: Protocol Logic,2023-10,0.0,2.391946725434152
+DeFiLlama: Protocol Logic,2023-11,2.0,2.380922986787783
+DeFiLlama: Protocol Logic,2023-12,1.0,2.3699500531248407
+DeFiLlama: Protocol Logic,2024-01,0.0,2.359027690300955
+DeFiLlama: Protocol Logic,2024-02,2.0,2.348155665250854
+DeFiLlama: Protocol Logic,2024-03,6.0,2.337333745983393
+DeFiLlama: Protocol Logic,2024-04,2.0,2.3265617015766
+DeFiLlama: Protocol Logic,2024-05,6.0,2.3158393021727512
+DeFiLlama: Protocol Logic,2024-06,4.0,2.3051663189734666
+DeFiLlama: Protocol Logic,2024-07,1.0,2.2945425242348256
+DeFiLlama: Protocol Logic,2024-08,2.0,2.2839676912625095
+DeFiLlama: Protocol Logic,2024-09,3.0,2.273441594406962
+DeFiLlama: Protocol Logic,2024-10,2.0,2.2629640090585768
+DeFiLlama: Protocol Logic,2024-11,6.0,2.2525347116429018
+DeFiLlama: Protocol Logic,2024-12,4.0,2.242153479615872
+DeFiLlama: Protocol Logic,2025-01,4.0,2.231820091459057
+DeFiLlama: Protocol Logic,2025-02,1.0,2.221534326674938
+DeFiLlama: Protocol Logic,2025-03,3.0,2.211295965782198
+DeFiLlama: Protocol Logic,2025-04,2.0,2.2011047903110432
+DeFiLlama: Protocol Logic,2025-05,0.0,2.1909605827985383
+DeFiLlama: Protocol Logic,2025-06,0.0,2.1808631267839673
+DeFiLlama: Protocol Logic,2025-07,1.0,2.170812206804215
+DeFiLlama: Protocol Logic,2025-08,2.0,2.1608076083891667
+DeFiLlama: Protocol Logic,2025-09,1.0,2.150849118057136
+DeFiLlama: Protocol Logic,2025-10,1.0,2.140936523310306
+DeFiLlama: Protocol Logic,2025-11,3.0,2.1310696126301965
+DeFiLlama: Protocol Logic,2025-12,1.0,2.1212481754731503
+DeFiLlama: Protocol Logic,2026-01,5.0,2.1114720022658395
+DeFiLlama: Protocol Logic,2026-02,0.0,2.101740884400796
+DeFiLlama: Protocol Logic,2026-03,2.0,2.529534580403432
+DeFiLlama: Protocol Logic,2026-04,4.0,3.044402495544065
+DeFiLlama: Protocol Logic,2026-05,5.0,3.66406793829904
+DeFiLlama: Protocol Logic,2026-06,5.0,4.409861664520713
+DeFiLlama: Protocol Logic,2026-07,5.0,5.307456146470142
+DeFiLlama: Protocol Logic,2026-08,7.0,6.387749296839959
+DeFiLlama: Protocol Logic,2026-09,6.0,7.687928068217135
+DeFiLlama: Token & Share Accounting,2023-01,3.0,2.2528418330057605
+DeFiLlama: Token & Share Accounting,2023-02,3.0,2.230440511106525
+DeFiLlama: Token & Share Accounting,2023-03,3.0,2.2082619386322517
+DeFiLlama: Token & Share Accounting,2023-04,1.0,2.186303900655333
+DeFiLlama: Token & Share Accounting,2023-05,1.0,2.1645642042724806
+DeFiLlama: Token & Share Accounting,2023-06,4.0,2.1430406783857228
+DeFiLlama: Token & Share Accounting,2023-07,1.0,2.1217311734855837
+DeFiLlama: Token & Share Accounting,2023-08,1.0,2.1006335614364153
+DeFiLlama: Token & Share Accounting,2023-09,0.0,2.0797457352638644
+DeFiLlama: Token & Share Accounting,2023-10,2.0,2.0590656089444552
+DeFiLlama: Token & Share Accounting,2023-11,3.0,2.038591117197261
+DeFiLlama: Token & Share Accounting,2023-12,1.0,2.0183202152776496
+DeFiLlama: Token & Share Accounting,2024-01,5.0,1.9982508787730777
+DeFiLlama: Token & Share Accounting,2024-02,3.0,1.9783811034009193
+DeFiLlama: Token & Share Accounting,2024-03,1.0,1.9587089048083004
+DeFiLlama: Token & Share Accounting,2024-04,2.0,1.9392323183739264
+DeFiLlama: Token & Share Accounting,2024-05,4.0,1.91994939901188
+DeFiLlama: Token & Share Accounting,2024-06,2.0,1.9008582209773681
+DeFiLlama: Token & Share Accounting,2024-07,0.0,1.8819568776744036
+DeFiLlama: Token & Share Accounting,2024-08,0.0,1.8632434814653955
+DeFiLlama: Token & Share Accounting,2024-09,2.0,1.8447161634826368
+DeFiLlama: Token & Share Accounting,2024-10,2.0,1.826373073441663
+DeFiLlama: Token & Share Accounting,2024-11,1.0,1.8082123794564682
+DeFiLlama: Token & Share Accounting,2024-12,3.0,1.7902322678565592
+DeFiLlama: Token & Share Accounting,2025-01,2.0,1.7724309430058276
+DeFiLlama: Token & Share Accounting,2025-02,1.0,1.754806627123223
+DeFiLlama: Token & Share Accounting,2025-03,2.0,1.737357560105211
+DeFiLlama: Token & Share Accounting,2025-04,1.0,1.720081999349993
+DeFiLlama: Token & Share Accounting,2025-05,2.0,1.7029782195834793
+DeFiLlama: Token & Share Accounting,2025-06,3.0,1.6860445126869867
+DeFiLlama: Token & Share Accounting,2025-07,2.0,1.6692791875266542
+DeFiLlama: Token & Share Accounting,2025-08,1.0,1.6526805697845521
+DeFiLlama: Token & Share Accounting,2025-09,1.0,1.8640786199864507
+DeFiLlama: Token & Share Accounting,2025-10,1.0,2.102517065317453
+DeFiLlama: Token & Share Accounting,2025-11,3.0,2.371454702904777
+DeFiLlama: Token & Share Accounting,2025-12,2.0,2.6747927523147403
+DeFiLlama: Token & Share Accounting,2026-01,4.0,3.0169314467916903
+DeFiLlama: Token & Share Accounting,2026-02,2.0,3.402833863208253
+DeFiLlama: Token & Share Accounting,2026-03,8.0,3.838097916646599
+DeFiLlama: Token & Share Accounting,2026-04,3.0,4.329037563966852
+DeFiLlama: Token & Share Accounting,2026-05,2.0,4.882774394304657
+DeFiLlama: Token & Share Accounting,2026-06,11.0,5.507340935113158
+DeFiLlama: Token & Share Accounting,2026-07,7.0,6.21179717231077
+DeFiLlama: Token & Share Accounting,2026-08,8.0,7.006361974780345
+DeFiLlama: Token & Share Accounting,2026-09,3.0,7.90256132966861
+DeFiLlama: Oracle Manipulation,2023-01,1.0,2.2133562005151375
+DeFiLlama: Oracle Manipulation,2023-02,1.0,2.1920330470061815
+DeFiLlama: Oracle Manipulation,2023-03,3.0,2.170915317674076
+DeFiLlama: Oracle Manipulation,2023-04,2.0,2.150001033492011
+DeFiLlama: Oracle Manipulation,2023-05,2.0,2.129288234498838
+DeFiLlama: Oracle Manipulation,2023-06,1.0,2.1087749796153874
+DeFiLlama: Oracle Manipulation,2023-07,2.0,2.0884593464625683
+DeFiLlama: Oracle Manipulation,2023-08,7.0,2.068339431181209
+DeFiLlama: Oracle Manipulation,2023-09,0.0,2.0484133482536446
+DeFiLlama: Oracle Manipulation,2023-10,4.0,2.0286792303270134
+DeFiLlama: Oracle Manipulation,2023-11,0.0,2.0091352280382604
+DeFiLlama: Oracle Manipulation,2023-12,3.0,1.989779509840828
+DeFiLlama: Oracle Manipulation,2024-01,2.0,1.9706102618330126
+DeFiLlama: Oracle Manipulation,2024-02,1.0,1.9516256875879772
+DeFiLlama: Oracle Manipulation,2024-03,2.0,1.9328240079854013
+DeFiLlama: Oracle Manipulation,2024-04,2.0,1.9142034610447527
+DeFiLlama: Oracle Manipulation,2024-05,1.0,1.8957623017601641
+DeFiLlama: Oracle Manipulation,2024-06,3.0,1.877498801936902
+DeFiLlama: Oracle Manipulation,2024-07,2.0,1.8594112500294127
+DeFiLlama: Oracle Manipulation,2024-08,1.0,1.841497950980923
+DeFiLlama: Oracle Manipulation,2024-09,1.0,1.8237572260645925
+DeFiLlama: Oracle Manipulation,2024-10,4.0,1.8061874127261917
+DeFiLlama: Oracle Manipulation,2024-11,3.0,1.788786864428299
+DeFiLlama: Oracle Manipulation,2024-12,1.0,1.771553950495995
+DeFiLlama: Oracle Manipulation,2025-01,0.0,1.7544870559640477
+DeFiLlama: Oracle Manipulation,2025-02,1.0,1.7375845814255662
+DeFiLlama: Oracle Manipulation,2025-03,2.0,1.720844942882114
+DeFiLlama: Oracle Manipulation,2025-04,5.0,1.7042665715952665
+DeFiLlama: Oracle Manipulation,2025-05,2.0,1.6878479139395988
+DeFiLlama: Oracle Manipulation,2025-06,1.0,1.6715874312570878
+DeFiLlama: Oracle Manipulation,2025-07,1.0,1.6554835997129196
+DeFiLlama: Oracle Manipulation,2025-08,1.0,1.6395349101526844
+DeFiLlama: Oracle Manipulation,2025-09,1.0,1.623739867960948
+DeFiLlama: Oracle Manipulation,2025-10,1.0,1.608096992921185
+DeFiLlama: Oracle Manipulation,2025-11,2.0,1.8410995054845845
+DeFiLlama: Oracle Manipulation,2025-12,1.0,2.107862525716264
+DeFiLlama: Oracle Manipulation,2026-01,1.0,2.4132777256650857
+DeFiLlama: Oracle Manipulation,2026-02,4.0,2.762945547984563
+DeFiLlama: Oracle Manipulation,2026-03,5.0,3.1632779020590602
+DeFiLlama: Oracle Manipulation,2026-04,4.0,3.621615740112691
+DeFiLlama: Oracle Manipulation,2026-05,6.0,4.146363669310995
+DeFiLlama: Oracle Manipulation,2026-06,3.0,4.747144068256995
+DeFiLlama: Oracle Manipulation,2026-07,4.0,5.434973533938067
+DeFiLlama: Oracle Manipulation,2026-08,10.0,6.222464894656762
+DeFiLlama: Oracle Manipulation,2026-09,4.0,7.124058493285936
+DeFiHackLabs: other / unlabelled,2023-01,1.0,1.5064793985239069
+DeFiHackLabs: other / unlabelled,2023-02,0.0,1.5187427357507501
+DeFiHackLabs: other / unlabelled,2023-03,1.0,1.5311059013855268
+DeFiHackLabs: other / unlabelled,2023-04,2.0,1.5435697080709008
+DeFiHackLabs: other / unlabelled,2023-05,5.0,1.5561349750647682
+DeFiHackLabs: other / unlabelled,2023-06,4.0,1.5688025282941074
+DeFiHackLabs: other / unlabelled,2023-07,1.0,1.581573200409269
+DeFiHackLabs: other / unlabelled,2023-08,1.0,1.5944478308387067
+DeFiHackLabs: other / unlabelled,2023-09,1.0,1.6074272658441522
+DeFiHackLabs: other / unlabelled,2023-10,0.0,1.6205123585762429
+DeFiHackLabs: other / unlabelled,2023-11,3.0,1.6337039691305986
+DeFiHackLabs: other / unlabelled,2023-12,0.0,1.6470029646043578
+DeFiHackLabs: other / unlabelled,2024-01,2.0,1.6604102191531716
+DeFiHackLabs: other / unlabelled,2024-02,2.0,1.6739266140486633
+DeFiHackLabs: other / unlabelled,2024-03,2.0,1.6875530377363557
+DeFiHackLabs: other / unlabelled,2024-04,0.0,1.7012903858940684
+DeFiHackLabs: other / unlabelled,2024-05,2.0,1.7151395614907927
+DeFiHackLabs: other / unlabelled,2024-06,1.0,1.7291014748460438
+DeFiHackLabs: other / unlabelled,2024-07,1.0,1.7431770436896974
+DeFiHackLabs: other / unlabelled,2024-08,0.0,1.7573671932223127
+DeFiHackLabs: other / unlabelled,2024-09,1.0,1.7716728561759465
+DeFiHackLabs: other / unlabelled,2024-10,2.0,1.7860949728754638
+DeFiHackLabs: other / unlabelled,2024-11,1.0,1.8006344913003443
+DeFiHackLabs: other / unlabelled,2024-12,0.0,1.8152923671469956
+DeFiHackLabs: other / unlabelled,2025-01,4.0,1.8300695638915716
+DeFiHackLabs: other / unlabelled,2025-02,4.0,1.844967052853302
+DeFiHackLabs: other / unlabelled,2025-03,3.0,1.8599858132583393
+DeFiHackLabs: other / unlabelled,2025-04,3.0,1.875126832304123
+DeFiHackLabs: other / unlabelled,2025-05,6.0,1.89039110522427
+DeFiHackLabs: other / unlabelled,2025-06,1.0,1.9057796353539915
+DeFiHackLabs: other / unlabelled,2025-07,5.0,1.9212934341960444
+DeFiHackLabs: other / unlabelled,2025-08,1.0,1.936933521487216
+DeFiHackLabs: other / unlabelled,2025-09,0.0,1.9527009252653553
+DeFiHackLabs: other / unlabelled,2025-10,2.0,1.9685966819369443
+DeFiHackLabs: other / unlabelled,2025-11,0.0,1.984621836345224
+DeFiHackLabs: other / unlabelled,2025-12,1.0,2.00077744183887
+DeFiHackLabs: other / unlabelled,2026-01,1.0,2.017064560341236
+DeFiHackLabs: other / unlabelled,2026-02,1.0,2.3667636070973224
+DeFiHackLabs: other / unlabelled,2026-03,3.0,2.777090075358164
+DeFiHackLabs: other / unlabelled,2026-04,6.0,3.258554958140223
+DeFiHackLabs: other / unlabelled,2026-05,5.0,3.823491542257877
+DeFiHackLabs: other / unlabelled,2026-06,6.0,4.4863713399086445
+DeFiHackLabs: other / unlabelled,2026-07,1.0,5.264174793405673
+DeFiHackLabs: other / unlabelled,2026-08,7.0,6.176826249093316
+DeFiHackLabs: other / unlabelled,2026-09,7.0,7.247704342812077
+DeFiLlama: Key Compromise,2023-01,0.0,1.2912715741108265
+DeFiLlama: Key Compromise,2023-02,0.0,1.306580516319527
+DeFiLlama: Key Compromise,2023-03,0.0,1.322070956918069
+DeFiLlama: Key Compromise,2023-04,2.0,1.337745047698854
+DeFiLlama: Key Compromise,2023-05,0.0,1.3536049659653109
+DeFiLlama: Key Compromise,2023-06,1.0,1.3696529148343488
+DeFiLlama: Key Compromise,2023-07,2.0,1.3858911235423936
+DeFiLlama: Key Compromise,2023-08,1.0,1.402321847755053
+DeFiLlama: Key Compromise,2023-09,3.0,1.4189473698804533
+DeFiLlama: Key Compromise,2023-10,0.0,1.4357699993862918
+DeFiLlama: Key Compromise,2023-11,4.0,1.4527920731206465
+DeFiLlama: Key Compromise,2023-12,2.0,1.4700159556365897
+DeFiLlama: Key Compromise,2024-01,2.0,1.4874440395206516
+DeFiLlama: Key Compromise,2024-02,2.0,1.5050787457251755
+DeFiLlama: Key Compromise,2024-03,4.0,1.5229225239046158
+DeFiLlama: Key Compromise,2024-04,2.0,1.5409778527558207
+DeFiLlama: Key Compromise,2024-05,1.0,1.5592472403623516
+DeFiLlama: Key Compromise,2024-06,2.0,1.5777332245428832
+DeFiLlama: Key Compromise,2024-07,1.0,1.5964383732037337
+DeFiLlama: Key Compromise,2024-08,0.0,1.6153652846955762
+DeFiLlama: Key Compromise,2024-09,2.0,1.6345165881743773
+DeFiLlama: Key Compromise,2024-10,3.0,1.653894943966616
+DeFiLlama: Key Compromise,2024-11,3.0,1.6735030439388325
+DeFiLlama: Key Compromise,2024-12,0.0,1.6933436118715588
+DeFiLlama: Key Compromise,2025-01,3.0,1.713419403837679
+DeFiLlama: Key Compromise,2025-02,2.0,1.733733208585282
+DeFiLlama: Key Compromise,2025-03,2.0,1.7542878479250454
+DeFiLlama: Key Compromise,2025-04,1.0,1.7750861771222193
+DeFiLlama: Key Compromise,2025-05,1.0,1.796131085293252
+DeFiLlama: Key Compromise,2025-06,1.0,1.81742549580712
+DeFiLlama: Key Compromise,2025-07,1.0,1.838972366691418
+DeFiLlama: Key Compromise,2025-08,2.0,1.8607746910432585
+DeFiLlama: Key Compromise,2025-09,5.0,1.8828354974450485
+DeFiLlama: Key Compromise,2025-10,2.0,1.9051578503851916
+DeFiLlama: Key Compromise,2025-11,1.0,1.927744850683779
+DeFiLlama: Key Compromise,2025-12,1.0,1.9505996359233284
+DeFiLlama: Key Compromise,2026-01,2.0,1.9737253808846276
+DeFiLlama: Key Compromise,2026-02,1.0,1.9971252979877474
+DeFiLlama: Key Compromise,2026-03,0.0,2.0208026377382806
+DeFiLlama: Key Compromise,2026-04,3.0,2.4816764810095857
+DeFiLlama: Key Compromise,2026-05,5.0,3.047659400964101
+DeFiLlama: Key Compromise,2026-06,2.0,3.742723072632839
+DeFiLlama: Key Compromise,2026-07,7.0,4.596306265059316
+DeFiLlama: Key Compromise,2026-08,5.0,5.6445616927148965
+DeFiLlama: Key Compromise,2026-09,6.0,6.931887229767368
+DeFiLlama: Frontend & Infrastructure,2023-01,0.0,1.2474190203234257
+DeFiLlama: Frontend & Infrastructure,2023-02,1.0,1.2424369549119163
+DeFiLlama: Frontend & Infrastructure,2023-03,1.0,1.2374747873658072
+DeFiLlama: Frontend & Infrastructure,2023-04,1.0,1.2325324382150369
+DeFiLlama: Frontend & Infrastructure,2023-05,2.0,1.2276098283069383
+DeFiLlama: Frontend & Infrastructure,2023-06,2.0,1.2227068788049726
+DeFiLlama: Frontend & Infrastructure,2023-07,0.0,1.2178235111874662
+DeFiLlama: Frontend & Infrastructure,2023-08,1.0,1.2129596472463529
+DeFiLlama: Frontend & Infrastructure,2023-09,4.0,1.2081152090859213
+DeFiLlama: Frontend & Infrastructure,2023-10,1.0,1.2032901191215684
+DeFiLlama: Frontend & Infrastructure,2023-11,3.0,1.1984843000785554
+DeFiLlama: Frontend & Infrastructure,2023-12,3.0,1.193697674990772
+DeFiLlama: Frontend & Infrastructure,2024-01,1.0,1.1889301671995014
+DeFiLlama: Frontend & Infrastructure,2024-02,1.0,1.1841817003521953
+DeFiLlama: Frontend & Infrastructure,2024-03,2.0,1.179452198401249
+DeFiLlama: Frontend & Infrastructure,2024-04,0.0,1.1747415856027843
+DeFiLlama: Frontend & Infrastructure,2024-05,0.0,1.1700497865154367
+DeFiLlama: Frontend & Infrastructure,2024-06,1.0,1.1653767259991465
+DeFiLlama: Frontend & Infrastructure,2024-07,1.0,1.1607223292139563
+DeFiLlama: Frontend & Infrastructure,2024-08,0.0,1.1560865216188112
+DeFiLlama: Frontend & Infrastructure,2024-09,2.0,1.1514692289703665
+DeFiLlama: Frontend & Infrastructure,2024-10,2.0,1.1468703773217974
+DeFiLlama: Frontend & Infrastructure,2024-11,1.0,1.1422898930216154
+DeFiLlama: Frontend & Infrastructure,2024-12,0.0,1.1377277027124888
+DeFiLlama: Frontend & Infrastructure,2025-01,1.0,1.1331837333300672
+DeFiLlama: Frontend & Infrastructure,2025-02,0.0,1.1286579121018119
+DeFiLlama: Frontend & Infrastructure,2025-03,0.0,1.124150166545831
+DeFiLlama: Frontend & Infrastructure,2025-04,1.0,1.1196604244697173
+DeFiLlama: Frontend & Infrastructure,2025-05,1.0,1.115188613969393
+DeFiLlama: Frontend & Infrastructure,2025-06,0.0,1.1107346634279576
+DeFiLlama: Frontend & Infrastructure,2025-07,1.0,1.106298501514542
+DeFiLlama: Frontend & Infrastructure,2025-08,0.0,1.1018800571831644
+DeFiLlama: Frontend & Infrastructure,2025-09,1.0,1.0974792596715945
+DeFiLlama: Frontend & Infrastructure,2025-10,2.0,1.0930960385002184
+DeFiLlama: Frontend & Infrastructure,2025-11,1.0,1.0887303234709107
+DeFiLlama: Frontend & Infrastructure,2025-12,1.0,1.084382044665911
+DeFiLlama: Frontend & Infrastructure,2026-01,2.0,1.0800511324467024
+DeFiLlama: Frontend & Infrastructure,2026-02,0.0,1.0757375174528974
+DeFiLlama: Frontend & Infrastructure,2026-03,3.0,1.0714411306011276
+DeFiLlama: Frontend & Infrastructure,2026-04,1.0,1.0671619030839357
+DeFiLlama: Frontend & Infrastructure,2026-05,2.0,1.0628997663686748
+DeFiLlama: Frontend & Infrastructure,2026-06,1.0,1.0586546521964106
+DeFiLlama: Frontend & Infrastructure,2026-07,1.0,0.4310952082354303
+DeFiLlama: Frontend & Infrastructure,2026-08,0.0,0.17554646189668832
+DeFiLlama: Frontend & Infrastructure,2026-09,0.0,0.07148434892279297
+DeFiLlama: Input Validation,2023-01,1.0,1.005622255085289
+DeFiLlama: Input Validation,2023-02,1.0,0.9891544163444954
+DeFiLlama: Input Validation,2023-03,0.0,0.9729562511430667
+DeFiLlama: Input Validation,2023-04,1.0,0.9570233433691512
+DeFiLlama: Input Validation,2023-05,0.0,0.9413513492281291
+DeFiLlama: Input Validation,2023-06,0.0,0.9259359960583622
+DeFiLlama: Input Validation,2023-07,1.0,0.9107730811663367
+DeFiLlama: Input Validation,2023-08,0.0,0.895858470680881
+DeFiLlama: Input Validation,2023-09,1.0,0.8811880984261468
+DeFiLlama: Input Validation,2023-10,1.0,0.8667579648130462
+DeFiLlama: Input Validation,2023-11,0.0,0.8525641357488426
+DeFiLlama: Input Validation,2023-12,3.0,0.8386027415645969
+DeFiLlama: Input Validation,2024-01,1.0,0.8248699759601784
+DeFiLlama: Input Validation,2024-02,3.0,0.8113620949665521
+DeFiLlama: Input Validation,2024-03,1.0,0.7980754159250582
+DeFiLlama: Input Validation,2024-04,3.0,0.7850063164834087
+DeFiLlama: Input Validation,2024-05,0.0,0.7721512336081231
+DeFiLlama: Input Validation,2024-06,0.0,0.7595066626131377
+DeFiLlama: Input Validation,2024-07,0.0,0.7470691562043217
+DeFiLlama: Input Validation,2024-08,1.0,0.73483532353964
+DeFiLlama: Input Validation,2024-09,2.0,0.7228018293047066
+DeFiLlama: Input Validation,2024-10,0.0,0.7109653928034769
+DeFiLlama: Input Validation,2024-11,2.0,0.6993227870638302
+DeFiLlama: Input Validation,2024-12,0.0,0.6878708379577987
+DeFiLlama: Input Validation,2025-01,0.0,0.6766064233362044
+DeFiLlama: Input Validation,2025-02,1.0,0.6655264721774657
+DeFiLlama: Input Validation,2025-03,0.0,0.6546279637503446
+DeFiLlama: Input Validation,2025-04,0.0,0.6439079267904025
+DeFiLlama: Input Validation,2025-05,1.0,0.633363438689944
+DeFiLlama: Input Validation,2025-06,1.0,0.6229916247012255
+DeFiLlama: Input Validation,2025-07,0.0,0.6127896571527104
+DeFiLlama: Input Validation,2025-08,2.0,0.6027547546781614
+DeFiLlama: Input Validation,2025-09,0.0,0.5928841814583549
+DeFiLlama: Input Validation,2025-10,0.0,0.583175246475213
+DeFiLlama: Input Validation,2025-11,0.0,0.5736253027781518
+DeFiLlama: Input Validation,2025-12,0.0,0.6973089337331533
+DeFiLlama: Input Validation,2026-01,0.0,0.8476609150766833
+DeFiLlama: Input Validation,2026-02,0.0,1.0304314087901925
+DeFiLlama: Input Validation,2026-03,1.0,1.2526104121779464
+DeFiLlama: Input Validation,2026-04,5.0,1.5226950880105399
+DeFiLlama: Input Validation,2026-05,3.0,1.8510147357150053
+DeFiLlama: Input Validation,2026-06,2.0,2.250125832027621
+DeFiLlama: Input Validation,2026-07,5.0,2.735292249308999
+DeFiLlama: Input Validation,2026-08,2.0,3.325069017312647
+DeFiLlama: Input Validation,2026-09,1.0,4.0420119541835104
+DeFiLlama: Social Engineering,2023-01,1.0,0.5496168323170038
+DeFiLlama: Social Engineering,2023-02,0.0,0.5855429925418275
+DeFiLlama: Social Engineering,2023-03,2.0,0.6238174960352856
+DeFiLlama: Social Engineering,2023-04,1.0,0.664593844203396
+DeFiLlama: Social Engineering,2023-05,0.0,0.7080355721989308
+DeFiLlama: Social Engineering,2023-06,0.0,0.7543169047855977
+DeFiLlama: Social Engineering,2023-07,1.0,0.8036234550733264
+DeFiLlama: Social Engineering,2023-08,0.0,0.8561529689269683
+DeFiLlama: Social Engineering,2023-09,0.0,0.912116118033887
+DeFiLlama: Social Engineering,2023-10,0.0,0.9717373448110712
+DeFiLlama: Social Engineering,2023-11,2.0,1.035255762540301
+DeFiLlama: Social Engineering,2023-12,2.0,1.1029261143413958
+DeFiLlama: Social Engineering,2024-01,1.0,1.175019794829546
+DeFiLlama: Social Engineering,2024-02,2.0,1.2518259385541215
+DeFiLlama: Social Engineering,2024-03,2.0,1.3336525795841883
+DeFiLlama: Social Engineering,2024-04,1.0,1.420827886891291
+DeFiLlama: Social Engineering,2024-05,3.0,1.5137014804840596
+DeFiLlama: Social Engineering,2024-06,0.0,1.6126458335730454
+DeFiLlama: Social Engineering,2024-07,4.0,1.7180577663892216
+DeFiLlama: Social Engineering,2024-08,1.0,1.6063709759429659
+DeFiLlama: Social Engineering,2024-09,2.0,1.5019446742906353
+DeFiLlama: Social Engineering,2024-10,3.0,1.4043068745722265
+DeFiLlama: Social Engineering,2024-11,0.0,1.313016272654798
+DeFiLlama: Social Engineering,2024-12,0.0,1.2276602525224118
+DeFiLlama: Social Engineering,2025-01,0.0,1.1478530213308589
+DeFiLlama: Social Engineering,2025-02,2.0,1.0732338656979754
+DeFiLlama: Social Engineering,2025-03,0.0,1.0034655213483248
+DeFiLlama: Social Engineering,2025-04,0.0,0.93823264874334
+DeFiLlama: Social Engineering,2025-05,0.0,0.8772404078070746
+DeFiLlama: Social Engineering,2025-06,1.0,0.8202131253055964
+DeFiLlama: Social Engineering,2025-07,1.0,0.7668930488568276
+DeFiLlama: Social Engineering,2025-08,0.0,0.717039181939201
+DeFiLlama: Social Engineering,2025-09,1.0,0.6704261946335952
+DeFiLlama: Social Engineering,2025-10,0.0,0.6268434051753041
+DeFiLlama: Social Engineering,2025-11,3.0,0.58609382771286
+DeFiLlama: Social Engineering,2025-12,0.0,0.5479932819697545
+DeFiLlama: Social Engineering,2026-01,1.0,0.5123695607849066
+DeFiLlama: Social Engineering,2026-02,0.0,0.47906165176931426
+DeFiLlama: Social Engineering,2026-03,0.0,0.44791900956092945
+DeFiLlama: Social Engineering,2026-04,1.0,0.4188008753884881
+DeFiLlama: Social Engineering,2026-05,0.0,0.3915756408688556
+DeFiLlama: Social Engineering,2026-06,0.0,0.36612025316236907
+DeFiLlama: Social Engineering,2026-07,1.0,0.3423196587975972
+DeFiLlama: Social Engineering,2026-08,0.0,0.3200662836517118
+DeFiLlama: Social Engineering,2026-09,1.0,0.2992595467360789
+DeFiLlama: Bridge & Cross-Chain,2023-01,0.0,0.48713222639012543
+DeFiLlama: Bridge & Cross-Chain,2023-02,0.0,0.4169613344408217
+DeFiLlama: Bridge & Cross-Chain,2023-03,0.0,0.3568984866943203
+DeFiLlama: Bridge & Cross-Chain,2023-04,2.0,0.30548762986745026
+DeFiLlama: Bridge & Cross-Chain,2023-05,0.0,0.2614824536422374
+DeFiLlama: Bridge & Cross-Chain,2023-06,0.0,0.2238161774093164
+DeFiLlama: Bridge & Cross-Chain,2023-07,1.0,0.19157568919961723
+DeFiLlama: Bridge & Cross-Chain,2023-08,0.0,0.16397940987611848
+DeFiLlama: Bridge & Cross-Chain,2023-09,0.0,0.14035834596581886
+DeFiLlama: Bridge & Cross-Chain,2023-10,0.0,0.12013987181161101
+DeFiLlama: Bridge & Cross-Chain,2023-11,0.0,0.10283384788835646
+DeFiLlama: Bridge & Cross-Chain,2023-12,0.0,0.0880207387611315
+DeFiLlama: Bridge & Cross-Chain,2024-01,0.0,0.07534144263926348
+DeFiLlama: Bridge & Cross-Chain,2024-02,0.0,0.06448858597255953
+DeFiLlama: Bridge & Cross-Chain,2024-03,0.0,0.055199072051918596
+DeFiLlama: Bridge & Cross-Chain,2024-04,0.0,0.0472477029762973
+DeFiLlama: Bridge & Cross-Chain,2024-05,0.0,0.04044172036871805
+DeFiLlama: Bridge & Cross-Chain,2024-06,0.0,0.034616132496474585
+DeFiLlama: Bridge & Cross-Chain,2024-07,0.0,0.029629714514824625
+DeFiLlama: Bridge & Cross-Chain,2024-08,0.0,0.03646795241946594
+DeFiLlama: Bridge & Cross-Chain,2024-09,0.0,0.04488438634813841
+DeFiLlama: Bridge & Cross-Chain,2024-10,0.0,0.05524324795306004
+DeFiLlama: Bridge & Cross-Chain,2024-11,0.0,0.06799282986142118
+DeFiLlama: Bridge & Cross-Chain,2024-12,1.0,0.08368488609671067
+DeFiLlama: Bridge & Cross-Chain,2025-01,1.0,0.1029985099207202
+DeFiLlama: Bridge & Cross-Chain,2025-02,0.0,0.12676952243955666
+DeFiLlama: Bridge & Cross-Chain,2025-03,0.0,0.156026643802158
+DeFiLlama: Bridge & Cross-Chain,2025-04,0.0,0.1920360123449452
+DeFiLlama: Bridge & Cross-Chain,2025-05,0.0,0.23635597830399444
+DeFiLlama: Bridge & Cross-Chain,2025-06,0.0,0.2909045433608158
+DeFiLlama: Bridge & Cross-Chain,2025-07,1.0,0.35804236455200616
+DeFiLlama: Bridge & Cross-Chain,2025-08,0.0,0.44067491464026143
+DeFiLlama: Bridge & Cross-Chain,2025-09,1.0,0.5423782200639393
+DeFiLlama: Bridge & Cross-Chain,2025-10,0.0,0.6675536179314235
+DeFiLlama: Bridge & Cross-Chain,2025-11,0.0,0.8216182293617891
+DeFiLlama: Bridge & Cross-Chain,2025-12,0.0,1.011239392142652
+DeFiLlama: Bridge & Cross-Chain,2026-01,0.0,1.2446231980701952
+DeFiLlama: Bridge & Cross-Chain,2026-02,2.0,1.5318696217838372
+DeFiLlama: Bridge & Cross-Chain,2026-03,1.0,1.8854096097378124
+DeFiLlama: Bridge & Cross-Chain,2026-04,3.0,2.3205430448788555
+DeFiLlama: Bridge & Cross-Chain,2026-05,5.0,2.856100868120893
+DeFiLlama: Bridge & Cross-Chain,2026-06,7.0,3.5152600107475096
+DeFiLlama: Bridge & Cross-Chain,2026-07,2.0,4.326546404956154
+DeFiLlama: Bridge & Cross-Chain,2026-08,5.0,5.325069479073461
+DeFiLlama: Bridge & Cross-Chain,2026-09,6.0,6.554041561758557
+DeFiHackLabs: reentrancy,2023-01,1.0,2.385919417979641
+DeFiHackLabs: reentrancy,2023-02,2.0,2.23289614017686
+DeFiHackLabs: reentrancy,2023-03,0.0,2.08968716011316
+DeFiHackLabs: reentrancy,2023-04,2.0,1.9556630281943728
+DeFiHackLabs: reentrancy,2023-05,0.0,1.8302346651923123
+DeFiHackLabs: reentrancy,2023-06,1.0,1.7128507730518308
+DeFiHackLabs: reentrancy,2023-07,4.0,1.602995411758294
+DeFiHackLabs: reentrancy,2023-08,1.0,1.500185731615037
+DeFiHackLabs: reentrancy,2023-09,2.0,1.403969850963424
+DeFiHackLabs: reentrancy,2023-10,1.0,1.3139248700174087
+DeFiHackLabs: reentrancy,2023-11,1.0,1.229655012082763
+DeFiHackLabs: reentrancy,2023-12,2.0,1.150789883991028
+DeFiHackLabs: reentrancy,2024-01,3.0,1.0769828481022359
+DeFiHackLabs: reentrancy,2024-02,4.0,1.0079094987208344
+DeFiHackLabs: reentrancy,2024-03,0.0,0.9432662362281626
+DeFiHackLabs: reentrancy,2024-04,1.0,0.8827689326643433
+DeFiHackLabs: reentrancy,2024-05,1.0,0.8261516828943795
+DeFiHackLabs: reentrancy,2024-06,0.0,0.7731656358694415
+DeFiHackLabs: reentrancy,2024-07,2.0,0.7235779008463543
+DeFiHackLabs: reentrancy,2024-08,0.0,0.6771705237577668
+DeFiHackLabs: reentrancy,2024-09,1.0,0.6337395292338253
+DeFiHackLabs: reentrancy,2024-10,0.0,0.5930940240647237
+DeFiHackLabs: reentrancy,2024-11,1.0,0.5550553581635606
+DeFiHackLabs: reentrancy,2024-12,2.0,0.5194563393416645
+DeFiHackLabs: reentrancy,2025-01,0.0,0.4861404984450741
+DeFiHackLabs: reentrancy,2025-02,2.0,0.4549614016222083
+DeFiHackLabs: reentrancy,2025-03,0.0,0.42578200669992283
+DeFiHackLabs: reentrancy,2025-04,0.0,0.3984740608390187
+DeFiHackLabs: reentrancy,2025-05,0.0,0.3729175368217051
+DeFiHackLabs: reentrancy,2025-06,0.0,0.34900010549331684
+DeFiHackLabs: reentrancy,2025-07,0.0,0.3266166420394981
+DeFiHackLabs: reentrancy,2025-08,0.0,0.3056687639287846
+DeFiHackLabs: reentrancy,2025-09,0.0,0.2860643984896892
+DeFiHackLabs: reentrancy,2025-10,0.0,0.26771737822165315
+DeFiHackLabs: reentrancy,2025-11,0.0,0.250547062061129
+DeFiHackLabs: reentrancy,2025-12,0.0,0.23447798093813121
+DeFiHackLabs: reentrancy,2026-01,0.0,0.21943950606536541
+DeFiHackLabs: reentrancy,2026-02,0.0,0.20536553850195963
+DeFiHackLabs: reentrancy,2026-03,0.0,0.19219421862732877
+DeFiHackLabs: reentrancy,2026-04,0.0,0.17986765424821732
+DeFiHackLabs: reentrancy,2026-05,1.0,0.16833166614386366
+DeFiHackLabs: reentrancy,2026-06,0.0,0.15753554993087385
+DeFiHackLabs: reentrancy,2026-07,0.0,0.14743185320112456
+DeFiHackLabs: reentrancy,2026-08,0.0,0.5032283082347004
+DeFiHackLabs: reentrancy,2026-09,2.0,1.7176663299707158
+DeFiLlama: Reentrancy,2023-01,1.0,1.3479862783336776
+DeFiLlama: Reentrancy,2023-02,2.0,1.3277441610092662
+DeFiLlama: Reentrancy,2023-03,0.0,1.3078060106616416
+DeFiLlama: Reentrancy,2023-04,2.0,1.2881672627523468
+DeFiLlama: Reentrancy,2023-05,0.0,1.2688234212865925
+DeFiLlama: Reentrancy,2023-06,1.0,1.2497700577839659
+DeFiLlama: Reentrancy,2023-07,4.0,1.2310028102645982
+DeFiLlama: Reentrancy,2023-08,1.0,1.2125173822505542
+DeFiLlama: Reentrancy,2023-09,1.0,1.1943095417822194
+DeFiLlama: Reentrancy,2023-10,1.0,1.1763751204494561
+DeFiLlama: Reentrancy,2023-11,0.0,1.158710012437309
+DeFiLlama: Reentrancy,2023-12,3.0,1.1413101735860414
+DeFiLlama: Reentrancy,2024-01,1.0,1.1241716204652845
+DeFiLlama: Reentrancy,2024-02,2.0,1.107290429462093
+DeFiLlama: Reentrancy,2024-03,0.0,1.090662735882692
+DeFiLlama: Reentrancy,2024-04,1.0,1.0742847330677137
+DeFiLlama: Reentrancy,2024-05,0.0,1.058152671520721
+DeFiLlama: Reentrancy,2024-06,0.0,1.0422628580498157
+DeFiLlama: Reentrancy,2024-07,3.0,1.0266116549221393
+DeFiLlama: Reentrancy,2024-08,0.0,1.0111954790310684
+DeFiLlama: Reentrancy,2024-09,2.0,0.9960108010759161
+DeFiLlama: Reentrancy,2024-10,0.0,0.9810541447539524
+DeFiLlama: Reentrancy,2024-11,0.0,0.9663220859645573
+DeFiLlama: Reentrancy,2024-12,4.0,0.9518112520253245
+DeFiLlama: Reentrancy,2025-01,0.0,0.8551503183000365
+DeFiLlama: Reentrancy,2025-02,2.0,0.7683057595007258
+DeFiLlama: Reentrancy,2025-03,0.0,0.6902806763323661
+DeFiLlama: Reentrancy,2025-04,0.0,0.620179409337642
+DeFiLlama: Reentrancy,2025-05,0.0,0.5571972575126717
+DeFiLlama: Reentrancy,2025-06,0.0,0.50061124104592
+DeFiLlama: Reentrancy,2025-07,2.0,0.4497718021446594
+DeFiLlama: Reentrancy,2025-08,0.0,0.40409534868174996
+DeFiLlama: Reentrancy,2025-09,0.0,0.36305755507034976
+DeFiLlama: Reentrancy,2025-10,0.0,0.3261873434664776
+DeFiLlama: Reentrancy,2025-11,0.0,0.2930614762089196
+DeFiLlama: Reentrancy,2025-12,0.0,0.26329969742243425
+DeFiLlama: Reentrancy,2026-01,0.0,0.2365603680141272
+DeFiLlama: Reentrancy,2026-02,0.0,0.21253654395658714
+DeFiLlama: Reentrancy,2026-03,0.0,0.190952452839914
+DeFiLlama: Reentrancy,2026-04,0.0,0.17156032824655076
+DeFiLlama: Reentrancy,2026-05,1.0,0.1541375656103224
+DeFiLlama: Reentrancy,2026-06,0.0,0.13848416691143822
+DeFiLlama: Reentrancy,2026-07,1.0,0.12442044487480056
+DeFiLlama: Reentrancy,2026-08,0.0,0.11178496031783296
+DeFiLlama: Reentrancy,2026-09,0.0,0.10043266897038998
+DeFiHackLabs: input validation,2023-01,1.0,0.657709342072751
+DeFiHackLabs: input validation,2023-02,0.0,0.6835428006727399
+DeFiHackLabs: input validation,2023-03,0.0,0.7103909439374383
+DeFiHackLabs: input validation,2023-04,1.0,0.7382936265756072
+DeFiHackLabs: input validation,2023-05,1.0,0.7672922687062931
+DeFiHackLabs: input validation,2023-06,0.0,0.7974299173448965
+DeFiHackLabs: input validation,2023-07,1.0,0.8287513103042858
+DeFiHackLabs: input validation,2023-08,1.0,0.8613029426058142
+DeFiHackLabs: input validation,2023-09,0.0,0.8951331354988242
+DeFiHackLabs: input validation,2023-10,0.0,0.930292108191095
+DeFiHackLabs: input validation,2023-11,2.0,0.9668320523967115
+DeFiHackLabs: input validation,2023-12,1.0,1.0048072098120215
+DeFiHackLabs: input validation,2024-01,2.0,1.0442739526346863
+DeFiHackLabs: input validation,2024-02,6.0,1.0852908672453516
+DeFiHackLabs: input validation,2024-03,1.0,1.127918841176164
+DeFiHackLabs: input validation,2024-04,1.0,1.172221153495226
+DeFiHackLabs: input validation,2024-05,1.0,1.2182635687411698
+DeFiHackLabs: input validation,2024-06,0.0,1.2661144345472826
+DeFiHackLabs: input validation,2024-07,4.0,1.3158447831001052
+DeFiHackLabs: input validation,2024-08,1.0,1.2223033934989935
+DeFiHackLabs: input validation,2024-09,1.0,1.1354117179681782
+DeFiHackLabs: input validation,2024-10,0.0,1.0546970385225487
+DeFiHackLabs: input validation,2024-11,0.0,0.9797202419742959
+DeFiHackLabs: input validation,2024-12,1.0,0.9100734310193589
+DeFiHackLabs: input validation,2025-01,0.0,0.8453777051480759
+DeFiHackLabs: input validation,2025-02,0.0,0.7852810993074962
+DeFiHackLabs: input validation,2025-03,0.0,0.7294566691010322
+DeFiHackLabs: input validation,2025-04,0.0,0.6776007121083312
+DeFiHackLabs: input validation,2025-05,0.0,0.6294311156487965
+DeFiHackLabs: input validation,2025-06,1.0,0.5846858220000645
+DeFiHackLabs: input validation,2025-07,1.0,0.5431214027217508
+DeFiHackLabs: input validation,2025-08,1.0,0.5045117343283376
+DeFiHackLabs: input validation,2025-09,0.0,0.46864676810644457
+DeFiHackLabs: input validation,2025-10,0.0,0.43533138738390564
+DeFiHackLabs: input validation,2025-11,0.0,0.4043843460338374
+DeFiHackLabs: input validation,2025-12,0.0,0.3756372824388267
+DeFiHackLabs: input validation,2026-01,0.0,0.3489338035508915
+DeFiHackLabs: input validation,2026-02,0.0,0.32412863406421916
+DeFiHackLabs: input validation,2026-03,0.0,0.3010868260719078
+DeFiHackLabs: input validation,2026-04,1.0,0.279683024907001
+DeFiHackLabs: input validation,2026-05,2.0,0.2598007871737585
+DeFiHackLabs: input validation,2026-06,0.0,0.241331947259038
+DeFiHackLabs: input validation,2026-07,0.0,0.22417602887741286
+DeFiHackLabs: input validation,2026-08,0.0,0.2082396984486461
+DeFiHackLabs: input validation,2026-09,1.0,0.1934362573337218
+DeFiLlama: Rugpull,2023-01,0.0,1.0492649044800286
+DeFiLlama: Rugpull,2023-02,1.0,1.0210983026562244
+DeFiLlama: Rugpull,2023-03,3.0,0.9936878087084327
+DeFiLlama: Rugpull,2023-04,1.0,0.9670131255797436
+DeFiLlama: Rugpull,2023-05,1.0,0.9410545010700497
+DeFiLlama: Rugpull,2023-06,0.0,0.915792713209839
+DeFiLlama: Rugpull,2023-07,1.0,0.8912090560266174
+DeFiLlama: Rugpull,2023-08,3.0,0.8672853256934183
+DeFiLlama: Rugpull,2023-09,1.0,0.8440038070491437
+DeFiLlama: Rugpull,2023-10,0.0,0.8213472604807547
+DeFiLlama: Rugpull,2023-11,0.0,0.7992989091575983
+DeFiLlama: Rugpull,2023-12,0.0,0.777842426608418
+DeFiLlama: Rugpull,2024-01,1.0,0.7569619246318479
+DeFiLlama: Rugpull,2024-02,1.0,0.7366419415314396
+DeFiLlama: Rugpull,2024-03,0.0,0.7168674306665096
+DeFiLlama: Rugpull,2024-04,0.0,0.6976237493103288
+DeFiLlama: Rugpull,2024-05,0.0,0.6788966478074048
+DeFiLlama: Rugpull,2024-06,0.0,0.6606722590218266
+DeFiLlama: Rugpull,2024-07,1.0,0.6429370880688605
+DeFiLlama: Rugpull,2024-08,0.0,0.6256780023221912
+DeFiLlama: Rugpull,2024-09,2.0,0.6088822216894102
+DeFiLlama: Rugpull,2024-10,2.0,0.5925373091485512
+DeFiLlama: Rugpull,2024-11,1.0,0.576631161538662
+DeFiLlama: Rugpull,2024-12,0.0,0.5611520005975974
+DeFiLlama: Rugpull,2025-01,0.0,0.5460883642403933
+DeFiLlama: Rugpull,2025-02,0.0,0.5314290980717663
+DeFiLlama: Rugpull,2025-03,1.0,0.5171633471264524
+DeFiLlama: Rugpull,2025-04,1.0,0.5032805478312684
+DeFiLlama: Rugpull,2025-05,1.0,0.4897704201829466
+DeFiLlama: Rugpull,2025-06,0.0,0.4766229601359468
+DeFiLlama: Rugpull,2025-07,0.0,0.4638284321946116
+DeFiLlama: Rugpull,2025-08,0.0,0.45137736220417946
+DeFiLlama: Rugpull,2025-09,2.0,0.4392605303353154
+DeFiLlama: Rugpull,2025-10,0.0,0.3611320547008213
+DeFiLlama: Rugpull,2025-11,0.0,0.29689979391702215
+DeFiLlama: Rugpull,2025-12,0.0,0.24409211666629108
+DeFiLlama: Rugpull,2026-01,0.0,0.2006770049671438
+DeFiLlama: Rugpull,2026-02,0.0,0.16498386294728076
+DeFiLlama: Rugpull,2026-03,0.0,0.1356392329926578
+DeFiLlama: Rugpull,2026-04,0.0,0.11151394565609976
+DeFiLlama: Rugpull,2026-05,1.0,0.09167966967540064
+DeFiLlama: Rugpull,2026-06,0.0,0.07537319016324157
+DeFiLlama: Rugpull,2026-07,0.0,0.06196704040818019
+DeFiLlama: Rugpull,2026-08,0.0,0.05094535721033748
+DeFiLlama: Rugpull,2026-09,0.0,0.04188403067489842

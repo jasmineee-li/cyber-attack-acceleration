@@ -1,0 +1,76 @@
+{
+ "text_sha256": "96ab56d9898c952b147741f72e27f8a69c1054013ff4fdbd7c741bafef427707",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:02:31+00:00",
+ "word_count": 131,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "can we please find a solution to this payment? I want to express that\nsince your solution is faster than our technician we want to work with\nthe faster solution but it should be an amount that we can pay fast and\nget our files. Our technician said that he needs only time to get us up\nand working along with manual work. But time is important here for my\nboss. Please discuss with your boss to settle to an amount that we can\npay. Please consider that we need also time to see how your payment will\nbe done, so as the time passes your services will not add any value. We\nwant to work with you to purchase your professional services to help us\nrecover faster than our technician.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 0.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "can we please find a solution to this payment? I want to express that\nsince your solution is faster than our technician we want to work with\nthe faster solution but it should be an amount that we can pay fast and\nget our files. Our technician said that he needs only time to get us up\nand working along with manual work. But time is important here for my\nboss. Please discuss with your boss to settle to an amount that we can\npay. Please consider that we need also time to see how your payment will\nbe done, so as the time passes your services will not add any value. We\nwant to work with you to purchase your professional services to help us\nrecover faster than our technician.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 678,
+    "word_count": 131,
+    "token_length": 139,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989991922469926
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0014749262481927872,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.0,
+    "std": 4.0964714559872135e-24,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 4.096575585626703e-24,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,76 @@
+{
+ "text_sha256": "c20e5ce4f7fb5c0c646f16883bda75eadecf11eebd6eab128ecb8a6e2478eb11",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:57:25+00:00",
+ "word_count": 137,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "That was our best offer, but we will see if we can justify any higher expense. You wont take $150k but, $800k is way too much for us. We don't want to waste our time or yours. I'm sure you have a number which is the lowest you will accept. If you tell us what the lowest you will accept is, we can see if its something we can afford or if we are better off letting you have the stolen data and rebuilding. The bosses here have told me we need to make a decision today, we can't be negotiating forever, and I'm sure you don't want to be either. We think our 150K is more than reasonable and we were truthful with our highest offer, but if you come close, they owners here might accept.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 0.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "That was our best offer, but we will see if we can justify any higher expense. You wont take $150k but, $800k is way too much for us. We don't want to waste our time or yours. I'm sure you have a number which is the lowest you will accept. If you tell us what the lowest you will accept is, we can see if its something we can afford or if we are better off letting you have the stolen data and rebuilding. The bosses here have told me we need to make a decision today, we can't be negotiating forever, and I'm sure you don't want to be either. We think our 150K is more than reasonable and we were truthful with our highest offer, but if you come close, they owners here might accept.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 684,
+    "word_count": 142,
+    "token_length": 169,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001461988314986229,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.0,
+    "std": 4.153122709953267e-27,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 4.153122709953267e-27,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,176 @@
+{
+ "text_sha256": "e01147c201e12e27ed7a97f3ff0744184fc42728ac60beeea3910beef0be01fd",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:49:21+00:00",
+ "word_count": 144,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We appreciate your response, yet our \"concerns\" persist. Post-payment, we're left without any recourse should your service fail to decrypt what has been encrypted. In an effort to push this conversation forward and mitigate our hesitations about proceeding with payment, we require further clarity. Specifically, we need reassurance about your capability to decrypt a critical piece of our infrastructure - a 540GB SQL server 2005 DB file named [redacted].MDF, previously hosted on a 2008R2 SP1 server. This file is crucial to our negotiation. Gaining assurances from your team that we could expect this DB to be decrypted will help us move forward with a decision. Can your team provide a concrete assurance regarding your tools' ability to handle a database file of this magnitude? Furthermore, post-payment, what level of \"TechSupport\" can we expect to ensure the functionality of your product? Awaiting your detailed response.",
+  "version": "4.1",
+  "prediction": "We believe that this text is a mix of AI and AI-assisted content.",
+  "prediction_short": "Mixed",
+  "fraction_ai": 0.7806451320648193,
+  "fraction_ai_assisted": 0.21935486793518066,
+  "fraction_human": 1.0314027409918936e-11,
+  "headline": "AI Detected",
+  "num_ai_segments": 5,
+  "num_ai_assisted_segments": 1,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "We appreciate your response, yet our \"concerns\" persist.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 56,
+    "word_count": 8,
+    "token_length": 13,
+    "is_humanized": false,
+    "humanizer_score": 0.01108173280954361,
+    "class_probabilities": [
+     1.0939930905617956e-10,
+     4.838508413373965e-11,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9439935064935066
+   },
+   {
+    "text": " Post-payment, we're left without any recourse should your service fail to decrypt what has been encrypted. In an effort to push this conversation forward and mitigate our hesitations about proceeding with payment, we require further clarity.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 56,
+    "end_index": 298,
+    "word_count": 38,
+    "token_length": 45,
+    "is_humanized": false,
+    "humanizer_score": 0.01108173280954361,
+    "class_probabilities": [
+     1.7789671218078387e-37,
+     4.46476422492208e-20,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9947875857672566
+   },
+   {
+    "text": " Specifically, we need reassurance about your capability to decrypt a critical piece of our infrastructure - a 540GB SQL server 2005 DB file named [redacted].MDF, previously hosted on a 2008R2 SP1 server.",
+    "label": "AI-Assisted",
+    "ai_assistance_score": 0.5,
+    "confidence": "Low",
+    "start_index": 298,
+    "end_index": 502,
+    "word_count": 32,
+    "token_length": 57,
+    "is_humanized": false,
+    "humanizer_score": 0.01108173280954361,
+    "class_probabilities": [
+     0.0,
+     1.0,
+     4.488318161577354e-09
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.8947575877020103
+   },
+   {
+    "text": " This file is crucial to our negotiation.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9999997019767761,
+    "confidence": "Low",
+    "start_index": 502,
+    "end_index": 543,
+    "word_count": 7,
+    "token_length": 8,
+    "is_humanized": false,
+    "humanizer_score": 0.01108173280954361,
+    "class_probabilities": [
+     2.8696502247804414e-18,
+     6.367271794260887e-07,
+     0.9999993443489075
+    ],
+    "confidence_score": 0.9999993443489075,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.7635107679804958
+   },
+   {
+    "text": " Gaining assurances from your team that we could expect this DB to be decrypted will help us move forward with a decision. Can your team provide a concrete assurance regarding your tools' ability to handle a database file of this magnitude? Furthermore, post-payment, what level of \"TechSupport\" can we expect to ensure the functionality of your product?",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 543,
+    "end_index": 897,
+    "word_count": 58,
+    "token_length": 71,
+    "is_humanized": false,
+    "humanizer_score": 0.01108173280954361,
+    "class_probabilities": [
+     1.6434003849806586e-29,
+     9.538627029800644e-19,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.993501797276036
+   },
+   {
+    "text": " Awaiting your detailed response.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 897,
+    "end_index": 930,
+    "word_count": 4,
+    "token_length": 7,
+    "is_humanized": false,
+    "humanizer_score": 0.01108173280954361,
+    "class_probabilities": [
+     1.0502074210272383e-10,
+     3.5941705883203723e-13,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9496322353693636
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Low",
+   "boundary": "ai"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0010752688394859433,
+   "human": 0.0,
+   "mixed": 1.0,
+   "ai": 4.488318161577354e-09,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.7806451320648193,
+    "std": 3.8133908674353734e-05,
+    "p10": 0.7806451320648193,
+    "p50": 0.7806451320648193,
+    "p90": 0.7806451320648193
+   },
+   "human_coverage": {
+    "mean": 1.0314027409918936e-11,
+    "std": 7.272536777236382e-07,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

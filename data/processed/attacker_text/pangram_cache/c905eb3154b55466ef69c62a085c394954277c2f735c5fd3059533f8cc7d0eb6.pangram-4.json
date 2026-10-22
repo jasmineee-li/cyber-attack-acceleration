@@ -1,0 +1,76 @@
+{
+ "text_sha256": "c905eb3154b55466ef69c62a085c394954277c2f735c5fd3059533f8cc7d0eb6",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:45:13+00:00",
+ "word_count": 129,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "In connection with a ddos attack you try to change the source code of your website and the entire authorization page including post data, this will not help you, you open new vulnerabilities that will allow other hackers to easily download all the data from your website, thus you only make yourself worse, once your customers' data is published you can forget about your business, no one will ever trust you. Stop, don't make a stupid step, your assets are more than 300 million dollars, your director will not get poorer if he pays me 5.500.000. Do not be greedy, save your priceless reputation and business, in banking there is nothing more valuable than a reputation, your reputation you have earned over many years and lose in an instant.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 0.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "In connection with a ddos attack you try to change the source code of your website and the entire authorization page including post data, this will not help you, you open new vulnerabilities that will allow other hackers to easily download all the data from your website, thus you only make yourself worse, once your customers' data is published you can forget about your business, no one will ever trust you. Stop, don't make a stupid step, your assets are more than 300 million dollars, your director will not get poorer if he pays me 5.500.000. Do not be greedy, save your priceless reputation and business, in banking there is nothing more valuable than a reputation, your reputation you have earned over many years and lose in an instant.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 743,
+    "word_count": 132,
+    "token_length": 161,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412403
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0013458949979394674,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.0,
+    "std": 0.0,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 0.0,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

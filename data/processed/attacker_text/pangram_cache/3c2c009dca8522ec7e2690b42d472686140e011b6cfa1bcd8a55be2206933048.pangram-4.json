@@ -1,0 +1,76 @@
+{
+ "text_sha256": "3c2c009dca8522ec7e2690b42d472686140e011b6cfa1bcd8a55be2206933048",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:09:21+00:00",
+ "word_count": 196,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "There is still some confusion over who we are, you are basing your revenue on what is a holding company and not Royal Mail Group. IDS (International Distribution Services) have several companies that exist under that umbrella who are independent to each other. We are Royal Mail International who is a separate entity, with an entirely independent Managing Director and Senior Official. Our Company’s revenue is in decline, as we have tried to explain to you previously and Royal Mail International is the Company that is affected by your penetration testing. Our current financial turnover is expected to be 800 million. Based on your calculation for payment (0.5% of total revenue) this equals 4 million dollars. If there is any negotiation at this percentage level the starting figure needs to represent what I have just described. I am trying to help our Senior Team understand this and I am grateful that you have offered to help them see that your decryptor can work to restore our services, by offering to decrypt some larger files. We will have to accept what we have for now and will see if this is good enough for them or not..",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 0.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "There is still some confusion over who we are, you are basing your revenue on what is a holding company and not Royal Mail Group. IDS (International Distribution Services) have several companies that exist under that umbrella who are independent to each other. We are Royal Mail International who is a separate entity, with an entirely independent Managing Director and Senior Official. Our Company’s revenue is in decline, as we have tried to explain to you previously and Royal Mail International is the Company that is affected by your penetration testing. Our current financial turnover is expected to be 800 million. Based on your calculation for payment (0.5% of total revenue) this equals 4 million dollars. If there is any negotiation at this percentage level the starting figure needs to represent what I have just described. I am trying to help our Senior Team understand this and I am grateful that you have offered to help them see that your decryptor can work to restore our services, by offering to decrypt some larger files. We will have to accept what we have for now and will see if this is good enough for them or not..",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 1137,
+    "word_count": 198,
+    "token_length": 224,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0017590149072930217,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.0,
+    "std": 2.0460116881747235e-32,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 0.9991204738616943,
+    "std": 2.0460116881747235e-32,
+    "p10": 0.9991204738616943,
+    "p50": 0.9991204738616943,
+    "p90": 0.9991204738616943
+   }
+  }
+ },
+ "error": null
+}

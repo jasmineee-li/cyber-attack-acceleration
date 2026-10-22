@@ -1,0 +1,96 @@
+{
+ "text_sha256": "3676144ad661be323406f675a86e809a2bdd4349e0b29e0fd852c113c2c55393",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:50:22+00:00",
+ "word_count": 86,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hello. This is the owner. I cannot afford what you are asking. You have literally put our company on the brink of bankrupty. You have to give me a reasonable number. My associate is a $400MIL drywall company and he only had to pay $10,000. We barely make any profit in our tiny company. You can see that from our finacial statements. Can we please work out a more reasonable ransom amount that we can afford and not force us into bankruptcy one way or another.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 3.1798671395945766e-15,
+  "fraction_ai_assisted": 1.4470407791916028e-16,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Hello.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.493367925321399e-13,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 6,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.1093979298312361e-14,
+     2.437897973772696e-13
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9799575258826653
+   },
+   {
+    "text": " This is the owner. I cannot afford what you are asking. You have literally put our company on the brink of bankrupty. You have to give me a reasonable number. My associate is a $400MIL drywall company and he only had to pay $10,000. We barely make any profit in our tiny company. You can see that from our finacial statements. Can we please work out a more reasonable ransom amount that we can afford and not force us into bankruptcy one way or another.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.5825963535870903e-31,
+    "confidence": "High",
+    "start_index": 6,
+    "end_index": 460,
+    "word_count": 86,
+    "token_length": 111,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.3913966429450356e-35,
+     2.582377006341227e-31
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988659606778069
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0021739129442721605,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 3.1798671395945766e-15,
+    "std": 6.440227462434223e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 6.5851324393406685e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

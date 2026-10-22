@@ -1,0 +1,76 @@
+{
+ "text_sha256": "2fc09b6140e5dd3cc739b9c86c0aed1e204682849bda217d7960494e7fb160af",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:36:46+00:00",
+ "word_count": 167,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "May be you can take an advice here... If you are serious about coming to an agreement, you should say something like... \"Well, we don't have money now, but we can 100% find (for example) $4'800'000 in one week\". And we can then figure something out from that position (and wait for you to get things done for all that week). But if you are going to offer us $3'000'000 on Monday, that will be viewed as an insult. We are trying to get to an strategic agreement here, and not approving +$200'000 every day, what is a waste of time really. We are business people, after all, and we prefer to think, that you are business people too. We know, that you will receive compensation for any financial losses from your insurance. So the question is not in that point, that you can't afford to pay us $5'000'000, but in point, that you don't have enough funds *right now*. I think, we should talk about that.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.8702964600580947e-38,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "May be you can take an advice here... If you are serious about coming to an agreement, you should say something like... \"Well, we don't have money now, but we can 100% find (for example) $4'800'000 in one week\". And we can then figure something out from that position (and wait for you to get things done for all that week). But if you are going to offer us $3'000'000 on Monday, that will be viewed as an insult. We are trying to get to an strategic agreement here, and not approving +$200'000 every day, what is a waste of time really. We are business people, after all, and we prefer to think, that you are business people too. We know, that you will receive compensation for any financial losses from your insurance. So the question is not in that point, that you can't afford to pay us $5'000'000, but in point, that you don't have enough funds *right now*. I think, we should talk about that.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.8702964600580947e-38,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 898,
+    "word_count": 177,
+    "token_length": 239,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     2.8702964600580947e-38
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989402353157307
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0011135857785120606,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.8702964600580947e-38,
+    "std": 3.3926486475261384e-20,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.3926486475261384e-20,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,196 @@
+{
+ "text_sha256": "20fd6dad4a16d1080b28c075b2eb44d1ac75047a8a01bb15c7c3f2a5ee78aee7",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:50:51+00:00",
+ "word_count": 76,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Here are the three files from your list ( 4,573,696 [redacted].xlsx - 109,056 [redacted].xls) that we would like to have decrypted. Of course, we would like to know your price for the whole package: 1. the decryption of our entire system. 2. the evidence of data removal. 3. the guarantee that our files will not be passed. 4. the security reports on vulnerabilities. 5. the security that we will not be the target of further attacks.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.2616555749352804e-15,
+  "fraction_ai_assisted": 1.2590930521156523e-17,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 7,
+  "windows": [
+   {
+    "text": "Here are the three files from your list ( 4,573,696 [redacted].xlsx - 109,056 [redacted].xls) that we would like to have decrypted. Of course, we would like to know your price for the whole package: 1. the decryption of our entire system. ",
+    "label": "Human Written",
+    "ai_assistance_score": 3.794033717114299e-35,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 239,
+    "word_count": 44,
+    "token_length": 79,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.4533265196242687e-42,
+     3.794033717114299e-35
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987656597113675
+   },
+   {
+    "text": "2.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.7439026528339183e-13,
+    "confidence": "Medium",
+    "start_index": 239,
+    "end_index": 241,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.7310394156793366e-15,
+     2.7302473975220065e-13
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9799575258826653
+   },
+   {
+    "text": " the evidence of data removal. 3. the guarantee that our files will not be passed. ",
+    "label": "Human Written",
+    "ai_assistance_score": 2.102675953112086e-18,
+    "confidence": "High",
+    "start_index": 241,
+    "end_index": 324,
+    "word_count": 15,
+    "token_length": 20,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.1424005647449468e-20,
+     2.096964064187254e-18
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9971870339037654
+   },
+   {
+    "text": "4.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.155328587857632e-16,
+    "confidence": "Medium",
+    "start_index": 324,
+    "end_index": 326,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.7993892849848675e-19,
+     1.1529289699878403e-16
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9892909364252322
+   },
+   {
+    "text": " the security reports on vulnerabilities. ",
+    "label": "Human Written",
+    "ai_assistance_score": 1.598730997796304e-29,
+    "confidence": "High",
+    "start_index": 326,
+    "end_index": 368,
+    "word_count": 5,
+    "token_length": 7,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.889818594880604e-39,
+     1.598730997796304e-29
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.996628325053335
+   },
+   {
+    "text": "5.",
+    "label": "Human Written",
+    "ai_assistance_score": 5.523348853719195e-16,
+    "confidence": "Medium",
+    "start_index": 368,
+    "end_index": 370,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.3833919465947793e-19,
+     5.522157184241526e-16
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9892702731203206
+   },
+   {
+    "text": " the security that we will not be the target of further attacks.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.9391318088262501e-38,
+    "confidence": "High",
+    "start_index": 370,
+    "end_index": 434,
+    "word_count": 12,
+    "token_length": 13,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     1.9391318088262501e-38
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9974358903739854
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0023041474632918835,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.2616555749352804e-15,
+    "std": 2.4112405405674053e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.423242495552813e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

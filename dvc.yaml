@@ -1,0 +1,267 @@
+# Rebuilds every processed table and figure from the committed raw data.
+# Downloading raw data is NOT part of the pipeline (it hits live websites); see README.
+# All outputs use cache: false so they stay ordinary Git-tracked files.
+stages:
+  defillama_series:
+    cmd: python -I code/v02_build_defillama_series.py
+    deps:
+    - code/v02_build_defillama_series.py
+    - data/raw/defillama
+    - uv.lock
+    - .python-version
+    outs:
+    - data/processed/defillama_hacks.csv:
+        cache: false
+    - data/processed/defillama_monthly.csv:
+        cache: false
+    - data/processed/defillama_quarterly.csv:
+        cache: false
+
+  defillama_raw_csv:
+    cmd: python -I code/v08_defillama_raw_to_csv.py
+    deps:
+    - code/v08_defillama_raw_to_csv.py
+    - data/raw/defillama
+    - uv.lock
+    - .python-version
+    outs:
+    - data/processed/defillama_hacks_raw.csv:
+        cache: false
+    - data/processed/defillama_tvl_raw.csv:
+        cache: false
+
+  other_sources:
+    cmd: python -I code/other_sources/build_other_sources.py data/raw 
+      data/processed --exclude comparitech,chainsec,solidityscan,zenodo
+    deps:
+    - code/other_sources/build_other_sources.py
+    - code/other_sources/amount_parse.py
+    - data/raw/blocksec
+    - data/raw/certik_dashboard
+    - data/raw/defihacklabs
+    - data/raw/prices_coins_llama
+    - data/raw/rekt_news
+    - data/raw/slowmist
+    - data/raw/web3isgoinggreat
+    - uv.lock
+    - .python-version
+    - data/processed/comparitech_crypto_quarterly.csv
+    outs:
+    - data/processed/other_sources_incidents.csv:
+        cache: false
+    - data/processed/other_sources_incidents_detail.csv:
+        cache: false
+    - data/processed/other_sources_quarterly.csv:
+        cache: false
+    - data/processed/certik_dashboard_monthly.csv:
+        cache: false
+  comparitech_ransomware:
+    cmd: python -I code/ransomware/build_comparitech_ransomware.py data/raw 
+      data/processed
+    deps:
+    - code/ransomware/build_comparitech_ransomware.py
+    - data/raw/comparitech_ransomware
+    - uv.lock
+    - .python-version
+    outs:
+    - data/processed/comparitech_ransomware_incidents.csv:
+        cache: false
+    - data/processed/comparitech_ransomware_monthly.csv:
+        cache: false
+    - data/processed/comparitech_ransomware_quarterly.csv:
+        cache: false
+
+  changepoint_by_class:
+    cmd: python -I code/v27_changepoint_by_class.py
+    deps:
+    - code/v27_changepoint_by_class.py
+    - code/v21_did_changepoint_events.py
+    - data/processed/defillama_hacks.csv
+    - data/processed/other_sources_incidents_detail.csv
+    - uv.lock
+    - .python-version
+    outs:
+    - data/processed/changepoint_by_class_results.csv:
+        cache: false
+    - data/processed/changepoint_by_class_profiles.csv:
+        cache: false
+    - data/processed/changepoint_by_class_fits.csv:
+        cache: false
+    - data/processed/changepoint_by_class_kink_profiles.csv:
+        cache: false
+    - data/processed/changepoint_by_class_kink_fits.csv:
+        cache: false
+
+  tracker_trend_check:
+    cmd: python -I code/v11_tracker_trend_check.py
+    deps:
+    - code/v11_tracker_trend_check.py
+    - code/v10_fig_trackers_quarterly.py
+    - data/processed/other_sources_quarterly.csv
+    - data/processed/certik_dashboard_monthly.csv
+    - uv.lock
+    - .python-version
+    outs:
+    - data/processed/tracker_trend_check.csv:
+        cache: false
+
+  # Attacker text (Ransomchats negotiations). Fetching is manual: see README.
+  # Pangram classification is deliberately NOT a stage: it is paid and keyed.
+  fig_defillama_monthly_hacks:
+    cmd: python -I code/v09_fig_defillama_monthly_hacks.py
+    deps:
+    - code/v09_fig_defillama_monthly_hacks.py
+    - data/processed/defillama_hacks_raw.csv
+    - uv.lock
+    - .python-version
+    outs:
+    - figures/fig08_defillama_hacks_per_month.png:
+        cache: false
+    - figures/fig09_defillama_avg_hack_size.png:
+        cache: false
+    - figures/fig10_defillama_total_stolen.png:
+        cache: false
+    - figures/fig11_defillama_small_hacks_per_month.png:
+        cache: false
+    - figures/fig12_defillama_small_hacks_stolen.png:
+        cache: false
+
+  fig_defillama_hacks_by_type:
+    cmd: python -I code/v13_fig_defillama_hacks_by_type.py
+    deps:
+    - code/v13_fig_defillama_hacks_by_type.py
+    - code/v09_fig_defillama_monthly_hacks.py
+    - data/processed/defillama_hacks_raw.csv
+    - data/processed/changepoint_by_class_results.csv
+    - uv.lock
+    - .python-version
+    outs:
+    - figures/fig36_defillama_hacks_by_type_accelerated_counts.png:
+        cache: false
+    - figures/fig37_defillama_hacks_by_type_not_accelerated_counts.png:
+        cache: false
+
+  fig_trackers_quarterly:
+    cmd: python -I code/v10_fig_trackers_quarterly.py
+    deps:
+    - code/v10_fig_trackers_quarterly.py
+    - data/processed/other_sources_quarterly.csv
+    - data/processed/certik_dashboard_monthly.csv
+    - uv.lock
+    - .python-version
+    outs:
+    - figures/fig13_tracker_slowmist.png:
+        cache: false
+    - figures/fig14_tracker_comparitech.png:
+        cache: false
+    - figures/fig15_tracker_certik.png:
+        cache: false
+    - figures/fig16_tracker_rekt.png:
+        cache: false
+    - figures/fig17_tracker_defihacklabs.png:
+        cache: false
+    - figures/fig18_tracker_web3isgoinggreat.png:
+        cache: false
+    - figures/fig19_tracker_blocksec.png:
+        cache: false
+
+  fig_ransomware_metr:
+    cmd: python -I code/ransomware/fig_ransomware_metr.py
+    deps:
+    - code/ransomware/fig_ransomware_metr.py
+    - data/processed/ransomware_live_monthly.csv
+    - data/processed/ransomware_live_quarterly.csv
+    - data/processed/comparitech_ransomware_monthly.csv
+    - uv.lock
+    - .python-version
+    outs:
+    - figures/fig31_ransomware_live_per_month.png:
+        cache: false
+    - figures/fig32_comparitech_ransomware_per_month.png:
+        cache: false
+    - figures/fig35_ransomware_live_groups_per_quarter.png:
+        cache: false
+
+  attacker_text_parse:
+    cmd: python -I code/attacker_text/parse_ransomchats.py data/raw 
+      data/processed/attacker_text
+    deps:
+    - code/attacker_text/parse_ransomchats.py
+    - data/raw/ransomchats
+    - uv.lock
+    - .python-version
+    outs:
+    - data/processed/attacker_text/conversations.csv:
+        cache: false
+    - data/processed/attacker_text/messages.csv:
+        cache: false
+
+  attacker_text_audit:
+    cmd: python -I code/attacker_text/audit_corpus.py 
+      data/processed/attacker_text
+    deps:
+    - code/attacker_text/audit_corpus.py
+    - data/processed/attacker_text/conversations.csv
+    - data/processed/attacker_text/messages.csv
+    - uv.lock
+    - .python-version
+    outs:
+    - data/processed/attacker_text/messages_eligibility.csv:
+        cache: false
+    - data/processed/attacker_text/conversations_eligibility.csv:
+        cache: false
+    - data/processed/attacker_text/template_clusters.csv:
+        cache: false
+    - data/processed/attacker_text/coverage_by_year.csv:
+        cache: false
+    - data/processed/attacker_text/coverage_by_group_year.csv:
+        cache: false
+    - data/processed/attacker_text/pangram_budget.csv:
+        cache: false
+    - data/processed/attacker_text/qa_sample.csv:
+        cache: false
+
+  attacker_text_analyze:
+    cmd: python -I code/attacker_text/analyze.py data/processed/attacker_text
+    deps:
+    - code/attacker_text/analyze.py
+    - data/processed/attacker_text/pangram_results.csv
+    - data/processed/attacker_text/pangram_cache
+    - data/processed/attacker_text/messages.csv
+    - data/processed/attacker_text/conversations_eligibility.csv
+    - uv.lock
+    - .python-version
+    outs:
+    - data/processed/attacker_text/pangram_trends_by_year.csv:
+        cache: false
+    - data/processed/attacker_text/pangram_trends_by_period.csv:
+        cache: false
+    - data/processed/attacker_text/pangram_flagged_messages.md:
+        cache: false
+    - figures/attacker_text/pangram_flags_over_time.png:
+        cache: false
+    - figures/attacker_text/pangram_flags_2025_2026_quarterly.png:
+        cache: false
+    - figures/attacker_text/pangram_flags_2025_2026_monthly.png:
+        cache: false
+
+  # Malicious open-source packages (OpenSSF aggregator + Datadog dataset). Raw folders are
+  # written by code/supply_chain/fetch_*.py outside the pipeline (git clones at pinned commits).
+  attacker_text_typography:
+    cmd: python -I code/attacker_text/typography.py data/processed/attacker_text
+    deps:
+    - code/attacker_text/typography.py
+    - data/processed/attacker_text/messages.csv
+    - data/processed/attacker_text/conversations.csv
+    - data/processed/attacker_text/pangram_results.csv
+    - uv.lock
+    - .python-version
+    outs:
+    - data/processed/attacker_text/typography_by_period.csv:
+        cache: false
+    - data/processed/attacker_text/typography_by_gang_2025_26.csv:
+        cache: false
+    - data/processed/attacker_text/typography_marked_messages.csv:
+        cache: false
+
+  # On-chain attacker-victim messages (pilot). Fetching is manual: code/onchain_messages/fetch_address_txs.py.

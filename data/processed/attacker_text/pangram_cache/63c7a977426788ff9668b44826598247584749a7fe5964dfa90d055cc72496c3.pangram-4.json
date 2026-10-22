@@ -1,0 +1,76 @@
+{
+ "text_sha256": "63c7a977426788ff9668b44826598247584749a7fe5964dfa90d055cc72496c3",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:35:20+00:00",
+ "word_count": 245,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Look, you could write to us right away, we\nwould have settled this issue and you resumed your work a few weeks ago,\nbut for some reason you did not want to do this ... Yes sir,\nvulnerabilities are found every day, but there were many holes in your\nnetwork, we are ready to point you to them and tell you what to do so\nthat they are closed, we will help you secure your network and if in the\nfuture you keep our advice it will be practically impossible to crack,\nbut You will receive instructions on how to close the holes and secure\nyour network only after payment. We understand that financial losses are\npossible in your business now and we understand perfectly well what\nwill happen if we deliver the SECOND IMPACT, the second blow will mean\nan absolute collapse for you. We do not want to do this (we even reduced\nthe price for you from 1kk to 200k), but we will have to if we do not\nnow agree with you on the price for the buyback. Make a meeting with the\nmanagement or people who are responsible for finances in your company,\nexplain to them the current situation and what awaits you in the future,\nif we do not agree on the price for the ransom and offer us your price,\nwe are waiting for an answer from you, because time is ticking, and for\nyou, time is money.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 0.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Look, you could write to us right away, we\nwould have settled this issue and you resumed your work a few weeks ago,\nbut for some reason you did not want to do this ... Yes sir,\nvulnerabilities are found every day, but there were many holes in your\nnetwork, we are ready to point you to them and tell you what to do so\nthat they are closed, we will help you secure your network and if in the\nfuture you keep our advice it will be practically impossible to crack,\nbut You will receive instructions on how to close the holes and secure\nyour network only after payment. We understand that financial losses are\npossible in your business now and we understand perfectly well what\nwill happen if we deliver the SECOND IMPACT, the second blow will mean\nan absolute collapse for you. We do not want to do this (we even reduced\nthe price for you from 1kk to 200k), but we will have to if we do not\nnow agree with you on the price for the buyback. Make a meeting with the\nmanagement or people who are responsible for finances in your company,\nexplain to them the current situation and what awaits you in the future,\nif we do not agree on the price for the ransom and offer us your price,\nwe are waiting for an answer from you, because time is ticking, and for\nyou, time is money.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 1268,
+    "word_count": 244,
+    "token_length": 279,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0015772870974615216,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.0,
+    "std": 0.0,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 0.0,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

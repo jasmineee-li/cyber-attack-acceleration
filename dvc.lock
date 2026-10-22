@@ -1,0 +1,602 @@
+schema: '2.0'
+stages:
+  defillama_series:
+    cmd: python -I code/v02_build_defillama_series.py
+    deps:
+    - path: .python-version
+      hash: md5
+      md5: 61939823fbcc7e8de3b61ab105331baf
+      size: 5
+    - path: code/v02_build_defillama_series.py
+      hash: md5
+      md5: 7e98d76abe86d43fadcfcd0305b8c9de
+      size: 5077
+    - path: data/raw/defillama
+      hash: md5
+      md5: 7955c16ee6ffa46299710ff61515e6b0.dir
+      size: 478751
+      nfiles: 2
+    - path: uv.lock
+      hash: md5
+      md5: 4ccfd87e3e9bf66901f4af34e97b33c2
+      size: 205177
+    outs:
+    - path: data/processed/defillama_hacks.csv
+      hash: md5
+      md5: c818cb5b179e78fbb31264ab9e59d4a9
+      size: 155330
+    - path: data/processed/defillama_monthly.csv
+      hash: md5
+      md5: e69d0458025c3f24b558fceb7162d87c
+      size: 9554
+    - path: data/processed/defillama_quarterly.csv
+      hash: md5
+      md5: 692ea92a5fc84eb68bef0e606adea145
+      size: 5735
+  defillama_raw_csv:
+    cmd: python -I code/v08_defillama_raw_to_csv.py
+    deps:
+    - path: .python-version
+      hash: md5
+      md5: 61939823fbcc7e8de3b61ab105331baf
+      size: 5
+    - path: code/v08_defillama_raw_to_csv.py
+      hash: md5
+      md5: fb0eb3e13eba620cc072fe49a5f61afd
+      size: 2539
+    - path: data/raw/defillama
+      hash: md5
+      md5: 7955c16ee6ffa46299710ff61515e6b0.dir
+      size: 478751
+      nfiles: 2
+    - path: uv.lock
+      hash: md5
+      md5: 4ccfd87e3e9bf66901f4af34e97b33c2
+      size: 205177
+    outs:
+    - path: data/processed/defillama_hacks_raw.csv
+      hash: md5
+      md5: fe3dbc2302b1dc22c5ef20f78d93169b
+      size: 153613
+    - path: data/processed/defillama_tvl_raw.csv
+      hash: md5
+      md5: dde6fce5e756c9e271733d1ee862ee5b
+      size: 109642
+  other_sources:
+    cmd: python -I code/other_sources/build_other_sources.py data/raw 
+      data/processed --exclude comparitech,chainsec,solidityscan,zenodo
+    deps:
+    - path: .python-version
+      hash: md5
+      md5: 61939823fbcc7e8de3b61ab105331baf
+      size: 5
+    - path: code/other_sources/amount_parse.py
+      hash: md5
+      md5: 92dd6aed4ea65b0228c6bc1288c58742
+      size: 4653
+    - path: code/other_sources/build_other_sources.py
+      hash: md5
+      md5: fd5332a612939470620d8cc0693e9991
+      size: 30779
+    - path: data/processed/comparitech_crypto_quarterly.csv
+      hash: md5
+      md5: baee50e4eff0c86e370036a3d94a7dfe
+      size: 1914
+    - path: data/raw/blocksec
+      hash: md5
+      md5: 631d3bb04cb3523368babb09bd4e1cd7.dir
+      size: 289036
+      nfiles: 9
+    - path: data/raw/certik_dashboard
+      hash: md5
+      md5: 67357debb79945d69c06ad87f5945f07.dir
+      size: 242299
+      nfiles: 2
+    - path: data/raw/defihacklabs
+      hash: md5
+      md5: d689f1951eda15991a59b7526e311995.dir
+      size: 432619
+      nfiles: 7
+    - path: data/raw/prices_coins_llama
+      hash: md5
+      md5: b164f70ea4ee11141c9e5ccbe23e6804.dir
+      size: 128737
+      nfiles: 15
+    - path: data/raw/rekt_news
+      hash: md5
+      md5: e3f979208df52fae1c8ddf5c7257203e.dir
+      size: 299743
+      nfiles: 2
+    - path: data/raw/slowmist
+      hash: md5
+      md5: ff75c656f82a29a3b36c80e205ee75ea.dir
+      size: 3261504
+      nfiles: 119
+    - path: data/raw/web3isgoinggreat
+      hash: md5
+      md5: a5487605a62661e9495b288a3218eda6.dir
+      size: 3682112
+      nfiles: 89
+    - path: uv.lock
+      hash: md5
+      md5: 4ccfd87e3e9bf66901f4af34e97b33c2
+      size: 205177
+    outs:
+    - path: data/processed/certik_dashboard_monthly.csv
+      hash: md5
+      md5: a4ab327e334fabb18fe851bcfb598268
+      size: 6863
+    - path: data/processed/other_sources_incidents.csv
+      hash: md5
+      md5: 185b60835fe4e057f624523f047ba64d
+      size: 709481
+    - path: data/processed/other_sources_incidents_detail.csv
+      hash: md5
+      md5: 3728dd6c968bfd372a9393481ecc2953
+      size: 996315
+    - path: data/processed/other_sources_quarterly.csv
+      hash: md5
+      md5: d1391f56230e9e589e12f218ea12ec93
+      size: 10416
+  comparitech_ransomware:
+    cmd: python -I code/ransomware/build_comparitech_ransomware.py data/raw 
+      data/processed
+    deps:
+    - path: .python-version
+      hash: md5
+      md5: 61939823fbcc7e8de3b61ab105331baf
+      size: 5
+    - path: code/ransomware/build_comparitech_ransomware.py
+      hash: md5
+      md5: b3d15a515f48e64ea0588605780c51db
+      size: 5068
+    - path: data/raw/comparitech_ransomware
+      hash: md5
+      md5: 5b0e4482da0f1dc24989353f7643b332.dir
+      size: 20671998
+      nfiles: 114
+    - path: uv.lock
+      hash: md5
+      md5: 4ccfd87e3e9bf66901f4af34e97b33c2
+      size: 205177
+    outs:
+    - path: data/processed/comparitech_ransomware_incidents.csv
+      hash: md5
+      md5: 11321cab6b911d5080b7d84979370e49
+      size: 2150971
+    - path: data/processed/comparitech_ransomware_monthly.csv
+      hash: md5
+      md5: e108f310fcc25f3787e340a130ddf2b1
+      size: 3970
+    - path: data/processed/comparitech_ransomware_quarterly.csv
+      hash: md5
+      md5: cfd404e31f5154a5e2618118863eb73b
+      size: 1570
+  changepoint_by_class:
+    cmd: python -I code/v27_changepoint_by_class.py
+    deps:
+    - path: .python-version
+      hash: md5
+      md5: 61939823fbcc7e8de3b61ab105331baf
+      size: 5
+    - path: code/v21_did_changepoint_events.py
+      hash: md5
+      md5: b188a1e04612ca603155dd3ca2697b31
+      size: 16784
+    - path: code/v27_changepoint_by_class.py
+      hash: md5
+      md5: 94a46cd6285eca6b74b8cdf719932c28
+      size: 5942
+    - path: data/processed/defillama_hacks.csv
+      hash: md5
+      md5: c818cb5b179e78fbb31264ab9e59d4a9
+      size: 155330
+    - path: data/processed/other_sources_incidents_detail.csv
+      hash: md5
+      md5: 3728dd6c968bfd372a9393481ecc2953
+      size: 996315
+    - path: uv.lock
+      hash: md5
+      md5: 4ccfd87e3e9bf66901f4af34e97b33c2
+      size: 205177
+    outs:
+    - path: data/processed/changepoint_by_class_fits.csv
+      hash: md5
+      md5: 430398a64aea5a64c1cc0a002615be52
+      size: 47112
+    - path: data/processed/changepoint_by_class_kink_fits.csv
+      hash: md5
+      md5: dbb4253bd895ebafbb2c6841ce9abd0b
+      size: 47081
+    - path: data/processed/changepoint_by_class_kink_profiles.csv
+      hash: md5
+      md5: 4a858c80b2c63a57a535cd8c98b83c2c
+      size: 48636
+    - path: data/processed/changepoint_by_class_profiles.csv
+      hash: md5
+      md5: b58fde2112925e786f5bdb9b179e8e05
+      size: 48714
+    - path: data/processed/changepoint_by_class_results.csv
+      hash: md5
+      md5: 456d4acb663fc0d163db981527d14de3
+      size: 5107
+  tracker_trend_check:
+    cmd: python -I code/v11_tracker_trend_check.py
+    deps:
+    - path: .python-version
+      hash: md5
+      md5: 61939823fbcc7e8de3b61ab105331baf
+      size: 5
+    - path: code/v10_fig_trackers_quarterly.py
+      hash: md5
+      md5: b75ec9af09b2a7cc5c524324230bebcf
+      size: 8255
+    - path: code/v11_tracker_trend_check.py
+      hash: md5
+      md5: 019b7c2fba3b6e03acf4b0a97cad1d5f
+      size: 5473
+    - path: data/processed/certik_dashboard_monthly.csv
+      hash: md5
+      md5: a4ab327e334fabb18fe851bcfb598268
+      size: 6863
+    - path: data/processed/other_sources_quarterly.csv
+      hash: md5
+      md5: d1391f56230e9e589e12f218ea12ec93
+      size: 10416
+    - path: uv.lock
+      hash: md5
+      md5: 4ccfd87e3e9bf66901f4af34e97b33c2
+      size: 205177
+    outs:
+    - path: data/processed/tracker_trend_check.csv
+      hash: md5
+      md5: b17ee5f84a17921aa39d45d2d22e4399
+      size: 1410
+  fig_defillama_monthly_hacks:
+    cmd: python -I code/v09_fig_defillama_monthly_hacks.py
+    deps:
+    - path: .python-version
+      hash: md5
+      md5: 61939823fbcc7e8de3b61ab105331baf
+      size: 5
+    - path: code/v09_fig_defillama_monthly_hacks.py
+      hash: md5
+      md5: d6f4dabaf2d9471a677022033ebc5542
+      size: 7289
+    - path: data/processed/defillama_hacks_raw.csv
+      hash: md5
+      md5: fe3dbc2302b1dc22c5ef20f78d93169b
+      size: 153613
+    - path: uv.lock
+      hash: md5
+      md5: 4ccfd87e3e9bf66901f4af34e97b33c2
+      size: 205177
+    outs:
+    - path: figures/fig08_defillama_hacks_per_month.png
+      hash: md5
+      md5: d71cf7a1f2f5a444b60b8edcee85801e
+      size: 79274
+    - path: figures/fig09_defillama_avg_hack_size.png
+      hash: md5
+      md5: 12cd93365984671cd924075de11b2366
+      size: 80536
+    - path: figures/fig10_defillama_total_stolen.png
+      hash: md5
+      md5: bd07f67929a234470293be6bae31c62d
+      size: 83448
+    - path: figures/fig11_defillama_small_hacks_per_month.png
+      hash: md5
+      md5: 76242e554f782fbf25d1b280b3a19435
+      size: 85955
+    - path: figures/fig12_defillama_small_hacks_stolen.png
+      hash: md5
+      md5: 3f15d1af1ea2bd98fe0892e47bd221dc
+      size: 83857
+  fig_defillama_hacks_by_type:
+    cmd: python -I code/v13_fig_defillama_hacks_by_type.py
+    deps:
+    - path: .python-version
+      hash: md5
+      md5: 61939823fbcc7e8de3b61ab105331baf
+      size: 5
+    - path: code/v09_fig_defillama_monthly_hacks.py
+      hash: md5
+      md5: d6f4dabaf2d9471a677022033ebc5542
+      size: 7289
+    - path: code/v13_fig_defillama_hacks_by_type.py
+      hash: md5
+      md5: c86aadba2d270731ff26236ab35f42c8
+      size: 7003
+    - path: data/processed/changepoint_by_class_results.csv
+      hash: md5
+      md5: 456d4acb663fc0d163db981527d14de3
+      size: 5107
+    - path: data/processed/defillama_hacks_raw.csv
+      hash: md5
+      md5: fe3dbc2302b1dc22c5ef20f78d93169b
+      size: 153613
+    - path: uv.lock
+      hash: md5
+      md5: 4ccfd87e3e9bf66901f4af34e97b33c2
+      size: 205177
+    outs:
+    - path: figures/fig36_defillama_hacks_by_type_accelerated_counts.png
+      hash: md5
+      md5: 4e67b93892c73392f23bf25d7c9117f5
+      size: 307301
+    - path: figures/fig37_defillama_hacks_by_type_not_accelerated_counts.png
+      hash: md5
+      md5: 49fad0efc53802e4b3a9c3d28324bed0
+      size: 256644
+  fig_trackers_quarterly:
+    cmd: python -I code/v10_fig_trackers_quarterly.py
+    deps:
+    - path: .python-version
+      hash: md5
+      md5: 61939823fbcc7e8de3b61ab105331baf
+      size: 5
+    - path: code/v10_fig_trackers_quarterly.py
+      hash: md5
+      md5: b75ec9af09b2a7cc5c524324230bebcf
+      size: 8255
+    - path: data/processed/certik_dashboard_monthly.csv
+      hash: md5
+      md5: a4ab327e334fabb18fe851bcfb598268
+      size: 6863
+    - path: data/processed/other_sources_quarterly.csv
+      hash: md5
+      md5: d1391f56230e9e589e12f218ea12ec93
+      size: 10416
+    - path: uv.lock
+      hash: md5
+      md5: 4ccfd87e3e9bf66901f4af34e97b33c2
+      size: 205177
+    outs:
+    - path: figures/fig13_tracker_slowmist.png
+      hash: md5
+      md5: 2bd7b79ca68d27a3ece1af1279149c94
+      size: 75434
+    - path: figures/fig14_tracker_comparitech.png
+      hash: md5
+      md5: e8d2a4886d74d1471d25c57b8e4dedc7
+      size: 74965
+    - path: figures/fig15_tracker_certik.png
+      hash: md5
+      md5: 3aa3c5d1d4116c5354b7e5ad72f4a654
+      size: 63820
+    - path: figures/fig16_tracker_rekt.png
+      hash: md5
+      md5: d575c2a0f3decec0d6f8012ee57fda79
+      size: 67072
+    - path: figures/fig17_tracker_defihacklabs.png
+      hash: md5
+      md5: 63b7bf912aedfaa3815fb9173f74b771
+      size: 75973
+    - path: figures/fig18_tracker_web3isgoinggreat.png
+      hash: md5
+      md5: f206551d26ce4f0410f4e753aaa11e58
+      size: 74672
+    - path: figures/fig19_tracker_blocksec.png
+      hash: md5
+      md5: 512b1414d5ebad99020f3df3a9059fe9
+      size: 78988
+  fig_ransomware_metr:
+    cmd: python -I code/ransomware/fig_ransomware_metr.py
+    deps:
+    - path: .python-version
+      hash: md5
+      md5: 61939823fbcc7e8de3b61ab105331baf
+      size: 5
+    - path: code/ransomware/fig_ransomware_metr.py
+      hash: md5
+      md5: 6d8ee566dfecd049913b4700acc451e2
+      size: 8072
+    - path: data/processed/comparitech_ransomware_monthly.csv
+      hash: md5
+      md5: e108f310fcc25f3787e340a130ddf2b1
+      size: 3970
+    - path: data/processed/ransomware_live_monthly.csv
+      hash: md5
+      md5: 464279a6e4840b0e0497c13fd3cf292c
+      size: 8296
+    - path: data/processed/ransomware_live_quarterly.csv
+      hash: md5
+      md5: 00890e13e645d2ccb85ab65ca098ab93
+      size: 3130
+    - path: uv.lock
+      hash: md5
+      md5: 4ccfd87e3e9bf66901f4af34e97b33c2
+      size: 205177
+    outs:
+    - path: figures/fig31_ransomware_live_per_month.png
+      hash: md5
+      md5: 2977ce1edae8a4861953694e70defc18
+      size: 88157
+    - path: figures/fig32_comparitech_ransomware_per_month.png
+      hash: md5
+      md5: 387f8fc33e00456417c1788ff0fcbca4
+      size: 101470
+    - path: figures/fig35_ransomware_live_groups_per_quarter.png
+      hash: md5
+      md5: 36ddeee203fb15239c88d036331077e4
+      size: 76090
+  attacker_text_parse:
+    cmd: python -I code/attacker_text/parse_ransomchats.py data/raw 
+      data/processed/attacker_text
+    deps:
+    - path: .python-version
+      hash: md5
+      md5: 61939823fbcc7e8de3b61ab105331baf
+      size: 5
+    - path: code/attacker_text/parse_ransomchats.py
+      hash: md5
+      md5: ac509953a34ae9b8666b4f51aa6417af
+      size: 12956
+    - path: data/raw/ransomchats
+      hash: md5
+      md5: eb503e400b2a284ce2525c4b632b325d.dir
+      size: 3373484
+      nfiles: 281
+    - path: uv.lock
+      hash: md5
+      md5: 4ccfd87e3e9bf66901f4af34e97b33c2
+      size: 205177
+    outs:
+    - path: data/processed/attacker_text/conversations.csv
+      hash: md5
+      md5: e5cfc572cda475c562539cdda222aa67
+      size: 128087
+    - path: data/processed/attacker_text/messages.csv
+      hash: md5
+      md5: fdbf50498da0307f661454045990c056
+      size: 4484424
+  attacker_text_audit:
+    cmd: python -I code/attacker_text/audit_corpus.py 
+      data/processed/attacker_text
+    deps:
+    - path: .python-version
+      hash: md5
+      md5: 61939823fbcc7e8de3b61ab105331baf
+      size: 5
+    - path: code/attacker_text/audit_corpus.py
+      hash: md5
+      md5: c922e85db7105f8e8775fe44f6788b7f
+      size: 17885
+    - path: data/processed/attacker_text/conversations.csv
+      hash: md5
+      md5: e5cfc572cda475c562539cdda222aa67
+      size: 128087
+    - path: data/processed/attacker_text/messages.csv
+      hash: md5
+      md5: fdbf50498da0307f661454045990c056
+      size: 4484424
+    - path: uv.lock
+      hash: md5
+      md5: 4ccfd87e3e9bf66901f4af34e97b33c2
+      size: 205177
+    outs:
+    - path: data/processed/attacker_text/conversations_eligibility.csv
+      hash: md5
+      md5: 8a957c493424fb52065f0426424fc1ba
+      size: 236543
+    - path: data/processed/attacker_text/coverage_by_group_year.csv
+      hash: md5
+      md5: d6ac26f801282d3a73018cca4cd1ef17
+      size: 5049
+    - path: data/processed/attacker_text/coverage_by_year.csv
+      hash: md5
+      md5: 6d86a4f51944b268d4a1dd76f5839288
+      size: 2896
+    - path: data/processed/attacker_text/messages_eligibility.csv
+      hash: md5
+      md5: c7f6ab0c9fbf9dd87ee5537b3b570a57
+      size: 3690705
+    - path: data/processed/attacker_text/pangram_budget.csv
+      hash: md5
+      md5: 647ec37dd612a6f3e4dcb296c5a372dd
+      size: 229
+    - path: data/processed/attacker_text/qa_sample.csv
+      hash: md5
+      md5: 5978cf42d9af87524e0814e857a92175
+      size: 26098
+    - path: data/processed/attacker_text/template_clusters.csv
+      hash: md5
+      md5: 5778731f396aa7bb438065003de4b711
+      size: 31893
+  attacker_text_analyze:
+    cmd: python -I code/attacker_text/analyze.py data/processed/attacker_text
+    deps:
+    - path: .python-version
+      hash: md5
+      md5: 61939823fbcc7e8de3b61ab105331baf
+      size: 5
+    - path: code/attacker_text/analyze.py
+      hash: md5
+      md5: f66c6bdd8e4ed4f5430a2a1c49ad71e7
+      size: 14431
+    - path: data/processed/attacker_text/conversations_eligibility.csv
+      hash: md5
+      md5: 8a957c493424fb52065f0426424fc1ba
+      size: 236543
+    - path: data/processed/attacker_text/messages.csv
+      hash: md5
+      md5: fdbf50498da0307f661454045990c056
+      size: 4484424
+    - path: data/processed/attacker_text/pangram_cache
+      hash: md5
+      md5: df7642855eb007c4ef57833f0cb05db3.dir
+      size: 3196229
+      nfiles: 1035
+    - path: data/processed/attacker_text/pangram_results.csv
+      hash: md5
+      md5: eac21d2c39a8d33fb4c63aea30b8abe1
+      size: 375991
+    - path: uv.lock
+      hash: md5
+      md5: 4ccfd87e3e9bf66901f4af34e97b33c2
+      size: 205177
+    outs:
+    - path: data/processed/attacker_text/pangram_flagged_messages.md
+      hash: md5
+      md5: ffdf3b81fc8cb25fc33fa6e0ebfcb43b
+      size: 46237
+    - path: data/processed/attacker_text/pangram_trends_by_period.csv
+      hash: md5
+      md5: c517bbbca779b42217ee063b59dab4e8
+      size: 2205
+    - path: data/processed/attacker_text/pangram_trends_by_year.csv
+      hash: md5
+      md5: 207139bae001cd9ebb15d54f11e1d3b4
+      size: 4467
+    - path: figures/attacker_text/pangram_flags_2025_2026_monthly.png
+      hash: md5
+      md5: 38f514788ead799475e02230a1cb41f1
+      size: 172245
+    - path: figures/attacker_text/pangram_flags_2025_2026_quarterly.png
+      hash: md5
+      md5: 53b49fad768e7ef74e8a64c3914cc7f9
+      size: 158692
+    - path: figures/attacker_text/pangram_flags_over_time.png
+      hash: md5
+      md5: b1b4396b6b8d9709588c19bbd91048ec
+      size: 152232
+  attacker_text_typography:
+    cmd: python -I code/attacker_text/typography.py data/processed/attacker_text
+    deps:
+    - path: .python-version
+      hash: md5
+      md5: 61939823fbcc7e8de3b61ab105331baf
+      size: 5
+    - path: code/attacker_text/typography.py
+      hash: md5
+      md5: 435b403f346ee2730216caf4fb8791dc
+      size: 4354
+    - path: data/processed/attacker_text/conversations.csv
+      hash: md5
+      md5: e5cfc572cda475c562539cdda222aa67
+      size: 128087
+    - path: data/processed/attacker_text/messages.csv
+      hash: md5
+      md5: fdbf50498da0307f661454045990c056
+      size: 4484424
+    - path: data/processed/attacker_text/pangram_results.csv
+      hash: md5
+      md5: eac21d2c39a8d33fb4c63aea30b8abe1
+      size: 375991
+    - path: uv.lock
+      hash: md5
+      md5: 4ccfd87e3e9bf66901f4af34e97b33c2
+      size: 205177
+    outs:
+    - path: data/processed/attacker_text/typography_by_gang_2025_26.csv
+      hash: md5
+      md5: 2bf7be8da02f9bc21e2fa2d6f6ad3de9
+      size: 984
+    - path: data/processed/attacker_text/typography_by_period.csv
+      hash: md5
+      md5: 54bd0798883711bdc1f915afa0972c88
+      size: 395
+    - path: data/processed/attacker_text/typography_marked_messages.csv
+      hash: md5
+      md5: e1da3455e423f6a2c6b8827ff97f27ca
+      size: 8663

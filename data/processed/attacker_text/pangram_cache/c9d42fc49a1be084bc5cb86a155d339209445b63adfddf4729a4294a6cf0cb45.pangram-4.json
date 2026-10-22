@@ -1,0 +1,76 @@
+{
+ "text_sha256": "c9d42fc49a1be084bc5cb86a155d339209445b63adfddf4729a4294a6cf0cb45",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:37:52+00:00",
+ "word_count": 65,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Glad to hear it. I am trying to find a suitable legacy wallet, but the fact is that we almost never use them, so it might take some time. Anyways, if you will be able to transfer the funds to any of the above wallets we will accept the deposit and provide you with a decryptor. Those three wallets are static and under our control.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 8.333718545747851e-30,
+  "fraction_ai_assisted": 1.934420069885485e-31,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Glad to hear it. I am trying to find a suitable legacy wallet, but the fact is that we almost never use them, so it might take some time. Anyways, if you will be able to transfer the funds to any of the above wallets we will accept the deposit and provide you with a decryptor. Those three wallets are static and under our control.",
+    "label": "Human Written",
+    "ai_assistance_score": 8.430439349408086e-30,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 331,
+    "word_count": 65,
+    "token_length": 77,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.934420069885485e-31,
+     8.333718545747851e-30
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989464259416081
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.003021148033440113,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 8.333718545747851e-30,
+    "std": 6.346954987234809e-16,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 6.420194749810336e-16,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

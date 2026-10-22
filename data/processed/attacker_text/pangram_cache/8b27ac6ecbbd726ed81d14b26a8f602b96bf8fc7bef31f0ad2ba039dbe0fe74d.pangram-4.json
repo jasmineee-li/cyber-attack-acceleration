@@ -1,0 +1,76 @@
+{
+ "text_sha256": "8b27ac6ecbbd726ed81d14b26a8f602b96bf8fc7bef31f0ad2ba039dbe0fe74d",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:42:34+00:00",
+ "word_count": 132,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We have proved Our willingness to meet a mutual path by giving you enough time to do your internal discussions and bring an offer , however, there is no offer from your decision makers on the table yet.\nThe timer will not be removed until there is an offer on the table as We have clarified Our courses of action for you .\nAgain, to show Our willingness to bring an end to this deal We are ready to reduce Our figure to $1,530,000.\nYou have more than enough time to bring a serious offer on the table, otherwise , once the timer runs out, your data will be published, all your employees and clients will be informed about the incident and you will face the consequences We have reminded you of.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 0.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We have proved Our willingness to meet a mutual path by giving you enough time to do your internal discussions and bring an offer , however, there is no offer from your decision makers on the table yet.\nThe timer will not be removed until there is an offer on the table as We have clarified Our courses of action for you .\nAgain, to show Our willingness to bring an end to this deal We are ready to reduce Our figure to $1,530,000.\nYou have more than enough time to bring a serious offer on the table, otherwise , once the timer runs out, your data will be published, all your employees and clients will be informed about the incident and you will face the consequences We have reminded you of.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 694,
+    "word_count": 131,
+    "token_length": 149,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0014409221475943923,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.0,
+    "std": 0.0,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 0.0,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

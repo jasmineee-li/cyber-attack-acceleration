@@ -1,0 +1,76 @@
+{
+ "text_sha256": "048e53defbe7d7071b581df53eb3d15f2defc59329814f96aa0e8665aa18af3b",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:41:05+00:00",
+ "word_count": 115,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Do you want us to give you a discount of more than 90%? Of course this is impossible.\nI will give you a small example. The company is close to your profile,\nthe annual turnover was 2.5 times less, as well as we had 2 times less\ndata and we have already published some of the data in the blog - as a\nresult, this company paid 4 million.\nThey also did not need a decryptor - they were able to recover from the backups that we missed.\nNext comes simple math.\nWhat you read is either small companies or information with understated\namounts. Most companies do not advertise the fact of hacking and\npayment.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.8229427214020897e-30,
+  "fraction_ai_assisted": 3.307064375806568e-42,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Do you want us to give you a discount of more than 90%? Of course this is impossible.\nI will give you a small example. The company is close to your profile,\nthe annual turnover was 2.5 times less, as well as we had 2 times less\ndata and we have already published some of the data in the blog - as a\nresult, this company paid 4 million.\nThey also did not need a decryptor - they were able to recover from the backups that we missed.\nNext comes simple math.\nWhat you read is either small companies or information with understated\namounts. Most companies do not advertise the fact of hacking and\npayment.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.8229425333229936e-30,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 601,
+    "word_count": 114,
+    "token_length": 139,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.307064375806568e-42,
+     1.8229425333229936e-30
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987955381544443
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001663893461227417,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.8229427214020897e-30,
+    "std": 2.698114662684411e-16,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.698114662684411e-16,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

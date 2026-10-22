@@ -1,0 +1,76 @@
+{
+ "text_sha256": "622b83468e50b964d29e2a90ff72e934eed3f91c521af95fd7b6c3ed5b9f1182",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-19T23:57:51+00:00",
+ "word_count": 144,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "You have had enough time to do your internal discussions, take loans or borrow money and bring a reasonable offer on the table, however , We only see stalling for time.\nWe have clarified before that attempts to convince Us that Our demand is not realistic or instead of making progress bringing stories about not having funds is not going to succeed.\nYou are well aware of Our plan of action and what consequences you will face in case we meet no mutual path.\nA convincing offer should be on the table Today, otherwise your data will be published, all your employees and clients will be informed and you will face all the consequences We have reminded you of.\nA 12 hour timer has been set.\nYou can find your data on Our website once the timer runs out if there is no agreement.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 5.605193857299268e-45,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "You have had enough time to do your internal discussions, take loans or borrow money and bring a reasonable offer on the table, however , We only see stalling for time.\nWe have clarified before that attempts to convince Us that Our demand is not realistic or instead of making progress bringing stories about not having funds is not going to succeed.\nYou are well aware of Our plan of action and what consequences you will face in case we meet no mutual path.\nA convincing offer should be on the table Today, otherwise your data will be published, all your employees and clients will be informed and you will face all the consequences We have reminded you of.\nA 12 hour timer has been set.\nYou can find your data on Our website once the timer runs out if there is no agreement.",
+    "label": "Human Written",
+    "ai_assistance_score": 5.605193857299268e-45,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 777,
+    "word_count": 143,
+    "token_length": 157,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     5.605193857299268e-45
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990219152910254
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001287001301534474,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 5.605193857299268e-45,
+    "std": 1.3884046595198434e-23,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.3884046595198434e-23,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

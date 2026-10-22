@@ -1,0 +1,76 @@
+{
+ "text_sha256": "a6a1d61987dd964bba5ec7a82dedb371fa81f14bd1b8569bd84b96a6c9cab693",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:09:50+00:00",
+ "word_count": 74,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We have 2TB of data. If we don't keep our promise, I know you'll reopen and gossip about the data. If you spread the rumor, we will lose a lot of money due to stock price fluctuations. I need 2tb. Don't spread the word Therefore, we will do our best to keep our promise. 1. Don't spread it. 2. Delete 2tb after completion of transaction. 3. I request restoration little by little by little.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 4.976357016092801e-20,
+  "fraction_ai_assisted": 2.0733804090234278e-22,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We have 2TB of data. If we don't keep our promise, I know you'll reopen and gossip about the data. If you spread the rumor, we will lose a lot of money due to stock price fluctuations. I need 2tb. Don't spread the word Therefore, we will do our best to keep our promise. 1. Don't spread it. 2. Delete 2tb after completion of transaction. 3. I request restoration little by little by little.",
+    "label": "Human Written",
+    "ai_assistance_score": 4.9867239156135634e-20,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 390,
+    "word_count": 78,
+    "token_length": 102,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.0733805352411726e-22,
+     4.976357016092801e-20
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9984771341547874
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0025641026441007853,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 4.976357016092801e-20,
+    "std": 1.597491236515758e-11,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.6008156605851198e-11,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

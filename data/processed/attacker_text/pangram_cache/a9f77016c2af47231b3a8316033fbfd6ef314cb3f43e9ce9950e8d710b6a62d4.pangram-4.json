@@ -1,0 +1,116 @@
+{
+ "text_sha256": "a9f77016c2af47231b3a8316033fbfd6ef314cb3f43e9ce9950e8d710b6a62d4",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:59:30+00:00",
+ "word_count": 77,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Thanks for your patience. We have held several emergency meetings with our leadership and finance teams to expedite the process, but we are having difficulties getting bank authorization for the full amount of 1.2 million by the end of the week. Please extend the timer as it would be helpful. To move things along faster, we could focus instead on getting approval for one of your services instead. Could you please share the pricing for each service?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.365195543417963e-11,
+  "fraction_ai_assisted": 1.1698603645100657e-16,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 3,
+  "windows": [
+   {
+    "text": "Thanks for your patience.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.0905423265816783e-11,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 25,
+    "word_count": 4,
+    "token_length": 5,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.1151018321497166e-15,
+     1.0904365951858175e-11
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9625564139830183
+   },
+   {
+    "text": " We have held several emergency meetings with our leadership and finance teams to expedite the process, but we are having difficulties getting bank authorization for the full amount of 1.2 million by the end of the week. Please extend the timer as it would be helpful.",
+    "label": "Human Written",
+    "ai_assistance_score": 7.060392363628125e-19,
+    "confidence": "High",
+    "start_index": 25,
+    "end_index": 293,
+    "word_count": 47,
+    "token_length": 53,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.53905847222405e-29,
+     7.060392363628125e-19
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.99651539850684
+   },
+   {
+    "text": " To move things along faster, we could focus instead on getting approval for one of your services instead. Could you please share the pricing for each service?",
+    "label": "Human Written",
+    "ai_assistance_score": 3.70948098626922e-11,
+    "confidence": "Medium",
+    "start_index": 293,
+    "end_index": 452,
+    "word_count": 27,
+    "token_length": 30,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     9.10850456578585e-22,
+     3.70948098626922e-11
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9626936591038516
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Medium",
+   "boundary": "human"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0022123893722891808,
+   "human": 1.0,
+   "mixed": 1.0337919409408869e-10,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.365195543417963e-11,
+    "std": 1.368230869047693e-06,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.3682332564712851e-06,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

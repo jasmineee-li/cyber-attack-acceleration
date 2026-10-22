@@ -1,0 +1,76 @@
+{
+ "text_sha256": "31f18857882968fa028140d092321f8754d872b3dcf49177956821babb7ca8ff",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:46:57+00:00",
+ "word_count": 179,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "I thank you for working with us. This is greatly appreciated. However, I don't know how to make you understand WE DON'T actually have the funds to cover the initial amount, and to be frank even this amount. This would break us and we would have to shut down. We wouldn't be able to help anyone then. The homeless shelters we have operated for over 50 years would have to shut down. The cold weather is quickly approaching and that would mean thousands of women we wouldn’t be able to house who will face even more challenges than they already have. In that case it wouldn’t make sense to pay you if it means maintaining our survival. I will go back and see what we can do, but we ask you to please do the same. Please visit our website and see our mission and the people who are depending on us. [redacted]. Let’s work together on a solution where we all get what we want. I’ll get back to you after I see what we can do more.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 3.1331128017212503e-30,
+  "fraction_ai_assisted": 5.324971805021564e-29,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "I thank you for working with us. This is greatly appreciated. However, I don't know how to make you understand WE DON'T actually have the funds to cover the initial amount, and to be frank even this amount. This would break us and we would have to shut down. We wouldn't be able to help anyone then. The homeless shelters we have operated for over 50 years would have to shut down. The cold weather is quickly approaching and that would mean thousands of women we wouldn’t be able to house who will face even more challenges than they already have. In that case it wouldn’t make sense to pay you if it means maintaining our survival. I will go back and see what we can do, but we ask you to please do the same. Please visit our website and see our mission and the people who are depending on us. [redacted]. Let’s work together on a solution where we all get what we want. I’ll get back to you after I see what we can do more.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.975797389569913e-29,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 926,
+    "word_count": 186,
+    "token_length": 208,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.324971805021564e-29,
+     3.1331128017212503e-30
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988276786736223
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0010799135779961944,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 3.1331128017212503e-30,
+    "std": 2.0335504793699179e-16,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 8.653874630070314e-16,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

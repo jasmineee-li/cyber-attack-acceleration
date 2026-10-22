@@ -1,0 +1,136 @@
+{
+ "text_sha256": "a92107c47727d09fbc704413e54c2500b96f8be7ca0a54f880935a6989b281c7",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:01:26+00:00",
+ "word_count": 51,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Since you chose to post our name and files on your website, we have no choice but to part ways effective immediately. It’s unfortunate we couldn’t reach a resolution, but sometimes things end this way. We’re moving on and hope you do the same. This will be our final message. Goodbye.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 1.0,
+  "fraction_ai_assisted": 4.6739296460929225e-11,
+  "fraction_human": 1.8839372728507442e-08,
+  "headline": "AI Generated",
+  "num_ai_segments": 4,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "Since you chose to post our name and files on your website, we have no choice but to part ways effective immediately.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 117,
+    "word_count": 22,
+    "token_length": 24,
+    "is_humanized": false,
+    "humanizer_score": 0.016478281468153,
+    "class_probabilities": [
+     3.765736705210916e-14,
+     3.406306227643314e-29,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9855219342695816
+   },
+   {
+    "text": " It’s unfortunate we couldn’t reach a resolution, but sometimes things end this way. We’re moving on and hope you do the same.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 117,
+    "end_index": 243,
+    "word_count": 25,
+    "token_length": 28,
+    "is_humanized": false,
+    "humanizer_score": 0.016478281468153,
+    "class_probabilities": [
+     2.855776070589347e-25,
+     2.2050344041077168e-35,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9965953440289931
+   },
+   {
+    "text": " This will be our final message.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 243,
+    "end_index": 275,
+    "word_count": 6,
+    "token_length": 7,
+    "is_humanized": false,
+    "humanizer_score": 0.016478281468153,
+    "class_probabilities": [
+     5.620933406225159e-13,
+     1.3511030245176696e-22,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9773000171536395
+   },
+   {
+    "text": " Goodbye.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9999994039535522,
+    "confidence": "Low",
+    "start_index": 275,
+    "end_index": 284,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.016478281468153,
+    "class_probabilities": [
+     5.944843906036112e-07,
+     1.4748845478251837e-09,
+     0.9999994039535522
+    ],
+    "confidence_score": 0.9999994039535522,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.7635107679804958
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Medium",
+   "boundary": "ai"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0035211266949772835,
+   "human": 0.0,
+   "mixed": 3.7636560534792807e-14,
+   "ai": 1.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.0,
+    "std": 2.446463258820586e-05,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   },
+   "human_coverage": {
+    "mean": 1.8839372728507442e-08,
+    "std": 2.443434095766861e-05,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

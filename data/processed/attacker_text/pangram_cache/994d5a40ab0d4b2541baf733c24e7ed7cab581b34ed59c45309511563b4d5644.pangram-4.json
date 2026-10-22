@@ -1,0 +1,96 @@
+{
+ "text_sha256": "994d5a40ab0d4b2541baf733c24e7ed7cab581b34ed59c45309511563b4d5644",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:43:36+00:00",
+ "word_count": 53,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Let's start with corporate correspondence. Since we have your confidential files, we have access to your correspondence. The first people to receive your shared correspondence are: 1.Anne Vandeveer ABV Retirement Plan Advisors, Inc. anne@abvadvisors.com (855) 550-0228 2.Van Shelton Actuaries & Associates (Amarillo) van@actuariesandassociates.com (806) 373-3624 3.Lorraine Dorsa Aegis Pension Services LDorsa@AegisPension.com (904) 686-1835",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 3.305766834621785e-16,
+  "fraction_ai_assisted": 1.4079865136329017e-18,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Let's start with corporate correspondence.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.4784473122929016e-15,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 42,
+    "word_count": 6,
+    "token_length": 7,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.4783858289747892e-17,
+     3.4710552557622133e-15
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9867167280997569
+   },
+   {
+    "text": " Since we have your confidential files, we have access to your correspondence. The first people to receive your shared correspondence are: 1.Anne Vandeveer ABV Retirement Plan Advisors, Inc. anne@abvadvisors.com (855) 550-0228 2.Van Shelton Actuaries & Associates (Amarillo) van@actuariesandassociates.com (806) 373-3624 3.Lorraine Dorsa Aegis Pension Services LDorsa@AegisPension.com (904) 686-1835",
+    "label": "Human Written",
+    "ai_assistance_score": 1.9198338306838715e-31,
+    "confidence": "High",
+    "start_index": 42,
+    "end_index": 441,
+    "word_count": 59,
+    "token_length": 138,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.470525994884669e-31,
+     1.8457087732257504e-32
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9986683544503565
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0022675737272948027,
+   "human": 1.0,
+   "mixed": 1.1102230246251565e-16,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 3.305766834621785e-16,
+    "std": 5.6110156521071985e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 5.6229518818895485e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

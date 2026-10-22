@@ -1,0 +1,76 @@
+{
+ "text_sha256": "48093d04f09793afe615077b13c5565b6e4d5d7baf26ae89c7104d98ae0f3912",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:42:58+00:00",
+ "word_count": 65,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "The incident was very simple. We accessed your network using a bruteforce attack. We are attaching cybersecurity recommendations as well as proof of deletion of all downloaded files in special files. We also guarantee that we will not share the downloaded data with third parties, and we also guarantee that we will not attack you again. If everything is ok, we can delete our chat.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 6.958320154159125e-22,
+  "fraction_ai_assisted": 1.3746869231948327e-31,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "The incident was very simple. We accessed your network using a bruteforce attack. We are attaching cybersecurity recommendations as well as proof of deletion of all downloaded files in special files. We also guarantee that we will not share the downloaded data with third parties, and we also guarantee that we will not attack you again. If everything is ok, we can delete our chat.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.958320154159125e-22,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 382,
+    "word_count": 65,
+    "token_length": 75,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.3746869231948327e-31,
+     6.958320154159125e-22
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9982603251167945
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002617801073938608,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 6.958320154159125e-22,
+    "std": 7.268076765432063e-12,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 7.268076765432063e-12,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,76 @@
+{
+ "text_sha256": "442a9522ce58956f7618bc6e79797472bda0ee5e254bbc8dfa810980f564a9a2",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:59:46+00:00",
+ "word_count": 107,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We have completed validation of the data and confirmed your ability to decrypt. At this point, we are moving through the internal authorization process required before any payment can be approved. This step involves multiple parties and cannot be expedited beyond certain requirements. We are prepared to reach an agreement with you once this process is completed. Maintaining the current timeline is critical for us to proceed. Any early release of the information will disrupt this process and may impact our ability to finalize payment. We expect to continue working within the agreed timeframe and will provide an update as soon as the current phase is complete.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 1.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.3590384953592017e-34,
+  "headline": "AI Generated",
+  "num_ai_segments": 1,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "We have completed validation of the data and confirmed your ability to decrypt. At this point, we are moving through the internal authorization process required before any payment can be approved. This step involves multiple parties and cannot be expedited beyond certain requirements. We are prepared to reach an agreement with you once this process is completed. Maintaining the current timeline is critical for us to proceed. Any early release of the information will disrupt this process and may impact our ability to finalize payment. We expect to continue working within the agreed timeframe and will provide an update as soon as the current phase is complete.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 666,
+    "word_count": 107,
+    "token_length": 119,
+    "is_humanized": false,
+    "humanizer_score": 0.01684838905930519,
+    "class_probabilities": [
+     1.3590384953592017e-34,
+     0.0,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9985277867211273
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0015015015378594398,
+   "human": 0.0,
+   "mixed": 0.0,
+   "ai": 1.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.0,
+    "std": 4.0150614878481854e-18,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   },
+   "human_coverage": {
+    "mean": 1.3590384953592017e-34,
+    "std": 4.0150614878481854e-18,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

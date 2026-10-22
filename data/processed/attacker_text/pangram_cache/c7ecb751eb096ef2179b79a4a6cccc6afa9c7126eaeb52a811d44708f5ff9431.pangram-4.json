@@ -1,0 +1,76 @@
+{
+ "text_sha256": "c7ecb751eb096ef2179b79a4a6cccc6afa9c7126eaeb52a811d44708f5ff9431",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:48:40+00:00",
+ "word_count": 150,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "I suppose we are from different parts of the world and we are humans. So cultural difference are built in. But this is philosphy and we are here to do business. You were indeed offered a very modest amount by a colleague of mine. I was indeed unbecoming the situation. I am not him. Nevertheless I apologized and am showing significant will to reach a mutually liveable arrangement. To make it easier for me to make the deal and for you to get the money I respectfully asked you to make a mall step and show some good will towards us and me personally. Frankly, I do not understand your position. But again we are not here to philisophyze. I hope your position will not make the deal harder to reach. As I said before, the boss sees some damage as already done.I urge you to please rethink your position.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.166266742147319e-28,
+  "fraction_ai_assisted": 2.0404306939033661e-41,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "I suppose we are from different parts of the world and we are humans. So cultural difference are built in. But this is philosphy and we are here to do business. You were indeed offered a very modest amount by a colleague of mine. I was indeed unbecoming the situation. I am not him. Nevertheless I apologized and am showing significant will to reach a mutually liveable arrangement. To make it easier for me to make the deal and for you to get the money I respectfully asked you to make a mall step and show some good will towards us and me personally. Frankly, I do not understand your position. But again we are not here to philisophyze. I hope your position will not make the deal harder to reach. As I said before, the boss sees some damage as already done.I urge you to please rethink your position.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.166266742147319e-28,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 804,
+    "word_count": 151,
+    "token_length": 176,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.0404306939033661e-41,
+     2.166266742147319e-28
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988000332821437
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001243781065568328,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.166266742147319e-28,
+    "std": 1.9421910673960655e-15,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.9421910673960655e-15,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

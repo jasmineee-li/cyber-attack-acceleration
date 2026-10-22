@@ -1,0 +1,196 @@
+{
+ "text_sha256": "ff05ecd8abaf503dcf1cb5a6c9ea00f4c84502955b026a0e471db6ccfbcdaee1",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:42:27+00:00",
+ "word_count": 246,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We would like to explain why we never lie to our clients and why you can be 100% confident that we will keep everything confidential after you pay us. Our business is built on reputation - if a company were to pay us and, for some reason, we broke our promise, word would spread, negatively impacting our future deals. Clearly, that is not in our interest, as it would lead to a loss of trust from clients.\nThis is the first and most important rule in our industry. You will not find a single case where, after payment, organizations like ours have failed to keep their promises. Leaking the data of paying clients would only harm our own business in the long run.\nMore importantly, we have nothing against your business and are not interested in disrupting your operations. This is purely a way to make money - nothing more. You are not the first client and you won't be the last, We are communicating with 5 more organizations right now. To confirm our words We are attaching evidence and even some good comments from clients.\nPlease look at these screenshots. These are 4 different cases. You can see the dates of those. Some are 2 years old, others are more recent.\nAs for the price, We are negotiating because we need to find a price that is acceptable to both organizations, and we are waiting for your proposal on the amount you can offer us.",
+  "version": "4.1",
+  "prediction": "We believe that this text is a mix of AI and human-written content.",
+  "prediction_short": "Mixed",
+  "fraction_ai": 0.38229721784591675,
+  "fraction_ai_assisted": 3.019245384580672e-21,
+  "fraction_human": 0.6177027821540833,
+  "headline": "AI Detected",
+  "num_ai_segments": 3,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 4,
+  "windows": [
+   {
+    "text": "We would like to explain why we never lie to our clients and why you can be 100% confident that we will keep everything confidential after you pay us.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.1441258571521888e-14,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 150,
+    "word_count": 29,
+    "token_length": 34,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     1.1441258571521888e-14
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9866064475938328
+   },
+   {
+    "text": " Our business is built on reputation - if a company were to pay us and, for some reason, we broke our promise, word would spread, negatively impacting our future deals. Clearly, that is not in our interest, as it would lead to a loss of trust from clients.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 150,
+    "end_index": 406,
+    "word_count": 47,
+    "token_length": 56,
+    "is_humanized": false,
+    "humanizer_score": 0.1424385905265808,
+    "class_probabilities": [
+     4.536521109085289e-18,
+     0.0,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9939197002013234
+   },
+   {
+    "text": "\nThis is the first and most important rule in our industry.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9999808669090271,
+    "confidence": "Low",
+    "start_index": 406,
+    "end_index": 465,
+    "word_count": 11,
+    "token_length": 12,
+    "is_humanized": false,
+    "humanizer_score": 0.1424385905265808,
+    "class_probabilities": [
+     1.9131821318296716e-05,
+     6.855520405414054e-20,
+     0.9999808669090271
+    ],
+    "confidence_score": 0.9999808669090271,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.6797687861271675
+   },
+   {
+    "text": " You will not find a single case where, after payment, organizations like ours have failed to keep their promises. Leaking the data of paying clients would only harm our own business in the long run.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 465,
+    "end_index": 664,
+    "word_count": 35,
+    "token_length": 40,
+    "is_humanized": false,
+    "humanizer_score": 0.1424385905265808,
+    "class_probabilities": [
+     2.623506689669597e-10,
+     1.0841985066294029e-27,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9409778384869091
+   },
+   {
+    "text": "\nMore importantly, we have nothing against your business and are not interested in disrupting your operations.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.013489711098372936,
+    "confidence": "Low",
+    "start_index": 664,
+    "end_index": 774,
+    "word_count": 16,
+    "token_length": 19,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     0.9865102767944336,
+     2.4009324804895265e-24,
+     0.013489711098372936
+    ],
+    "confidence_score": 0.9865102767944336,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.5662797800855224
+   },
+   {
+    "text": " This is purely a way to make money - nothing more.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.004631395917385817,
+    "confidence": "Low",
+    "start_index": 774,
+    "end_index": 825,
+    "word_count": 10,
+    "token_length": 12,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     0.9953685998916626,
+     5.441435296727745e-22,
+     0.004631395917385817
+    ],
+    "confidence_score": 0.9953685998916626,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.5752700798496947
+   },
+   {
+    "text": " You are not the first client and you won't be the last, We are communicating with 5 more organizations right now. To confirm our words We are attaching evidence and even some good comments from clients.\nPlease look at these screenshots. These are 4 different cases. You can see the dates of those. Some are 2 years old, others are more recent.\nAs for the price, We are negotiating because we need to find a price that is acceptable to both organizations, and we are waiting for your proposal on the amount you can offer us.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.5710106614878336e-20,
+    "confidence": "High",
+    "start_index": 825,
+    "end_index": 1349,
+    "word_count": 97,
+    "token_length": 112,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.6156697568516103e-25,
+     1.570992566911934e-20
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9966564748624892
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0014825797406956553,
+   "human": 7.201676719761902e-32,
+   "mixed": 1.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.38229379057884216,
+    "std": 0.011066615581512451,
+    "p10": 0.38102298974990845,
+    "p50": 0.38102298974990845,
+    "p90": 0.38102298974990845
+   },
+   "human_coverage": {
+    "mean": 0.6169649362564087,
+    "std": 0.011066615581512451,
+    "p10": 0.61823570728302,
+    "p50": 0.61823570728302,
+    "p90": 0.61823570728302
+   }
+  }
+ },
+ "error": null
+}

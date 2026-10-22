@@ -1,0 +1,76 @@
+{
+ "text_sha256": "97c58b37c4a6db86dc7c90da2ae2f1e69d56501ea1eeab7f7ec6e75e40a3c336",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-19T23:53:44+00:00",
+ "word_count": 82,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Well, we had an internal discussion as a result of which the senior leaders have agreed to come down to $1,400,000 to get this over with finally. We have provided you with $600,000 discount as a total which seems to be fair. We can't go any lower from this point. We haven't put any pressure on you during negotiations, we haven't leaked your data or disclosed the details of this incident. Let's finish this today. The wallet is still the same: [redacted]",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.3482780724473947e-27,
+  "fraction_ai_assisted": 5.254869241218064e-43,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Well, we had an internal discussion as a result of which the senior leaders have agreed to come down to $1,400,000 to get this over with finally. We have provided you with $600,000 discount as a total which seems to be fair. We can't go any lower from this point. We haven't put any pressure on you during negotiations, we haven't leaked your data or disclosed the details of this incident. Let's finish this today. The wallet is still the same: [redacted]",
+    "label": "Human Written",
+    "ai_assistance_score": 1.3482780724473947e-27,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 456,
+    "word_count": 89,
+    "token_length": 114,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.254869241218064e-43,
+     1.3482780724473947e-27
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.998583779085411
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0021929824724793434,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.3482780724473947e-27,
+    "std": 8.597602102098593e-15,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 8.597602102098593e-15,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

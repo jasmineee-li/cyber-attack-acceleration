@@ -1,0 +1,96 @@
+{
+ "text_sha256": "f0db8484b28dfdd5181de3e3d03d39c59d657ad924491b49018fe3091743b97f",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:59:58+00:00",
+ "word_count": 53,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Thanks for sending over these files. I’ll need to have my team review them and get back to you. Since we lost some time getting set up in the new chat after the unauthorized access, is there any flexibility on the timer so we have a fair chance to finish our internal review?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 1.0,
+  "fraction_ai_assisted": 1.0443243282980772e-20,
+  "fraction_human": 5.56249757366345e-09,
+  "headline": "AI Generated",
+  "num_ai_segments": 2,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "Thanks for sending over these files.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9999999403953552,
+    "confidence": "Low",
+    "start_index": 0,
+    "end_index": 36,
+    "word_count": 6,
+    "token_length": 7,
+    "is_humanized": false,
+    "humanizer_score": 0.009214815683662891,
+    "class_probabilities": [
+     4.2491301144309546e-08,
+     7.977477815242863e-20,
+     0.9999999403953552
+    ],
+    "confidence_score": 0.9999999403953552,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.8477789815817984
+   },
+   {
+    "text": " I’ll need to have my team review them and get back to you. Since we lost some time getting set up in the new chat after the unauthorized access, is there any flexibility on the timer so we have a fair chance to finish our internal review?",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 36,
+    "end_index": 275,
+    "word_count": 48,
+    "token_length": 51,
+    "is_humanized": false,
+    "humanizer_score": 0.009214815683662891,
+    "class_probabilities": [
+     3.94982433377031e-25,
+     0.0,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9982529522193813
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.003636363660916686,
+   "human": 0.0,
+   "mixed": 0.0,
+   "ai": 1.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.0,
+    "std": 2.6984836949850433e-05,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   },
+   "human_coverage": {
+    "mean": 5.56249757366345e-09,
+    "std": 2.6984836949850433e-05,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

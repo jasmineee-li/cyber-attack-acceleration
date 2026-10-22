@@ -1,0 +1,76 @@
+{
+ "text_sha256": "bc5eec106738c68d687f2f0c72cc61b342c79c12186cf2856cd821abf0f8faa0",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:36:41+00:00",
+ "word_count": 59,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Good morning. As I promised earlier I will send you one SQL base from server [internal IP address] . It's still preparing. But I won't give you any more files. If we do not come to an agreement, then you will see all your databases for free on the cartel's news servers. There will be many surprises for you.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.5631283158364133e-18,
+  "fraction_ai_assisted": 5.557031925367859e-19,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Good morning. As I promised earlier I will send you one SQL base from server [internal IP address] . It's still preparing. But I won't give you any more files. If we do not come to an agreement, then you will see all your databases for free on the cartel's news servers. There will be many surprises for you.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.8409797311590472e-18,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 308,
+    "word_count": 61,
+    "token_length": 70,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.557031925367859e-19,
+     2.5631283158364133e-18
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9983112852650743
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.003246753243729472,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.5631283158364133e-18,
+    "std": 3.2891334100781933e-10,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.6282088444750116e-10,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

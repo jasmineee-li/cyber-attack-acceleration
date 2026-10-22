@@ -1,0 +1,76 @@
+{
+ "text_sha256": "e2dadab4e49f7e5234cbbfb1d0cfa6c425c1aa8797294f852a369b45ff79a456",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:03:56+00:00",
+ "word_count": 58,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hello - Our client has reviewed the data you provided. Based on available funds our client is in a position to offer $192,580 to have the assurance that the data is deleted. The client is already in the process of notifying clients of the situation. I would like to recommend that the offer is accepted soonest. Much graciousness.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.5537566894579524e-23,
+  "fraction_ai_assisted": 3.797958330001485e-33,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Hello - Our client has reviewed the data you provided. Based on available funds our client is in a position to offer $192,580 to have the assurance that the data is deleted. The client is already in the process of notifying clients of the situation. I would like to recommend that the offer is accepted soonest. Much graciousness.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.5537566894579524e-23,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 330,
+    "word_count": 58,
+    "token_length": 74,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.797958330001485e-33,
+     1.5537566894579524e-23
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9986194902540833
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0030303029343485832,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.5537566894579524e-23,
+    "std": 9.458262081527002e-13,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 9.458262081527002e-13,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

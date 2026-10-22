@@ -1,0 +1,1307 @@
+date,name,group,classification,technique,amount_usd,is_big,chain,targetType,bridgeHack,returnedFunds,language
+2011-06-19,Mt. Gox,code_bug,Access Control,Improper Access Control,8750000.0,True,Bitcoin,CEX,False,,
+2012-03-01,Bitcoinica,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,228000.0,False,Bitcoin,CEX,False,,
+2012-05-11,Bitcoinica,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,90000.0,False,Bitcoin,CEX,False,,
+2012-09-05,Bitfloor,keys_people,Frontend & Infrastructure,Key Stored Publicly,250000.0,False,Bitcoin,CEX,False,,
+2013-10-23,Inputs.io,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,1200000.0,True,Bitcoin,CEX,False,,
+2013-11-11,Bitcash,code_bug,Access Control,Improper Access Control,100000.0,False,Bitcoin,CEX,False,,
+2014-02-07,Mt. Gox,keys_people,Key Compromise,Private Key Compromised,470000000.0,True,Bitcoin,CEX,False,,
+2014-02-17,Picostocks,keys_people,Key Compromise,Private Key Compromised,4430000.0,True,Bitcoin,CEX,False,,
+2014-03-02,Flexcoin,code_bug,Protocol Logic,Withdrawal Logic Flaw,600000.0,False,Bitcoin,CEX,False,,
+2014-03-04,Poloniex,code_bug,Protocol Logic,Withdrawal Logic Flaw,50000.0,False,Bitcoin,CEX,False,,
+2014-07-13,Mintpal,code_bug,Access Control,Improper Access Control,2000000.0,True,Bitcoin,CEX,False,,
+2014-07-29,Cryptsy,keys_people,Key Compromise,Private Key Compromised,9580000.0,True,Bitcoin;Litecoin,CEX,False,,
+2015-01-05,Bitstamp,keys_people,Social Engineering,Phishing,5200000.0,True,Bitcoin,CEX,False,,
+2015-01-27,796,code_bug,Access Control,Improper Access Control,270000.0,False,Bitcoin,CEX,False,,
+2015-02-17,BTER,keys_people,Key Compromise,Private Key Compromised,1750000.0,True,Bitcoin,CEX,False,,
+2015-02-18,KipCoin,keys_people,Key Compromise,Private Key Compromised,728000.0,False,Bitcoin,CEX,False,,
+2015-05-22,Bitfinex,keys_people,Key Compromise,Hot Wallet Key Compromised,329000.0,False,Bitcoin,CEX,False,,
+2015-08-15,BTER,keys_people,Key Compromise,Private Key Compromised,1650000.0,True,Bitcoin,CEX,False,,
+2016-04-07,ShapeShift,keys_people,Key Compromise,Private Key Compromised,230000.0,False,Bitcoin,CEX,False,,
+2016-05-14,Gatecoin,code_bug,Access Control,Improper Access Control,2000000.0,True,Ethereum,CEX,False,,
+2016-06-17,The DAO,code_bug,Reentrancy,Reentrancy,60000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2016-08-02,Bitfinex,keys_people,Key Compromise,Hot Wallet Key Compromised,72000000.0,True,Bitcoin,CEX,False,,
+2016-10-13,Bitcurex,keys_people,Key Compromise,Hot Wallet Key Compromised,1500000.0,True,Bitcoin,CEX,False,,
+2017-04-27,Yapizon,keys_people,Key Compromise,Hot Wallet Key Compromised,4800000.0,True,Bitcoin,CEX,False,,
+2017-07-01,Parity,code_bug,Access Control,Uninitialized Proxy,30000000.0,True,Ethereum,Wallet,False,,Solidity
+2017-07-18,CoinDash,keys_people,Frontend & Infrastructure,Frontend Compromise,7700000.0,True,Ethereum,ICO,False,,
+2017-11-09,Parity Multisig,code_bug,Access Control,Uninitialized Proxy,150000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2017-11-19,Tether,keys_people,Key Compromise,Private Key Compromised,30950010.0,True,Bitcoin,Token,False,,
+2017-12-08,NiceHash,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,64000000.0,True,Bitcoin,CEX,False,,
+2017-12-19,Youbit,keys_people,Key Compromise,Hot Wallet Key Compromised,,False,Bitcoin,CEX,False,,
+2017-12-20,EtherDelta,keys_people,Frontend & Infrastructure,DNS Hijack,1400000.0,True,Ethereum,CEX,False,,
+2018-01-26,Coincheck,keys_people,Key Compromise,Hot Wallet Key Compromised,534000000.0,True,NEM,CEX,False,,
+2018-02-12,BitGrail,code_bug,Access Control,Improper Access Control,170000000.0,True,Nano,CEX,False,,
+2018-04-12,Coinsecure,keys_people,Key Compromise,Private Key Compromised,3300000.0,True,Bitcoin,CEX,False,,
+2018-04-21,Gate,keys_people,Key Compromise,Private Key Compromised,235000000.0,True,,CEX,False,,
+2018-04-22,BeautyChain,code_bug,Token & Share Accounting,Infinite Mint,,False,Ethereum,Token,False,,Solidity
+2018-04-24,SmartMesh,code_bug,Token & Share Accounting,Infinite Mint,,False,Ethereum,Token,False,,Solidity
+2018-05-13,MonaCoin,code_bug,Bridge & Cross-Chain,Forged Proof,90000.0,False,MonaCoin,Chain,False,,
+2018-05-16,Bitcoin Gold,code_bug,Bridge & Cross-Chain,Forged Proof,18000000.0,True,Bitcoin Gold,Chain,False,,
+2018-05-22,Verge,code_bug,Protocol Logic,Withdrawal Logic Flaw,1750000.0,True,Verge,Chain,False,,
+2018-06-02,ZenCash,code_bug,Bridge & Cross-Chain,Forged Proof,550000.0,False,ZenCash,Chain,False,,
+2018-06-10,Coinrail,code_bug,Access Control,Improper Access Control,37200000.0,True,Ethereum,CEX,False,,
+2018-06-21,Bithumb,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,31000000.0,True,Ethereum,CEX,False,,
+2018-07-09,Bancor V3,keys_people,Key Compromise,Hot Wallet Key Compromised,23500000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2018-07-26,KICKICO,keys_people,Key Compromise,Hot Wallet Key Compromised,7700000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2018-09-12,EOSBet,code_bug,Token & Share Accounting,Infinite Mint,200000.0,False,EOS,DeFi Protocol,False,,C++
+2018-09-14,NewDex,code_bug,Token & Share Accounting,Infinite Mint,58000.0,False,EOS,DeFi Protocol,False,,C++
+2018-09-14,Zaif,keys_people,Key Compromise,Hot Wallet Key Compromised,60000000.0,True,Bitcoin,CEX,False,,
+2018-10-07,SpankChain,code_bug,Reentrancy,Reentrancy,38000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2018-10-15,EOSBet,code_bug,Token & Share Accounting,Donation Attack,338000.0,False,EOS,DeFi Protocol,False,,C++
+2018-10-26,EosRoyale,code_bug,Protocol Logic,Unknown,60000.0,False,EOS,DeFi Protocol,False,,C++
+2018-10-31,EOSCast,code_bug,Token & Share Accounting,Infinite Mint,72912.0,False,EOS,DeFi Protocol,False,,C++
+2018-11-07,Gate,keys_people,Frontend & Infrastructure,Supply Chain Attack,,False,Bitcoin;Ethereum,CEX,False,,
+2018-11-08,FFGame,code_bug,Protocol Logic,Unknown,7200.0,False,EOS,DeFi Protocol,False,,C++
+2018-11-10,EOSDice,code_bug,Protocol Logic,Unknown,25100.0,False,EOS,DeFi Protocol,False,,C++
+2018-11-11,EOS.WIN,code_bug,Protocol Logic,Unknown,9180.0,False,EOS,DeFi Protocol,False,,C++
+2018-11-12,HireVibes AirDropsDAC,keys_people,Key Compromise,Private Key Compromised,13600.0,False,EOS,DeFi Protocol,False,,C++
+2018-11-12,AurumCoin,other,Market Manipulation,Risk Parameter Abuse,500000.0,False,AurumCoin,Layer 1,False,,
+2018-11-19,EOS Lelego,code_bug,Protocol Logic,Unknown,,False,EOS,DeFi Protocol,False,,C++
+2018-12-12,Vertcoin,other,Market Manipulation,Risk Parameter Abuse,100000.0,False,Vertcoin,Layer 1,False,,
+2018-12-19,ToBet,code_bug,Protocol Logic,Unknown,,False,EOS,DeFi Protocol,False,,C++
+2018-12-19,EOS Max,code_bug,Protocol Logic,Unknown,,False,EOS,DeFi Protocol,False,,C++
+2019-01-06,Ethereum Classic,code_bug,Bridge & Cross-Chain,Forged Proof,219500.0,False,Ethereum Classic,Chain,False,,
+2019-01-14,Cryptopia,keys_people,Key Compromise,Hot Wallet Key Compromised,16000000.0,True,Ethereum,CEX,False,,
+2019-01-26,LocalBitcoins,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,27000.0,False,Bitcoin,CEX,False,,
+2019-02-20,Coinbin,other,Rugpull,Admin Drain,26000000.0,True,Ethereum,CEX,False,,
+2019-03-24,Etbox,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,132000.0,False,Bitcoin;Ethereum,CEX,False,,
+2019-03-24,DragonEx,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,7000000.0,True,Bitcoin;Ethereum;EOS;Ripple;NEM;ETC,CEX,False,,
+2019-03-25,Coinbene,code_bug,Access Control,Improper Access Control,40000000.0,True,Ethereum,CEX,False,,
+2019-03-29,TronCrush,code_bug,Token & Share Accounting,Infinite Mint,,False,Tron,DeFi Protocol,False,,Solidity
+2019-03-29,Bithumb,keys_people,Key Compromise,Hot Wallet Key Compromised,19000000.0,True,Ethereum;Ripple,CEX,False,,
+2019-04-11,TronWow,code_bug,Protocol Logic,Unknown,,False,Tron,DeFi Protocol,False,,Solidity
+2019-04-11,TronBank,code_bug,Token & Share Accounting,Infinite Mint,,False,Tron,DeFi Protocol,False,,Solidity
+2019-05-03,TronBank,other,Rugpull,Backdoor Contract,4270000.0,True,Tron,DeFi Protocol,False,,Solidity
+2019-05-07,Binance,keys_people,Key Compromise,Hot Wallet Key Compromised,40000000.0,True,Bitcoin,CEX,False,,
+2019-05-24,Poker EOS,keys_people,Key Compromise,Private Key Compromised,,False,EOS,DeFi Protocol,False,,C++
+2019-06-02,Kraken,code_bug,Access Control,Improper Access Control,10450000.0,True,Bitcoin,CEX,False,,
+2019-06-06,GateHub,keys_people,Key Compromise,Private Key Compromised,9500000.0,True,Ripple,CEX,False,,
+2019-06-25,Synthetix v1+v2,code_bug,Oracle Manipulation,Oracle Misconfiguration,,False,Ethereum,DeFi Protocol,False,,Solidity
+2019-06-27,Bitrue,code_bug,Access Control,Improper Access Control,4700000.0,True,Ripple;Cardano,CEX,False,,
+2019-07-12,BitPoint,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,27600000.0,True,Bitcoin;Ethereum;Litecoin;XRP,CEX,False,,
+2019-08-17,CoinTiger (PTT),keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,9200000.0,True,Ethereum,CEX,False,,
+2019-09-28,Chain Fusion,keys_people,Key Compromise,Private Key Compromised,6400000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2019-11-08,VinDAX,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,500000.0,False,Ethereum;Multiple,CEX,False,,
+2019-11-27,Upbit,keys_people,Key Compromise,Hot Wallet Key Compromised,49300000.0,True,Ethereum,CEX,False,,
+2019-12-02,Vertcoin,keys_people,Key Compromise,Validator Key Compromised,29.0,False,Vertcoin,Layer 1,False,,
+2019-12-14,VeChain,keys_people,Key Compromise,Private Key Compromised,6500000.0,True,VeChain,Layer 1,False,,
+2019-12-23,Nuls,code_bug,Input Validation,Signature Verification Flaw,480000.0,False,NULS,Layer 1,False,,
+2020-01-23,Bitcoin Gold,keys_people,Key Compromise,Validator Key Compromised,70000.0,False,Bitcoin Gold,Layer 1,False,,
+2020-02-03,LuckLambo104,code_bug,Protocol Logic,Unknown,1500.0,False,Tron,DeFi Protocol,False,,Solidity
+2020-02-05,Altsbit,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,70000.0,False,Bitcoin;Ethereum,CEX,False,,
+2020-02-12,Trinity Wallet,keys_people,Frontend & Infrastructure,CDN Compromise,2000000.0,True,Iota,Wallet,False,,
+2020-02-15,Ooki,code_bug,Oracle Manipulation,Spot Price Manipulation,350000.0,False,Ethereum,DeFi Protocol,False,,
+2020-02-18,Ooki,code_bug,Oracle Manipulation,Spot Price Manipulation,650000.0,False,Ethereum,DeFi Protocol,False,,
+2020-03-12,MakerDAO,code_bug,Oracle Manipulation,Stale Oracle Price,8320000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2020-04-08,Bisq,code_bug,Protocol Logic,Withdrawal Logic Flaw,248000.0,False,Bitcoin,DeFi Protocol,False,,Java
+2020-04-18,Uniswap V1,code_bug,Reentrancy,Reentrancy,220000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2020-04-19,dForce Lending,code_bug,Reentrancy,Reentrancy,25000000.0,True,Ethereum,DeFi Protocol,False,,
+2020-04-25,Hegic,code_bug,Protocol Logic,Deposit Logic Flaw,28537.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2020-06-18,Bancor V3,code_bug,Access Control,Improper Access Control,544885.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2020-06-28,Balancer,code_bug,Token & Share Accounting,Incorrect Share Accounting,500000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2020-07-01,Vether,code_bug,Access Control,Improper Access Control,450000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2020-07-11,Cashaa,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,3100000.0,True,Bitcoin,CEX,False,,
+2020-07-31,2gether,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,1183000.0,True,Bitcoin;Ethereum,CEX,False,,
+2020-08-04,Opyn,code_bug,Protocol Logic,Withdrawal Logic Flaw,371000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2020-08-06,Ethereum Classic,code_bug,Bridge & Cross-Chain,Forged Proof,1680000.0,True,Ethereum Classic,Layer 1,False,,
+2020-08-18,OKEx,code_bug,Bridge & Cross-Chain,Forged Proof,5600000.0,True,Ethereum Classic,CEX,False,,
+2020-09-08,Eterbase,keys_people,Key Compromise,Hot Wallet Key Compromised,5400000.0,True,Bitcoin;Ethereum;XRP;Tezos;Algorand;TRON,CEX,False,,
+2020-09-10,SYFI,code_bug,Token & Share Accounting,Arithmetic Error,250000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2020-09-10,Coral,code_bug,Reentrancy,Reentrancy,420000.0,False,EOS,DeFi Protocol,False,,C++
+2020-09-20,Soda Protocol,code_bug,Protocol Logic,Withdrawal Logic Flaw,160000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2020-09-28,Eminence,code_bug,Oracle Manipulation,Spot Price Manipulation,15000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2020-09-29,KuCoin,keys_people,Key Compromise,Hot Wallet Key Compromised,281000000.0,True,Ethereum,CEX,False,,
+2020-10-11,WLEO,code_bug,Token & Share Accounting,Infinite Mint,42000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2020-10-26,Harvest Finance,code_bug,Oracle Manipulation,Spot Price Manipulation,24000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2020-10-30,EtherCrash,keys_people,Key Compromise,Hot Wallet Key Compromised,2500000.0,True,Ethereum,DeFi Protocol,False,,
+2020-11-02,Axion,code_bug,Token & Share Accounting,Infinite Mint,500000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2020-11-06,Ledger,keys_people,Social Engineering,Phishing,271000.0,False,Multiple,Wallet,False,,
+2020-11-08,Grin,keys_people,Key Compromise,Validator Key Compromised,,False,Grin,Chain,False,,
+2020-11-12,Akropolis,code_bug,Reentrancy,Reentrancy,2000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2020-11-14,ValueDefi,code_bug,Oracle Manipulation,Spot Price Manipulation,7400000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2020-11-16,CheeseBank,code_bug,Oracle Manipulation,Spot Price Manipulation,3300000.0,True,Ethereum,DeFi Protocol,False,,
+2020-11-17,Origin Protocol,code_bug,Reentrancy,Reentrancy,7700000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2020-11-22,Pickle,code_bug,Input Validation,Missing Input Validation,19700000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2020-11-30,SushiSwap,code_bug,Access Control,Improper Access Control,15000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2020-12-02,Compounder Finance,other,Rugpull,Admin Drain,12464316.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2020-12-08,Aeternity,keys_people,Key Compromise,Validator Key Compromised,5201000.0,True,Aeternity,Chain,False,,
+2020-12-14,Nexus Mutual,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,8000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2020-12-18,Warp Protocol,code_bug,Oracle Manipulation,Spot Price Manipulation,7800000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2020-12-21,Exmo,keys_people,Key Compromise,Hot Wallet Key Compromised,10500000.0,True,Multiple,CEX,False,,
+2020-12-24,Livecoin,keys_people,Frontend & Infrastructure,API Key Compromised,3300000.0,True,Multiple,CEX,False,,
+2020-12-26,Altilly,keys_people,Frontend & Infrastructure,API Key Compromised,750000.0,False,Multiple,CEX,False,,
+2020-12-28,LuBian,keys_people,Key Compromise,Weak Key Generation,3500000000.0,True,Bitcoin,Other,False,,
+2020-12-29,Cover Protocol,code_bug,Token & Share Accounting,Arithmetic Error,9400000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-01-25,Badger DAO,code_bug,Protocol Logic,Swap Logic Flaw,103842.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2021-01-27,SushiSwap,code_bug,Protocol Logic,Swap Logic Flaw,103842.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2021-02-01,Cryptopia,keys_people,Key Compromise,Hot Wallet Key Compromised,45000.0,False,Multiple,CEX,False,,
+2021-02-05,Yearn Finance,code_bug,Oracle Manipulation,Spot Price Manipulation,11000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-02-09,Growth DeFi,code_bug,Input Validation,Missing Input Validation,1400000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-02-12,BT Finance,code_bug,Oracle Manipulation,Spot Price Manipulation,1500000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-02-13,Alpha Finance,code_bug,Protocol Logic,Borrow Logic Flaw,37500000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-02-27,Furucombo,code_bug,Access Control,Delegatecall Hijack,14000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-03-01,Seascape,keys_people,Key Compromise,Private Key Compromised,500000.0,False,Ethereum,DeFi Protocol,False,,
+2021-03-04,Meerkat Finance,other,Rugpull,Admin Drain,31000000.0,True,BSC,DeFi Protocol,False,,Solidity
+2021-03-05,Paid Network,code_bug,Token & Share Accounting,Infinite Mint,27000000.0,True,Ethereum,DeFi Protocol,False,,
+2021-03-09,DODO AMM,code_bug,Access Control,Improper Access Control,3800000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-03-14,Roll,keys_people,Key Compromise,Hot Wallet Key Compromised,5700000.0,True,Ethereum,DeFi Protocol,False,,
+2021-03-15,DEUS Finance,code_bug,Oracle Manipulation,Spot Price Manipulation,3000000.0,True,Fantom,DeFi Protocol,False,,Solidity
+2021-03-15,PancakeSwap / Cream Finance,keys_people,Frontend & Infrastructure,DNS Hijack,,False,BSC;Ethereum,DeFi Protocol,False,,
+2021-03-15,TSD (True Seigniorage Dollar),code_bug,Governance,Malicious Proposal,7095000.0,True,BSC,DeFi Protocol,False,,Solidity
+2021-03-16,Iron Finance,code_bug,Token & Share Accounting,Incorrect Share Accounting,170000.0,False,Polygon,DeFi Protocol,False,,Solidity
+2021-03-20,Turtle Dex,other,Rugpull,Liquidity Rug,2500000.0,True,BSC,DeFi Protocol,False,,Solidity
+2021-04-04,Force DAO,code_bug,Token & Share Accounting,Donation Attack,367000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2021-04-05,Polkatrain,code_bug,Protocol Logic,Reward Logic Flaw,3000000.0,True,Polkadot,DeFi Protocol,False,,Rust
+2021-04-12,PancakeSwap,code_bug,Access Control,Improper Access Control,1800000.0,True,BSC,DeFi Protocol,False,,Solidity
+2021-04-19,EasyFi,keys_people,Social Engineering,Malware,59000000.0,True,Polygon,DeFi Protocol,False,,
+2021-04-28,Uranium Finance,code_bug,Token & Share Accounting,Arithmetic Error,57200000.0,True,BSC,DeFi Protocol,False,,Solidity
+2021-05-02,Spartan,code_bug,Token & Share Accounting,Incorrect Share Accounting,30500000.0,True,BSC,DeFi Protocol,False,,Solidity
+2021-05-05,ValueDefi,code_bug,Access Control,Improper Access Control,10000000.0,True,BSC,DeFi Protocol,False,,Solidity
+2021-05-07,ValueDefi,code_bug,Token & Share Accounting,Arithmetic Error,11000000.0,True,BSC,DeFi Protocol,False,,Solidity
+2021-05-08,Rari Capital,code_bug,Access Control,Arbitrary External Call,10000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-05-12,xToken,code_bug,Oracle Manipulation,Spot Price Manipulation,24000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-05-14,flash.sx / vaults.sx,code_bug,Reentrancy,Reentrancy,13000000.0,True,EOS,DeFi Protocol,False,,C++
+2021-05-17,BearnFi,code_bug,Protocol Logic,Withdrawal Logic Flaw,18000000.0,True,BSC,DeFi Protocol,False,,
+2021-05-17,FinNexus,keys_people,Key Compromise,Private Key Compromised,7000000.0,True,Ethereum;BSC,DeFi Protocol,False,,Solidity
+2021-05-18,Venus Protocol,code_bug,Oracle Manipulation,Spot Price Manipulation,100000000.0,True,BSC,DeFi Protocol,False,,Solidity
+2021-05-19,Bunny,code_bug,Oracle Manipulation,Spot Price Manipulation,45000000.0,True,BSC,DeFi Protocol,False,,Solidity
+2021-05-23,Bogged Finance,code_bug,Token & Share Accounting,Arithmetic Error,3000000.0,True,BSC,DeFi Protocol,False,,Solidity
+2021-05-24,AutoShark,code_bug,Protocol Logic,Reward Logic Flaw,822800.0,False,BSC,DeFi Protocol,False,,
+2021-05-26,Merlin,code_bug,Token & Share Accounting,Rounding Error,550000.0,False,BSC,DeFi Protocol,False,,Solidity
+2021-05-26,Merlin,code_bug,Protocol Logic,Reward Logic Flaw,680000.0,False,BSC,DeFi Protocol,False,,Solidity
+2021-05-28,BurgerSwap,code_bug,Reentrancy,Reentrancy,7200000.0,True,BSC,DeFi Protocol,False,,
+2021-05-29,Belt Finance,code_bug,Token & Share Accounting,Incorrect Share Accounting,6300000.0,True,BSC,DeFi Protocol,False,,Solidity
+2021-06-03,Hunny Finance,code_bug,Token & Share Accounting,Incorrect Share Accounting,,False,BSC,DeFi Protocol,False,,Solidity
+2021-06-06,Fetch.ai,keys_people,Key Compromise,Private Key Compromised,2600000.0,True,Multiple,CEX,False,,
+2021-06-07,88mph,code_bug,Input Validation,Missing Input Validation,,False,Ethereum,DeFi Protocol,False,,Solidity
+2021-06-10,EvoDefi,code_bug,Protocol Logic,Reward Logic Flaw,1000000.0,True,BSC,DeFi Protocol,False,,Solidity
+2021-06-16,Alchemix V2,code_bug,Protocol Logic,Borrow Logic Flaw,6500000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-06-19,Visor Finance,code_bug,Access Control,Improper Access Control,504845.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2021-06-20,Polydex,code_bug,Reentrancy,Reentrancy,500000.0,False,Polygon,DeFi Protocol,False,,Solidity
+2021-06-21,Impossible Finance,code_bug,Oracle Manipulation,Spot Price Manipulation,500000.0,False,BSC,DeFi Protocol,False,,Solidity
+2021-06-21,StakeHound / Fireblocks,keys_people,Key Compromise,Key Brute Forced,72000000.0,True,Ethereum,DeFi Protocol,False,,
+2021-06-22,Eleven Finance,code_bug,Protocol Logic,Withdrawal Logic Flaw,4500000.0,True,BSC,DeFi Protocol,False,,Solidity
+2021-06-23,StableMagnet,other,Rugpull,Backdoor Contract,27000000.0,True,BSC,DeFi Protocol,False,,Solidity
+2021-06-24,SharedStake,code_bug,Access Control,Improper Access Control,500000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2021-06-25,xWin Finance,code_bug,Input Validation,Missing Input Validation,270000.0,False,BSC,DeFi Protocol,False,,Solidity
+2021-06-28,Safe Dollar,code_bug,Protocol Logic,Reward Logic Flaw,248000.0,False,Polygon,DeFi Protocol,False,,Solidity
+2021-06-29,THORChain DEX,code_bug,Bridge & Cross-Chain,Bridge Logic Flaw,350000.0,False,Ethereum,DeFi Protocol,True,,Go
+2021-06-29,Merlin,code_bug,Token & Share Accounting,Arithmetic Error,330000.0,False,BSC,DeFi Protocol,False,,Solidity
+2021-07-02,XDX Swap,code_bug,Bridge & Cross-Chain,Bridge Logic Flaw,176000.0,False,Huobi Eco Chain,DeFi Protocol,True,,Solidity
+2021-07-02,ChainSwap,code_bug,Bridge & Cross-Chain,Bridge Logic Flaw,800000.0,False,Ethereum;Binance Smart Chain,DeFi Protocol,True,,Solidity
+2021-07-03,Haven Protocol,code_bug,Token & Share Accounting,Infinite Mint,8187000.0,True,Haven,DeFi Protocol,False,,
+2021-07-10,Multichain,keys_people,Key Compromise,Weak Key Generation,7900000.0,True,Ethereum;BSC;Fantom,CEX,True,,Solidity
+2021-07-11,ChainSwap Bridge,code_bug,Bridge & Cross-Chain,Bridge Logic Flaw,4400000.0,True,Ethereum;BSC,DeFi Protocol,True,,Solidity
+2021-07-13,DeFiPie,code_bug,Reentrancy,Reentrancy,124999.0,False,Ethereum;Binance Smart Chain,DeFi Protocol,False,,Solidity
+2021-07-14,ApeRocket,code_bug,Protocol Logic,Reward Logic Flaw,1260000.0,True,BSC,DeFi Protocol,False,,
+2021-07-15,Bondly,keys_people,Social Engineering,Phishing,5900000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-07-15,THORChain DEX,code_bug,Bridge & Cross-Chain,Bridge Logic Flaw,5000000.0,True,Ethereum,DeFi Protocol,True,,Solidity
+2021-07-16,Bunny,code_bug,Token & Share Accounting,Unbacked Mint,2400000.0,True,BSC,DeFi Protocol,False,,Solidity
+2021-07-22,THORChain DEX,code_bug,Protocol Logic,Withdrawal Logic Flaw,8000000.0,True,Ethereum,DeFi Protocol,True,,Solidity
+2021-07-28,PolyYeld Finance,code_bug,Token & Share Accounting,Infinite Mint,250000.0,False,Polygon,DeFi Protocol,False,,Solidity
+2021-07-30,Levyathan,keys_people,Frontend & Infrastructure,Key Stored Publicly,1500000.0,True,BSC,DeFi Protocol,False,,Solidity
+2021-08-03,Popsicle Finance,code_bug,Protocol Logic,Reward Logic Flaw,20700000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-08-04,WaultSwap,other,Market Manipulation,Risk Parameter Abuse,930000.0,False,Binance Smart Chain,DeFi Protocol,False,,Solidity
+2021-08-08,Zerogoki,code_bug,Oracle Manipulation,Oracle Misconfiguration,670000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2021-08-10,Punk Protocol,code_bug,Access Control,Delegatecall Hijack,8950000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-08-10,Poly Network,code_bug,Access Control,Improper Access Control,611000000.0,True,Ethereum;BSC;Polygon,DeFi Protocol,True,,Solidity
+2021-08-12,DAO Maker Vesting,code_bug,Access Control,Improper Access Control,7000000.0,True,Ethereum,DeFi Protocol,False,,
+2021-08-13,NEKO,code_bug,Access Control,Improper Access Control,2200000.0,True,Binance Smart Chain,DeFi Protocol,False,,Solidity
+2021-08-13,Acala Network,code_bug,Token & Share Accounting,Infinite Mint,1600000.0,True,Acala,DeFi Protocol,False,,Solidity
+2021-08-15,Ref Finance,code_bug,Input Validation,Missing Input Validation,3203000.0,True,NEAR,DeFi Protocol,False,,Rust
+2021-08-17,SurgeBNB,code_bug,Reentrancy,Reentrancy,5000000.0,True,BSC,DeFi Protocol,False,,Solidity
+2021-08-19,Solend,code_bug,Access Control,Improper Access Control,16000.0,False,Solana,DeFi Protocol,False,,Rust
+2021-08-19,Liquid Global,keys_people,Key Compromise,Hot Wallet Key Compromised,91350000.0,True,Ethereum,CEX,False,,
+2021-08-19,Pinecone Finance,code_bug,Token & Share Accounting,Incorrect Share Accounting,200000.0,False,Binance Smart Chain,DeFi Protocol,False,,Solidity
+2021-08-25,Dot.Finance,code_bug,Oracle Manipulation,Spot Price Manipulation,429724.0,False,Binance Smart Chain,DeFi Protocol,False,,Solidity
+2021-08-29,Bilaxy,keys_people,Key Compromise,Hot Wallet Key Compromised,21700000.0,True,Ethereum,CEX,False,,
+2021-08-29,xToken,code_bug,Oracle Manipulation,Spot Price Manipulation,4500000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-08-30,CREAM Lending,code_bug,Reentrancy,Reentrancy,18800000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-09-03,Siren,code_bug,Reentrancy,Reentrancy,3500000.0,True,Polygon,DeFi Protocol,False,,Solidity
+2021-09-04,DAO Maker Vesting,code_bug,Access Control,Improper Access Control,4000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-09-12,Zabu Finance,code_bug,Protocol Logic,Deposit Logic Flaw,3200000.0,True,Avalanche,DeFi Protocol,False,,Solidity
+2021-09-15,NowSwap,code_bug,Token & Share Accounting,Arithmetic Error,1069000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-09-17,JayPegs Automart,keys_people,Frontend & Infrastructure,Frontend Compromise,3100000.0,True,Ethereum,DeFi Protocol,False,,
+2021-09-21,Vee Finance,code_bug,Oracle Manipulation,Spot Price Manipulation,34000000.0,True,Avalanche,DeFi Protocol,False,,Solidity
+2021-09-29,Compound V2,code_bug,Token & Share Accounting,Arithmetic Error,147000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-10-01,Coinbase,keys_people,Frontend & Infrastructure,Session Key Compromised,,False,,CEX,False,,
+2021-10-04,pNetwork,code_bug,Bridge & Cross-Chain,Spoofed Event Log,13000000.0,True,BSC;Bitcoin,DeFi Protocol,True,,Rust
+2021-10-08,Mirror,code_bug,Access Control,Improper Access Control,90000000.0,True,Terra,DeFi Protocol,False,,Rust
+2021-10-14,Indexed Finance,code_bug,Oracle Manipulation,Spot Price Manipulation,16000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-10-18,Glide Finance,code_bug,Input Validation,Missing Input Validation,300000.0,False,Elastos,DeFi Protocol,False,,Solidity
+2021-10-23,Alpha Homora,code_bug,Oracle Manipulation,Spot Price Manipulation,147000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2021-10-27,CREAM Lending,code_bug,Oracle Manipulation,Spot Price Manipulation,130000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-10-29,AutoShark,code_bug,Protocol Logic,Reward Logic Flaw,580000.0,False,BSC,DeFi Protocol,False,,Solidity
+2021-10-29,AnubisDAO,other,Rugpull,Admin Drain,60000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-10-30,BXH,keys_people,Key Compromise,Private Key Compromised,139000000.0,True,BSC,DeFi Protocol,False,,Solidity
+2021-11-03,Squid Games,other,Rugpull,Liquidity Rug,3380000.0,True,BSC,Gaming,False,,Solidity
+2021-11-03,Vesper Finance,code_bug,Oracle Manipulation,Spot Price Manipulation,3370000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-11-05,Ooki,keys_people,Social Engineering,Phishing,55000000.0,True,Polygon;BSC,DeFi Protocol,False,,
+2021-11-07,ChainSwap,code_bug,Access Control,Caller Impersonation,4400000.0,True,Ethereum;BSC,DeFi Protocol,True,,Solidity
+2021-11-15,Nerve,code_bug,Protocol Logic,Swap Logic Flaw,537000.0,False,BSC,DeFi Protocol,True,,Solidity
+2021-11-19,Phantom Galaxies,keys_people,Social Engineering,Malware,1100000.0,True,Ethereum,NFTfi,False,,
+2021-11-23,Ploutoz,code_bug,Oracle Manipulation,Spot Price Manipulation,365000.0,False,BSC,DeFi Protocol,False,,Solidity
+2021-11-25,Snowdog,other,Rugpull,Liquidity Rug,18100000.0,True,Avalanche,DeFi Protocol,False,,Solidity
+2021-11-27,Lever,code_bug,Protocol Logic,Borrow Logic Flaw,652000.0,False,BSC,DeFi Protocol,False,,Solidity
+2021-11-28,Visor Finance,code_bug,Oracle Manipulation,Spot Price Manipulation,975720.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2021-11-30,MonoX,code_bug,Protocol Logic,Swap Logic Flaw,31400000.0,True,Ethereum;Polygon,DeFi Protocol,False,,Solidity
+2021-12-02,Badger DAO,keys_people,Frontend & Infrastructure,CDN Compromise,120000000.0,True,Ethereum,DeFi Protocol,False,,
+2021-12-03,Polygon,code_bug,Access Control,Improper Access Control,2040000.0,True,Polygon,DeFi Protocol,False,,Solidity
+2021-12-04,Bitmart,keys_people,Key Compromise,Hot Wallet Key Compromised,196000000.0,True,Ethereum;BSC,CEX,False,,
+2021-12-05,Pizza DeFi,code_bug,Token & Share Accounting,Arithmetic Error,5000000.0,True,EOS,DeFi Protocol,False,,C++
+2021-12-08,8ightDAO,keys_people,Social Engineering,Phishing,1750000.0,True,Harmony,DeFi Protocol,False,,
+2021-12-11,AscenDEX,keys_people,Key Compromise,Hot Wallet Key Compromised,77000000.0,True,Ethereum;BSC;Polygon,CEX,False,,
+2021-12-13,Vulcan Forged,keys_people,Key Compromise,Hot Wallet Key Compromised,140000000.0,True,Ethereum;Polygon,DeFi Protocol,False,,
+2021-12-14,NerveBridge,code_bug,Protocol Logic,Swap Logic Flaw,537000.0,False,BSC,DeFi Protocol,True,,Solidity
+2021-12-18,Grim Finance,code_bug,Reentrancy,Reentrancy,30000000.0,True,Fantom,DeFi Protocol,False,,Solidity
+2021-12-21,Gamma,code_bug,Token & Share Accounting,Arithmetic Error,4500000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-12-21,Bent Finance,other,Rugpull,Backdoor Contract,1750000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-12-21,Gamma,code_bug,Reentrancy,Reentrancy,8200000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2021-12-23,Monkey Kingdom,keys_people,Social Engineering,Phishing,1300000.0,True,Solana,NFTfi,False,,
+2021-12-30,SashimiSwap,code_bug,Protocol Logic,Swap Logic Flaw,210000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2022-01-01,Tinyman,code_bug,Token & Share Accounting,Incorrect Share Accounting,3000000.0,True,Algorand,DeFi Protocol,False,,PyTeal
+2022-01-02,DefiChain,code_bug,Token & Share Accounting,Incorrect Fee Accounting,,False,DefiChain,Chain,True,,
+2022-01-04,Arbix Finance,other,Rugpull,Admin Drain,10000000.0,True,BSC,DeFi Protocol,False,,Solidity
+2022-01-08,LCX,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,7940000.0,True,Ethereum,DeFi Protocol,False,,
+2022-01-10,Lympo,keys_people,Key Compromise,Hot Wallet Key Compromised,18700000.0,True,Ethereum,NFTfi,False,,
+2022-01-15,Float Protocol,code_bug,Oracle Manipulation,Spot Price Manipulation,1160000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2022-01-15,CityDAO,keys_people,Social Engineering,Phishing,95000.0,False,Ethereum,DAO,False,,
+2022-01-17,Crypto Burger,code_bug,Access Control,Improper Access Control,770000.0,False,BSC,Gaming,False,,Solidity
+2022-01-18,Crosswise,code_bug,Access Control,Improper Access Control,879000.0,False,BSC,DeFi Protocol,False,,Solidity
+2022-01-18,Crypto.com,keys_people,Frontend & Infrastructure,Session Key Compromised,33700000.0,True,Ethereum;Bitcoin,CEX,False,,
+2022-01-18,Multichain,code_bug,Input Validation,Missing Input Validation,1400000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2022-01-25,OpenSea,code_bug,Protocol Logic,Withdrawal Logic Flaw,1000000.0,True,Ethereum,NFTfi,False,,
+2022-01-28,Qubit,code_bug,Input Validation,Missing Input Validation,80000000.0,True,BSC,DeFi Protocol,True,,Solidity
+2022-02-01,BNS,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,7500000.0,True,,CEX,False,,
+2022-02-02,Portal,code_bug,Input Validation,Signature Verification Flaw,326000000.0,True,Solana,DeFi Protocol,True,326000000.0,Rust
+2022-02-03,KlaySwap,keys_people,Frontend & Infrastructure,Frontend Compromise,1900000.0,True,Klaytn,DeFi Protocol,False,,
+2022-02-06,Meter,code_bug,Input Validation,Missing Input Validation,7700000.0,True,Ethereum,DeFi Protocol,True,,Solidity
+2022-02-08,Superfluid,code_bug,Input Validation,Missing Input Validation,8700000.0,True,Polygon,DeFi Protocol,False,,Solidity
+2022-02-10,Dego Finance,keys_people,Key Compromise,Deployer Key Compromised,10000000.0,True,Ethereum;BSC;Cronos,DeFi Protocol,False,,
+2022-02-12,IRA Financial / Gemini,keys_people,Frontend & Infrastructure,API Key Compromised,36000000.0,True,Ethereum,CEX,False,,
+2022-02-14,Titano Finance,other,Rugpull,Backdoor Contract,1949000.0,True,BSC,DeFi Protocol,False,,Solidity
+2022-02-15,Build Finance,code_bug,Governance,Malicious Proposal,470000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2022-02-17,TopGoal,keys_people,Key Compromise,Hot Wallet Key Compromised,1100000.0,True,BSC,Gaming,False,,
+2022-02-18,Rigoblock,code_bug,Access Control,Improper Access Control,464000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2022-02-20,OpenSea,keys_people,Social Engineering,Phishing,2000000.0,True,Ethereum,NFTfi,False,,
+2022-02-23,Flurry Finance,code_bug,Token & Share Accounting,Incorrect Share Accounting,293000.0,False,BSC,DeFi Protocol,False,,Solidity
+2022-03-03,Treasure,code_bug,Input Validation,Missing Input Validation,1400000.0,True,Arbitrum,DeFi Protocol,False,,Solidity
+2022-03-05,Bacon Protocol,code_bug,Reentrancy,Reentrancy,1000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2022-03-09,Fantasm Finance,code_bug,Input Validation,Missing Input Validation,2622097.0,True,Fantom,DeFi Protocol,False,,Solidity
+2022-03-09,Pirate X,code_bug,Access Control,Improper Access Control,78000.0,False,BSC,DeFi Protocol,False,,Solidity
+2022-03-13,Paraluni Masterchef,code_bug,Reentrancy,Reentrancy,1700000.0,True,BSC,DeFi Protocol,False,,Solidity
+2022-03-15,Hundred Finance,code_bug,Reentrancy,Reentrancy,6200000.0,True,Gnosis Chain,DeFi Protocol,False,,Solidity
+2022-03-15,Agave,code_bug,Reentrancy,Reentrancy,5500000.0,True,Gnosis Chain,DeFi Protocol,False,,Solidity
+2022-03-15,DEUS Finance,code_bug,Oracle Manipulation,Spot Price Manipulation,3000000.0,True,Fantom,DeFi Protocol,False,,Solidity
+2022-03-17,ApeCoin,code_bug,Governance,Flashloan Governance Attack,820000.0,False,Ethereum,Token,False,,
+2022-03-20,Umbrella Network,code_bug,Access Control,Improper Access Control,700000.0,False,Ethereum;BSC,DeFi Protocol,False,,Solidity
+2022-03-21,One Ring Finance,code_bug,Access Control,Improper Access Control,1400000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2022-03-21,LI.FI,code_bug,Access Control,Token Approval Abuse,600000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2022-03-23,Cashio,code_bug,Input Validation,Missing Input Validation,52800000.0,True,Solana,DeFi Protocol,False,,Rust
+2022-03-23,Ronin Bridge,keys_people,Key Compromise,Validator Key Compromised,624000000.0,True,Ethereum,DeFi Protocol,True,,
+2022-03-26,Auctus,code_bug,Access Control,Arbitrary External Call,726000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2022-03-27,Revest Finance,code_bug,Reentrancy,Reentrancy,2010000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2022-03-28,Cryptovoxels,keys_people,Social Engineering,Phishing,171000.0,False,Ethereum,Gaming,False,,
+2022-03-30,BasketDAO,code_bug,Access Control,Arbitrary External Call,1200000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2022-03-31,Ola Finance,code_bug,Reentrancy,Reentrancy,4670000.0,True,Fuse,DeFi Protocol,False,,Solidity
+2022-04-02,Inverse Finance Frontier,code_bug,Oracle Manipulation,Spot Price Manipulation,15600000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2022-04-07,WonderHero,keys_people,Key Compromise,Hot Wallet Key Compromised,320000.0,False,BSC,Gaming,False,,
+2022-04-07,Starstream Finance,other,Rugpull,Admin Drain,4000000.0,True,Ethereum,DeFi Protocol,False,,
+2022-04-11,CF Token,code_bug,Access Control,Improper Access Control,1900000.0,True,BSC,Token,False,,Solidity
+2022-04-12,Elephant Money,code_bug,Oracle Manipulation,Spot Price Manipulation,22200000.0,True,BSC,DeFi Protocol,False,,Solidity
+2022-04-15,Rikkei Finance,code_bug,Access Control,Improper Access Control,1100000.0,True,BSC,DeFi Protocol,False,,Solidity
+2022-04-17,Beanstalk,code_bug,Governance,Flashloan Governance Attack,181000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2022-04-21,Zeed Finance,code_bug,Token & Share Accounting,Arithmetic Error,1000000.0,True,BSC,DeFi Protocol,False,,Solidity
+2022-04-21,Terra (LUNA),keys_people,Social Engineering,Phishing,4310000.0,True,Terra,Chain,False,,
+2022-04-24,Wiener DOGE,code_bug,Token & Share Accounting,Rounding Error,30000.0,False,BSC,DeFi Protocol,False,,Solidity
+2022-04-28,DEUS Finance,code_bug,Oracle Manipulation,Spot Price Manipulation,13400000.0,True,Fantom,DeFi Protocol,False,,Solidity
+2022-04-30,Saddle Finance,code_bug,Protocol Logic,Swap Logic Flaw,11000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2022-05-01,Rari Capital,code_bug,Reentrancy,Reentrancy,80000000.0,True,Ethereum;Arbitrum,DeFi Protocol,False,,Solidity
+2022-05-04,MM Finance Cronos,keys_people,Frontend & Infrastructure,DNS Hijack,2000000.0,True,Cronos,DeFi Protocol,False,,
+2022-05-08,Fortress Loans,code_bug,Governance,Malicious Proposal,2976004.0,True,BSC,DeFi Protocol,False,,Solidity
+2022-05-10,OWNLY,code_bug,Protocol Logic,Withdrawal Logic Flaw,37000.0,False,Binance Smart Chain,DeFi Protocol,False,,Solidity
+2022-05-11,Drift Trade,other,Market Manipulation,Risk Parameter Abuse,14500000.0,True,Solana,DeFi Protocol,False,14500000.0,Rust
+2022-05-11,X2Y2,keys_people,Social Engineering,Phishing,200000.0,False,Ethereum,NFTfi,False,,
+2022-05-12,Venus Protocol,code_bug,Oracle Manipulation,Stale Oracle Price,11200000.0,True,Binance Smart Chain,DeFi Protocol,False,,Solidity
+2022-05-13,Blizz Finance,code_bug,Oracle Manipulation,Stale Oracle Price,8300000.0,True,Avalanche,DeFi Protocol,False,,
+2022-05-14,SpiritSwap V3,keys_people,Frontend & Infrastructure,DNS Hijack,18000.0,False,Fantom,DeFi Protocol,False,,
+2022-05-14,Quickswap V3,keys_people,Frontend & Infrastructure,DNS Hijack,107600.0,False,Polygon,DeFi Protocol,False,,
+2022-05-17,FEG Token,code_bug,Access Control,Improper Access Control,1900000.0,True,Binance Smart Chain;Ethereum,Token,False,,Solidity
+2022-05-18,Feminist Metaverse,code_bug,Access Control,Improper Access Control,540000.0,False,Binance Smart Chain,DeFi Protocol,False,,Solidity
+2022-05-18,Seth Green NFTs,keys_people,Social Engineering,Phishing,300000.0,False,Ethereum,NFTfi,False,,
+2022-05-18,QANX Bridge,keys_people,Key Compromise,Private Key Compromised,707000.0,False,Ethereum,DeFi Protocol,True,,
+2022-05-20,Llamascape,keys_people,Social Engineering,Signer Phishing,70000.0,False,Ethereum,NFTfi,False,,
+2022-05-24,HackDao,code_bug,Access Control,Improper Access Control,65000.0,False,Binance Smart Chain,DeFi Protocol,False,,Solidity
+2022-05-29,Anchor,code_bug,Oracle Manipulation,Stale Oracle Price,800000.0,False,Terra,DeFi Protocol,False,,Solidity
+2022-05-30,Mirror,code_bug,Access Control,Improper Access Control,2000000.0,True,Terra,DeFi Protocol,False,,Rust
+2022-06-04,BAYC/Otherside,keys_people,Social Engineering,Phishing,257000.0,False,Ethereum,NFTfi,False,,
+2022-06-05,Elrond,code_bug,Token & Share Accounting,Infinite Mint,113000000.0,True,Elrond,DeFi Protocol,False,,
+2022-06-05,Wintermute,code_bug,Access Control,Improper Access Control,17600000.0,True,Optimism,DeFi Protocol,False,,
+2022-06-07,Equalizer Exchange,code_bug,Protocol Logic,Withdrawal Logic Flaw,50000.0,False,Ethereum;BSC;Polygon;Optimism,DeFi Protocol,False,,Solidity
+2022-06-08,Osmosis,code_bug,Protocol Logic,Withdrawal Logic Flaw,5000000.0,True,Osmosis,DeFi Protocol,False,,Go
+2022-06-08,Gym Network,code_bug,Access Control,Improper Access Control,2100000.0,True,BSC,DeFi Protocol,False,,Solidity
+2022-06-08,ApolloX,code_bug,Input Validation,Signature Verification Flaw,2150000.0,True,BSC,DeFi Protocol,False,,Solidity
+2022-06-16,Inverse Finance Frontier,code_bug,Oracle Manipulation,Spot Price Manipulation,5800000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2022-06-22,pandorachainDAO,code_bug,Oracle Manipulation,Spot Price Manipulation,128000.0,False,BSC,DeFi Protocol,False,,Solidity
+2022-06-23,Harmony Bridge,keys_people,Key Compromise,Validator Key Compromised,100000000.0,True,Ethereum;BSC,DeFi Protocol,True,,Solidity
+2022-06-24,Convex Finance,keys_people,Frontend & Infrastructure,DNS Hijack,14000.0,False,Ethereum,DeFi Protocol,False,,
+2022-06-24,Ribbon,keys_people,Frontend & Infrastructure,DNS Hijack,12000.0,False,Ethereum,DeFi Protocol,False,,
+2022-06-26,XCarnival,code_bug,Protocol Logic,Deposit Logic Flaw,3800000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2022-07-01,Quixotic,code_bug,Input Validation,Signature Verification Flaw,100000.0,False,Optimism,NFTfi,False,,Solidity
+2022-07-02,Crema Finance,code_bug,Access Control,Improper Access Control,8800000.0,True,Solana,DeFi Protocol,False,,Rust
+2022-07-10,Omni,code_bug,Reentrancy,Reentrancy,1400000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2022-07-11,Uniswap (Phishing Attack),keys_people,Social Engineering,Phishing,8000000.0,True,Ethereum,DeFi Protocol,False,,
+2022-07-12,Citizen Finance,keys_people,Key Compromise,Private Key Compromised,94300.0,False,BSC;Polygon,DeFi Protocol,False,,Solidity
+2022-07-13,SpaceGodzilla,code_bug,Oracle Manipulation,Spot Price Manipulation,25379.0,False,BSC,DeFi Protocol,False,,Solidity
+2022-07-16,Impermax,keys_people,Key Compromise,Private Key Compromised,9000000.0,True,Ethereum;Polygon,DeFi Protocol,False,,Solidity
+2022-07-17,Premint,keys_people,Frontend & Infrastructure,Frontend Compromise,375000.0,False,Ethereum,NFTfi,False,,
+2022-07-25,LPC,code_bug,Token & Share Accounting,Arithmetic Error,45000.0,False,Binance Smart Chain,DeFi Protocol,False,,Solidity
+2022-07-25,Audius,code_bug,Governance,Malicious Proposal,6000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2022-07-28,Nirvana V1,code_bug,Oracle Manipulation,Spot Price Manipulation,3500000.0,True,Solana,DeFi Protocol,False,,Rust
+2022-08-01,ZB Exchange,keys_people,Key Compromise,Hot Wallet Key Compromised,4800000.0,True,Multi-Chain,CEX,False,,
+2022-08-01,Reaper Farm,code_bug,Access Control,Improper Access Control,1700000.0,True,Fantom,DeFi Protocol,False,,Solidity
+2022-08-01,Nomad,code_bug,Bridge & Cross-Chain,Forged Proof,190000000.0,True,Ethereum,DeFi Protocol,True,,Solidity
+2022-08-02,Slope Wallet,keys_people,Frontend & Infrastructure,Key Stored Publicly,4100000.0,True,Solana,Wallet,False,,
+2022-08-07,EGD Finance,code_bug,Oracle Manipulation,Spot Price Manipulation,36000.0,False,Binance Smart Chain,DeFi Protocol,False,,Solidity
+2022-08-08,Dragoma,other,Rugpull,Admin Drain,3500000.0,True,Polygon,DeFi Protocol,False,,
+2022-08-09,Curve DEX,keys_people,Frontend & Infrastructure,DNS Hijack,575000.0,False,Ethereum,DeFi Protocol,False,575000.0,
+2022-08-10,Blur Finance,other,Rugpull,Exit Scam,600000.0,False,BSC;Polygon,DeFi Protocol,False,,Solidity
+2022-08-10,XSTABLE Protocol,code_bug,Protocol Logic,Unknown,,False,Ethereum,DeFi Protocol,False,,Solidity
+2022-08-14,Acala,code_bug,Token & Share Accounting,Infinite Mint,0.0,False,Acala,DeFi Protocol,False,,Rust
+2022-08-18,Celer cBridge,keys_people,Frontend & Infrastructure,DNS Hijack,240000.0,False,Multi-Chain,DeFi Protocol,True,,
+2022-08-23,SudoRare,other,Rugpull,Liquidity Rug,800000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2022-08-24,KaoyaSwap,code_bug,Protocol Logic,Swap Logic Flaw,118000.0,False,Binance Smart Chain,DeFi Protocol,False,,Solidity
+2022-09-01,KyberSwap Classic,keys_people,Frontend & Infrastructure,CDN Compromise,265000.0,False,Polygon,DeFi Protocol,False,,
+2022-09-02,ShadowFi,code_bug,Access Control,Improper Access Control,301000.0,False,Binance Smart Chain,DeFi Protocol,False,,Solidity
+2022-09-02,Bad Guys by RPF,code_bug,Token & Share Accounting,Incorrect Share Accounting,,False,Ethereum,NFTfi,False,,Solidity
+2022-09-05,DAO Swap,code_bug,Access Control,Improper Access Control,580000.0,False,Binance Smart Chain,DeFi Protocol,False,,Solidity
+2022-09-06,Nereus Finance,code_bug,Oracle Manipulation,Spot Price Manipulation,371000.0,False,Avalanche,DeFi Protocol,False,,Solidity
+2022-09-07,GERA,keys_people,Key Compromise,Deployer Key Compromised,1480000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2022-09-08,Ragnarok Online Invasion,code_bug,Access Control,Improper Access Control,44000.0,False,BSC,Gaming,False,,Solidity
+2022-09-08,New Free DAO,code_bug,Protocol Logic,Reward Logic Flaw,1250000.0,True,BSC,DeFi Protocol,False,,Solidity
+2022-09-18,GMX V1 EVM,other,Market Manipulation,Stale Price Arbitrage,565000.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2022-09-20,Wintermute,keys_people,Social Engineering,Phishing,160000000.0,True,Ethereum,Other,False,,
+2022-10-02,Transit Swap,code_bug,Input Validation,Missing Input Validation,28900000.0,True,Ethereum;BSC,DeFi Protocol,False,,Solidity
+2022-10-04,Sovryn,code_bug,Reentrancy,Reentrancy,1100000.0,True,RSK,DeFi Protocol,False,,Solidity
+2022-10-06,RES Token,code_bug,Oracle Manipulation,Spot Price Manipulation,290000.0,False,BSC,DeFi Protocol,False,,Solidity
+2022-10-06,Binance Bridge,code_bug,Bridge & Cross-Chain,Proof Verifier Bug,570000000.0,True,BSC,DeFi Protocol,True,,
+2022-10-09,Xave Finance,code_bug,Governance,Malicious Proposal,,False,Ethereum,DeFi Protocol,False,,Solidity
+2022-10-11,TempleDAO,code_bug,Access Control,Improper Access Control,2300000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2022-10-11,QANplatform,keys_people,Key Compromise,Weak Key Generation,2000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2022-10-11,Mango Markets V3,code_bug,Oracle Manipulation,Spot Price Manipulation,115000000.0,True,Solana,DeFi Protocol,False,,Rust
+2022-10-13,FTX,keys_people,Frontend & Infrastructure,API Key Compromised,70000.0,False,Ethereum,CEX,False,,
+2022-10-15,Earning.Farm,code_bug,Protocol Logic,Withdrawal Logic Flaw,1200000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2022-10-17,LiveArtX,keys_people,Key Compromise,Hot Wallet Key Compromised,39000.0,False,Ethereum,NFTfi,False,,
+2022-10-17,MTDAO,code_bug,Protocol Logic,Deposit Logic Flaw,702000.0,False,BSC,DeFi Protocol,False,,Solidity
+2022-10-18,Moola Market,code_bug,Oracle Manipulation,Spot Price Manipulation,8400000.0,True,Celo,DeFi Protocol,False,,Solidity
+2022-10-20,Ethereum Alarm Clock,code_bug,Protocol Logic,Reward Logic Flaw,260000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2022-10-21,Bond Protocol,code_bug,Input Validation,Missing Input Validation,300000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2022-10-23,Layer2DAO,keys_people,Social Engineering,Phishing,190000.0,False,Optimism,DeFi Protocol,False,,
+2022-10-24,QuickSwap Market,code_bug,Oracle Manipulation,Spot Price Manipulation,220000.0,False,Polygon,DeFi Protocol,False,,Solidity
+2022-10-25,ULME,code_bug,Access Control,Improper Access Control,250000.0,False,BSC,DeFi Protocol,False,,Solidity
+2022-10-26,N00dleSwap,code_bug,Reentrancy,Reentrancy,29000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2022-10-27,Team Finance,code_bug,Input Validation,Missing Input Validation,15800000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2022-10-27,UvToken,code_bug,Access Control,Improper Access Control,1500000.0,True,BSC,DeFi Protocol,False,,Solidity
+2022-10-28,FriesDAO,keys_people,Key Compromise,Weak Key Generation,2300000.0,True,Ethereum,DeFi Protocol,False,,
+2022-11-01,Save,other,Market Manipulation,Risk Parameter Abuse,1026000.0,True,Solana,DeFi Protocol,False,,
+2022-11-01,Deribit,keys_people,Key Compromise,Hot Wallet Key Compromised,28000000.0,True,,CEX,False,,
+2022-11-02,Save,code_bug,Oracle Manipulation,Spot Price Manipulation,1260000.0,True,Solana,DeFi Protocol,False,,Rust
+2022-11-02,Rubic,keys_people,Key Compromise,Private Key Compromised,1200000.0,True,Ethereum,DeFi Protocol,True,,
+2022-11-02,Skyward Finance,code_bug,Input Validation,Missing Input Validation,3000000.0,True,Near,DeFi Protocol,False,,Rust
+2022-11-03,pNetwork,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,4300000.0,True,BSC,DeFi Protocol,True,,Solidity
+2022-11-06,Pando Rings,code_bug,Oracle Manipulation,Spot Price Manipulation,22000000.0,True,Mixin,DeFi Protocol,False,,Go
+2022-11-07,MooCAKECTX,code_bug,Token & Share Accounting,Incorrect Share Accounting,140000.0,False,BSC,DeFi Protocol,False,,Solidity
+2022-11-09,Brahma Finance,code_bug,Access Control,Arbitrary External Call,89343.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2022-11-10,DFX V2,code_bug,Reentrancy,Reentrancy,4000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2022-11-12,FTX,keys_people,Social Engineering,Phishing,450000000.0,True,Ethereum;Solana,CEX,False,,
+2022-11-16,SheepFarm,code_bug,Input Validation,Missing Input Validation,72000.0,False,BSC,DeFi Protocol,False,,Solidity
+2022-11-17,UEarnPool,code_bug,Protocol Logic,Reward Logic Flaw,16038.0,False,BSC,DeFi Protocol,False,,Solidity
+2022-11-18,Polynomial,code_bug,Input Validation,Missing Input Validation,7000.0,False,Optimism,DeFi Protocol,False,,Solidity
+2022-11-21,sDAO,code_bug,Protocol Logic,Unknown,13000.0,False,BSC,Token,False,,Solidity
+2022-11-22,AUR Protocol,code_bug,Access Control,Improper Access Control,13000.0,False,BSC,Token,False,,Solidity
+2022-11-23,Numbers Protocol,code_bug,Bridge & Cross-Chain,Bridge Logic Flaw,13836.0,False,Ethereum,DeFi Protocol,True,,Solidity
+2022-11-29,SEAMAN,code_bug,Protocol Logic,Unknown,7000.0,False,BSC,Token,False,,Solidity
+2022-11-29,MBC & ZZSH,code_bug,Access Control,Improper Access Control,5900.0,False,BSC,Token,False,,Solidity
+2022-12-01,APC,code_bug,Oracle Manipulation,Spot Price Manipulation,6000.0,False,BSC,Token,False,,Solidity
+2022-12-02,Overnight Finance,code_bug,Protocol Logic,Unknown,,False,Avalanche,DeFi Protocol,False,,Solidity
+2022-12-02,Ankr,code_bug,Access Control,Improper Access Control,5000000.0,True,BSC,DeFi Protocol,False,5000000.0,Solidity
+2022-12-03,BTC.com,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,3000000.0,True,Bitcoin;Ethereum,Wallet,False,,
+2022-12-03,Ratio Finance,keys_people,Key Compromise,Key Brute Forced,,False,Solana,DeFi Protocol,False,,Rust
+2022-12-05,RFB,code_bug,Input Validation,Missing Input Validation,,False,BSC,DeFi Protocol,False,,Solidity
+2022-12-05,BBOX,code_bug,Oracle Manipulation,Spot Price Manipulation,,False,BSC,Token,False,,Solidity
+2022-12-07,AES,code_bug,Token & Share Accounting,Rounding Error,61608.0,False,BSC,Token,False,,Solidity
+2022-12-09,NOVAToken,other,Rugpull,Admin Drain,,False,BSC,Token,False,,Solidity
+2022-12-10,MU&MUG,code_bug,Oracle Manipulation,Spot Price Manipulation,57000.0,False,Avalanche,Token,False,,Solidity
+2022-12-10,TiFi,code_bug,Oracle Manipulation,Spot Price Manipulation,43500.0,False,BSC,Token,False,,Solidity
+2022-12-10,Lodestar V0,code_bug,Oracle Manipulation,Spot Price Manipulation,6900000.0,True,Arbitrum,DeFi Protocol,False,,Solidity
+2022-12-11,3Commas,keys_people,Frontend & Infrastructure,Database Breach,20000000.0,True,Multi-Chain,CEX,False,,
+2022-12-12,BGLD,code_bug,Oracle Manipulation,Spot Price Manipulation,18000.0,False,BSC,Token,False,,Solidity
+2022-12-13,ElasticSwap,code_bug,Oracle Manipulation,Spot Price Manipulation,850000.0,False,Avalanche;Ethereum,DeFi Protocol,False,520650.0,
+2022-12-14,Nimbus,code_bug,Protocol Logic,Reward Logic Flaw,76000.0,False,BSC,DeFi Protocol,False,,Solidity
+2022-12-14,FPR,code_bug,Access Control,Improper Access Control,29000.0,False,BSC,DeFi Protocol,False,,Solidity
+2022-12-16,Raydium AMM,keys_people,Social Engineering,Malware,4400000.0,True,Solana,DeFi Protocol,False,,Rust
+2022-12-24,Defrost,keys_people,Key Compromise,Private Key Compromised,12000000.0,True,Avalanche,DeFi Protocol,False,6000000.0,Solidity
+2022-12-25,Rubic,code_bug,Access Control,Arbitrary External Call,1410000.0,True,Ethereum,DeFi Protocol,True,,Solidity
+2022-12-26,Amun,code_bug,Access Control,Improper Access Control,300000.0,False,Polygon,DeFi Protocol,False,,
+2022-12-29,Jaypeggers,code_bug,Reentrancy,Reentrancy,18500.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-01-03,GDS,code_bug,Protocol Logic,Reward Logic Flaw,187000.0,False,BSC,DeFi Protocol,False,,Solidity
+2023-01-10,BRA,code_bug,Token & Share Accounting,Incorrect Share Accounting,225000.0,False,BSC,Token,False,,Solidity
+2023-01-11,Roe Finance,code_bug,Oracle Manipulation,Spot Price Manipulation,80000.0,False,Ethereum;Polygon,DeFi Protocol,False,,
+2023-01-16,LendHub,code_bug,Token & Share Accounting,Incorrect Share Accounting,6000000.0,True,Heco,DeFi Protocol,False,,Solidity
+2023-01-17,Midas Capital,code_bug,Reentrancy,Reentrancy,660000.0,False,Polygon,DeFi Protocol,False,,Solidity
+2023-01-17,OmniEstate,code_bug,Input Validation,Missing Input Validation,70705.0,False,BSC,DeFi Protocol,False,,Solidity
+2023-01-19,Thoreum Finance,code_bug,Protocol Logic,Swap Logic Flaw,65540.0,False,BSC,DeFi Protocol,False,,Solidity
+2023-01-21,Omm,code_bug,Protocol Logic,Redeem Logic Flaw,1891000.0,True,Icon,DeFi Protocol,False,,Java
+2023-01-26,Robinhood,keys_people,Social Engineering,Social Account Takeover,8200.0,False,BSC,CEX,False,,
+2023-01-30,BEVO,code_bug,Token & Share Accounting,Incorrect Share Accounting,45000.0,False,BSC,Token,False,,Solidity
+2023-02-01,BonqDAO,code_bug,Oracle Manipulation,Oracle Misconfiguration,1800000.0,True,Polygon,DeFi Protocol,False,,Solidity
+2023-02-02,Orion Pools,code_bug,Reentrancy,Reentrancy,3000000.0,True,BSC,DeFi Protocol,False,,Solidity
+2023-02-04,Sperax USD,code_bug,Token & Share Accounting,Unbacked Mint,250000.0,False,Arbitrum,Token,False,,Solidity
+2023-02-07,LianGoPay,other,Rugpull,Admin Drain,1600000.0,True,BSC,DeFi Protocol,False,,Solidity
+2023-02-07,CoWSwap,code_bug,Access Control,Arbitrary External Call,180000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-02-10,dForce Lending,code_bug,Reentrancy,Read-Only Reentrancy,3650000.0,True,Arbitrum;Optimism,DeFi Protocol,False,,Solidity
+2023-02-10,Sheep,code_bug,Token & Share Accounting,Incorrect Share Accounting,3000.0,False,BSC,Token,False,,Solidity
+2023-02-11,fcdep,code_bug,Token & Share Accounting,Infinite Mint,350000.0,False,BSC,DeFi Protocol,False,,Solidity
+2023-02-15,Multichain,code_bug,Input Validation,Signature Verification Flaw,130000.0,False,Ethereum,DeFi Protocol,True,,Solidity
+2023-02-16,Platypus Finance,code_bug,Protocol Logic,Unknown,8500000.0,True,Avalanche,DeFi Protocol,False,222634.0,Solidity
+2023-02-20,Hope Finance,code_bug,Access Control,Arbitrary External Call,2000000.0,True,Arbitrum,DeFi Protocol,False,,Solidity
+2023-02-20,Dexible V2,code_bug,Access Control,Arbitrary External Call,2047635.0,True,Ethereum;Arbitrum,DeFi Protocol,False,,Solidity
+2023-02-20,Revert Finance,code_bug,Access Control,Arbitrary External Call,29000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-02-27,swapX,code_bug,Access Control,Improper Access Control,1000000.0,True,BSC,DeFi Protocol,False,,Solidity
+2023-02-27,DungeonSwap,code_bug,Access Control,Improper Access Control,728000.0,False,BSC,DeFi Protocol,False,,Solidity
+2023-02-27,LaunchZone,code_bug,Access Control,Improper Access Control,700000.0,False,BSC,DeFi Protocol,False,,Solidity
+2023-02-27,MyAlgo,keys_people,Frontend & Infrastructure,CDN Compromise,9200000.0,True,Algorand,Wallet,False,,JavaScript
+2023-03-02,ArbiSwap,other,Rugpull,Liquidity Rug,100000.0,False,Arbitrum,DeFi Protocol,False,,
+2023-03-07,Tender Finance,code_bug,Oracle Manipulation,Stale Oracle Price,1590000.0,True,Arbitrum,DeFi Protocol,False,,Solidity
+2023-03-08,DKP,code_bug,Oracle Manipulation,Spot Price Manipulation,80000.0,False,BSC,Token,False,,Solidity
+2023-03-08,PeopleDAO,keys_people,Social Engineering,Signer Phishing,120000.0,False,Ethereum,DAO,False,,
+2023-03-10,Hedera,code_bug,Access Control,Improper Access Control,600000.0,False,Hedera,DeFi Protocol,False,,
+2023-03-13,Euler V1,code_bug,Token & Share Accounting,Donation Attack,197000000.0,True,Ethereum,DeFi Protocol,False,240000000.0,Solidity
+2023-03-15,Poolz Network,code_bug,Token & Share Accounting,Arithmetic Error,390000.0,False,BSC,DeFi Protocol,False,,Solidity
+2023-03-17,ParaSpace Lending V1,code_bug,Oracle Manipulation,Spot Price Manipulation,5000000.0,True,Ethereum,NFTfi,False,5000000.0,Solidity
+2023-03-17,General Bytes,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,1500000.0,True,Ethereum,Other,False,,
+2023-03-18,Zircon Gamma,code_bug,Token & Share Accounting,Incorrect Share Accounting,350000.0,False,BSC;Moonriver,DeFi Protocol,False,,
+2023-03-19,Harvest Keeper,other,Rugpull,Admin Drain,933000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-03-21,Indexed Finance,code_bug,Protocol Logic,Swap Logic Flaw,9925.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-03-25,Swerve,code_bug,Governance,Malicious Proposal,1300000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2023-03-27,Kokomo Finance,other,Rugpull,Admin Drain,4000000.0,True,Optimism,DeFi Protocol,False,,Solidity
+2023-03-28,Safemoon,code_bug,Access Control,Improper Access Control,8900000.0,True,BSC,DeFi Protocol,False,,Solidity
+2023-03-30,Rocket Pool,keys_people,Social Engineering,Phishing,3800000.0,True,Ethereum,Token,False,,
+2023-04-02,Allbridge Core,code_bug,Protocol Logic,Swap Logic Flaw,573000.0,False,BSC,DeFi Protocol,True,,
+2023-04-03,MEV-Boost Relay,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,20000000.0,True,Ethereum,Other,False,,
+2023-04-04,Sentiment,code_bug,Reentrancy,Reentrancy,1000000.0,True,Arbitrum,DeFi Protocol,False,900000.0,Solidity
+2023-04-08,GDAC,keys_people,Key Compromise,Hot Wallet Key Compromised,13900000.0,True,,CEX,False,,
+2023-04-10,SushiSwap,code_bug,Input Validation,Missing Input Validation,3300000.0,True,Ethereum;Arbitrum;Optimism;BSC,DeFi Protocol,False,3300000.0,Solidity
+2023-04-10,Terraport,code_bug,Access Control,Improper Access Control,4000000.0,True,Terra Classic,DeFi Protocol,False,,Solidity
+2023-04-11,Paribus,code_bug,Reentrancy,Reentrancy,67800.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2023-04-12,MetaPoint,code_bug,Access Control,Token Approval Abuse,820000.0,False,BSC,DeFi Protocol,False,,Solidity
+2023-04-13,Yearn Finance,code_bug,Oracle Manipulation,Oracle Misconfiguration,11539000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2023-04-14,Bitrue,keys_people,Key Compromise,Hot Wallet Key Compromised,23000000.0,True,,CEX,False,,
+2023-04-15,Hundred Finance,code_bug,Token & Share Accounting,Donation Attack,7400000.0,True,Optimism,DeFi Protocol,False,,Solidity
+2023-04-16,Swapos V2,code_bug,Protocol Logic,Swap Logic Flaw,468000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-04-20,Tales of Elleria,code_bug,Bridge & Cross-Chain,Forged Proof,280000.0,False,Arbitrum,Gaming,False,,Solidity
+2023-04-23,FilDA,code_bug,Bridge & Cross-Chain,Bridge Logic Flaw,700000.0,False,Elastos;REI Network,DeFi Protocol,False,,Solidity
+2023-04-24,KuCoin,keys_people,Social Engineering,Social Account Takeover,22628.0,False,,CEX,False,,
+2023-04-25,MERLIN DEX,other,Rugpull,Admin Drain,1820000.0,True,zkSync Era,DeFi Protocol,False,,
+2023-04-28,0vix,code_bug,Oracle Manipulation,Spot Price Manipulation,2000000.0,True,Polygon,DeFi Protocol,False,,Solidity
+2023-05-01,Level Perps,code_bug,Protocol Logic,Reward Logic Flaw,1100000.0,True,BSC,DeFi Protocol,False,,Solidity
+2023-05-01,pcash,code_bug,Protocol Logic,Unknown,2000000.0,True,EOS,DeFi Protocol,False,,C++
+2023-05-05,DEUS Finance,code_bug,Token & Share Accounting,Arithmetic Error,6500000.0,True,Arbitrum;BSC;Ethereum,DeFi Protocol,False,,Solidity
+2023-05-06,Melo,code_bug,Access Control,Improper Access Control,90000.0,False,Binance Smart Chain,DeFi Protocol,False,,Solidity
+2023-05-07,Art Coin,code_bug,Protocol Logic,Deposit Logic Flaw,331000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-05-10,SNK (Snooker),code_bug,Access Control,Improper Access Control,197725.0,False,Binance Smart Chain,DeFi Protocol,False,,Solidity
+2023-05-12,LW Token,code_bug,Oracle Manipulation,Spot Price Manipulation,50000.0,False,Binance Smart Chain,DeFi Protocol,False,,Solidity
+2023-05-19,Swaprum,other,Rugpull,Backdoor Contract,3000000.0,True,Arbitrum,DeFi Protocol,False,,
+2023-05-19,WDZD Swap,code_bug,Protocol Logic,Swap Logic Flaw,1000000.0,True,Binance Smart Chain,DeFi Protocol,False,,Solidity
+2023-05-20,Swap-LP,code_bug,Protocol Logic,Swap Logic Flaw,1100000.0,True,BSC,DeFi Protocol,False,,Solidity
+2023-05-20,Tornado Cash,code_bug,Governance,Malicious Proposal,2173500.0,True,Ethereum,DAO,False,,Solidity
+2023-05-23,LunaFi,code_bug,Protocol Logic,Reward Logic Flaw,35000.0,False,Polygon,DeFi Protocol,False,,Solidity
+2023-05-24,Local Traders,code_bug,Access Control,Improper Access Control,118000.0,False,BSC,DeFi Protocol,False,,Solidity
+2023-05-26,Patricia,keys_people,Frontend & Infrastructure,Database Breach,2000000.0,True,,CEX,False,,
+2023-05-28,Jimbos Protocol,code_bug,Oracle Manipulation,Spot Price Manipulation,7500000.0,True,Arbitrum,DeFi Protocol,False,,Solidity
+2023-05-30,El Dorado Exchange,code_bug,Protocol Logic,Swap Logic Flaw,120000.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2023-05-31,unshETH,keys_people,Frontend & Infrastructure,Key Stored Publicly,375000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-06-01,Cellframe,code_bug,Protocol Logic,Swap Logic Flaw,76112.0,False,BSC,DeFi Protocol,False,,Solidity
+2023-06-02,Hector Lending,code_bug,Access Control,Token Approval Abuse,653000.0,False,Fantom,DeFi Protocol,True,,
+2023-06-03,Atomic Wallet,keys_people,Frontend & Infrastructure,Supply Chain Attack,100000000.0,True,Ethereum;Tron;BSC;Bitcoin;Polkadot;Avalanche,Wallet,False,,
+2023-06-10,Atlantis Loans,code_bug,Access Control,Improper Access Control,2500000.0,True,BSC,DeFi Protocol,False,,Solidity
+2023-06-11,Floating Point Group,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,15000000.0,True,,CEX,False,,
+2023-06-12,Sturdy V1,code_bug,Reentrancy,Read-Only Reentrancy,775000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-06-12,Keep3r Network,keys_people,Key Compromise,Weak Key Generation,200000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-06-14,Tropykus RSK,code_bug,Token & Share Accounting,Rounding Error,150000.0,False,Rootstock,DeFi Protocol,False,,Solidity
+2023-06-15,Hashflow,code_bug,Access Control,Token Approval Abuse,605000.0,False,Ethereum;Arbitrum;Avalanche;BSC;Polygon,DeFi Protocol,False,,Solidity
+2023-06-15,Hyperliquid,other,Market Manipulation,Risk Parameter Abuse,37000.0,False,Arbitrum,DeFi Protocol,False,,
+2023-06-15,CFC,code_bug,Token & Share Accounting,Donation Attack,16000.0,False,BSC,DeFi Protocol,False,,Solidity
+2023-06-17,Pawnfi,code_bug,Token & Share Accounting,Incorrect Share Accounting,820000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-06-17,Midas Capital,code_bug,Token & Share Accounting,Rounding Error,340000.0,False,BSC,DeFi Protocol,False,,Solidity
+2023-06-19,Ara Finance,code_bug,Access Control,Token Approval Abuse,125000.0,False,BSC,DeFi Protocol,False,,
+2023-06-23,Shido,code_bug,Protocol Logic,Unknown,238500.0,False,BNB Chain,DeFi Protocol,False,,Solidity
+2023-06-27,Themis Protocol,code_bug,Oracle Manipulation,Spot Price Manipulation,370000.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2023-06-30,Biswap,code_bug,Access Control,Improper Access Control,72000.0,False,BNB Chain,DeFi Protocol,False,,Solidity
+2023-07-02,Poly Network,code_bug,Bridge & Cross-Chain,Forged Proof,5000000.0,True,Ethereum;BSC;Polygon,DeFi Protocol,True,,Solidity
+2023-07-03,AzukiDAO,code_bug,Input Validation,Signature Replay,68000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-07-04,Rodeo,code_bug,Protocol Logic,Unknown,90000.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2023-07-07,Multichain,keys_people,Key Compromise,Validator Key Compromised,126000000.0,True,Moonriver;BSC;Fantom,DeFi Protocol,True,,
+2023-07-08,CIVNFT,code_bug,Access Control,Improper Access Control,180000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-07-09,CivFund,code_bug,Access Control,Token Approval Abuse,180000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-07-10,Arcadia V1,code_bug,Access Control,Improper Access Control,455000.0,False,Ethereum;Optimism,DeFi Protocol,False,,
+2023-07-11,Libertify,code_bug,Reentrancy,Reentrancy,230.0,False,Ethereum;Polygon,DeFi Protocol,False,,Solidity
+2023-07-12,Platypus Finance,code_bug,Protocol Logic,Withdrawal Logic Flaw,50000.0,False,Avalanche,DeFi Protocol,False,,Solidity
+2023-07-13,Ethscriptions,code_bug,Access Control,Improper Access Control,2828.0,False,Ethereum,NFTfi,False,,Solidity
+2023-07-18,BNO,code_bug,Access Control,Improper Access Control,500000.0,False,BNB Chain,DeFi Protocol,False,,Solidity
+2023-07-20,Utopia,code_bug,Protocol Logic,Swap Logic Flaw,119300.0,False,BSC,Token,False,,Solidity
+2023-07-20,FFIST,code_bug,Protocol Logic,Reward Logic Flaw,110000.0,False,BSC,Token,False,,Solidity
+2023-07-21,Conic Finance,code_bug,Reentrancy,Read-Only Reentrancy,3300000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2023-07-22,Conic Finance,code_bug,Oracle Manipulation,Spot Price Manipulation,300000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-07-22,CoinsPaid,keys_people,Social Engineering,Impersonation Scam,37300000.0,True,,Other,False,,
+2023-07-24,Palmswap,code_bug,Token & Share Accounting,Incorrect Share Accounting,900000.0,False,BSC,DeFi Protocol,False,,Solidity
+2023-07-25,MetaLabz,code_bug,Access Control,Improper Access Control,,False,BSC,DeFi Protocol,False,,Solidity
+2023-07-25,EraLend,code_bug,Reentrancy,Read-Only Reentrancy,3400000.0,True,zkSync Era,DeFi Protocol,False,,Solidity
+2023-07-26,AlphaPo,keys_people,Key Compromise,Hot Wallet Key Compromised,60000000.0,True,Ethereum;Tron,CEX,False,,
+2023-07-26,Carson DeFi,code_bug,Oracle Manipulation,Spot Price Manipulation,150000.0,False,BSC,DeFi Protocol,False,,Solidity
+2023-07-28,Pond0x,code_bug,Access Control,Arbitrary External Call,2200000.0,True,Ethereum,Token,False,,Solidity
+2023-07-30,Curve DEX,code_bug,Reentrancy,Vyper Compiler Bug,61700000.0,True,Ethereum,DeFi Protocol,False,,Vyper
+2023-07-30,Kannagi,other,Rugpull,Admin Drain,2130000.0,True,zkSync Era;Ethereum,DeFi Protocol,False,,
+2023-07-31,GYM Network,code_bug,Access Control,Improper Access Control,1193.0,False,BSC,DeFi Protocol,False,,Solidity
+2023-08-01,LeetSwap,code_bug,Access Control,Improper Access Control,620000.0,False,Base,DeFi Protocol,False,,Solidity
+2023-08-01,Neutra Finance,code_bug,Oracle Manipulation,Spot Price Manipulation,36450.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2023-08-02,Uwerx,code_bug,Oracle Manipulation,Spot Price Manipulation,327000.0,False,Ethereum,Other,False,,
+2023-08-02,Bald,other,Rugpull,Liquidity Rug,23000000.0,True,Base,DeFi Protocol,False,,
+2023-08-07,Cypher,code_bug,Oracle Manipulation,Spot Price Manipulation,1035000.0,True,Solana,DeFi Protocol,False,,
+2023-08-08,Steadefi,keys_people,Key Compromise,Deployer Key Compromised,1157000.0,True,Ethereum,DeFi Protocol,False,,
+2023-08-09,Earning.Farm,code_bug,Reentrancy,Reentrancy,540000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-08-13,Zunami Protocol,code_bug,Oracle Manipulation,Spot Price Manipulation,2100000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2023-08-15,RocketSwap Base,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,865000.0,False,Base,DeFi Protocol,False,,Solidity
+2023-08-18,Exactly,code_bug,Access Control,Improper Access Control,7600000.0,True,Optimism,DeFi Protocol,False,,Solidity
+2023-08-19,Harbor Protocol,code_bug,Oracle Manipulation,Spot Price Manipulation,250000.0,False,Comdex,DeFi Protocol,False,,Rust
+2023-08-24,GSS,code_bug,Token & Share Accounting,Arithmetic Error,25000.0,False,BSC,Token,False,,Solidity
+2023-08-25,Magnate Finance,other,Rugpull,Treasury Misappropriation,6500000.0,True,Base,DeFi Protocol,False,,Solidity
+2023-08-26,PEPE,other,Rugpull,Admin Drain,15080000.0,True,Ethereum,Token,False,,Solidity
+2023-08-27,Balancer V2,code_bug,Oracle Manipulation,Spot Price Manipulation,800000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-08-29,EAC,code_bug,Oracle Manipulation,Spot Price Manipulation,6376.0,False,BSC,Token,False,,Solidity
+2023-09-01,SharedStake,code_bug,Access Control,Ownership Takeover,175000.0,False,Ethereum,DeFi Protocol,False,,
+2023-09-02,DAppSocial,code_bug,Access Control,Improper Access Control,16000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-09-04,Stake.com,keys_people,Key Compromise,Hot Wallet Key Compromised,41300000.0,True,Ethereum;BSC;Polygon,Other,False,,
+2023-09-05,Floor Dao,code_bug,Protocol Logic,Reward Logic Flaw,64200.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-09-06,GMBL.COMPUTER,code_bug,Input Validation,Signature Verification Flaw,770000.0,False,Arbitrum,DeFi Protocol,False,,
+2023-09-07,Fortress Trust,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,12000000.0,True,Ethereum;Bitcoin,CEX,False,,
+2023-09-11,Milady Maker,other,Rugpull,Admin Drain,1000000.0,True,Ethereum,DeFi Protocol,False,,
+2023-09-12,CoinEx,keys_people,Key Compromise,Hot Wallet Key Compromised,55000000.0,True,Ethereum;BSC;Bitcoin;Tron;Kadena;Solana;Dagger;XRP;BitcoinCash;Polygon;Stellar;Arbitrum,CEX,False,,
+2023-09-15,Remitano,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,2700000.0,True,Ethereum;Tron;BitcoinCash,CEX,False,,
+2023-09-16,uniclyNFT,code_bug,Reentrancy,Reentrancy,2000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-09-19,Balancer V2,keys_people,Frontend & Infrastructure,Frontend Compromise,238000.0,False,Ethereum,DeFi Protocol,False,,
+2023-09-23,Mixin Network,keys_people,Frontend & Infrastructure,Database Breach,200000000.0,True,Mixin,Other,False,,
+2023-09-25,HTX,keys_people,Key Compromise,Hot Wallet Key Compromised,8000000.0,True,Ethereum,CEX,False,,
+2023-10-06,Galxe,keys_people,Frontend & Infrastructure,DNS Hijack,270000.0,False,Ethereum,Other,False,,
+2023-10-07,Arena SocialFi,code_bug,Reentrancy,Reentrancy,2974530.0,True,Avalanche,Other,False,,Solidity
+2023-10-12,BlackHole Token,code_bug,Oracle Manipulation,Spot Price Manipulation,1275000.0,True,BSC,Token,False,,Solidity
+2023-10-13,WiseLending,code_bug,Token & Share Accounting,Rounding Error,260000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-10-13,Beluga,code_bug,Oracle Manipulation,Spot Price Manipulation,175000.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2023-10-13,Platypus Finance,code_bug,Oracle Manipulation,Spot Price Manipulation,2200000.0,True,Avalanche,DeFi Protocol,False,,Solidity
+2023-10-18,MicDao,code_bug,Oracle Manipulation,Spot Price Manipulation,13000.0,False,BSC,DeFi Protocol,False,,Solidity
+2023-10-18,HOPE Lend,code_bug,Token & Share Accounting,Arithmetic Error,825000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-10-19,Synthetify,code_bug,Governance,Malicious Proposal,230000.0,False,Solana,DeFi Protocol,False,,
+2023-10-23,Maestro,code_bug,Access Control,Arbitrary External Call,500000.0,False,Ethereum,DeFi Protocol,False,465000.0,
+2023-10-29,Astrid Finance,code_bug,Input Validation,Missing Input Validation,228000.0,False,Ethereum,DeFi Protocol,False,,
+2023-10-31,Unibot,code_bug,Access Control,Token Approval Abuse,640000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-11-01,Onyx Protocol,code_bug,Token & Share Accounting,Donation Attack,2100000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2023-11-06,TrustPad,code_bug,Access Control,Improper Access Control,155000.0,False,BSC,DeFi Protocol,False,,Solidity
+2023-11-06,TheStandard.io,code_bug,Protocol Logic,Swap Logic Flaw,290000.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2023-11-07,Curve Finance MEV Bot,code_bug,Access Control,Improper Access Control,2000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2023-11-09,CoinSpot,keys_people,Key Compromise,Hot Wallet Key Compromised,2400000.0,True,Ethereum,CEX,False,,
+2023-11-10,Raft,code_bug,Token & Share Accounting,Infinite Mint,3300000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2023-11-10,Poloniex,keys_people,Social Engineering,Malware,126000000.0,True,Tron;Ethereum;Bitcoin,CEX,False,,
+2023-11-11,Samudai,keys_people,Key Compromise,Hot Wallet Key Compromised,1250000.0,True,Ethereum,DeFi Protocol,False,,
+2023-11-18,Kronos Research,keys_people,Frontend & Infrastructure,API Key Compromised,26000000.0,True,Ethereum,Other,False,,
+2023-11-18,SpookySwap,keys_people,Frontend & Infrastructure,Frontend Compromise,5000.0,False,Fantom,DeFi Protocol,False,,
+2023-11-18,dYdX V3,other,Market Manipulation,Risk Parameter Abuse,9000000.0,True,Ethereum,DeFi Protocol,False,,
+2023-11-22,KyberSwap Elastic,code_bug,Token & Share Accounting,Rounding Error,48000000.0,True,Ethereum;Base;Polygon;Optimism;Arbitrum,DeFi Protocol,False,,Solidity
+2023-11-22,Huobi,keys_people,Key Compromise,Hot Wallet Key Compromised,13600000.0,True,Ethereum,CEX,False,,
+2023-11-22,Heco Bridge,keys_people,Key Compromise,Hot Wallet Key Compromised,86600000.0,True,Ethereum,DeFi Protocol,True,,
+2023-11-25,TheNFTV2,code_bug,Protocol Logic,Withdrawal Logic Flaw,19000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-11-29,Velodrome,keys_people,Frontend & Infrastructure,DNS Hijack,250000.0,False,Optimism,DeFi Protocol,False,,
+2023-11-30,Florence Finance,keys_people,Social Engineering,Address Poisoning,1450000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2023-12-04,Stargate Finance,keys_people,Social Engineering,Phishing,43000.0,False,Ethereum,DeFi Protocol,False,,
+2023-12-06,ElephantStatus,code_bug,Oracle Manipulation,Spot Price Manipulation,165000.0,False,BSC,DeFi Protocol,False,,Solidity
+2023-12-06,TIME,code_bug,Input Validation,Missing Input Validation,190000.0,False,Ethereum,Token,False,,Solidity
+2023-12-07,Xai,keys_people,Social Engineering,Impersonation Scam,845800.0,False,Ethereum,Token,False,,
+2023-12-11,Venus Protocol,code_bug,Oracle Manipulation,Oracle Misconfiguration,274000.0,False,BSC,DeFi Protocol,False,,Solidity
+2023-12-13,OKX DEX,keys_people,Key Compromise,Private Key Compromised,2700000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2023-12-13,Peapods Finance,code_bug,Reentrancy,Reentrancy,231192.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-12-14,Ledger Connect Kit,keys_people,Frontend & Infrastructure,Supply Chain Attack,484000.0,False,Ethereum,Wallet,False,,
+2023-12-16,NFT Trader,code_bug,Reentrancy,Reentrancy,3000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2023-12-16,GoodDollar,code_bug,Reentrancy,Reentrancy,2000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2023-12-17,Flooring Protocol,code_bug,Access Control,Arbitrary External Call,1600000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2023-12-20,INX Digital Company,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,1600000.0,True,Ethereum,CEX,False,,
+2023-12-20,Transit Finance,code_bug,Input Validation,Missing Input Validation,110000.0,False,BSC;Ethereum,DeFi Protocol,False,,Solidity
+2023-12-22,Pine Protocol,code_bug,Protocol Logic,Swap Logic Flaw,95000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2023-12-25,Telcoin,code_bug,Access Control,Uninitialized Proxy,1250000.0,True,Polygon,Payments,False,,Solidity
+2023-12-27,Thunder Terminal,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,240000.0,False,Ethereum;Solana,CEX,False,,
+2023-12-27,Levana Perps,code_bug,Oracle Manipulation,Stale Oracle Price,1100000.0,True,Osmosis,DeFi Protocol,False,,Rust
+2023-12-30,Channels Finance,code_bug,Token & Share Accounting,Infinite Mint,320000.0,False,BSC,DeFi Protocol,False,,Solidity
+2023-12-30,Locus Finance,keys_people,Key Compromise,Private Key Compromised,321000.0,False,Ethereum;Arbitrum,DeFi Protocol,False,,
+2023-12-31,Orbit Bridge,code_bug,Input Validation,Signature Verification Flaw,81700000.0,True,Ethereum,DeFi Protocol,True,,Solidity
+2024-01-02,Radiant V2,code_bug,Token & Share Accounting,Rounding Error,4500000.0,True,Arbitrum,DeFi Protocol,False,,Solidity
+2024-01-04,Gamma,code_bug,Oracle Manipulation,Spot Price Manipulation,4500000.0,True,Arbitrum,DeFi Protocol,False,,Solidity
+2024-01-06,CoinsPaid,keys_people,Key Compromise,Hot Wallet Key Compromised,7500000.0,True,Ethereum;Binance Smart Chain,CEX,False,,
+2024-01-07,MangoFarmSol,other,Rugpull,Admin Drain,2000000.0,True,Solana,DeFi Protocol,False,,Rust
+2024-01-12,Wise Lending V1,code_bug,Token & Share Accounting,Donation Attack,464000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-01-16,Hector Network,code_bug,Access Control,Improper Access Control,2700000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2024-01-16,Bungee,code_bug,Input Validation,Missing Input Validation,3300000.0,True,Ethereum,DeFi Protocol,True,,Solidity
+2024-01-17,BasketDAO,code_bug,Access Control,Arbitrary External Call,1200000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2024-01-22,Concentric,keys_people,Social Engineering,Phishing,1720000.0,True,Arbitrum,DeFi Protocol,False,,Solidity
+2024-01-23,Gamee,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,7000000.0,True,Polygon,DeFi Protocol,False,,Solidity
+2024-01-25,Nebula Revelation,code_bug,Reentrancy,Reentrancy,180264.0,False,Optimism,DeFi Protocol,False,,Solidity
+2024-01-25,Saga,keys_people,Key Compromise,Private Key Compromised,65800.0,False,Solana,DeFi Protocol,False,,
+2024-01-27,Citadel.one,code_bug,Access Control,Improper Access Control,93000.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2024-01-27,Somesing,code_bug,Token & Share Accounting,Unbacked Mint,11580000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2024-01-28,Goledo,code_bug,Oracle Manipulation,Spot Price Manipulation,1700000.0,True,Conflux,DeFi Protocol,False,,Solidity
+2024-01-29,Barley Finance,code_bug,Token & Share Accounting,Infinite Mint,130000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-01-30,Abracadabra Spell,code_bug,Token & Share Accounting,Rounding Error,6500000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2024-02-01,Affine Protocol,code_bug,Input Validation,Missing Input Validation,88000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-02-08,Starlay Finance,code_bug,Protocol Logic,Redeem Logic Flaw,2100000.0,True,Acala,DeFi Protocol,False,,Solidity
+2024-02-09,PlayDapp,keys_people,Key Compromise,Hot Wallet Key Compromised,290000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2024-02-13,DuelBits,keys_people,Social Engineering,Malware,4600000.0,True,Ethereum,CEX,False,,
+2024-02-15,DualPools,code_bug,Token & Share Accounting,Rounding Error,41000.0,False,BSC,DeFi Protocol,False,,Solidity
+2024-02-15,Miner,code_bug,Input Validation,Missing Input Validation,466000.0,False,Ethereum,Token,False,,Solidity
+2024-02-16,ParticleTrade,code_bug,Input Validation,Missing Input Validation,140000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-02-18,FixedFloat,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,26100000.0,True,Ethereum;Bitcoin,DeFi Protocol,False,,
+2024-02-19,RuggedArt,code_bug,Reentrancy,Reentrancy,,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-02-21,Gain,code_bug,Token & Share Accounting,Infinite Mint,3010000.0,True,Ethereum,Token,False,,Solidity
+2024-02-21,DeezNutz 404,code_bug,Token & Share Accounting,Infinite Mint,170000.0,False,Ethereum,Token,False,,Solidity
+2024-02-22,Swarm Markets,code_bug,Access Control,Improper Access Control,472892.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-02-22,Tectonic,code_bug,Protocol Logic,Unknown,250000.0,False,Cronos,DeFi Protocol,False,,Solidity
+2024-02-24,ZoomerCoin,code_bug,Governance,Flashloan Governance Attack,41000.0,False,Ethereum,Token,False,,Solidity
+2024-02-24,BlueBerry,code_bug,Oracle Manipulation,Spot Price Manipulation,1340000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2024-02-25,RiskOnBlast,other,Rugpull,Exit Scam,1300000.0,True,Blast,DeFi Protocol,False,,
+2024-02-28,Smoofs,code_bug,Reentrancy,Reentrancy,,False,Polygon,DeFi Protocol,False,,Solidity
+2024-02-28,Seneca,code_bug,Access Control,Token Approval Abuse,6400000.0,True,Ethereum;Arbitrum,DeFi Protocol,False,,Solidity
+2024-02-28,Serenity Shield,keys_people,Social Engineering,Phishing,586000.0,False,Ethereum,Token,False,,Solidity
+2024-02-29,Shido,keys_people,Key Compromise,Private Key Compromised,3300000.0,True,Ethereum,Other,False,,Solidity
+2024-03-05,WOOFi Swap,code_bug,Oracle Manipulation,Spot Price Manipulation,8750000.0,True,Arbitrum,DeFi Protocol,False,,Solidity
+2024-03-06,ALP,code_bug,Access Control,Improper Access Control,10000.0,False,BSC,DeFi Protocol,False,,Solidity
+2024-03-07,GHT,code_bug,Protocol Logic,Unknown,,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-03-08,Unizen,code_bug,Access Control,Arbitrary External Call,2100000.0,True,Ethereum,DeFi Protocol,False,2100000.0,Solidity
+2024-03-09,Juice Finance,code_bug,Protocol Logic,Reward Logic Flaw,54000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-03-11,Blastoff,code_bug,Protocol Logic,Unknown,600000.0,False,Blast,DeFi Protocol,False,,Solidity
+2024-03-12,Polyhedra Network,keys_people,Key Compromise,Private Key Compromised,760000.0,False,BSC,DeFi Protocol,False,,Solidity
+2024-03-12,BBT,code_bug,Protocol Logic,Unknown,,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-03-15,MOBOX,code_bug,Protocol Logic,Borrow Logic Flaw,750000.0,False,Optimism,DeFi Protocol,False,,Solidity
+2024-03-15,NFPrompt,keys_people,Key Compromise,Private Key Compromised,3000000.0,True,Ethereum,NFTfi,False,,
+2024-03-15,Mozaic,keys_people,Key Compromise,Private Key Compromised,2000000.0,True,Arbitrum,DeFi Protocol,False,,Solidity
+2024-03-17,Remilia,keys_people,Key Compromise,Private Key Compromised,6000000.0,True,Ethereum,NFTfi,False,,
+2024-03-20,ParaSwap,code_bug,Access Control,Improper Access Control,300000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-03-20,LayerSwap,keys_people,Frontend & Infrastructure,DNS Hijack,100000.0,False,Ethereum,DeFi Protocol,False,,
+2024-03-20,Dolomite,code_bug,Access Control,Improper Access Control,1800000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2024-03-21,AirDAO,keys_people,Social Engineering,Malware,1050000.0,True,Ethereum,DeFi Protocol,False,,
+2024-03-22,Super Sushi Samurai,code_bug,Token & Share Accounting,Infinite Mint,4800000.0,True,Blast,Gaming,False,,Solidity
+2024-03-25,ZongZiFa,code_bug,Oracle Manipulation,Spot Price Manipulation,229000.0,False,BSC,DeFi Protocol,False,,Solidity
+2024-03-25,Curio,code_bug,Access Control,Delegatecall Hijack,16000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2024-03-26,Munchables,code_bug,Access Control,Proxy Upgrade Hijack,62500000.0,True,Blast,Gaming,False,,Solidity
+2024-03-28,PrismaLST,code_bug,Input Validation,Missing Input Validation,11600000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2024-03-29,Lava,code_bug,Protocol Logic,Liquidation Logic Flaw,340000.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2024-03-29,Solareum,keys_people,Social Engineering,Social Account Takeover,1400000.0,True,Solana,DeFi Protocol,False,,Move
+2024-03-29,ETHFIN,code_bug,Access Control,Improper Access Control,1200.0,False,BSC,DeFi Protocol,False,,Solidity
+2024-03-31,FixedFloat,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,3000000.0,True,,CEX,False,,
+2024-04-01,OpenLeverage,code_bug,Protocol Logic,Unknown,236000.0,False,BSC,DeFi Protocol,False,,Solidity
+2024-04-08,SQUID,code_bug,Protocol Logic,Swap Logic Flaw,87000.0,False,BSC,Token,False,,Solidity
+2024-04-09,xBlast,keys_people,Key Compromise,Hot Wallet Key Compromised,84500.0,False,Ethereum,Token,False,,
+2024-04-12,Sumer.money,code_bug,Reentrancy,Reentrancy,350000.0,False,Base,DeFi Protocol,False,,Solidity
+2024-04-12,Zest,code_bug,Oracle Manipulation,Spot Price Manipulation,1000000.0,True,Stacks,DeFi Protocol,False,,Clarity
+2024-04-15,Grand Base,keys_people,Social Engineering,Phishing,1700000.0,True,Base,DeFi Protocol,False,,Solidity
+2024-04-15,Chainge Finance,code_bug,Access Control,Arbitrary External Call,716000.0,False,BSC,DeFi Protocol,False,,Solidity
+2024-04-19,Hedgey,code_bug,Input Validation,Missing Input Validation,44700000.0,True,Arbitrum;Ethereum,DeFi Protocol,False,,Solidity
+2024-04-20,Rico,code_bug,Access Control,Arbitrary External Call,,False,Arbitrum,DeFi Protocol,False,,Solidity
+2024-04-22,Z123,code_bug,Oracle Manipulation,Spot Price Manipulation,136000.0,False,BSC,Token,False,,Solidity
+2024-04-23,Magpie Protocol,code_bug,Input Validation,Missing Input Validation,129000.0,False,Ethereum;Polygon;BSC;Blast;Avalanche;Arbitrum;Optimism;Base;zkSync Era;Polygon zkEVM,DeFi Protocol,False,,Solidity
+2024-04-24,XBridge,code_bug,Access Control,Improper Access Control,1440000.0,True,Ethereum;BSC,DeFi Protocol,True,,Solidity
+2024-04-24,YIEDL,code_bug,Input Validation,Missing Input Validation,150000.0,False,BSC,DeFi Protocol,False,,Solidity
+2024-04-25,FENGSHOU,code_bug,Access Control,Improper Access Control,191000.0,False,BSC,Token,False,,Solidity
+2024-04-27,BNBX,code_bug,Token & Share Accounting,Arithmetic Error,,False,BSC,Token,False,,Solidity
+2024-04-29,Rain,keys_people,Key Compromise,Private Key Compromised,14800000.0,True,Bitcoin;Ethereum;XRP;Solana,CEX,False,,
+2024-04-30,Pike V1,code_bug,Access Control,Proxy Upgrade Hijack,1600000.0,True,Ethereum;Optimism;Arbitrum,DeFi Protocol,False,,Solidity
+2024-04-30,Yield Protocol,code_bug,Token & Share Accounting,Incorrect Share Accounting,181000.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2024-05-05,GeniusAI,keys_people,Social Engineering,Social Account Takeover,1270000.0,True,Fantom;Ethereum,DeFi Protocol,False,,Solidity
+2024-05-06,Perpy,code_bug,Access Control,Uninitialized Proxy,132000.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2024-05-07,SATURN,code_bug,Oracle Manipulation,Spot Price Manipulation,9000.0,False,BNB,Token,False,,Solidity
+2024-05-08,GPU,code_bug,Token & Share Accounting,Arithmetic Error,32400.0,False,BNB,Token,False,,Solidity
+2024-05-09,Bloom,code_bug,Protocol Logic,Unknown,540000.0,False,Blast,DeFi Protocol,False,,Solidity
+2024-05-10,Galaxy Fox,code_bug,Access Control,Improper Access Control,330000.0,False,Ethereum,Token,False,,Solidity
+2024-05-10,Tsuru,code_bug,Protocol Logic,Unknown,410000.0,False,Base,DeFi Protocol,False,,Solidity
+2024-05-14,Predy Finance,code_bug,Access Control,Improper Access Control,464000.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2024-05-15,Sonne Finance,code_bug,Token & Share Accounting,Donation Attack,20000000.0,True,Optimism,DeFi Protocol,False,,Solidity
+2024-05-16,pump.fun,keys_people,Key Compromise,Private Key Compromised,1900000.0,True,Solana,DeFi Protocol,False,,Rust/Anchor
+2024-05-16,ALEX,keys_people,Social Engineering,Phishing,4300000.0,True,Stacks,DeFi Protocol,True,,
+2024-05-20,Gala,code_bug,Token & Share Accounting,Infinite Mint,22300000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2024-05-22,TonUP,code_bug,Protocol Logic,Reward Logic Flaw,107600.0,False,TON,DeFi Protocol,False,,
+2024-05-22,YON,code_bug,Access Control,Improper Access Control,118000.0,False,BNB,Token,False,,Solidity
+2024-05-26,NORMIE,code_bug,Protocol Logic,Unknown,881686.0,False,Base,Token,False,,Solidity
+2024-05-28,EXcommunity,code_bug,Protocol Logic,Unknown,37000.0,False,BNB,DeFi Protocol,False,,Solidity
+2024-05-28,Orion Protocol,code_bug,Access Control,Improper Access Control,645000.0,False,BNB,DeFi Protocol,False,,Solidity
+2024-05-29,MetaDragon,code_bug,Access Control,Improper Access Control,181000.0,False,BNB,NFTfi,False,,Solidity
+2024-05-29,Scroll Token,code_bug,Token & Share Accounting,Arithmetic Error,,False,Ethereum,Token,False,,Solidity
+2024-05-31,MixedSwapRouter,code_bug,Access Control,Arbitrary External Call,16000.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2024-05-31,TLN Protocol,code_bug,Protocol Logic,Unknown,280000.0,False,BNB,DeFi Protocol,False,,Solidity
+2024-05-31,DMM Bitcoin,keys_people,Social Engineering,Phishing,305000000.0,True,Bitcoin,CEX,False,305000000.0,
+2024-06-02,Velocore V2,code_bug,Token & Share Accounting,Incorrect Fee Accounting,6800000.0,True,Linea;zkSync Era,DeFi Protocol,False,,Solidity
+2024-06-04,Lykke,keys_people,Key Compromise,Hot Wallet Key Compromised,22400000.0,True,Ethereum;Bitcoin,CEX,False,,
+2024-06-07,SteamSwap,code_bug,Oracle Manipulation,Spot Price Manipulation,105000.0,False,BSC,DeFi Protocol,False,,Solidity
+2024-06-09,Loopring,keys_people,Frontend & Infrastructure,API Key Compromised,5000000.0,True,Loopring,DeFi Protocol,False,,
+2024-06-10,JokInTheBox,code_bug,Protocol Logic,Withdrawal Logic Flaw,34000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-06-10,UwU Lend,code_bug,Oracle Manipulation,Spot Price Manipulation,20000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2024-06-11,YOLO Games,code_bug,Access Control,Caller Impersonation,1500000.0,True,Blast,DeFi Protocol,False,,Solidity
+2024-06-13,Holograph,code_bug,Token & Share Accounting,Infinite Mint,1200000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2024-06-13,UwU Lend,code_bug,Oracle Manipulation,Spot Price Manipulation,3700000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2024-06-14,AutoChain Global,code_bug,Protocol Logic,Unknown,113000.0,False,BSC,DeFi Protocol,False,,Solidity
+2024-06-16,WIFCOIN,code_bug,Protocol Logic,Unknown,,False,Ethereum,Token,False,,Solidity
+2024-06-20,OKX NFT Aggregator,code_bug,Access Control,Improper Access Control,14000.0,False,BSC,CEX,False,,Solidity
+2024-06-22,BtcTurk,keys_people,Key Compromise,Hot Wallet Key Compromised,54000000.0,True,,CEX,False,,
+2024-06-27,APEMAGA,code_bug,Protocol Logic,Unknown,32000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-07-02,MintRisesPrices,code_bug,Reentrancy,Reentrancy,59000.0,False,BSC,DeFi Protocol,False,,Solidity
+2024-07-02,Bittensor,keys_people,Social Engineering,Malware,8000000.0,True,,DeFi Protocol,False,,Python
+2024-07-05,DefiPlaza,code_bug,Protocol Logic,Swap Logic Flaw,200000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-07-11,OPSEC,keys_people,Key Compromise,Private Key Compromised,100000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-07-12,CoinStats,keys_people,Social Engineering,Phishing,2200000.0,True,,Other,False,,
+2024-07-12,Dough Finance,code_bug,Access Control,Arbitrary External Call,1960000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2024-07-15,Minterest,code_bug,Reentrancy,Reentrancy,1400000.0,True,Mantle,DeFi Protocol,False,,Solidity
+2024-07-16,LiFi Finance,code_bug,Access Control,Token Approval Abuse,9730000.0,True,zkSync Era;Linea;Metis,DeFi Protocol,True,,Solidity
+2024-07-18,WazirX: India,keys_people,Social Engineering,Signer Phishing,234900000.0,True,Ethereum,CEX,False,,
+2024-07-19,Rho Markets,code_bug,Oracle Manipulation,Spot Price Manipulation,7600000.0,True,Scroll,DeFi Protocol,False,,Solidity
+2024-07-21,UtopiaSphere,code_bug,Oracle Manipulation,Spot Price Manipulation,521000.0,False,BSC,Token,False,,Solidity
+2024-07-22,ETHTrustFund,other,Rugpull,Treasury Misappropriation,2100000.0,True,Base,DeFi Protocol,False,,Solidity
+2024-07-23,DeltaPrime,code_bug,Access Control,Ownership Takeover,1000000.0,True,Arbitrum,DeFi Protocol,False,,Solidity
+2024-07-23,dYdX V3,keys_people,Frontend & Infrastructure,DNS Hijack,31000.0,False,Ethereum,DeFi Protocol,False,,
+2024-07-24,Spectra Finance,code_bug,Access Control,Arbitrary External Call,73000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-07-26,Solrise Finance,code_bug,Access Control,Improper Access Control,6700000.0,True,Casper,DeFi Protocol,False,,Rust
+2024-07-31,Terra 2.0,code_bug,Reentrancy,Reentrancy,6400000.0,True,Terra2,DeFi Protocol,False,,Go
+2024-07-31,Monoswap,keys_people,Social Engineering,Malware,1300000.0,True,Blast,DeFi Protocol,False,,Solidity
+2024-08-01,Convergence,code_bug,Input Validation,Missing Input Validation,210000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-08-06,Ronin Bridge,code_bug,Access Control,Uninitialized Proxy,12000000.0,True,Ethereum,DeFi Protocol,True,,Solidity
+2024-08-07,Nexera,keys_people,Social Engineering,Malware,449000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-08-12,iVest,code_bug,Protocol Logic,Unknown,190000.0,False,BSC,Token,False,,Solidity
+2024-08-12,PolyNetwork,code_bug,Protocol Logic,Unknown,5000000.0,True,PolyNetwork,DeFi Protocol,True,,Solidity
+2024-08-13,Vowcurrency,code_bug,Access Control,Improper Access Control,1200000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2024-08-16,Zenterest,code_bug,Oracle Manipulation,Stale Oracle Price,21000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-08-28,Aave,code_bug,Access Control,Arbitrary External Call,56000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-09-02,Pythia,code_bug,Reentrancy,Reentrancy,53000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-09-03,Penpie,code_bug,Reentrancy,Reentrancy,27000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2024-09-10,Indodax,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,25200000.0,True,Ethereum;Polygon;Optimism,CEX,False,,
+2024-09-10,Caterpillar Coin,code_bug,Oracle Manipulation,Spot Price Manipulation,1400000.0,True,BSC,Token,False,,Solidity
+2024-09-11,Omnipus,code_bug,Input Validation,Missing Input Validation,30000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-09-13,OTSea,code_bug,Protocol Logic,Reward Logic Flaw,26000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-09-16,DeltaPrime,keys_people,Key Compromise,Private Key Compromised,5980000.0,True,Arbitrum,DeFi Protocol,False,,Solidity
+2024-09-16,Rivus DAO,other,Rugpull,Backdoor Contract,,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-09-16,WXETA,code_bug,Access Control,Uninitialized Proxy,110000.0,False,Ethereum;BSC,DeFi Protocol,False,,Solidity
+2024-09-19,Banana Gun,keys_people,Frontend & Infrastructure,Frontend Compromise,3000000.0,True,Ethereum,DeFi Protocol,False,3000000.0,
+2024-09-20,OcelotDex,code_bug,Token & Share Accounting,Infinite Mint,980000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-09-20,OcelotDex,code_bug,Token & Share Accounting,Infinite Mint,4900000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2024-09-20,DOGGO,code_bug,Protocol Logic,Withdrawal Logic Flaw,7000.0,False,Ethereum,Token,False,,Solidity
+2024-09-20,BingX,keys_people,Key Compromise,Hot Wallet Key Compromised,43300000.0,True,Ethereum,CEX,False,,
+2024-09-23,Bankroll Network,code_bug,Input Validation,Missing Input Validation,234800.0,False,BSC,DeFi Protocol,False,,Solidity
+2024-09-25,Truflation,keys_people,Social Engineering,Malware,5200000.0,True,,Other,False,,
+2024-09-26,ReHold,other,Rugpull,Admin Drain,700000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-09-26,uniBTC,keys_people,Social Engineering,Malware,2000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2024-09-26,Onyx V2,code_bug,Protocol Logic,Liquidation Logic Flaw,3800000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2024-10-01,FireToken,code_bug,Oracle Manipulation,Spot Price Manipulation,20000.0,False,Ethereum,Token,False,,Solidity
+2024-10-05,EigenLayer,keys_people,Social Engineering,Impersonation Scam,5700000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2024-10-14,Kalax,other,Rugpull,Admin Drain,350000.0,False,Blast,DeFi Protocol,False,,Solidity
+2024-10-14,LeadBlock's Morpho Blue Market,code_bug,Oracle Manipulation,Oracle Misconfiguration,250000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-10-16,Radiant V2,keys_people,Social Engineering,Blind Signing,50000000.0,True,BSC;Arbitrum,DeFi Protocol,False,,Solidity
+2024-10-17,Ambient,keys_people,Frontend & Infrastructure,DNS Hijack,,False,Ethereum,DeFi Protocol,False,,
+2024-10-18,Tapioca DAO,keys_people,Social Engineering,Impersonation Scam,4700000.0,True,Arbitrum,DeFi Protocol,False,,Solidity
+2024-10-22,Vista Finance,code_bug,Token & Share Accounting,Incorrect Share Accounting,28000.0,False,BSC,DeFi Protocol,False,,Solidity
+2024-10-22,Erc20transfer,code_bug,Access Control,Improper Access Control,14800.0,False,Ethereum,Token,False,,Solidity
+2024-10-24,US Government Crypto Wallet,keys_people,Key Compromise,Private Key Compromised,20000000.0,True,Ethereum,Other,False,,
+2024-10-24,Cryptobottle,code_bug,Oracle Manipulation,Spot Price Manipulation,490000.0,False,Polygon,Token,False,,Solidity
+2024-10-24,Ramses Exchange,code_bug,Protocol Logic,Reward Logic Flaw,93000.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2024-10-25,Base Lending,code_bug,Protocol Logic,Deposit Logic Flaw,1000000.0,True,Base,DeFi Protocol,False,,Solidity
+2024-10-25,AARK (Aark Digital),code_bug,Token & Share Accounting,Decimal Miscalculation,1900000.0,True,Arbitrum,DeFi Protocol,False,,Solidity
+2024-10-29,BUBAI,other,Rugpull,Liquidity Rug,131000.0,False,Ethereum,Token,False,,Solidity
+2024-10-30,Shoebill Finance,code_bug,Oracle Manipulation,Oracle Misconfiguration,1520000.0,True,BOB,DeFi Protocol,False,,Solidity
+2024-10-30,SUNRAY·FINANCE,keys_people,Key Compromise,Private Key Compromised,2855000.0,True,Arbitrum,DeFi Protocol,False,,Solidity
+2024-10-31,M2 Exchange,keys_people,Key Compromise,Hot Wallet Key Compromised,13700000.0,True,Ethereum;Solana;Bitcoin,CEX,False,,
+2024-10-31,1inch Swap,keys_people,Frontend & Infrastructure,Supply Chain Attack,723000.0,False,Avalanche,DeFi Protocol,False,,
+2024-11-04,MetaWin,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,4400000.0,True,Ethereum;Solana,Gaming,False,,
+2024-11-05,RPP,code_bug,Protocol Logic,Unknown,14100.0,False,BNB Chain,DeFi Protocol,False,,Solidity
+2024-11-07,CoW,code_bug,Access Control,Improper Access Control,59000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-11-07,VRug,other,Rugpull,Liquidity Rug,8400.0,False,Ethereum,Token,False,,Solidity
+2024-11-07,ChiSale,code_bug,Protocol Logic,Unknown,16300.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-11-08,CoinPoker,keys_people,Key Compromise,Hot Wallet Key Compromised,2000000.0,True,Ethereum,Gaming,False,,
+2024-11-09,X319,code_bug,Access Control,Improper Access Control,12900.0,False,BNB Chain,DeFi Protocol,False,,Solidity
+2024-11-10,BGM,code_bug,Oracle Manipulation,Spot Price Manipulation,450000.0,False,BNB Chain,DeFi Protocol,False,,Solidity
+2024-11-11,zkFinance,code_bug,Protocol Logic,Unknown,200000.0,False,zkSync Era,DeFi Protocol,False,,
+2024-11-11,DeltaPrime,code_bug,Input Validation,Missing Input Validation,4800000.0,True,Arbitrum;Avalanche,DeFi Protocol,False,,Solidity
+2024-11-14,vETH,code_bug,Oracle Manipulation,Spot Price Manipulation,447000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-11-15,ThalaSwap,code_bug,Input Validation,Missing Input Validation,25500000.0,True,Aptos,DeFi Protocol,False,,Move
+2024-11-16,DEXX,keys_people,Key Compromise,Private Key Compromised,21000000.0,True,Solana,Wallet,False,,
+2024-11-16,Polter Finance,code_bug,Oracle Manipulation,Spot Price Manipulation,8700000.0,True,Fantom,DeFi Protocol,False,,
+2024-11-17,MFT,code_bug,Protocol Logic,Unknown,33700.0,False,BNB Chain,DeFi Protocol,False,,Solidity
+2024-11-18,Tectonic,code_bug,Protocol Logic,Unknown,,False,Cronos,DeFi Protocol,False,,
+2024-11-20,MainnetSettler,code_bug,Access Control,Token Approval Abuse,66000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-11-21,Matez,code_bug,Token & Share Accounting,Arithmetic Error,80000.0,False,BNB Chain,DeFi Protocol,False,,Solidity
+2024-11-23,AK1111,code_bug,Access Control,Improper Access Control,31500.0,False,BNB Chain,DeFi Protocol,False,,Solidity
+2024-11-24,Proxy_b7e1,code_bug,Protocol Logic,Unknown,8500.0,False,BNB Chain,DeFi Protocol,False,,Solidity
+2024-11-26,NFTG,code_bug,Access Control,Improper Access Control,10000.0,False,BNB Chain,DeFi Protocol,False,,Solidity
+2024-11-28,XT Exchange,keys_people,Key Compromise,Hot Wallet Key Compromised,1700000.0,True,Ethereum,CEX,False,,
+2024-12-01,Clipper,code_bug,Protocol Logic,Deposit Logic Flaw,450000.0,False,Optimism;Base,DeFi Protocol,False,,
+2024-12-01,Spectral Labs,code_bug,Access Control,Token Approval Abuse,250000.0,False,Ethereum,DeFi Protocol,False,,
+2024-12-03,BYC Token,code_bug,Token & Share Accounting,Incorrect Fee Accounting,100000.0,False,Binance,Token,False,,
+2024-12-04,Vestra DAO,code_bug,Protocol Logic,Staking Logic Flaw,500000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2024-12-07,MAAT Protocol,code_bug,Protocol Logic,Withdrawal Logic Flaw,168173.0,False,Binance,DeFi Protocol,False,,
+2024-12-10,LABUBU Token,code_bug,Token & Share Accounting,Donation Attack,12000.0,False,Binance,Token,False,,
+2024-12-10,Clober Liquidity Vault,code_bug,Reentrancy,Reentrancy,500000.0,False,Base,DeFi Protocol,False,,
+2024-12-12,BNBS,code_bug,Reentrancy,Reentrancy,20300.0,False,Binance,Token,False,,
+2024-12-14,JHY Token,code_bug,Token & Share Accounting,Incorrect Share Accounting,12000.0,False,Binance,Token,False,,
+2024-12-16,BTC24H,code_bug,Access Control,Improper Access Control,85700.0,False,Polygon,DeFi Protocol,False,,
+2024-12-17,GemPad,code_bug,Reentrancy,Reentrancy,1900000.0,True,Ethereum;Base;BSC,DeFi Protocol,False,,
+2024-12-18,HarryPotterObamaSonic10Inu,code_bug,Oracle Manipulation,Spot Price Manipulation,243000.0,False,Ethereum,Token,False,,
+2024-12-18,SlurpyCoin,code_bug,Protocol Logic,Swap Logic Flaw,3000.0,False,Binance,Token,False,,
+2024-12-27,Bizness,code_bug,Reentrancy,Reentrancy,15700.0,False,Base,DeFi Protocol,False,,
+2024-12-29,Fegex,code_bug,Bridge & Cross-Chain,Cross-Chain Message Spoofing,1070000.0,True,Ethereum;BSC;Base,DeFi Protocol,True,,Solidity
+2025-01-01,NoOnes,code_bug,Bridge & Cross-Chain,Cross-Chain Message Spoofing,7900000.0,True,Ethereum;Binance;Solana;Tron,DeFi Protocol,True,,
+2025-01-02,MoonHacker,code_bug,Access Control,Token Approval Abuse,300000.0,False,Optimism,DeFi Protocol,False,,Solidity
+2025-01-04,Sorra Finance,code_bug,Protocol Logic,Reward Logic Flaw,41000.0,False,Ethereum,DeFi Protocol,False,,
+2025-01-06,Mosca,code_bug,Token & Share Accounting,Incorrect Share Accounting,37600.0,False,Binance,DeFi Protocol,False,,
+2025-01-07,IPC AI,code_bug,Protocol Logic,Swap Logic Flaw,590000.0,False,Binance,Token,False,,
+2025-01-08,Moby,keys_people,Key Compromise,Private Key Compromised,1470000.0,True,Arbitrum,DeFi Protocol,False,,Solidity
+2025-01-08,Orange Finance,keys_people,Key Compromise,Private Key Compromised,840000.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2025-01-12,Unilend V2,code_bug,Protocol Logic,Redeem Logic Flaw,197600.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2025-01-13,Mosca2,code_bug,Token & Share Accounting,Incorrect Share Accounting,37600.0,False,BSC,DeFi Protocol,False,,Solidity
+2025-01-14,The Idols,code_bug,Protocol Logic,Reward Logic Flaw,324000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2025-01-23,Phemex,keys_people,Key Compromise,Hot Wallet Key Compromised,85000000.0,True,Ethereum;Solana;XRP;Bitcoin;BSC;Sui;Base;Tron;Arbitrum;Avalanche;Polygon;Optimism;zkSync Era,CEX,False,,
+2025-01-28,DogWifTools,keys_people,Frontend & Infrastructure,Key Stored Publicly,10000000.0,True,Solana,Other,False,,Move
+2025-02-01,Sirio Finance,code_bug,Oracle Manipulation,Spot Price Manipulation,2000000.0,True,Hedera,DeFi Protocol,False,,Solidity
+2025-02-04,Ionic Protocol,keys_people,Social Engineering,Impersonation Scam,8600000.0,True,Mode,DeFi Protocol,False,,Solidity
+2025-02-11,zkLend,code_bug,Token & Share Accounting,First Depositor Attack,9550000.0,True,Starknet,DeFi Protocol,False,,Cairo
+2025-02-11,four.meme,code_bug,Protocol Logic,Swap Logic Flaw,183000.0,False,BSC,DeFi Protocol,False,,Solidity
+2025-02-18,Cardex,code_bug,Input Validation,Signature Verification Flaw,400000.0,False,Abstract,DeFi Protocol,False,,Solidity
+2025-02-21,Bybit,keys_people,Social Engineering,Signer Phishing,1400000000.0,True,Ethereum,CEX,False,1400000000.0,Solidity
+2025-02-21,StepHeroNFTs,code_bug,Reentrancy,Reentrancy,90000.0,False,BSC,DeFi Protocol,False,,
+2025-02-22,Unverified_35bc,code_bug,Reentrancy,Reentrancy,6700.0,False,BSC,DeFi Protocol,False,,
+2025-02-24,Infini,keys_people,Key Compromise,Private Key Compromised,49500000.0,True,Ethereum,DeFi Protocol,False,,
+2025-02-28,Wemix,keys_people,Key Compromise,Private Key Compromised,6220000.0,True,Wemix,DeFi Protocol,False,,
+2025-03-01,Hegic(old contract),code_bug,Protocol Logic,Withdrawal Logic Flaw,80000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2025-03-01,Zoth ZeUSD,code_bug,Protocol Logic,Swap Logic Flaw,285000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2025-03-05,Pond.fun,other,Rugpull,Admin Drain,145000.0,False,Linea,DeFi Protocol,False,,Solidity
+2025-03-07,1inch Swap,code_bug,Access Control,Arbitrary External Call,5000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2025-03-14,Berally,keys_people,Key Compromise,Deployer Key Compromised,90000.0,False,Berachain,DeFi Protocol,False,,Solidity
+2025-03-16,WebKeyDAO,code_bug,Access Control,Improper Access Control,73000.0,False,BSC,Token,False,,Solidity
+2025-03-18,Voltage V3,code_bug,Access Control,Improper Access Control,322113.0,False,Fuse,DeFi Protocol,False,,Solidity
+2025-03-18,four.meme,code_bug,Access Control,Improper Access Control,80000.0,False,BSC,DeFi Protocol,False,,Solidity
+2025-03-20,BBXToken,code_bug,Oracle Manipulation,Spot Price Manipulation,12000.0,False,BSC,Token,False,,Solidity
+2025-03-21,Zoth ZeUSD,keys_people,Key Compromise,Private Key Compromised,8850000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2025-03-25,Abracadabra Spell,code_bug,Protocol Logic,Liquidation Logic Flaw,13000000.0,True,Arbitrum,DeFi Protocol,False,,Solidity
+2025-03-27,Vicuna Lending,code_bug,Oracle Manipulation,Spot Price Manipulation,700000.0,False,Sonic,DeFi Protocol,False,,Solidity
+2025-03-28,Alkimiya,code_bug,Token & Share Accounting,Arithmetic Error,95500.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2025-03-29,Venus Core Pool,code_bug,Token & Share Accounting,Donation Attack,902000.0,False,zkSync Era,DeFi Protocol,False,,Solidity
+2025-03-30,SIR,code_bug,Access Control,Proxy Upgrade Hijack,355000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2025-04-01,Zapper,keys_people,Frontend & Infrastructure,DNS Hijack,,False,Ethereum;Arbitrum;Optimism;Polygon;Base,DeFi Protocol,False,,
+2025-04-01,UPCX,code_bug,Access Control,Proxy Upgrade Hijack,70000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2025-04-04,AIRWA,code_bug,Access Control,Improper Access Control,33600.0,False,BSC,DeFi Protocol,False,,Solidity
+2025-04-07,Tenderize V2,code_bug,Protocol Logic,Unknown,10850.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2025-04-14,KiloEx,code_bug,Oracle Manipulation,Spot Price Manipulation,7500000.0,True,BSC;Base;Taiko,DeFi Protocol,False,6750000.0,Solidity
+2025-04-15,ZKsync,keys_people,Key Compromise,Private Key Compromised,5000000.0,True,zkSync Era,Other,False,,Vyper
+2025-04-16,R0AR,code_bug,Access Control,Improper Access Control,780000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2025-04-18,Numa,code_bug,Oracle Manipulation,Spot Price Manipulation,506000.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2025-04-20,Bitget,other,Market Manipulation,Market Maker Bot Exploited,100000000.0,True,,CEX,False,,
+2025-04-22,Bitcoin Mission,code_bug,Access Control,Improper Access Control,1300000.0,True,Arbitrum,DeFi Protocol,False,,Solidity
+2025-04-24,ACB,code_bug,Oracle Manipulation,Spot Price Manipulation,22804.0,False,BSC,DeFi Protocol,False,,
+2025-04-26,Impermax V3,code_bug,Token & Share Accounting,Incorrect Fee Accounting,300000.0,False,Base,DeFi Protocol,False,,Solidity
+2025-04-26,Loopscale,code_bug,Oracle Manipulation,Spot Price Manipulation,5800000.0,True,Solana,DeFi Protocol,False,,Rust
+2025-04-26,Term Finance,code_bug,Oracle Manipulation,Oracle Misconfiguration,1650000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2025-04-27,Aventa,code_bug,Protocol Logic,Unknown,7000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2025-04-27,QuantMaster,other,Rugpull,Backdoor Contract,100000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2025-05-08,BitoPro,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,11500000.0,True,Ethereum;Tron;Solana;Polygon,CEX,False,,
+2025-05-09,LND,code_bug,Access Control,Improper Access Control,1180000.0,True,Sonic;Hyperliquid L1,DeFi Protocol,False,,
+2025-05-11,Mobius Token,code_bug,Token & Share Accounting,Decimal Miscalculation,2150000.0,True,BSC,DeFi Protocol,False,,Solidity
+2025-05-15,Zunami Protocol,keys_people,Key Compromise,Private Key Compromised,500000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2025-05-16,Demex,code_bug,Oracle Manipulation,Spot Price Manipulation,950559.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2025-05-20,IRYS AI,other,Rugpull,Backdoor Contract,69600.0,False,Binance Smart Chain,Token,False,,Solidity
+2025-05-22,Cetus CLMM,code_bug,Token & Share Accounting,Arithmetic Error,223000000.0,True,Sui,DeFi Protocol,False,,Move
+2025-05-26,Dexodus Finance,code_bug,Oracle Manipulation,Stale Oracle Price,300000.0,False,Base,DeFi Protocol,False,300000.0,Solidity
+2025-05-27,Usual USD0,code_bug,Input Validation,Missing Input Validation,43000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2025-05-28,Cork V1,code_bug,Access Control,Improper Access Control,12000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2025-06-06,ForceBridge,code_bug,Access Control,Improper Access Control,3900000.0,True,Nervos,DeFi Protocol,True,,Rust
+2025-06-06,ALEX,code_bug,Access Control,Caller Impersonation,8373000.0,True,Stacks,DeFi Protocol,False,,Clarity
+2025-06-15,FixedTokenBSwap,code_bug,Oracle Manipulation,Spot Price Manipulation,2200.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2025-06-17,Meta Pool,code_bug,Token & Share Accounting,Infinite Mint,130000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2025-06-18,Nobitex,keys_people,Social Engineering,Malware,82000000.0,True,Tron;Ethereum;BSC;Avalanche;Arbitrum;Polygon;Bitcoin,CEX,False,,
+2025-06-19,Bankroll Network,code_bug,Token & Share Accounting,Arithmetic Error,65000.0,False,Binance Smart Chain,DeFi Protocol,False,,Solidity
+2025-06-20,Hacken Token,keys_people,Key Compromise,Private Key Compromised,250000.0,False,,Other,False,,Solidity
+2025-06-25,Resupply,code_bug,Token & Share Accounting,Donation Attack,9600000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2025-06-25,Silo Finance,code_bug,Input Validation,Missing Input Validation,546000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2025-07-02,Future Protocol,code_bug,Token & Share Accounting,Incorrect Share Accounting,4600000.0,True,BSC,DeFi Protocol,False,,Solidity
+2025-07-05,RANT,code_bug,Token & Share Accounting,Incorrect Fee Accounting,204000.0,False,BSC,Token,False,,Solidity
+2025-07-08,Peapods Finance,code_bug,Oracle Manipulation,Oracle Misconfiguration,207000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2025-07-09,GMX V1 EVM,code_bug,Reentrancy,Reentrancy,42000000.0,True,Arbitrum,DeFi Protocol,False,40000000.0,Solidity
+2025-07-09,Texture,code_bug,Access Control,Improper Access Control,2200000.0,True,Solana,DeFi Protocol,False,,Rust
+2025-07-09,ZKSwap,code_bug,Bridge & Cross-Chain,Forged Proof,5000000.0,True,Ethereum,DeFi Protocol,True,,Solidity
+2025-07-10,Kinto Bridge,code_bug,Access Control,Uninitialized Proxy,1550000.0,True,Arbitrum,DeFi Protocol,True,,Solidity
+2025-07-15,Arcadia V2,code_bug,Reentrancy,Reentrancy,2500000.0,True,Base,DeFi Protocol,False,,Solidity
+2025-07-16,BigONE,keys_people,Frontend & Infrastructure,Supply Chain Attack,27000000.0,True,Bitcoin;BSC;Ethereum;Solana;TRON,CEX,False,,
+2025-07-19,CoinDCX,keys_people,Key Compromise,Hot Wallet Key Compromised,44200000.0,True,,CEX,False,,
+2025-07-20,Stepp2p,code_bug,Protocol Logic,Unknown,43000.0,False,BSC,DeFi Protocol,False,,Solidity
+2025-07-24,WOO X,keys_people,Social Engineering,Phishing,14000000.0,True,Bitcoin;Ethereum;Arbitrum;BSC,CEX,False,,
+2025-07-28,SuperRare,code_bug,Access Control,Merkle Proof Forgery,730000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2025-08-04,CrediX,keys_people,Key Compromise,Private Key Compromised,4500000.0,True,Sonic,DeFi Protocol,False,,Solidity
+2025-08-10,numa.,code_bug,Token & Share Accounting,Incorrect Share Accounting,313000.0,False,Sonic,DeFi Protocol,False,,Solidity
+2025-08-12,Odin.Fun,code_bug,Oracle Manipulation,Spot Price Manipulation,7000000.0,True,ICP,DeFi Protocol,False,,Motoko
+2025-08-13,Grizzifi,code_bug,Protocol Logic,Reward Logic Flaw,61000.0,False,BSC,DeFi Protocol,False,,Solidity
+2025-08-13,Coinbase,code_bug,Access Control,Token Approval Abuse,300000.0,False,Ethereum,CEX,False,,Solidity
+2025-08-14,BtcTurk,keys_people,Key Compromise,Hot Wallet Key Compromised,48000000.0,True,Ethereum;Avalanche;Arbitrum;Base;Optimism;Mantle;Polygon,CEX,False,,Solidity
+2025-08-25,Panoptic V1.1,code_bug,Input Validation,Hash Collision,0.0,False,Base;Unichain;Ethereum,DeFi Protocol,False,,Solidity
+2025-08-26,BetterBank,code_bug,Protocol Logic,Reward Logic Flaw,5000000.0,True,PulseChain,DeFi Protocol,False,,Solidity
+2025-08-30,Cozy V2,code_bug,Input Validation,Missing Input Validation,427000.0,False,Optimism,DeFi Protocol,False,,Solidity
+2025-09-01,OlaXBT,keys_people,Social Engineering,Signer Phishing,2000000.0,True,BSC,DeFi Protocol,False,,Solidity
+2025-09-02,Bunni V2,code_bug,Token & Share Accounting,Rounding Error,8400000.0,True,Ethereum;Unichain,DeFi Protocol,False,,Solidity
+2025-09-08,Nemo Yield Trading,code_bug,Access Control,Improper Access Control,2590000.0,True,Sui,DeFi Protocol,False,,Move
+2025-09-09,SwissBorg,keys_people,Frontend & Infrastructure,API Key Compromised,41500000.0,True,Solana,CEX,False,,
+2025-09-10,Evoq Finance,keys_people,Key Compromise,Private Key Compromised,420000.0,False,BSC,DeFi Protocol,False,,Solidity
+2025-09-12,Kame Aggregator,code_bug,Protocol Logic,Swap Logic Flaw,1300000.0,True,Sei,DeFi Protocol,False,,
+2025-09-13,Shibarium,keys_people,Key Compromise,Validator Key Compromised,4100000.0,True,Shibarium,DeFi Protocol,True,,Solidity
+2025-09-14,Yala,keys_people,Key Compromise,Deployer Key Compromised,7640000.0,True,Solana;Ethereum,Token,False,,Rust
+2025-09-18,New Gold Protocol,code_bug,Oracle Manipulation,Spot Price Manipulation,1900000.0,True,BSC,Token,False,,Solidity
+2025-09-22,UXLINK,code_bug,Access Control,Delegatecall Hijack,11300000.0,True,Ethereum;Arbitrum,DeFi Protocol,False,,Solidity
+2025-09-23,Seedify,keys_people,Key Compromise,Private Key Compromised,1200000.0,True,BSC;Avalanche,DeFi Protocol,True,,Solidity
+2025-09-23,Corepound,other,Rugpull,Admin Drain,400000.0,False,CORE,DeFi Protocol,False,,
+2025-09-24,SBI Crypto,keys_people,Key Compromise,Hot Wallet Key Compromised,21000000.0,True,Bitcoin;Ethereum;Litecoin;Doge;BitcoinCash,Other,False,,C++
+2025-09-24,GriffinAI,code_bug,Bridge & Cross-Chain,Cross-Chain Message Spoofing,3000000.0,True,BSC,DeFi Protocol,True,,Solidity
+2025-09-26,HyperVault,other,Rugpull,Admin Drain,3600000.0,True,Hyperliquid L1,DeFi Protocol,False,,Solidity
+2025-09-27,Hyperdrive HL Lending,code_bug,Access Control,Arbitrary External Call,782000.0,False,Hyperliquid L1,DeFi Protocol,False,,Solidity
+2025-09-28,dTRINITY,code_bug,Access Control,Improper Access Control,56000.0,False,Sonic,DeFi Protocol,False,,Solidity
+2025-10-04,Abracadabra Spell,code_bug,Access Control,Improper Access Control,1700000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2025-10-07,TokenHolder,code_bug,Access Control,Improper Access Control,26000.0,False,BSC,Token,False,,Solidity
+2025-10-09,Astera.fi,code_bug,Token & Share Accounting,Incorrect Share Accounting,573000.0,False,Linea,DeFi Protocol,False,,Solidity
+2025-10-15,Typus Perp,code_bug,Oracle Manipulation,Oracle Misconfiguration,3440000.0,True,Sui,DeFi Protocol,False,,Move
+2025-10-19,Astra Nova,keys_people,Key Compromise,Private Key Compromised,9090000.0,True,Ethereum,AI Agent,False,,
+2025-10-20,Sharwa.Finance,code_bug,Protocol Logic,Swap Logic Flaw,146000.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2025-10-21,DoodiPals,keys_people,Key Compromise,Private Key Compromised,171000.0,False,Solana,Token,False,,
+2025-10-27,402bridge,keys_people,Frontend & Infrastructure,Key Stored Publicly,17693.0,False,Base,DeFi Protocol,True,,Solidity
+2025-10-30,Garden,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,11400000.0,True,Ethereum;Arbitrum;Base;Solana,DeFi Protocol,True,,
+2025-11-03,Balancer V2,code_bug,Token & Share Accounting,Rounding Error,128000000.0,True,Ethereum;Arbitrum;Base;Polygon;Sonic;Optimism,DeFi Protocol,False,,Solidity
+2025-11-04,Moonwell Lending,code_bug,Oracle Manipulation,Spot Price Manipulation,1000000.0,True,Base;Optimism,DeFi Protocol,False,,Solidity
+2025-11-07,DIMO,keys_people,Key Compromise,Deployer Key Compromised,40000.0,False,Ethereum,DeFi Protocol,True,,
+2025-11-10,DRLVaultV3,code_bug,Oracle Manipulation,Spot Price Manipulation,100000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2025-11-11,Impermax V3,code_bug,Protocol Logic,Liquidation Logic Flaw,380000.0,False,Base,DeFi Protocol,False,,Solidity
+2025-11-11,Polymarket,keys_people,Social Engineering,Phishing,500000.0,False,Polygon;Ethereum,DeFi Protocol,False,,
+2025-11-20,GANA Payment,keys_people,Social Engineering,Phishing,3100000.0,True,BSC,DeFi Protocol,False,,Solidity
+2025-11-20,Dexmax AI,code_bug,Access Control,Token Approval Abuse,130000.0,False,Ethereum,Token,False,,
+2025-11-21,Aerodrome V1,keys_people,Frontend & Infrastructure,DNS Hijack,700000.0,False,Ethereum;Optimism,DeFi Protocol,False,,Solidity
+2025-11-22,Raga Finance,code_bug,Protocol Logic,Unknown,18500.0,False,Hyperliquid L1,DeFi Protocol,False,,Solidity
+2025-11-23,Port3 Network,code_bug,Token & Share Accounting,Infinite Mint,166000.0,False,BSC,DeFi Protocol,True,,Solidity
+2025-11-24,Agentic FoF,code_bug,Protocol Logic,Unknown,531000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2025-11-26,Upbit,keys_people,Social Engineering,Malware,36000000.0,True,Solana,CEX,False,,
+2025-11-30,Yearn Ether,code_bug,Token & Share Accounting,Incorrect Share Accounting,9000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2025-12-02,Goldfinch,code_bug,Access Control,Token Approval Abuse,330000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2025-12-04,US Permissionless Dollar,code_bug,Access Control,Proxy Upgrade Hijack,1000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2025-12-11,0G Labs,code_bug,Protocol Logic,Withdrawal Logic Flaw,516000.0,False,0G,DeFi Protocol,False,,Solidity
+2025-12-12,ZEROBASE,code_bug,Access Control,Token Approval Abuse,250000.0,False,BSC,DeFi Protocol,False,,Solidity
+2025-12-12,Ribbon,code_bug,Access Control,Improper Access Control,2700000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2025-12-14,Mars Perps,other,Market Manipulation,Funding Rate Arbitrage,960000.0,False,Neutron,DeFi Protocol,False,,Rust
+2025-12-16,Yearn Finance,code_bug,Token & Share Accounting,Donation Attack,300000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2025-12-16,FutureSwap,code_bug,Governance,Flashloan Governance Attack,270000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2025-12-18,Rari Capital,code_bug,Access Control,Uninitialized Proxy,2000000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2025-12-25,Trust Wallet Wallet,keys_people,Frontend & Infrastructure,Supply Chain Attack,8500000.0,True,Ethereum;Bitcoin;Solana,Wallet,False,,
+2025-12-26,FilDA,code_bug,Oracle Manipulation,Spot Price Manipulation,166800.0,False,Elastos,DeFi Protocol,False,,Solidity
+2025-12-27,Flow,code_bug,Token & Share Accounting,Infinite Mint,3900000.0,True,Flow,Layer 1,False,,Solidity
+2025-12-28,MSCST,code_bug,Access Control,Improper Access Control,129900.0,False,BSC,DeFi Protocol,False,,Solidity
+2025-12-30,Unleash Protocol,keys_people,Key Compromise,Private Key Compromised,3900000.0,True,Story,DeFi Protocol,False,,Solidity
+2026-01-01,PRXVT,code_bug,Protocol Logic,Staking Logic Flaw,97000.0,False,Base,DeFi Protocol,False,,Solidity
+2026-01-05,TMX TRIBE,code_bug,Token & Share Accounting,Arithmetic Error,1400000.0,True,Arbitrum,DeFi Protocol,False,,Solidity
+2026-01-05,USDGambit and TLP,keys_people,Key Compromise,Deployer Key Compromised,1500000.0,True,Arbitrum,DeFi Protocol,False,,Solidity
+2026-01-06,Fusion by IPOR,code_bug,Access Control,Arbitrary External Call,336000.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2026-01-07,Polycule,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,230000.0,False,Polygon,DeFi Protocol,False,,Solidity
+2026-01-08,Truebit,code_bug,Token & Share Accounting,Arithmetic Error,26400000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2026-01-10,FutureSwap,code_bug,Protocol Logic,Withdrawal Logic Flaw,395000.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2026-01-13,YO Protocol,code_bug,Protocol Logic,Missing Slippage Check,3600000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2026-01-17,Meteora DAMM V2,keys_people,Social Engineering,Impersonation Scam,1500000.0,True,Solana,DeFi Protocol,False,,Rust
+2026-01-20,SynapLogic,code_bug,Protocol Logic,Unknown,144000.0,False,Base,DeFi Protocol,False,,Solidity
+2026-01-20,Makina,code_bug,Oracle Manipulation,Spot Price Manipulation,4200000.0,True,Ethereum,DeFi Protocol,False,3410000.0,Solidity
+2026-01-21,Saga,code_bug,Token & Share Accounting,Infinite Mint,7000000.0,True,Saga,Chain,False,,Solidity
+2026-01-25,Aperture LM,code_bug,Access Control,Token Approval Abuse,3670000.0,True,Ethereum;Base;BSC,DeFi Protocol,False,,Solidity
+2026-01-25,Matcha,keys_people,Frontend & Infrastructure,Frontend Compromise,13430000.0,True,Base;Ethereum,DeFi Protocol,False,,Solidity
+2026-01-27,PGNLZ,code_bug,Token & Share Accounting,Incorrect Share Accounting,100000.0,False,BSC,DeFi Protocol,False,,Solidity
+2026-01-29,Revert Lend,code_bug,Protocol Logic,Staking Logic Flaw,50000.0,False,Base,DeFi Protocol,False,,Solidity
+2026-01-31,Step Finance,keys_people,Key Compromise,Private Key Compromised,40000000.0,True,Solana,DeFi Protocol,False,,Rust
+2026-02-01,CrossCurve,code_bug,Bridge & Cross-Chain,Cross-Chain Message Spoofing,3000000.0,True,,DeFi Protocol,True,,
+2026-02-15,Moonwell Lending,code_bug,Oracle Manipulation,Oracle Misconfiguration,1780000.0,True,Base,DeFi Protocol,False,,Solidity
+2026-02-19,Velar Perps,code_bug,Oracle Manipulation,Predictable Oracle Update,401000.0,False,Mezo,DeFi Protocol,False,,Solidity
+2026-02-21,Veil Cash,code_bug,Bridge & Cross-Chain,Proof Verifier Bug,5000.0,False,Base,DeFi Protocol,False,,Solidity
+2026-02-21,IoTeX,keys_people,Key Compromise,Validator Key Compromised,4400000.0,True,Ethereum,DeFi Protocol,True,,Solidity
+2026-02-22,Blend Pools V2,code_bug,Oracle Manipulation,Spot Price Manipulation,10970000.0,True,Stellar,DeFi Protocol,False,,
+2026-02-22,LAXO,code_bug,Token & Share Accounting,Incorrect Share Accounting,190000.0,False,BSC,DeFi Protocol,False,,Solidity
+2026-02-23,DGLD,code_bug,Token & Share Accounting,Infinite Mint,250000.0,False,Base,DeFi Protocol,True,,Solidity
+2026-02-26,Ploutos Money,code_bug,Oracle Manipulation,Oracle Misconfiguration,390000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-02-28,Wise Lending V2,code_bug,Access Control,Improper Access Control,66000.0,False,Arbitrum;Ethereum,DeFi Protocol,False,,Solidity
+2026-03-02,FOOM Cash,code_bug,Bridge & Cross-Chain,Forged Proof,2260000.0,True,Ethereum;Base,DeFi Protocol,False,,Solidity
+2026-03-02,Curve LlamaLend,code_bug,Token & Share Accounting,Donation Attack,240000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-03-06,SolvBTC,code_bug,Token & Share Accounting,Infinite Mint,2700000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2026-03-07,Molt EVM,code_bug,Access Control,Improper Access Control,127000.0,False,Base,Other,False,,Solidity
+2026-03-09,Gondi V3,code_bug,Access Control,Token Approval Abuse,230000.0,False,Ethereum,NFTfi,False,,Solidity
+2026-03-10,Movie Token,code_bug,Token & Share Accounting,Incorrect Share Accounting,242000.0,False,BSC,DeFi Protocol,False,,Solidity
+2026-03-11,BONK Fun,keys_people,Frontend & Infrastructure,DNS Hijack,30000.0,False,Solana,ICO,False,,
+2026-03-11,DBXen,code_bug,Input Validation,Missing Input Validation,150000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-03-12,Stake DAO Yield,code_bug,Access Control,Caller Impersonation,176000.0,False,Arbitrum;Base,DeFi Protocol,False,,Solidity
+2026-03-12,AM,code_bug,Token & Share Accounting,Incorrect Share Accounting,131572.0,False,BSC,DeFi Protocol,False,,Solidity
+2026-03-12,Aave V3,code_bug,Oracle Manipulation,Oracle Misconfiguration,862000.0,False,Ethereum,DeFi Protocol,False,862000.0,Solidity
+2026-03-14,Goose Finance,code_bug,Token & Share Accounting,Incorrect Share Accounting,8435.0,False,BSC,DeFi Protocol,False,,Solidity
+2026-03-15,Venus Core Pool,code_bug,Token & Share Accounting,Donation Attack,3700000.0,True,BSC,DeFi Protocol,False,,Solidity
+2026-03-16,CheckoutPool,code_bug,Access Control,Improper Access Control,85700.0,False,Polygon,DeFi Protocol,False,,Solidity
+2026-03-17,dTRINITY dLEND,code_bug,Token & Share Accounting,First Depositor Attack,257000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-03-18,Neutrl,keys_people,Frontend & Infrastructure,DNS Hijack,,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-03-21,Resolv USR,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,24500000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2026-03-22,Cyrus Finance,code_bug,Oracle Manipulation,Spot Price Manipulation,5000000.0,True,BSC,DeFi Protocol,False,,Solidity
+2026-03-23,BCE,code_bug,Token & Share Accounting,Incorrect Share Accounting,679000.0,False,BSC,DeFi Protocol,False,,Solidity
+2026-03-26,TUR Staking,code_bug,Oracle Manipulation,Spot Price Manipulation,133000.0,False,BSC,DeFi Protocol,False,,Solidity
+2026-03-28,VTSwapHook,code_bug,Protocol Logic,Swap Logic Flaw,,False,Arbitrum,DeFi Protocol,False,,Solidity
+2026-03-28,GoonFi,code_bug,Protocol Logic,Swap Logic Flaw,254000.0,False,Solana,DeFi Protocol,False,,Rust
+2026-03-31,WhaleBit,code_bug,Oracle Manipulation,Spot Price Manipulation,10500.0,False,Polygon,DeFi Protocol,False,,Solidity
+2026-03-31,LML/USDT staking protocol,code_bug,Oracle Manipulation,Spot Price Manipulation,950000.0,False,BSC,DeFi Protocol,False,,Solidity
+2026-04-01,Drift Trade,code_bug,Access Control,Proxy Upgrade Hijack,295000000.0,True,Solana,DeFi Protocol,False,,Rust
+2026-04-03,Silo V2,code_bug,Oracle Manipulation,Oracle Misconfiguration,359000.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2026-04-04,BSC TMM/USDT,code_bug,Access Control,Improper Access Control,1665000.0,True,BSC,DeFi Protocol,False,,Solidity
+2026-04-05,Denaria vAMM,code_bug,Oracle Manipulation,Spot Price Manipulation,165618.0,False,Linea,DeFi Protocol,False,,Solidity
+2026-04-07,SquidMulticall,code_bug,Access Control,Improper Access Control,517000.0,False,Arbitrum;BNB Chain;Avalanche;Optimism;Base,DeFi Protocol,False,,Solidity
+2026-04-09,Aethir,code_bug,Access Control,Improper Access Control,400000.0,False,BSC,DeFi Protocol,True,,Solidity
+2026-04-12,SubQuery Network,code_bug,Access Control,Improper Access Control,134000.0,False,Base,DeFi Protocol,False,,Solidity
+2026-04-12,Hyperbridge,code_bug,Bridge & Cross-Chain,Forged Proof,2500000.0,True,Ethereum;Base;BSC;Arbitrum,DeFi Protocol,True,,Solidity
+2026-04-13,Dango,code_bug,Input Validation,Missing Input Validation,1900000.0,True,Dango,DeFi Protocol,False,410000.0,Solidity
+2026-04-13,MONA,code_bug,Token & Share Accounting,Incorrect Share Accounting,60950.0,False,BSC,Token,False,,Solidity
+2026-04-14,Zerion Wallet,keys_people,Social Engineering,Phishing,100000.0,False,,Wallet,False,,
+2026-04-14,CoW Swap,keys_people,Frontend & Infrastructure,DNS Hijack,1200000.0,True,Ethereum,DeFi Protocol,False,,
+2026-04-16,Grinex,keys_people,Key Compromise,Hot Wallet Key Compromised,13740000.0,True,Tron;Ethereum,CEX,False,,
+2026-04-16,Rhea Lend,code_bug,Oracle Manipulation,Spot Price Manipulation,18400000.0,True,Near,DeFi Protocol,False,,Solidity
+2026-04-18,Kelp,code_bug,Bridge & Cross-Chain,Cross-Chain Message Spoofing,293000000.0,True,Ethereum;Arbitrum,DeFi Protocol,True,,Solidity
+2026-04-19,Custom sAVAX Rebalancer,code_bug,Access Control,Arbitrary External Call,64000.0,False,Avalanche,DeFi Protocol,False,,Solidity
+2026-04-20,Thetanuts Finance,code_bug,Token & Share Accounting,First Depositor Attack,50000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-04-20,Juicebox V3,code_bug,Input Validation,Missing Input Validation,52000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-04-20,Transit Finance,code_bug,Protocol Logic,Unknown,257800.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-04-21,Volo Vault,keys_people,Key Compromise,Private Key Compromised,3500000.0,True,Sui,DeFi Protocol,False,,Move
+2026-04-22,Kipseli,code_bug,Input Validation,Missing Input Validation,72350.0,False,Base,DeFi Protocol,False,,Solidity
+2026-04-23,Giddy,code_bug,Input Validation,Incomplete Signature Coverage,1300000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2026-04-25,Purrlend,code_bug,Access Control,Caller Impersonation,1500000.0,True,MegaETH;Hyperliquid L1,DeFi Protocol,False,,Solidity
+2026-04-26,Litecoin,code_bug,Input Validation,Missing Input Validation,,False,Litecoin,Chain,False,,C++
+2026-04-26,Scallop Lend,code_bug,Protocol Logic,Reward Logic Flaw,142000.0,False,Sui,DeFi Protocol,False,,Move
+2026-04-27,ZetaChain,code_bug,Access Control,Token Approval Abuse,333868.0,False,Ethereum;Base;Polygon;Arbitrum;Avalanche;BSC,Chain,True,,Solidity
+2026-04-27,Singularity Finance,code_bug,Oracle Manipulation,Oracle Misconfiguration,413000.0,False,Base,DeFi Protocol,False,,Solidity
+2026-04-28,YieldCore-3rd-deal,code_bug,Access Control,Improper Access Control,398764.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-04-28,Quant,code_bug,Access Control,Arbitrary External Call,138000.0,False,Ethereum,Token,False,,Solidity
+2026-04-28,JUDAO,code_bug,Token & Share Accounting,Arithmetic Error,228000.0,False,BSC,Token,False,,Solidity
+2026-04-29,Aftermath Perps,code_bug,Protocol Logic,Withdrawal Logic Flaw,1140000.0,True,Sui,DeFi Protocol,False,,Move
+2026-04-29,Syndicate,code_bug,Bridge & Cross-Chain,Bridge Logic Flaw,380000.0,False,Base,DeFi Protocol,True,380000.0,Solidity
+2026-04-29,Sweat Foundation,code_bug,Protocol Logic,Withdrawal Logic Flaw,3500000.0,True,Near,DeFi Protocol,False,,Rust
+2026-04-30,Wasabi Perps,keys_people,Key Compromise,Deployer Key Compromised,5500000.0,True,Ethereum;Base;Berachain;Blast,DeFi Protocol,False,,Solidity
+2026-05-01,Sharwa.Finance,code_bug,Oracle Manipulation,Spot Price Manipulation,32850.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2026-05-01,Bisq,code_bug,Input Validation,Missing Input Validation,550000.0,False,Bitcoin,DeFi Protocol,False,,C++
+2026-05-04,SmartCredit,code_bug,Protocol Logic,Unknown,72000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-05-04,SquidRouterModule,code_bug,Access Control,Improper Access Control,3200000.0,True,Ethereum;Base,DeFi Protocol,False,,Solidity
+2026-05-05,Ekubo,code_bug,Access Control,Token Approval Abuse,1400000.0,True,Ethereum,DeFi Protocol,False,,
+2026-05-07,TrustedVolumes,code_bug,Access Control,Caller Impersonation,6700000.0,True,Ethereum,Other,False,,Solidity
+2026-05-10,Renegade,code_bug,Access Control,Uninitialized Proxy,209000.0,False,Arbitrum,DeFi Protocol,False,209000.0,Solidity
+2026-05-11,TAC Protocol,code_bug,Bridge & Cross-Chain,Proof Verifier Bug,2854486.0,True,TON;TAC,DeFi Protocol,True,,Solidity
+2026-05-11,INK Finance,code_bug,Access Control,Caller Impersonation,140000.0,False,Polygon,DeFi Protocol,False,,Solidity
+2026-05-11,Huma,code_bug,Access Control,Improper Access Control,101400.0,False,Polygon,DeFi Protocol,False,,Solidity
+2026-05-12,BoostHook,code_bug,Oracle Manipulation,Spot Price Manipulation,187000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-05-12,Aurellion,code_bug,Access Control,Uninitialized Proxy,456442.0,False,Arbitrum,RWA,False,,Solidity
+2026-05-12,SQ Protocol,code_bug,Access Control,Improper Access Control,346137.0,False,BSC,DeFi Protocol,False,,Solidity
+2026-05-12,IEXCBP,code_bug,Oracle Manipulation,Spot Price Manipulation,97000.0,False,BNB Chain,DeFi Protocol,False,,Solidity
+2026-05-13,ShapeShift FOX Colony,code_bug,Access Control,Arbitrary External Call,132700.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2026-05-13,Transit Finance,code_bug,Access Control,Improper Access Control,1880000.0,True,Tron,DeFi Protocol,False,,Solidity
+2026-05-15,THORChain DEX,code_bug,Bridge & Cross-Chain,Bridge Logic Flaw,10700000.0,True,Bitcoin;Ethereum;Base;BSC,Chain,True,,
+2026-05-16,Adshares,code_bug,Bridge & Cross-Chain,Forged Proof,628000.0,False,Ethereum,Other,True,,Solidity
+2026-05-17,SEA Token,code_bug,Oracle Manipulation,Spot Price Manipulation,153000.0,False,Arbitrum,Token,False,,Solidity
+2026-05-17,Verus-Ethereum Bridge,code_bug,Bridge & Cross-Chain,Forged Proof,11500000.0,True,Verus,DeFi Protocol,True,,Solidity
+2026-05-17,MetaSea,code_bug,Protocol Logic,Withdrawal Logic Flaw,110000.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2026-05-18,Echo Bridge,keys_people,Key Compromise,Private Key Compromised,821000.0,False,Monad,DeFi Protocol,True,,Solidity
+2026-05-19,Bankr,keys_people,Frontend & Infrastructure,Session Key Compromised,170000.0,False,Base,AI Agent,False,,Solidity
+2026-05-19,ElevateFi,code_bug,Oracle Manipulation,Spot Price Manipulation,16000.0,False,Polygon,DeFi Protocol,False,,Solidity
+2026-05-19,HermesVault,code_bug,Protocol Logic,Withdrawal Logic Flaw,30000.0,False,Algorand,DeFi Protocol,False,26000.0,JavaScript
+2026-05-20,RetoSwap,code_bug,Input Validation,Missing Input Validation,2700000.0,True,Monero,DeFi Protocol,False,,C++
+2026-05-20,MAP Protocol,code_bug,Token & Share Accounting,Infinite Mint,110000.0,False,Ethereum;BSC,Chain,True,,Solidity
+2026-05-22,Polymarket,keys_people,Key Compromise,Private Key Compromised,700000.0,False,Polygon,DeFi Protocol,False,,Solidity
+2026-05-23,Mure,code_bug,Input Validation,Signature Verification Flaw,11700.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-05-23,StablR,keys_people,Key Compromise,Private Key Compromised,2800000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2026-05-24,Fractal Protocol,code_bug,Reentrancy,Reentrancy,13700.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2026-05-25,WUSD.fi/Glove,code_bug,Protocol Logic,Reward Logic Flaw,200000.0,False,Ethereum,Liquidity Pool,False,,Solidity
+2026-05-25,Bitmor,code_bug,Access Control,Token Approval Abuse,6000.0,False,Base,DeFi Protocol,False,,Solidity
+2026-05-25,New Market Trading,code_bug,Access Control,Improper Access Control,3980000.0,True,Ethereum;Base;Arbitrum,Other,False,,Solidity
+2026-05-26,SKP,code_bug,Token & Share Accounting,Incorrect Share Accounting,212000.0,False,BNB,DeFi Protocol,False,,Solidity
+2026-05-27,SUPERFORTUNE AI,code_bug,Access Control,Improper Access Control,15180000.0,True,Ethereum,Token,False,,
+2026-05-27,Stake DAO Yield,keys_people,Key Compromise,Deployer Key Compromised,91000.0,False,Arbitrum,DeFi Protocol,True,,Solidity
+2026-05-28,DxSale,other,Rugpull,Liquidity Rug,7300000.0,True,BSC,DeFi Protocol,False,,Solidity
+2026-05-28,ONTR,code_bug,Access Control,Ownership Takeover,98200.0,False,Ethereum,Token,False,,Solidity
+2026-05-30,AFI Protocol,code_bug,Protocol Logic,Unknown,480000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-05-30,Gravity Bridge,keys_people,Key Compromise,Validator Key Compromised,5400000.0,True,Ethereum,DeFi Protocol,True,,Solidity
+2026-05-30,Alephium Bridge,code_bug,Bridge & Cross-Chain,Forged Proof,815000.0,False,Ethereum,DeFi Protocol,True,,Solidity
+2026-05-31,AROS,code_bug,Oracle Manipulation,Spot Price Manipulation,295000.0,False,BSC,Token,False,,Solidity
+2026-05-31,Fluid Lending,keys_people,Frontend & Infrastructure,Key Leaked via Infrastructure,215000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-06-01,Gnosis Pay,code_bug,Input Validation,Signature Verification Flaw,1500000.0,True,Gnosis Chain,Other,False,,Solidity
+2026-06-01,TesseraDAO,code_bug,Access Control,Improper Access Control,2400000.0,True,BNB,DeFi Protocol,False,,Solidity
+2026-06-01,TSR,code_bug,Token & Share Accounting,Infinite Mint,2500000.0,True,BSC,Token,False,,Solidity
+2026-06-03,ATM,code_bug,Protocol Logic,Swap Logic Flaw,243000.0,False,BSC,Token,False,,Solidity
+2026-06-03,GPU.NET,code_bug,Protocol Logic,Unknown,10600.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-06-07,Ambient,code_bug,Protocol Logic,Deposit Logic Flaw,110600.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-06-07,Syscoin Bridge,code_bug,Bridge & Cross-Chain,Forged Proof,10000000.0,True,Syscoin,DeFi Protocol,True,,
+2026-06-08,Flooring Protocol,code_bug,Token & Share Accounting,Infinite Mint,500000.0,False,Ethereum,NFTfi,False,,Solidity
+2026-06-08,Humanity,keys_people,Key Compromise,Private Key Compromised,32000000.0,True,Ethereum;BSC,DeFi Protocol,False,,Solidity
+2026-06-09,Asterix,code_bug,Access Control,Token Approval Abuse,40000.0,False,Ethereum,NFTfi,False,,Solidity
+2026-06-09,NovaBox,code_bug,Token & Share Accounting,Incorrect Share Accounting,107000.0,False,Ethereum,Chain,False,,Solidity
+2026-06-09,Token of Power,code_bug,Governance,Malicious Proposal,1580000.0,True,Ethereum,Token,False,,Solidity
+2026-06-10,Axelar Secret IBC Bridge,code_bug,Bridge & Cross-Chain,Unbacked Cross-Chain Mint,4670000.0,True,Ethereum;Secret,DeFi Protocol,True,,Rust
+2026-06-10,Raydium AMM,code_bug,Token & Share Accounting,Infinite Mint,1340000.0,True,Solana,DeFi Protocol,False,,Rust
+2026-06-14,Aztec Connect,code_bug,Bridge & Cross-Chain,Forged Proof,2100000.0,True,Ethereum,DeFi Protocol,True,,Solidity
+2026-06-15,Thetanuts Finance,code_bug,Token & Share Accounting,Rounding Error,105471.5,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-06-16,RetoSwap,code_bug,Governance,Malicious Proposal,2700000.0,True,Monero,DeFi Protocol,False,,Java
+2026-06-17,DIP,code_bug,Protocol Logic,Swap Logic Flaw,111000.0,False,BSC,Token,False,,Solidity
+2026-06-17,Aztec Bridge,code_bug,Bridge & Cross-Chain,Bridge Logic Flaw,2000000.0,True,Ethereum,DeFi Protocol,True,,Solidity
+2026-06-17,Little Boy Plus,code_bug,Token & Share Accounting,Arithmetic Error,367000.0,False,BSC,Token,False,,Solidity
+2026-06-19,mySwap CL,code_bug,Token & Share Accounting,Incorrect Share Accounting,305000.0,False,Starknet,DeFi Protocol,False,,Cairo
+2026-06-19,Namada Shielded Pools,code_bug,Bridge & Cross-Chain,Unbacked Cross-Chain Mint,600000.0,False,Namada,DeFi Protocol,True,,Rust
+2026-06-19,JB,code_bug,Oracle Manipulation,Spot Price Manipulation,50000.0,False,BSC,Token,False,,Solidity
+2026-06-19,Secret Network,code_bug,Bridge & Cross-Chain,Unbacked Cross-Chain Mint,4670000.0,True,Secret,Chain,True,,Rust
+2026-06-20,JaredFromSubway MEV Bot,other,Market Manipulation,MEV Bot Drained,7500000.0,True,Ethereum,Other,False,,Solidity
+2026-06-20,LABUBU/OLPC,code_bug,Token & Share Accounting,Decimal Miscalculation,1100000.0,True,BSC,Liquidity Pool,False,,Solidity
+2026-06-21,Taiko Bridge,code_bug,Bridge & Cross-Chain,Forged Proof,1700000.0,True,Taiko,Chain,True,,Solidity
+2026-06-21,Quicksilver Zone,code_bug,Token & Share Accounting,Unbacked Mint,3500.0,False,Quicksilver,DeFi Protocol,False,,Go
+2026-06-23,SecondFi,keys_people,Key Compromise,Weak Key Generation,2400000.0,True,Cardano,Wallet,False,,Haskell
+2026-06-23,Royal.io,code_bug,Token & Share Accounting,Incorrect Share Accounting,263000.0,False,Polygon,NFTfi,False,,Solidity
+2026-06-24,DLMC,code_bug,Oracle Manipulation,Spot Price Manipulation,222600.0,False,BSC,Token,False,,Solidity
+2026-06-25,Lixir Finance,code_bug,Input Validation,Signature Verification Flaw,12300.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-06-25,Ocean Protocol,code_bug,Protocol Logic,Deposit Logic Flaw,127861.0,False,Polygon,DeFi Protocol,False,,Solidity
+2026-06-25,Polymarket International,keys_people,Frontend & Infrastructure,Frontend Compromise,3000000.0,True,Polygon,DeFi Protocol,False,,Solidity
+2026-06-28,AIDC,code_bug,Token & Share Accounting,Arithmetic Error,121000.0,False,BSC,Token,False,,Solidity
+2026-06-30,Edel,code_bug,Oracle Manipulation,Spot Price Manipulation,403000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-07-02,Hinkal,code_bug,Protocol Logic,Deposit Logic Flaw,820000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-07-05,Lazy Summer Protocol,code_bug,Token & Share Accounting,Donation Attack,6040000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2026-07-06,BonkDAO,code_bug,Governance,Malicious Proposal,20000000.0,True,Solana,Token,False,,Rust
+2026-07-08,BFB,code_bug,Token & Share Accounting,Incorrect Share Accounting,197800.0,False,BSC,Token,False,,Solidity
+2026-07-11,BlueMove DEX,code_bug,Token & Share Accounting,Incorrect Share Accounting,529000.0,False,Sui,DeFi Protocol,False,,Move
+2026-07-11,Bonzo Lend,code_bug,Oracle Manipulation,Spot Price Manipulation,9050000.0,True,Hedera,DeFi Protocol,False,,Solidity
+2026-07-12,PHX,code_bug,Token & Share Accounting,Incorrect Share Accounting,89500.0,False,BSC,Token,False,,Solidity
+2026-07-13,Chi Protocol,code_bug,Protocol Logic,Redeem Logic Flaw,8500.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-07-13,Lumi Finance,code_bug,Input Validation,Signature Verification Flaw,270000.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2026-07-14,Drips Network,code_bug,Token & Share Accounting,Arithmetic Error,24883.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-07-14,BarnBridge,code_bug,Governance,Malicious Proposal,776000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-07-15,Ostium,keys_people,Key Compromise,Private Key Compromised,23750000.0,True,Arbitrum,DeFi Protocol,False,,Solidity
+2026-07-15,Cascade Liquidity Strategy,code_bug,Oracle Manipulation,Spot Price Manipulation,1340000.0,True,Arbitrum,DeFi Protocol,False,,Solidity
+2026-07-15,Sonic ICP,code_bug,Protocol Logic,Withdrawal Logic Flaw,276000.0,False,ICP,DeFi Protocol,False,,
+2026-07-15,TeleSwap,keys_people,Key Compromise,Hot Wallet Key Compromised,735000.0,False,Bitcoin,DeFi Protocol,False,,
+2026-07-16,CrowdRingCircle,code_bug,Token & Share Accounting,Incorrect Share Accounting,209100.0,False,BSC,Token,False,,Solidity
+2026-07-16,DefiTuna Lending,code_bug,Protocol Logic,Swap Logic Flaw,580000.0,False,Solana,DeFi Protocol,False,,Rust
+2026-07-17,FlyCow,code_bug,Token & Share Accounting,Incorrect Share Accounting,65300.0,False,BSC,Token,False,,Solidity
+2026-07-17,Across,code_bug,Bridge & Cross-Chain,Spoofed Event Log,4500000.0,True,Solana,DeFi Protocol,True,,Rust
+2026-07-19,Allbridge Core,code_bug,Protocol Logic,Withdrawal Logic Flaw,1650000.0,True,Solana,DeFi Protocol,True,,Rust
+2026-07-21,42DAO,code_bug,Oracle Manipulation,Spot Price Manipulation,912000.0,False,BSC,DeFi Protocol,False,,Solidity
+2026-07-21,FlashTrade,code_bug,Input Validation,Missing Input Validation,98000.0,False,Solana,DeFi Protocol,False,,Rust
+2026-07-21,Wanchain,code_bug,Input Validation,Signature Verification Flaw,10000000.0,True,Cardano,Chain,True,,Haskell
+2026-07-22,Zilliqa,keys_people,Key Compromise,Weak Key Generation,1640000.0,True,Zilliqa,Chain,False,,
+2026-07-22,Verus-Ethereum Bridge,code_bug,Bridge & Cross-Chain,Forged Proof,7530000.0,True,Verus,DeFi Protocol,True,,Solidity
+2026-07-22,AFX Bridge,keys_people,Key Compromise,Validator Key Compromised,24150000.0,True,Arbitrum,DeFi Protocol,True,,Solidity
+2026-07-23,Solido Cash,code_bug,Oracle Manipulation,Oracle Misconfiguration,900000.0,False,Supra,DeFi Protocol,False,,Move
+2026-07-23,Lien,code_bug,Input Validation,Missing Input Validation,542000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-07-24,Triple-A,keys_people,Key Compromise,Hot Wallet Key Compromised,9700000.0,True,Ethereum;Tron;Arbitrum,Payments,False,,Solidity
+2026-07-25,Projekt,code_bug,Input Validation,Missing Input Validation,560000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-07-25,Bankr,keys_people,Social Engineering,Social Account Takeover,479885.0,False,Base,Wallet,False,,
+2026-07-26,WEMIX.FI Lend,code_bug,Access Control,Improper Access Control,737000.0,False,WEMIX3.0,DeFi Protocol,False,,Solidity
+2026-07-26,Garden,keys_people,Frontend & Infrastructure,Database Breach,450000.0,False,Ethereum;Base;Arbitrum;BSC,DeFi Protocol,True,,Solidity
+2026-07-26,ChainConnect,code_bug,Access Control,Improper Access Control,650000.0,False,Ethereum;BSC;Avalanche;Polygon,DeFi Protocol,True,,Solidity
+2026-07-28,LULA,code_bug,Access Control,Improper Access Control,578000.0,False,BSC,Token,False,,Solidity
+2026-07-28,Crypto DAO,code_bug,Access Control,Improper Access Control,8200000.0,True,BSC,DeFi Protocol,False,,Solidity
+2026-07-30,Swan Treasury,keys_people,Key Compromise,Private Key Compromised,625000.0,False,BSC,DeFi Protocol,False,,Solidity
+2026-07-30,Set Protocol,code_bug,Reentrancy,Reentrancy,9600.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-07-31,COLDCARD,keys_people,Key Compromise,Weak Key Generation,116000000.0,True,Bitcoin,Wallet,False,,C++
+2026-08-02,MOKE,code_bug,Oracle Manipulation,Spot Price Manipulation,907000.0,False,BSC,Liquidity Pool,False,,Solidity
+2026-08-02,LOOPSDAO,code_bug,Oracle Manipulation,Spot Price Manipulation,693500.0,False,BSC,Liquidity Pool,False,,Solidity
+2026-08-03,RISEx,code_bug,Access Control,Improper Access Control,673012.0,False,RISE,Chain,False,,Solidity
+2026-08-05,KITE Foundation,keys_people,Key Compromise,Private Key Compromised,13340000.0,True,Ethereum,Wallet,False,,Solidity
+2026-08-05,Unistreets,code_bug,Access Control,Arbitrary External Call,17750.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-08-06,RRWallet,keys_people,Key Compromise,Weak Key Generation,2000000.0,True,Bitcoin,Wallet,False,,C++
+2026-08-06,Panther Protocol,code_bug,Governance,Malicious Proposal,7578.0,False,Base,DeFi Protocol,False,,Solidity
+2026-08-06,Hyperliquid Malaysia,keys_people,Key Compromise,Private Key Compromised,,False,Solana,Wallet,False,,Rust
+2026-08-07,Ravencoin,code_bug,Input Validation,Missing Input Validation,,False,Ravencoin,Chain,False,,C++
+2026-08-08,Atomic Green,code_bug,Input Validation,Signature Replay,29984.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2026-08-08,Oraichain,code_bug,Bridge & Cross-Chain,Unbacked Cross-Chain Mint,1000000.0,True,Oraichain,Chain,True,,Solidity
+2026-08-09,USM,code_bug,Token & Share Accounting,Arithmetic Error,136000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-08-09,Coinsbuy,code_bug,Access Control,Improper Access Control,7900000.0,True,Ethereum;Tron,Wallet,False,,Solidity
+2026-08-09,Coreum Bridge,code_bug,Bridge & Cross-Chain,Bridge Logic Flaw,200000.0,False,XRPL;Coreum,DeFi Protocol,True,,
+2026-08-11,Harmony Bridge,code_bug,Bridge & Cross-Chain,Bridge Logic Flaw,3200000.0,True,Harmony,Chain,True,,Solidity
+2026-08-14,Bodega Market,code_bug,Oracle Manipulation,Unknown,3600.0,False,Cardano,DeFi Protocol,False,,Aiken
+2026-08-15,Fox Market,code_bug,Oracle Manipulation,Spot Price Manipulation,120000.0,False,BSC,DeFi Protocol,False,,Solidity
+2026-08-18,Maya Protocol,code_bug,Protocol Logic,Withdrawal Logic Flaw,1700000.0,True,Mayachain,DeFi Protocol,True,,Go
+2026-08-19,Allbridge,code_bug,Bridge & Cross-Chain,Bridge Logic Flaw,191000.0,False,Base,DeFi Protocol,True,,Solidity
+2026-08-19,BounceBit,code_bug,Access Control,Improper Access Control,3000000.0,True,BounceBit,Chain,False,,Go
+2026-08-21,MANTRA Chain,code_bug,Access Control,Improper Access Control,0.0,False,MANTRA,Chain,False,,Go
+2026-08-22,The Sandbox,code_bug,Access Control,Improper Access Control,675000.0,False,Base;BSC;Ethereum,DeFi Protocol,True,,Solidity
+2026-08-22,KiiChain,code_bug,Token & Share Accounting,Arithmetic Error,9700000.0,True,KiiChain,Chain,False,,Go
+2026-08-22,TAC,code_bug,Protocol Logic,Withdrawal Logic Flaw,7500000.0,True,TAC,Chain,False,,Go
+2026-08-23,Surf Lending,keys_people,Key Compromise,Private Key Compromised,0.0,False,Cardano,DeFi Protocol,False,,Aiken
+2026-08-23,Arrakis V1,code_bug,Oracle Manipulation,Spot Price Manipulation,7100.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-08-23,TermFinance Vaults,code_bug,Governance,Malicious Proposal,8500000.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2026-08-23,warp.green,code_bug,Bridge & Cross-Chain,Bridge Logic Flaw,93000.0,False,Chia;Ethereum,DeFi Protocol,True,,Chialisp
+2026-08-24,Nesa,code_bug,Token & Share Accounting,Arithmetic Error,50000000.0,True,Nesa,Chain,False,,Go
+2026-08-24,PacaSwap DEX,code_bug,Token & Share Accounting,Arithmetic Error,90750.0,False,Constellation,DeFi Protocol,False,90750.0,Scala
+2026-08-25,Enjin,code_bug,Access Control,Ownership Takeover,162000.0,False,Ethereum,NFTfi,False,,Solidity
+2026-08-25,CometDEX,code_bug,Token & Share Accounting,Incorrect Share Accounting,717000.0,False,Stellar,DeFi Protocol,False,,Rust
+2026-08-25,FH Token,code_bug,Protocol Logic,Swap Logic Flaw,20000.0,False,BSC,Token,False,,Solidity
+2026-08-27,Moonwell Lending,code_bug,Oracle Manipulation,Spot Price Manipulation,8700000.0,True,Base,DeFi Protocol,False,,Solidity
+2026-08-27,CCC,code_bug,Protocol Logic,Swap Logic Flaw,117000.0,False,BSC,Token,False,,Solidity
+2026-08-28,Virtue,code_bug,Oracle Manipulation,Oracle Misconfiguration,894500.0,False,Iota,DeFi Protocol,False,,Move
+2026-08-28,Avici,code_bug,Protocol Logic,Withdrawal Logic Flaw,500859.0,False,Solana,Crypto Card,False,,Rust
+2026-08-28,Fogo Foundation,keys_people,Key Compromise,Private Key Compromised,3000000.0,True,Fogo,Foundation,False,,Rust
+2026-08-28,Ajna V2,code_bug,Protocol Logic,Liquidation Logic Flaw,775400.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-08-29,Permapod,code_bug,Protocol Logic,Unknown,,False,ZIGChain,DeFi Protocol,False,,
+2026-08-29,Full Sail,code_bug,Oracle Manipulation,Oracle Misconfiguration,,False,Sui,DeFi Protocol,False,,Move
+2026-08-30,Weft V2,code_bug,Oracle Manipulation,Spot Price Manipulation,47200.0,False,Radix,DeFi Protocol,False,,Scrypto
+2026-08-30,Balancer V1,code_bug,Token & Share Accounting,Rounding Error,234000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-08-30,Tectonic,code_bug,Token & Share Accounting,Donation Attack,124470000.0,True,Cronos,DeFi Protocol,False,,Solidity
+2026-08-31,Float Protocol,code_bug,Oracle Manipulation,Spot Price Manipulation,28000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-08-31,Radix,code_bug,Access Control,Improper Access Control,1249946.0,True,Radix,Chain,False,,Rust
+2026-08-31,Ankr,code_bug,Token & Share Accounting,Unbacked Mint,410000.0,False,Flow,DeFi Protocol,False,,Solidity
+2026-08-31,Aquifer,code_bug,Access Control,Arbitrary External Call,2469729.0,True,Solana,DeFi Protocol,False,,Rust
+2026-09-04,Notional V2,code_bug,Token & Share Accounting,Arithmetic Error,1727782.0,True,Ethereum,DeFi Protocol,False,,Solidity
+2026-09-05,Dream Health Chain,code_bug,Protocol Logic,Reward Logic Flaw,71800.0,False,BSC,DeFi Protocol,False,,Solidity
+2026-09-05,Reddio RedSonic,code_bug,Token & Share Accounting,Incorrect Share Accounting,22800.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-09-05,Secured Finance Lending,code_bug,Oracle Manipulation,Spot Price Manipulation,104000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-09-05,Rocket Perp,other,Market Manipulation,Risk Parameter Abuse,287666.0,False,Rocket,DeFi Protocol,False,287665.98,Solidity
+2026-09-06,Liquid Network,code_bug,Bridge & Cross-Chain,Unbacked Cross-Chain Mint,320000000.0,True,Liquid,Chain,True,,C++
+2026-09-07,Cozy V2,code_bug,Protocol Logic,Unknown,163326.0,False,Optimism,DeFi Protocol,False,,Solidity
+2026-09-08,WealthManagementV2,keys_people,Key Compromise,Private Key Compromised,26414.0,False,BSC,DeFi Protocol,False,,Solidity
+2026-09-09,Zentra Finance,code_bug,Token & Share Accounting,Rounding Error,140030.0,False,Citrea,DeFi Protocol,False,,Solidity
+2026-09-09,Nomic,code_bug,Bridge & Cross-Chain,Unbacked Cross-Chain Mint,3150000.0,True,Nomic,DeFi Protocol,True,,Rust
+2026-09-09,BeatXswap,code_bug,Oracle Manipulation,Spot Price Manipulation,77512.0,False,BSC,DeFi Protocol,False,,Solidity
+2026-09-10,Symbiosis,code_bug,Bridge & Cross-Chain,Unbacked Cross-Chain Mint,336000.0,False,BSC;Ethereum,DeFi Protocol,True,,Solidity
+2026-09-10,Dominion,keys_people,Key Compromise,Private Key Compromised,,False,Solana,DeFi Protocol,False,,
+2026-09-11,ether.fi Liquid,code_bug,Access Control,Arbitrary External Call,43260.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-09-12,Chainflip AMM,code_bug,Bridge & Cross-Chain,Bridge Logic Flaw,736442.17,False,Tron,DeFi Protocol,True,,Rust
+2026-09-15,Bonfire,code_bug,Access Control,Improper Access Control,47400.0,False,BSC,DeFi Protocol,False,,Solidity
+2026-09-16,Flamincome,code_bug,Oracle Manipulation,Spot Price Manipulation,595000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-09-16,Startale,code_bug,Access Control,Improper Access Control,2876.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-09-16,Nimiq,code_bug,Input Validation,Signature Verification Flaw,50400.0,False,Polygon,DeFi Protocol,False,,Solidity
+2026-09-17,Nostra Money Market,code_bug,Oracle Manipulation,Spot Price Manipulation,3500000.0,True,Starknet,DeFi Protocol,False,,Cairo
+2026-09-19,NuNet,keys_people,Key Compromise,Private Key Compromised,462730.0,False,Ethereum,Token,False,,Solidity
+2026-09-19,MultiversX,code_bug,Protocol Logic,Unknown,0.0,False,MultiversX,Chain,False,,Go
+2026-09-19,Fetch.ai,keys_people,Key Compromise,Private Key Compromised,1530000.0,True,Ethereum,DeFi Protocol,True,,Solidity
+2026-09-21,DoinGud,code_bug,Protocol Logic,Swap Logic Flaw,35486.0,False,Polygon,NFTfi,False,,Solidity
+2026-09-21,The Internet Token,code_bug,Access Control,Arbitrary External Call,16380.0,False,Base,Token,False,,Solidity
+2026-09-22,Astroport,code_bug,Governance,Malicious Proposal,4900000.0,True,Neutron,DeFi Protocol,False,,Rust
+2026-09-22,Drop,code_bug,Governance,Malicious Proposal,4400000.0,True,Neutron,DeFi Protocol,False,,Rust
+2026-09-23,Meter,code_bug,Protocol Logic,Unknown,,False,Meter;BSC;Ethereum,Chain,False,,Go
+2026-09-24,Duelbits,keys_people,Key Compromise,Hot Wallet Key Compromised,7000000.0,True,Ethereum;BSC;Bitcoin;Tron,Gambling Platform,False,,
+2026-09-24,Limit Break Payment Processor,code_bug,Access Control,Token Approval Abuse,1800000.0,True,Ethereum;ApeChain;Polygon;Base,NFTfi,False,,Solidity
+2026-09-24,Payy Network,code_bug,Bridge & Cross-Chain,Bridge Logic Flaw,1828589.378132,True,Ethereum,DeFi Protocol,True,,Solidity
+2026-09-24,Bitget,keys_people,Key Compromise,Hot Wallet Key Compromised,387000000.0,True,Ethereum;XRP;Tron;Zcash,CEX,False,,
+2026-09-25,Demex Perp,code_bug,Bridge & Cross-Chain,Cross-Chain Message Spoofing,191929.0,False,Demex;Ethereum;BSC,DeFi Protocol,True,,Solidity
+2026-09-27,Fake GIWA Bridge,keys_people,Social Engineering,Impersonation Scam,2080000.0,True,Ethereum,DeFi Protocol,True,,Solidity
+2026-09-30,SKYDAO,code_bug,Protocol Logic,Swap Logic Flaw,183482.88,False,BSC,DeFi Protocol,False,,Solidity
+2026-10-01,NEAR Intents,code_bug,Bridge & Cross-Chain,Bridge Logic Flaw,3800000.0,True,BSC,DeFi Protocol,True,,Solidity
+2026-10-01,FlashLoopAdapter,code_bug,Access Control,Improper Access Control,305000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-10-02,GoldPesa,code_bug,Token & Share Accounting,Incorrect Share Accounting,114900.0,False,Base,DeFi Protocol,False,,Solidity
+2026-10-06,MakerDAO ETH-A Liquidation Keeper Bot,code_bug,Access Control,Improper Access Control,538000.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-10-06,Set Protocol,code_bug,Token & Share Accounting,Rounding Error,21872.67,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-10-07,Locus Finance,other,,,18000.0,False,Arbitrum,DeFi Protocol,False,,Solidity
+2026-10-08,Ethervista,code_bug,Token & Share Accounting,Arithmetic Error,18600.0,False,Ethereum,DeFi Protocol,False,,Solidity
+2026-10-08,BitBay,code_bug,Protocol Logic,Withdrawal Logic Flaw,14838.47,False,Polygon,DeFi Protocol,False,,Solidity
+2026-10-10,Papertrade,code_bug,Oracle Manipulation,Spot Price Manipulation,1280000.0,True,Hyperliquid L1,DeFi Protocol,False,,Solidity
+2026-10-14,UNCX Network V2,code_bug,Token & Share Accounting,Incorrect Share Accounting,86000.0,False,Ethereum;Base;BSC;Robinhood Chain,DeFi Protocol,False,,Solidity
+2026-10-16,Pirate Chain,code_bug,Token & Share Accounting,Unbacked Mint,,False,Pirate Chain,Chain,False,,

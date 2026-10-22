@@ -1,0 +1,76 @@
+{
+ "text_sha256": "97a200c6bb7d0065f3ab6ff8af4b748d3eeb527748639b9e5c048170035d9a12",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:00:07+00:00",
+ "word_count": 89,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Wanted to touch base on our side. It seems we’re making progress with our internal discussions, but with tomorrow’s board meeting scheduled for the afternoon, it’s clear we won’t have a final decision until then. Given the timing, it looks like we might need a bit more time to make sure everything is aligned. Would it be possible to extend the timer until Monday? I’ll keep you updated as soon as we have more to share after the meeting, but I’m confident we can come to a resolution soon.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 1.0,
+  "fraction_ai_assisted": 6.3284092546009995e-31,
+  "fraction_human": 1.598258734035412e-18,
+  "headline": "AI Generated",
+  "num_ai_segments": 1,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "Wanted to touch base on our side. It seems we’re making progress with our internal discussions, but with tomorrow’s board meeting scheduled for the afternoon, it’s clear we won’t have a final decision until then. Given the timing, it looks like we might need a bit more time to make sure everything is aligned. Would it be possible to extend the timer until Monday? I’ll keep you updated as soon as we have more to share after the meeting, but I’m confident we can come to a resolution soon.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 491,
+    "word_count": 95,
+    "token_length": 105,
+    "is_humanized": false,
+    "humanizer_score": 0.016638819128274918,
+    "class_probabilities": [
+     1.598258734035412e-18,
+     6.3284092546009995e-31,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9981071597699729
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0020366599783301353,
+   "human": 0.0,
+   "mixed": 0.0,
+   "ai": 1.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.0,
+    "std": 3.27750993012188e-10,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   },
+   "human_coverage": {
+    "mean": 1.598258734035412e-18,
+    "std": 3.27750993012188e-10,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

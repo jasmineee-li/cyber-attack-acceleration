@@ -1,0 +1,96 @@
+{
+ "text_sha256": "4118ae1ccf98fc9a2604d96e1ca34c43064b1863bf26aa09107b70ffab88e92e",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:47:13+00:00",
+ "word_count": 120,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hello. I am providing latest update. Today at 8:45 AM I have paid money to [redacted] bank account in Malta and now I am still waiting that their system processes the payment and that this payment will be shown in my [redacted] app on the phone. They say that it takes 1 to 3 days. Since I have paid by SEPA payment I assume that the money should be visible in the app if not today, latest on Monday. I have checked in advance compliance procedure on [redacted] and I have all documents for compliance ready, so I don't expect any problems with compliance and I will then buy Bitcoins and transfer them to your wallet. Thank you for patience.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 6.700952184628128e-15,
+  "fraction_ai_assisted": 1.660015831773468e-17,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Hello.",
+    "label": "Human Written",
+    "ai_assistance_score": 7.178899944122741e-13,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 6,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.7762168672057167e-15,
+     7.170018702026826e-13
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9763021576865031
+   },
+   {
+    "text": " I am providing latest update. Today at 8:45 AM I have paid money to [redacted] bank account in Malta and now I am still waiting that their system processes the payment and that this payment will be shown in my [redacted] app on the phone. They say that it takes 1 to 3 days. Since I have paid by SEPA payment I assume that the money should be visible in the app if not today, latest on Monday. I have checked in advance compliance procedure on [redacted] and I have all documents for compliance ready, so I don't expect any problems with compliance and I will then buy Bitcoins and transfer them to your wallet. Thank you for patience.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.2352808413596559e-23,
+    "confidence": "High",
+    "start_index": 6,
+    "end_index": 642,
+    "word_count": 121,
+    "token_length": 149,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.428590333371422e-32,
+     1.2352808413596559e-23
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988166097617683
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0015576323494315147,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 6.700952184628128e-15,
+    "std": 7.913641297818685e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 7.923437905787978e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

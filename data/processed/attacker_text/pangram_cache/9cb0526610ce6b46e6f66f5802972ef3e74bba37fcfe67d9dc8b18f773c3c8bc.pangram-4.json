@@ -1,0 +1,96 @@
+{
+ "text_sha256": "9cb0526610ce6b46e6f66f5802972ef3e74bba37fcfe67d9dc8b18f773c3c8bc",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:36:37+00:00",
+ "word_count": 112,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Good morning. Why are you asking questions that have already been answered? The full file tree will be provided to you only after payment. Unfortunately, we already had a sad experience when we gave a complete list of downloaded data before paying. In our opinion, we have provided you with a fairly complete picture that we have ALL sensitive information that was stored on your file servers, SQL databases, as well as in your medical programs. If you want to take the risk and not negotiate with us, then this is your right. But trust our experience that in this case your expenses will far exceed the cost of $ 10 million.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 4.063550778960097e-15,
+  "fraction_ai_assisted": 3.0687481860534925e-21,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Good morning.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.95363080639048e-13,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 13,
+    "word_count": 2,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.4753597282904923e-19,
+     1.9536301287641222e-13
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9817138980542107
+   },
+   {
+    "text": " Why are you asking questions that have already been answered? The full file tree will be provided to you only after payment. Unfortunately, we already had a sad experience when we gave a complete list of downloaded data before paying. In our opinion, we have provided you with a fairly complete picture that we have ALL sensitive information that was stored on your file servers, SQL databases, as well as in your medical programs. If you want to take the risk and not negotiate with us, then this is your right. But trust our experience that in this case your expenses will far exceed the cost of $ 10 million.",
+    "label": "Human Written",
+    "ai_assistance_score": 8.794969551641849e-41,
+    "confidence": "High",
+    "start_index": 13,
+    "end_index": 625,
+    "word_count": 109,
+    "token_length": 123,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     8.794969551641849e-41
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989233357722814
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0015999999595806003,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 4.063550778960097e-15,
+    "std": 9.193576566701722e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 9.193580119415401e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

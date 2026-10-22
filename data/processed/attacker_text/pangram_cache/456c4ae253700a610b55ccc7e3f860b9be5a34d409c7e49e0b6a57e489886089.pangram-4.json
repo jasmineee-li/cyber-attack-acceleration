@@ -1,0 +1,116 @@
+{
+ "text_sha256": "456c4ae253700a610b55ccc7e3f860b9be5a34d409c7e49e0b6a57e489886089",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:42:05+00:00",
+ "word_count": 81,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "You must understand that nothing will change if you keep asking the same questions. We have given you a new amount and discussed a discount for you with management. We are waiting for your proposals. We want to settle this quickly, but unfortunately you are dragging your feet.\nWe have put you on a timer; you can find yourself under the name P... Coo...\nIn 24 hours, your data will be published if we do not receive any proposals from you.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 8.646567746672939e-18,
+  "fraction_ai_assisted": 2.9802391027999528e-18,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 3,
+  "windows": [
+   {
+    "text": "You must understand that nothing will change if you keep asking the same questions. We have given you a new amount and discussed a discount for you with management. We are waiting for your proposals. We want to settle this quickly, but unfortunately you are dragging your feet.\nWe have put you on a timer; you can find yourself under the name P...",
+    "label": "Human Written",
+    "ai_assistance_score": 6.622465741339576e-21,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 347,
+    "word_count": 63,
+    "token_length": 70,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.1035413855520677e-24,
+     6.6214143980121956e-21
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.996065182203184
+   },
+   {
+    "text": " Coo...",
+    "label": "Human Written",
+    "ai_assistance_score": 6.368349451295677e-16,
+    "confidence": "Medium",
+    "start_index": 347,
+    "end_index": 354,
+    "word_count": 1,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.8732921104472002e-16,
+     5.431703594595424e-16
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.988752968588968
+   },
+   {
+    "text": "\nIn 24 hours, your data will be published if we do not receive any proposals from you.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.2360317359177843e-34,
+    "confidence": "High",
+    "start_index": 354,
+    "end_index": 440,
+    "word_count": 17,
+    "token_length": 21,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.1347266548593785e-39,
+     1.2360261109936447e-34
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9971368998964039
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0022727272007614374,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 8.646567746672939e-18,
+    "std": 3.7133729424709827e-10,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 4.3046996522910774e-10,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

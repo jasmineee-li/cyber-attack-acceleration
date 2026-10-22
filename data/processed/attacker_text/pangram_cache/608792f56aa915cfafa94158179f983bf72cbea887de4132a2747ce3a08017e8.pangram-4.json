@@ -1,0 +1,96 @@
+{
+ "text_sha256": "608792f56aa915cfafa94158179f983bf72cbea887de4132a2747ce3a08017e8",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:44:05+00:00",
+ "word_count": 62,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hello. Thanks for fast answer. I think you already understood what happened. All your infrastructure was encrypted, also we extracted all your sensitive information about company/employees/billings and etc. After inspecting your docs we setted up our price - 500.000$. This price include few things: 1. Decryption tool; 2. Proofs of deletion files; 3. Full attack chain to fix your vulnerabilities in network.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.4008157861374856e-15,
+  "fraction_ai_assisted": 1.2156803595017002e-18,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Hello.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.6369704528527984e-13,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 6,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     8.286887944202834e-17,
+     1.6365560165723658e-13
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9817138980542107
+   },
+   {
+    "text": " Thanks for fast answer. I think you already understood what happened. All your infrastructure was encrypted, also we extracted all your sensitive information about company/employees/billings and etc. After inspecting your docs we setted up our price - 500.000$. This price include few things: 1. Decryption tool; 2. Proofs of deletion files; 3. Full attack chain to fix your vulnerabilities in network.",
+    "label": "Human Written",
+    "ai_assistance_score": 9.802799305128333e-33,
+    "confidence": "High",
+    "start_index": 6,
+    "end_index": 409,
+    "word_count": 63,
+    "token_length": 92,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.753064261143347e-41,
+     9.802799305128333e-33
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9983469391496932
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0024449878837913275,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.4008157861374856e-15,
+    "std": 5.934626567949408e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 5.936128921746331e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

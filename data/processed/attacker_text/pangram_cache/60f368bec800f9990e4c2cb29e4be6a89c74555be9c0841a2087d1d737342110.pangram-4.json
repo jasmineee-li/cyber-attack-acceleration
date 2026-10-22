@@ -1,0 +1,76 @@
+{
+ "text_sha256": "60f368bec800f9990e4c2cb29e4be6a89c74555be9c0841a2087d1d737342110",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:44:20+00:00",
+ "word_count": 69,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We know exactly what kind of company you are, we have studied you. In addition, we have a lot of your data. You are a multimillion-dollar company that can afford that amount. The only question is whether you are willing to pay damages and losses after your data is published. If you continue to negotiate like this, we will go nowhere and we will be forced to go public.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 9.80908925027372e-45,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We know exactly what kind of company you are, we have studied you. In addition, we have a lot of your data. You are a multimillion-dollar company that can afford that amount. The only question is whether you are willing to pay damages and losses after your data is published. If you continue to negotiate like this, we will go nowhere and we will be forced to go public.",
+    "label": "Human Written",
+    "ai_assistance_score": 9.80908925027372e-45,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 370,
+    "word_count": 70,
+    "token_length": 80,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     9.80908925027372e-45
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989250142281234
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0027027027681469917,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 9.80908925027372e-45,
+    "std": 3.276057928937443e-23,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.2760658175464954e-23,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

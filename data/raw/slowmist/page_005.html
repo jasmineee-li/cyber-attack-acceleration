@@ -1,0 +1,407 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta content="email=no,telephone=no" name="format-detection"/>
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <title>SlowMist Hacked - SlowMist Zone</title>
+    <link rel="shortcut icon" href="/static/archives/images/favicon.ico">
+    <link rel="stylesheet" href="/static/archives/css/basic.css">
+    <link rel="stylesheet" href="/static/archives/css/en.css">
+</head>
+
+
+
+<body>
+<div class="header header-index clearfix">
+    <div class="logo"><a href="/"><img src="/static/archives/images/logo.png"></a></div>
+    <ul class="nav">
+        <li><a href="/" class="cur">Home</a></li>
+        <li><a href="/statistics/?c=all&d=all">Statistics</a></li>
+        <li><a href="https://www.slowmist.com/" target="_blank">SlowMist</a></li>
+        <li><a href="https://www.slowmist.io/" target="_blank">SlowMist Zone</a></li>
+    </ul>
+    <div class="search-box">
+        <i class="icon-search"></i>
+        <form method="post" action="/search/">
+            <input type="hidden" name="csrfmiddlewaretoken" value="Vi7Hl5Jspd2tcYRQw4VnHYTU6xjtPUYA4TXYCmVxHRhBgz4DGNK9b3DpPMNMYVkM">
+            <input type="search" name="q" class="input-search" placeholder="Keywords" required>
+        </form>
+    </div>
+    <a href="/zh/" class="language-en">中文</a>
+</div>
+<div class="banner-box">
+    <div class="banner-con clearfix">
+        <div class="banner-info">
+            <p>The total amount of money lost by blockchain hackers is about</p>
+            <p>$ 39,092,306,167.42</p>
+            <p>Total hack events 2311</p>
+        </div>
+        <div class="banner-img">
+            <img src="/static/archives/images/banner.gif">
+        </div>
+    </div>
+</div>
+
+<div class="case-box">
+
+    <div class="case-nav">
+            <dl class="clearfix">
+                <dd  class="cur" ><a href="/">All</a></dd>
+                <dd ><a href="/?c=Blockchain">Blockchain</a></dd>
+                <dd ><a href="/?c=Exchange">Exchange</a></dd>
+                <dd ><a href="/?c=Wallet">Wallet</a></dd>
+                <dd ><a href="/?c=ETH">ETH Ecosystem</a></dd>
+                <dd ><a href="/?c=BSC">BSC Ecosystem</a></dd>
+                <dd ><a href="/?c=Tron">Tron Ecosystem</a></dd>
+                <dd ><a href="/?c=EOS">EOS Ecosystem</a></dd>
+                <dd ><a href="/?c=Polygon">Polygon Ecosystem</a></dd>
+                <dd ><a href="/?c=HECO">HECO Ecosystem</a></dd>
+                <dd ><a href="/?c=Fantom">Fantom Ecosystem</a></dd>
+                <dd ><a href="/?c=Solana">Solana Ecosystem</a></dd>
+                <dd ><a href="/?c=Avalanche">Avalanche Ecosystem</a></dd>
+                <dd ><a href="/?c=Polkadot">Polkadot Ecosystem</a></dd>
+                <dd ><a href="/?c=Arbitrum">Arbitrum Ecosystem</a></dd>
+                <dd ><a href="/?c=Optimism">Optimism Ecosystem</a></dd>
+                <dd ><a href="/?c=zkSync">zkSync Ecosystem</a></dd>
+                <dd ><a href="/?c=Base">Base Ecosystem</a></dd>
+                <dd ><a href="/?c=NFT">NFT</a></dd>
+                <dd ><a href="/?c=Bridge">Bridge</a></dd>
+                <dd ><a href="/?c=Other">Other</a></dd>
+            </dl>
+        </div>
+    <div class="case-content-num">
+        <p><em class="num">2311</em> hack event(s)</p>
+    </div>
+    <div class="case-content">
+        <ul>
+            
+                <li>
+                    <span class="time">2026-08-23</span>
+                    <h3><em>Hacked target: </em>TermFinance Vaults</h3>
+                    <p><em>Description of the event: </em>On August 23, 2026, Term Finance’s Strategy Vaults (Ethereum-based fixed-rate lending protocol by Term Labs) suffered a governance exploit. The attacker acquired majority voting power (100% on several USDC vaults, ~91% on the ETH Meta Vault), passed malicious proposals to disable the timelock and drain ~2,843 ETH and 1.68M USDC (later swapped to DAI), resulting in ~$8.5 million losses (about 68% of the vaults’ then-TVL).</p>
+                    <p><span><em>Amount of loss: </em>
+                        
+                            $ 8,500,000
+                        
+                    </span><span><em>Attack method: </em>Governance Attack</span></p>
+
+                    
+                    <p class="link-reference"><a href="https://x.com/term_labs/status/2091428394130886740" rel="nofollow" target="_blank">View Reference Sources</a></p>
+                    
+                </li>
+            
+                <li>
+                    <span class="time">2026-08-23</span>
+                    <h3><em>Hacked target: </em>Arrakis V1</h3>
+                    <p><em>Description of the event: </em>On August 23, 2026, the Arrakis V1 / G-UNI ENS–WETH liquidity-manager vault (0x7c687f775a3b73bbab0e15832f24caab5d53bdde) was drained via Uniswap V3 spot-price manipulation. The attacker flash-loaned 1,800 WETH from Morpho Blue, skewed the pool’s instantaneous spot price, minted vault shares at the distorted valuation, restored the price, and burned the shares for a richer token mix, netting ≈2.94 WETH. Root cause: mint()/burn() valued the Uniswap V3 position off pool.slot0() with no TWAP or deviation guard (TWAP only protected rebalance()).</p>
+                    <p><span><em>Amount of loss: </em>
+                        
+                            $ 7,018
+                        
+                    </span><span><em>Attack method: </em>Flashloan Price Manipulation</span></p>
+
+                    
+                    <p class="link-reference"><a href="https://x.com/exvulsec/status/2091521539585999337" rel="nofollow" target="_blank">View Reference Sources</a></p>
+                    
+                </li>
+            
+                <li>
+                    <span class="time">2026-08-23</span>
+                    <h3><em>Hacked target: </em>warp.green</h3>
+                    <p><em>Description of the event: </em>The ERC-20 bridge of warp.green (a cross-chain messaging protocol between Chia and EVM chains) suffered an exploit due to a vulnerability in the Chia-side Chialisp puzzle. The attacker minted worthless CAT tokens, presented them as burned wUSDC, obtained validator signatures, and drained ~$93,000 USDC from the Base and Ethereum bridge contracts, later converting the funds to ETH. The CAT bridge (securing assets like wXCH) appears unaffected.</p>
+                    <p><span><em>Amount of loss: </em>
+                        
+                            $ 93,000
+                        
+                    </span><span><em>Attack method: </em>Smart Contract Vulnerability</span></p>
+
+                    
+                    <p class="link-reference"><a href="https://x.com/warpdotgreen/status/2091772015598325920" rel="nofollow" target="_blank">View Reference Sources</a></p>
+                    
+                </li>
+            
+                <li>
+                    <span class="time">2026-08-22</span>
+                    <h3><em>Hacked target: </em>TAC</h3>
+                    <p><em>Description of the event: </em>Layer 1 blockchain TAC was exploited when an attacker used a vulnerability in the shared Cosmos EVM precompile layer to drain approximately 2.985 billion TAC tokens (valued at around $7.5 million) from a single account. The project confirmed it was a drain (not a mint), total supply unchanged, only $TAC affected, and the flaw is not in TAC-specific code. The chain was halted at block 24,671,475; the team is coordinating with SEAL 911 and exchanges to track funds and plans to release a post-mortem and relaunch plan.</p>
+                    <p><span><em>Amount of loss: </em>
+                        
+                            $ 7,500,000
+                        
+                    </span><span><em>Attack method: </em>Contract Vulnerability</span></p>
+
+                    
+                    <p class="link-reference"><a href="https://x.com/TacBuild/status/2091873937655574938" rel="nofollow" target="_blank">View Reference Sources</a></p>
+                    
+                </li>
+            
+                <li>
+                    <span class="time">2026-08-22</span>
+                    <h3><em>Hacked target: </em>KiiChain</h3>
+                    <p><em>Description of the event: </em>An attacker exploited vulnerabilities in the shared Cosmos EVM module (an arithmetic underflow in the staking precompile’s balance write-back after delegation, combined with vesting account handling and other undisclosed bugs). By creating a vesting account and deploying a contract to it, the attacker repeated the technique 18 times, draining approximately 148.3 million KII from various wallets. KiiChain halted the network at block 9355723 to stop further theft.</p>
+                    <p><span><em>Amount of loss: </em>
+                        
+                            $ 9,700,000
+                        
+                    </span><span><em>Attack method: </em>Smart Contract Vulnerability</span></p>
+
+                    
+                    <p class="link-reference"><a href="https://x.com/KiiChainio/article/2091721027583709214" rel="nofollow" target="_blank">View Reference Sources</a></p>
+                    
+                </li>
+            
+                <li>
+                    <span class="time">2026-08-21</span>
+                    <h3><em>Hacked target: </em>The Sandbox</h3>
+                    <p><em>Description of the event: </em>The Sandbox’s SAND cross-chain bridge (LayerZero OFT on Base and BNB Chain) was exploited. The attacker used a configuration function to gain sole verifier rights, minting large amounts of unbacked SAND and draining approximately 14.74 million real SAND (~$675,000) from the Ethereum vault. The project quickly halted affected bridging; Ethereum and Polygon assets remained unaffected.</p>
+                    <p><span><em>Amount of loss: </em>
+                        
+                            $ 675,000
+                        
+                    </span><span><em>Attack method: </em>Smart Contract Vulnerability</span></p>
+
+                    
+                    <p class="link-reference"><a href="https://x.com/TheSandboxGame/status/2091978565256417332" rel="nofollow" target="_blank">View Reference Sources</a></p>
+                    
+                </li>
+            
+                <li>
+                    <span class="time">2026-08-20</span>
+                    <h3><em>Hacked target: </em>MANTRA Chain</h3>
+                    <p><em>Description of the event: </em>An attacker exploited an unsigned integer underflow vulnerability in the upstream Cosmos EVM module to unauthorizedly transfer approximately 720.9 million MANTRA from two MANTRA-managed addresses (the burn address and a dormant genesis-era multisig). The chain was halted to contain the threat and later resumed after a v8.4.0 patch. No validator keys, admin privileges, or user funds were compromised.</p>
+                    <p><span><em>Amount of loss: </em>
+                        
+                            $ 3,600,000
+                        
+                    </span><span><em>Attack method: </em>Smart Contract Vulnerability</span></p>
+
+                    
+                    <p class="link-reference"><a href="https://x.com/MANTRA_Chain/status/2093311678205374867" rel="nofollow" target="_blank">View Reference Sources</a></p>
+                    
+                </li>
+            
+                <li>
+                    <span class="time">2026-08-19</span>
+                    <h3><em>Hacked target: </em>Allbridge</h3>
+                    <p><em>Description of the event: </em>On August 19, 2026, the cross-chain bridge Allbridge was attacked. The attacker had prepared on July 26 by calling Circle’s MessageTransmitterV2.sendMessage on Polygon to forge a CCTP-style message claiming a 1M USDC transfer (with no actual burn) and obtained a valid attestation. On Aug 19, after a real CCTP deposit brought the Base Router balance to ~191k USDC, the attacker used the forged message via receiveCctpMessage (which lacked proper verification and credited it as a real deposit), flash-loaned ~809k USDC from Aave to match the claimed amount, and withdrew ~999k USDC, netting ~$189,800.</p>
+                    <p><span><em>Amount of loss: </em>
+                        
+                            $ 190,000
+                        
+                    </span><span><em>Attack method: </em>Bridge Logic Flaw</span></p>
+
+                    
+                    <p class="link-reference"><a href="https://x.com/SlowMist_Team/status/2090994186346790999" rel="nofollow" target="_blank">View Reference Sources</a></p>
+                    
+                </li>
+            
+                <li>
+                    <span class="time">2026-08-19</span>
+                    <h3><em>Hacked target: </em>BounceBit</h3>
+                    <p><em>Description of the event: </em>An attacker exploited a protocol-level authorization flaw in the Evmos stack, transferring approximately 286.5 million BB from nine mainnet accounts across 14 transactions without the owners’ authorization. No private keys were compromised, no signatures forged, and no wallets breached. BounceBit permanently sunset the L1 chain and reissued BB as a BEP-20 token on BNB Chain based on a pre-attack snapshot.</p>
+                    <p><span><em>Amount of loss: </em>
+                        
+                            $ 3,000,000
+                        
+                    </span><span><em>Attack method: </em>Smart Contract Vulnerability</span></p>
+
+                    
+                    <p class="link-reference"><a href="https://x.com/bouncebit/article/2090785561800061430" rel="nofollow" target="_blank">View Reference Sources</a></p>
+                    
+                </li>
+            
+                <li>
+                    <span class="time">2026-08-18</span>
+                    <h3><em>Hacked target: </em>Maya Protocol</h3>
+                    <p><em>Description of the event: </em>Maya Protocol (MAYAChain) suffered a security vulnerability attack. The attacker exploited 6 chained edge-case bugs in Trade Account, outbound handling, and pool math, inflating accounting via false subsidy (e.g., ARB.LINK pool), then added/removed liquidity to extract ~48.87M CACAO and convert to ~20.83 BTC plus other assets, causing ~$1.7 million loss. The team paused global operations to fix the issues and seeks fund recovery.</p>
+                    <p><span><em>Amount of loss: </em>
+                        
+                            $ 1,700,000
+                        
+                    </span><span><em>Attack method: </em>Smart Contract Vulnerability</span></p>
+
+                    
+                    <p class="link-reference"><a href="https://x.com/AaluxxMyth/status/2089792721086996703" rel="nofollow" target="_blank">View Reference Sources</a></p>
+                    
+                </li>
+            
+                <li>
+                    <span class="time">2026-08-15</span>
+                    <h3><em>Hacked target: </em>FoxMarket</h3>
+                    <p><em>Description of the event: </em>FoxMarket (a DeFi project on BSC) had its FoxLpBondsPool.stake() function calculate and fix _stakeAmount from a manipulable Pancake AMM spot quote before a large USDT→Fox swap. The attacker used flash loans to skew pair reserves, then addLiquidity used a mismatched ratio; Treasury.lpBonds() trusted the stale value, minted excess Fox tokens, and sent inviter rewards to an attacker-controlled address, which were sold in the same transaction.</p>
+                    <p><span><em>Amount of loss: </em>
+                        
+                            $ 118,700
+                        
+                    </span><span><em>Attack method: </em>Flash Loan Attack</span></p>
+
+                    
+                    <p class="link-reference"><a href="https://x.com/SlowMist_Team/status/2089196291800908164" rel="nofollow" target="_blank">View Reference Sources</a></p>
+                    
+                </li>
+            
+                <li>
+                    <span class="time">2026-08-11</span>
+                    <h3><em>Hacked target: </em>Harmony Protocol</h3>
+                    <p><em>Description of the event: </em>The Harmony Layer-1 blockchain was exploited, allowing an attacker to unauthorizedly mint approximately 4 billion ONE tokens (about 26% of the supply) via empty blocks and related flaws. Large amounts were quickly funneled to exchanges for sale, causing the token price to crash ~30-40%. The team confirmed the incident, paused the cross-chain bridge, released an emergency validator patch to stop further minting, coordinated with exchanges to freeze funds, and is evaluating a chain rollback.</p>
+                    <p><span><em>Amount of loss: </em>
+                        
+                            $ 3,200,000
+                        
+                    </span><span><em>Attack method: </em>Protocol Logic Vulnerability</span></p>
+
+                    
+                    <p class="link-reference"><a href="https://x.com/harmonyprotocol/status/2087487246148542527" rel="nofollow" target="_blank">View Reference Sources</a></p>
+                    
+                </li>
+            
+                <li>
+                    <span class="time">2026-08-10</span>
+                    <h3><em>Hacked target: </em>USM</h3>
+                    <p><em>Description of the event: </em>The USM protocol suffered an exploit due to a pricing logic flaw in the ethFromDefund() function within defund(). It uses the arithmetic mean of the current and estimated final FUM sell prices for a single redemption but lacks “split invariance.” Combined with the per-redemption state contraction (adjShrinkFactor) and integer rounding, an attacker used a flash loan to call fund() to manipulate internal pricing, then split the same FUM amount into 64 small defund() calls, extracting more ETH than a single large call and causing a loss of ~70.83 ETH.</p>
+                    <p><span><em>Amount of loss: </em>
+                        
+                            $ 136,000
+                        
+                    </span><span><em>Attack method: </em>Smart Contract Vulnerability</span></p>
+
+                    
+                    <p class="link-reference"><a href="https://x.com/SlowMist_Team/status/2086644725143183639" rel="nofollow" target="_blank">View Reference Sources</a></p>
+                    
+                </li>
+            
+                <li>
+                    <span class="time">2026-08-09</span>
+                    <h3><em>Hacked target: </em>Coinsbuy</h3>
+                    <p><em>Description of the event: </em>Wallets linked to Coinsbuy (a B2B crypto payment processor) were drained of more than $7.9 million across Ethereum and TRON around 13:00 UTC on August 9, 2026. The attacker laundered part of the funds into Monero (XMR) via exchanges, while ChangeNOW helped freeze a six-figure amount; Coinsbuy temporarily paused deposits and withdrawals, which have since resumed.</p>
+                    <p><span><em>Amount of loss: </em>
+                        
+                            $ 7,900,000
+                        
+                    </span><span><em>Attack method: </em>Unknown</span></p>
+
+                    
+                    <p class="link-reference"><a href="https://x.com/DarkWebInformer/status/2086566165665522120" rel="nofollow" target="_blank">View Reference Sources</a></p>
+                    
+                </li>
+            
+                <li>
+                    <span class="time">2026-08-09</span>
+                    <h3><em>Hacked target: </em>Oraichain</h3>
+                    <p><em>Description of the event: </em>Oraichain (AI Layer 1) suffered from a vulnerability in its EVM cross-chain transfer path, enabling unauthorized minting of ORAI tokens. The network has been halted since 04:00 UTC on August 9, 2026, with bridges, cross-chain routes, and public interfaces restricted. The exploit path has been identified and addressed; the team is working with partners and CEXs to limit fund movements and is preparing to burn the unauthorized minted balances and reconcile protocol states to restore the canonical ORAI supply.</p>
+                    <p><span><em>Amount of loss: </em>
+                        
+                            0
+                        
+                    </span><span><em>Attack method: </em>Cross-Chain Bridge Exploit</span></p>
+
+                    
+                    <p class="link-reference"><a href="https://x.com/oraichain/status/2086774707882451012" rel="nofollow" target="_blank">View Reference Sources</a></p>
+                    
+                </li>
+            
+                <li>
+                    <span class="time">2026-08-09</span>
+                    <h3><em>Hacked target: </em>Coreum Bridge</h3>
+                    <p><em>Description of the event: </em>On August 9, 2026, the cross-chain bridge connecting the XRP Ledger and Coreum (now tx) was exploited. The attacker abused a flaw in the deposit-verification/relayer logic by creating fake deposits (self-transfers of the bridge’s own wrapped tokens with valid memos), tricking the relayers into authorizing real XRP withdrawals from the bridge’s reserve. Nearly 200,000 XRP (~$200,000) was drained in 94 multisig transactions over 97 minutes.</p>
+                    <p><span><em>Amount of loss: </em>
+                        
+                            $ 200,000
+                        
+                    </span><span><em>Attack method: </em>Bridge Logic Vulnerability</span></p>
+
+                    
+                    <p class="link-reference"><a href="https://x.com/txEcosystem/status/2087269579190046895" rel="nofollow" target="_blank">View Reference Sources</a></p>
+                    
+                </li>
+            
+                <li>
+                    <span class="time">2026-08-08</span>
+                    <h3><em>Hacked target: </em>Atomic Green</h3>
+                    <p><em>Description of the event: </em>Atomic Green (a non-custodial leveraged trading protocol on Arbitrum) was exploited due to a signature replay vulnerability. The same manager signature could be replayed across 21 different Uniswap V3 LP positions, combined with flashloan-based price manipulation, allowing the attacker to trigger unauthorized full LP burns and resulting in a loss of approximately 29,984.27 USDC.</p>
+                    <p><span><em>Amount of loss: </em>
+                        
+                            $ 29,984.27
+                        
+                    </span><span><em>Attack method: </em>Signature Replay Attack</span></p>
+
+                    
+                    <p class="link-reference"><a href="https://x.com/SlowMist_Team/status/2086042810265055619" rel="nofollow" target="_blank">View Reference Sources</a></p>
+                    
+                </li>
+            
+                <li>
+                    <span class="time">2026-08-06</span>
+                    <h3><em>Hacked target: </em>RRWallet</h3>
+                    <p><em>Description of the event: </em>Security firm Coinspect disclosed that RRWallet (RenrenBit’s wallet) generated vulnerable seed phrases due to a weak RNG in the CryptoJS library (Ill Bloom vulnerability, CVE-2026-71851), making private keys predictable and leading to theft. One user lost approximately $2 million.</p>
+                    <p><span><em>Amount of loss: </em>
+                        
+                            $ 2,000,000
+                        
+                    </span><span><em>Attack method: </em>Supply Chain Attack</span></p>
+
+                    
+                    <p class="link-reference"><a href="https://x.com/coinspect/status/2085430121670811898" rel="nofollow" target="_blank">View Reference Sources</a></p>
+                    
+                </li>
+            
+                <li>
+                    <span class="time">2026-08-06</span>
+                    <h3><em>Hacked target: </em>Unistreets</h3>
+                    <p><em>Description of the event: </em>Unistreets LaunchpadFactoryAuto contract on Ethereum was exploited via arbitrary calldata injection. The factory custodied all launched tokens’ Uniswap V4 LP NFTs; the attacker injected setApprovalForAll approval and burned multiple LP positions, draining liquidity for a loss of approximately $17,750.</p>
+                    <p><span><em>Amount of loss: </em>
+                        
+                            $ 17,750
+                        
+                    </span><span><em>Attack method: </em>Smart Contract Vulnerability</span></p>
+
+                    
+                    <p class="link-reference"><a href="https://x.com/unistreetapp/status/2085225140690751793" rel="nofollow" target="_blank">View Reference Sources</a></p>
+                    
+                </li>
+            
+                <li>
+                    <span class="time">2026-08-06</span>
+                    <h3><em>Hacked target: </em>KITE Foundation</h3>
+                    <p><em>Description of the event: </em>The KITE Foundation detected abnormal KITE token transfers on Ethereum mainnet, confirming that some wallet addresses had been compromised by hackers. The team urgently paused ERC-20 transfers and related cross-chain channels, with no asset losses to users or the project. A new contract was later deployed, airdropping new tokens 1:1 to legitimate addresses based on the snapshot at block 25,692,498, excluding attacker-controlled addresses.</p>
+                    <p><span><em>Amount of loss: </em>
+                        
+                            0
+                        
+                    </span><span><em>Attack method: </em>Private Key Leakage</span></p>
+
+                    
+                    <p class="link-reference"><a href="https://x.com/KiteAIFDN/status/2090006296628253137" rel="nofollow" target="_blank">View Reference Sources</a></p>
+                    
+                </li>
+            
+        </ul>
+    </div>
+    <ul class="pagination">
+        <li ><a href=" /?c=&page=1 "> First </a></li>
+        <li ><a href=" /?c=&page=4 "> « </a></li>
+        <li class="disabled"><a href="javascript:;">Page 5 of 116</a></li>
+        <li ><a href=" /?c=&page=6 "> »</a></li>
+        <li ><a href=" /?c=&page=116 "> Last </a></li>
+    </ul>
+</div>
+
+<div class="footer">
+    <p>Copyright © <span class="copyright-date"></span> SlowMist Hacked All Rights Reserved. </p>
+    <div class="i-submit"><a href="https://www.slowmist.io/threat-intelligence.html?utm_source=hacked" target="_blank"><i></i>Submit Comments</a></div>
+</div>
+
+<div class="sidebar-submit-box"><a href="javascript:;" class="back-to-top" title="TOP"><em>TOP</em></a></div>
+
+<script type="text/javascript" src="/static/archives/js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="/static/archives/js/hacked.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+{
+ "text_sha256": "c903ee00a9a099039a9b0a13ce743b5597b580e13662a1864e42ba8db0b5433c",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:44:24+00:00",
+ "word_count": 112,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "If you pretend that you do not believe that the decryptor really works, you can send me 10-20 other less important files, e.g. not related to virtualization systems and not containing RAM dumps, you can send me personal documents, photos, and many other things that do not help you without paying for my postpaid pentest services. If you were really worried about medical equipment, just pay for my work and get a decryptor within 5 minutes. You are making multi-billion dollar profits from your business and don't want to part with the money, don't you think that's odd? It's your greed that makes the people who are waiting for their packages suffer.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 0.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "If you pretend that you do not believe that the decryptor really works, you can send me 10-20 other less important files, e.g. not related to virtualization systems and not containing RAM dumps, you can send me personal documents, photos, and many other things that do not help you without paying for my postpaid pentest services. If you were really worried about medical equipment, just pay for my work and get a decryptor within 5 minutes. You are making multi-billion dollar profits from your business and don't want to part with the money, don't you think that's odd? It's your greed that makes the people who are waiting for their packages suffer.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 652,
+    "word_count": 119,
+    "token_length": 143,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0015337422955781221,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.0,
+    "std": 1.199419215556438e-28,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.199419215556438e-28,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

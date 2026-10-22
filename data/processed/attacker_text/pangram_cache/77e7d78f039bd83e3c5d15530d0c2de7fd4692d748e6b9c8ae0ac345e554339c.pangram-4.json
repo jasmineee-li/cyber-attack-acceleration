@@ -1,0 +1,96 @@
+{
+ "text_sha256": "77e7d78f039bd83e3c5d15530d0c2de7fd4692d748e6b9c8ae0ac345e554339c",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:43:23+00:00",
+ "word_count": 105,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Welcome. During this time, we did not\nsee any test or main payment from you. We have provided you with all\nthe evidence that we can and are ready to help you. You received the\nfile. Talk to your boss. We need specific deadlines for receiving\npayments from you. In case you do not set us a deadline we will start\nmaking public blogs with your date. We will also continue to attack\nyour clinic. It's all dragging on for too long. Our boss is not happy\nwith this situation. If you do not solve it in the near future you will\nfeel serious consequences.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 3.433729537684338e-13,
+  "fraction_ai_assisted": 5.3029862510866185e-18,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Welcome.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.3521228367795466e-11,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 8,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.632545528227594e-16,
+     2.3521047956553964e-11
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9612121212121212
+   },
+   {
+    "text": " During this time, we did not\nsee any test or main payment from you. We have provided you with all\nthe evidence that we can and are ready to help you. You received the\nfile. Talk to your boss. We need specific deadlines for receiving\npayments from you. In case you do not set us a deadline we will start\nmaking public blogs with your date. We will also continue to attack\nyour clinic. It's all dragging on for too long. Our boss is not happy\nwith this situation. If you do not solve it in the near future you will\nfeel serious consequences.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.785480161845349e-24,
+    "confidence": "High",
+    "start_index": 8,
+    "end_index": 548,
+    "word_count": 105,
+    "token_length": 117,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.2018196953900582e-36,
+     6.785480161845349e-24
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9981913693708954
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0018248175038024783,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 3.433729537684338e-13,
+    "std": 7.080073061160874e-08,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 7.080127772951528e-08,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

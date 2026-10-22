@@ -1,0 +1,96 @@
+{
+ "text_sha256": "4b09465d8029a304ce51de617ff9cc6b236442cd142dbc8e61b7481d117c65ea",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:38:18+00:00",
+ "word_count": 64,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "You are very small client, see your infrastructure, after agreement and payment\n1) we will decrypt instantly your network\n2) if you need - provide file tree , with all taken files\n3) delete data from our servers\nSome random files for proof:\nhttps://www.sendspace.com/file/[redacted]\nhttps://www.sendspace.com/delete/[redacted]/c5421cf9271e05e7b323e000d9283ec8\npass: [redacted]\nDon`t waste our time, how we don`t wasting your. Rules for all clients same.\nThank for understanding",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 4.7505836229312534e-17,
+  "fraction_ai_assisted": 1.0086670370919183e-24,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "You are very small client, see your infrastructure, after agreement and payment\n1) we will decrypt instantly your network\n2) if you need - provide file tree , with all taken files\n3) delete data from our servers\nSome random files for proof:\nhttps://www.sendspace.com/file/[redacted]\nhttps://www.sendspace.com/delete/[redacted]/c5421cf9271e05e7b323e000d9283ec8\npass: [redacted]\nDon`t waste our time, how we don`t wasting your. Rules for all clients same.",
+    "label": "Human Written",
+    "ai_assistance_score": 5.25684563436581e-34,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 453,
+    "word_count": 72,
+    "token_length": 134,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     5.25684563436581e-34
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.998949359702366
+   },
+   {
+    "text": "\nThank for understanding",
+    "label": "Human Written",
+    "ai_assistance_score": 9.441785207001856e-16,
+    "confidence": "Medium",
+    "start_index": 453,
+    "end_index": 477,
+    "word_count": 3,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.0047257497787345e-23,
+     9.441785207001856e-16
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.988752968588968
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0020964359864592552,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 4.7505836229312534e-17,
+    "std": 1.546037076138873e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.546037076138873e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

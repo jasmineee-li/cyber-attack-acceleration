@@ -1,0 +1,136 @@
+{
+ "text_sha256": "4b9f55e14f3f87906ec08d13f320c3ace57de4af08638c93255576bee464aa70",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:52:41+00:00",
+ "word_count": 74,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Thank you for sharing more details about the security report. We are interested in it but our management team has reviewed our finances and our current situation makes it unaffordable for us. We would like to proceed with data deletion and guarantees only. While we cannot meet your requested amount, management has approved an offer of $27,300 for these services. We can pay this amount promptly if you accept. Do we have a deal?",
+  "version": "4.1",
+  "prediction": "We believe that this text is a mix of AI and human-written content.",
+  "prediction_short": "Mixed",
+  "fraction_ai": 0.4101846516132355,
+  "fraction_ai_assisted": 1.6434948842711912e-17,
+  "fraction_human": 0.5898153185844421,
+  "headline": "AI Detected",
+  "num_ai_segments": 3,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Thank you for sharing more details about the security report. We are interested in it but our management team has reviewed our finances and our current situation makes it unaffordable for us. We would like to proceed with data deletion and guarantees only.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.009294803254306316,
+    "confidence": "Low",
+    "start_index": 0,
+    "end_index": 256,
+    "word_count": 43,
+    "token_length": 48,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     0.9907051920890808,
+     7.331357190158525e-18,
+     0.009294803254306316
+    ],
+    "confidence_score": 0.9907051920890808,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.5752700798496947
+   },
+   {
+    "text": " While we cannot meet your requested amount, management has approved an offer of $27,300 for these services.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 256,
+    "end_index": 364,
+    "word_count": 18,
+    "token_length": 25,
+    "is_humanized": false,
+    "humanizer_score": 0.019804351031780243,
+    "class_probabilities": [
+     2.0642561989312166e-20,
+     6.301436005791375e-39,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9940278343662213
+   },
+   {
+    "text": " We can pay this amount promptly if you accept.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 364,
+    "end_index": 411,
+    "word_count": 9,
+    "token_length": 10,
+    "is_humanized": false,
+    "humanizer_score": 0.019804351031780243,
+    "class_probabilities": [
+     7.650509999818089e-13,
+     2.2886124048294904e-27,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9763021576865032
+   },
+   {
+    "text": " Do we have a deal?",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9999963641166687,
+    "confidence": "Low",
+    "start_index": 411,
+    "end_index": 430,
+    "word_count": 5,
+    "token_length": 6,
+    "is_humanized": false,
+    "humanizer_score": 0.019804351031780243,
+    "class_probabilities": [
+     3.6373430702951737e-06,
+     2.731684431268671e-16,
+     0.9999963641166687
+    ],
+    "confidence_score": 0.9999963641166687,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.7271657596705399
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Low",
+   "boundary": "ai"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0023255813866853714,
+   "human": 1.399362283329984e-20,
+   "mixed": 0.9907035827636719,
+   "ai": 0.009296441450715065,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.4101846516132355,
+    "std": 0.05711492896080017,
+    "p10": 0.4046511650085449,
+    "p50": 0.4046511650085449,
+    "p90": 0.4046511650085449
+   },
+   "human_coverage": {
+    "mean": 0.5898153185844421,
+    "std": 0.05711492896080017,
+    "p10": 0.5953488349914551,
+    "p50": 0.5953488349914551,
+    "p90": 0.5953488349914551
+   }
+  }
+ },
+ "error": null
+}

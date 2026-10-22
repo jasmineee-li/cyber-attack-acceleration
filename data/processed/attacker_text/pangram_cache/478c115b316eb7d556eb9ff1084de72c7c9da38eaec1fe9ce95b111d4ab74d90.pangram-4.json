@@ -1,0 +1,76 @@
+{
+ "text_sha256": "478c115b316eb7d556eb9ff1084de72c7c9da38eaec1fe9ce95b111d4ab74d90",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:00:11+00:00",
+ "word_count": 78,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "I understand this probably isn’t moving as fast as you were hoping and I'm sorry about that. After the board meeting, we've had to talk to our finance team, and there’s been some back-and-forth on their side, especially with the demand as high as it is. It's slowed things down more than we expected. We’re still moving forward, just at a slower pace than any of us would like. I’ll keep you updated as we work through it.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 1.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 3.201637304506955e-31,
+  "headline": "AI Generated",
+  "num_ai_segments": 1,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "I understand this probably isn’t moving as fast as you were hoping and I'm sorry about that. After the board meeting, we've had to talk to our finance team, and there’s been some back-and-forth on their side, especially with the demand as high as it is. It's slowed things down more than we expected. We’re still moving forward, just at a slower pace than any of us would like. I’ll keep you updated as we work through it.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 422,
+    "word_count": 87,
+    "token_length": 97,
+    "is_humanized": false,
+    "humanizer_score": 0.017116837203502655,
+    "class_probabilities": [
+     3.201637304506955e-31,
+     0.0,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9986701939562217
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002369668334722519,
+   "human": 0.0,
+   "mixed": 0.0,
+   "ai": 1.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.0,
+    "std": 1.847719788722899e-16,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   },
+   "human_coverage": {
+    "mean": 3.201637304506955e-31,
+    "std": 1.847719788722899e-16,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,76 @@
+{
+ "text_sha256": "6ab726f40f015cb7f50d7a96282f93e5209a8c544f71cb828dbaaee565fb13dc",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:56:55+00:00",
+ "word_count": 106,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "[redacted]: I spent all weekend with my finance guy reviewing the accounts and savings and were able to pull together $72,380. Business has not been good during the past year and what you're asking for is impossible. With COVID and the financial crisis, many people are out of work and aren't making large purchases. The people who are lucky enough to still have jobs are working from home and aren't buying new cars. I know you are the only person who can unlock the files, so this is why I'm willing to pay you the $72,380 that I have left. You can understand my situation, right?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 5.018459602982505e-30,
+  "fraction_ai_assisted": 6.911161987096068e-40,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "[redacted]: I spent all weekend with my finance guy reviewing the accounts and savings and were able to pull together $72,380. Business has not been good during the past year and what you're asking for is impossible. With COVID and the financial crisis, many people are out of work and aren't making large purchases. The people who are lucky enough to still have jobs are working from home and aren't buying new cars. I know you are the only person who can unlock the files, so this is why I'm willing to pay you the $72,380 that I have left. You can understand my situation, right?",
+    "label": "Human Written",
+    "ai_assistance_score": 5.018459602982505e-30,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 582,
+    "word_count": 112,
+    "token_length": 135,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     6.911161987096068e-40,
+     5.018459602982505e-30
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988927246727769
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0017182130832225084,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 5.018459602982505e-30,
+    "std": 5.872915115886308e-16,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 5.872915115886308e-16,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

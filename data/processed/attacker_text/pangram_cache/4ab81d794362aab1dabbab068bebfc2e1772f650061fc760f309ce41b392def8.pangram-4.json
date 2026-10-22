@@ -1,0 +1,76 @@
+{
+ "text_sha256": "4ab81d794362aab1dabbab068bebfc2e1772f650061fc760f309ce41b392def8",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:57:32+00:00",
+ "word_count": 106,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Okay, we would prefer to decrypt rather than going through a rebuild, but for 500K we can't do it. We see the proof and know you can decrypt. If you accept $325K, you have a deal, and we can pay you today. We hope that makes sense for both of us. We found a company that we can wire money to and they can send you Bitcoins. Let us know if we should prep the $325K. For this, we need the decryption program, we need to know what you have taken, and we need some sort of proof or promise of deletion of our stolen data.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 3.847824780566252e-37,
+  "fraction_ai_assisted": 3.3112122192609697e-40,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Okay, we would prefer to decrypt rather than going through a rebuild, but for 500K we can't do it. We see the proof and know you can decrypt. If you accept $325K, you have a deal, and we can pay you today. We hope that makes sense for both of us. We found a company that we can wire money to and they can send you Bitcoins. Let us know if we should prep the $325K. For this, we need the decryption program, we need to know what you have taken, and we need some sort of proof or promise of deletion of our stolen data.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.849480330623944e-37,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 517,
+    "word_count": 107,
+    "token_length": 136,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.3112122192609697e-40,
+     3.847824780566252e-37
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988218546982514
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0019342360319569707,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 3.847824780566252e-37,
+    "std": 1.7468446704804295e-19,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.7475961123681456e-19,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

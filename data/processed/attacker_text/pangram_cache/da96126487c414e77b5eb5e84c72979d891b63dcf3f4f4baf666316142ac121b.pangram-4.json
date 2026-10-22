@@ -1,0 +1,96 @@
+{
+ "text_sha256": "da96126487c414e77b5eb5e84c72979d891b63dcf3f4f4baf666316142ac121b",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:49:18+00:00",
+ "word_count": 100,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We are open to finalizing a deal. However, as previously discussed, there are significant concerns: Regarding the decryption process and the size of our current files. You have mentioned that you reviewed our files, and clearly noticed we are small family owned business that lacks cyber liability coverage. We have some concerns about the likely success of decryption, based on your most recent attempts to decrypt only three out of four submitted files. Given the decryption issues encountered, we propose a settlement of $105,000 as we are taking considerable risk by relying on a decryption tool that has proven unreliable.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 5.021661509334958e-15,
+  "fraction_ai_assisted": 2.3925760812371672e-17,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "We are open to finalizing a deal.",
+    "label": "Human Written",
+    "ai_assistance_score": 9.563685021869717e-14,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 33,
+    "word_count": 7,
+    "token_length": 9,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.5458945378070055e-16,
+     9.540955400949916e-14
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.982137368079511
+   },
+   {
+    "text": " However, as previously discussed, there are significant concerns: Regarding the decryption process and the size of our current files. You have mentioned that you reviewed our files, and clearly noticed we are small family owned business that lacks cyber liability coverage. We have some concerns about the likely success of decryption, based on your most recent attempts to decrypt only three out of four submitted files. Given the decryption issues encountered, we propose a settlement of $105,000 as we are taking considerable risk by relying on a decryption tool that has proven unreliable.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.118702583365384e-19,
+    "confidence": "High",
+    "start_index": 33,
+    "end_index": 627,
+    "word_count": 94,
+    "token_length": 114,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.1388323243268078e-27,
+     1.118702583365384e-19
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9954367920552158
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0015948963118717074,
+   "human": 1.0,
+   "mixed": 1.1102230246251565e-16,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 5.021661509334958e-15,
+    "std": 1.625796564042048e-08,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.629664758695526e-08,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

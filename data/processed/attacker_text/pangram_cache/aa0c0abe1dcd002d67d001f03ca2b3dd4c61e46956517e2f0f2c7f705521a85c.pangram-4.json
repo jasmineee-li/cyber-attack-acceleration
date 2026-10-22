@@ -1,0 +1,136 @@
+{
+ "text_sha256": "aa0c0abe1dcd002d67d001f03ca2b3dd4c61e46956517e2f0f2c7f705521a85c",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:42:36+00:00",
+ "word_count": 88,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "As a final gesture of goodwill to find a peaceful resolution, we have removed your name from the website and set a one-hour timer. If we do not receive a proposal from you by the time the timer expires, we will publish your information and begin contacting your clients, relevant media outlets, and regulators. We will also do everything in our power to cause you maximum harm. You have already demonstrated our willingness to reach a deal on several occasions. The decision is yours; you have one hour.",
+  "version": "4.1",
+  "prediction": "We believe this text is mainly human-written, with some AI content.",
+  "prediction_short": "Human",
+  "fraction_ai": 0.022497911006212234,
+  "fraction_ai_assisted": 1.3859330350030064e-12,
+  "fraction_human": 0.9775021076202393,
+  "headline": "Mostly Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 4,
+  "windows": [
+   {
+    "text": "As a final gesture of goodwill to find a peaceful resolution, we have removed your name from the website and set a one-hour timer.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.9305597800840306e-21,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 130,
+    "word_count": 25,
+    "token_length": 28,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.846764664586642e-21,
+     7.177432802352556e-24
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9941101765106477
+   },
+   {
+    "text": " If we do not receive a proposal from you by the time the timer expires, we will publish your information and begin contacting your clients, relevant media outlets, and regulators.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.8466187553980804e-15,
+    "confidence": "Medium",
+    "start_index": 130,
+    "end_index": 310,
+    "word_count": 30,
+    "token_length": 34,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.400188658458031e-19,
+     2.846348763646143e-15
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9870267008598582
+   },
+   {
+    "text": " We will also do everything in our power to cause you maximum harm.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.00019051760318689048,
+    "confidence": "Low",
+    "start_index": 310,
+    "end_index": 377,
+    "word_count": 13,
+    "token_length": 14,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     0.9998095035552979,
+     1.0388206787836918e-11,
+     0.00019051758863497525
+    ],
+    "confidence_score": 0.9998095035552979,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.6399869323750409
+   },
+   {
+    "text": " You have already demonstrated our willingness to reach a deal on several occasions. The decision is yours; you have one hour.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.08971177786588669,
+    "confidence": "Low",
+    "start_index": 377,
+    "end_index": 503,
+    "word_count": 21,
+    "token_length": 24,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     0.9102882146835327,
+     8.844251320075467e-15,
+     0.08971177786588669
+    ],
+    "confidence_score": 0.9102882146835327,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.5309585690261428
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Low",
+   "boundary": "human"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001988071482628584,
+   "human": 0.9102876782417297,
+   "mixed": 0.08971231430768967,
+   "ai": 5.412212218530553e-28,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.022497911006212234,
+    "std": 0.07168812304735184,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 0.9775021076202393,
+    "std": 0.07168812304735184,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,76 @@
+{
+ "text_sha256": "71ef98c33de8b909fe8b90141506eb059b7997fae09b5b4b36ea94c05ec2176d",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-19T23:57:33+00:00",
+ "word_count": 66,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "The default ransom demand is 5% of every company's revenue, but we have set it at 2% for your company. This is the best amount we can offer. I think you have to discuss this amount with your company management. We believe you can easily afford this amount. Let us know if you have any suggestions for a different amount. How much can you pay ?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 6.828860254112177e-23,
+  "fraction_ai_assisted": 1.5987784801546355e-24,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "The default ransom demand is 5% of every company's revenue, but we have set it at 2% for your company. This is the best amount we can offer. I think you have to discuss this amount with your company management. We believe you can easily afford this amount. Let us know if you have any suggestions for a different amount. How much can you pay ?",
+    "label": "Human Written",
+    "ai_assistance_score": 6.908799000626205e-23,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 343,
+    "word_count": 66,
+    "token_length": 79,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.5987784801546355e-24,
+     6.828860254112177e-23
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9980031332869619
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0029154520016163588,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 6.828860254112177e-23,
+    "std": 2.139887659430295e-12,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.164792217013156e-12,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

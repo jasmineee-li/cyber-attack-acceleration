@@ -1,0 +1,5 @@
+sample,messages,unique_texts,words,billing_units
+A_primary_attacker_messages,344,344,32398,344
+A_sensitivity_with_templates,662,515,51608,515
+B_conversation_concat,197,197,86760,221
+control_victim_messages_ge50,704,690,56784,690

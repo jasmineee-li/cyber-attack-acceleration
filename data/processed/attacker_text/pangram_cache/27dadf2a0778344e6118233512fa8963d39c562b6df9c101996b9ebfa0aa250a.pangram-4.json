@@ -1,0 +1,96 @@
+{
+ "text_sha256": "27dadf2a0778344e6118233512fa8963d39c562b6df9c101996b9ebfa0aa250a",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:47:15+00:00",
+ "word_count": 166,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hello. I am desparate to write, I still haven't succedeed to transfer money from my bank account to my [redacted] account. I have sent money on Friday at 8:45 trough [redacted] bank in Slovenia and they sent me confirmation on Friday. Today they have called me that their [redacted] mother bank couldn't send the money to [redacted] account on Malta. I went today at 15:30 in person to [redacted] bank here in Slovenia and they told have made SEPA payment, so I expect that I will have money on [redacted] account tomorrow. I am totally frustrated, because of this, but I can't help. I believ e that money will arrive to this [redacted] account and that I will buy and forward BTC's tomorrow. We really need unlocking here. People inthe company have become totally depressed and me too. We will solve this payment and then really ask for decryting to be made available urgently that we can start decripting immediatelly. Thank you very much in advance.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 3.627772497569816e-16,
+  "fraction_ai_assisted": 1.4587636054186124e-22,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Hello.",
+    "label": "Human Written",
+    "ai_assistance_score": 5.756066603175222e-14,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 6,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.3145717151648464e-20,
+     5.756065247922507e-14
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9826592442977486
+   },
+   {
+    "text": " I am desparate to write, I still haven't succedeed to transfer money from my bank account to my [redacted] account. I have sent money on Friday at 8:45 trough [redacted] bank in Slovenia and they sent me confirmation on Friday. Today they have called me that their [redacted] mother bank couldn't send the money to [redacted] account on Malta. I went today at 15:30 in person to [redacted] bank here in Slovenia and they told have made SEPA payment, so I expect that I will have money on [redacted] account tomorrow. I am totally frustrated, because of this, but I can't help. I believ e that money will arrive to this [redacted] account and that I will buy and forward BTC's tomorrow. We really need unlocking here. People inthe company have become totally depressed and me too. We will solve this payment and then really ask for decryting to be made available urgently that we can start decripting immediatelly. Thank you very much in advance.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.1263545543605888e-33,
+    "confidence": "High",
+    "start_index": 6,
+    "end_index": 952,
+    "word_count": 171,
+    "token_length": 235,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     1.1263545543605888e-33
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989407458934854
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0010504202218726277,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 3.627772497569816e-16,
+    "std": 1.5120883434249777e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.512088676491885e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

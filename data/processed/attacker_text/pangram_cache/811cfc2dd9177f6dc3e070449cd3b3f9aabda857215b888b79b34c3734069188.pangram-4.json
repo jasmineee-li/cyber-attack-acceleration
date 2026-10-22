@@ -1,0 +1,96 @@
+{
+ "text_sha256": "811cfc2dd9177f6dc3e070449cd3b3f9aabda857215b888b79b34c3734069188",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:47:34+00:00",
+ "word_count": 53,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "My client is interested in Decryption and Guarantees the data will not be published. Please provide a fair and reasonable price. This company cannot afford hundreds of thousands of dollars, and they are open to a quick transaction. They require proof that the data can be decrypted, specifically their SQL and Application Servers.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.430354821564831e-18,
+  "fraction_ai_assisted": 3.189252688166628e-15,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "My client is interested in Decryption and Guarantees the data will not be published. Please provide a fair and reasonable price. This company cannot afford hundreds of thousands of dollars, and they are open to a quick transaction.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.215598091062581e-24,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 231,
+    "word_count": 38,
+    "token_length": 45,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.5382252407885125e-24,
+     9.464854706683247e-25
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9963044672708237
+   },
+   {
+    "text": " They require proof that the data can be decrypted, specifically their SQL and Application Servers.",
+    "label": "Human Written",
+    "ai_assistance_score": 5.3201889542323164e-15,
+    "confidence": "Medium",
+    "start_index": 231,
+    "end_index": 330,
+    "word_count": 15,
+    "token_length": 19,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.0630842858577391e-14,
+     4.767847130469419e-18
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9867167280997569
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Medium",
+   "boundary": "human"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0030303029343485832,
+   "human": 1.0,
+   "mixed": 1.0658141036401503e-14,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.430354821564831e-18,
+    "std": 6.550620601508683e-10,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.093872891213323e-08,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

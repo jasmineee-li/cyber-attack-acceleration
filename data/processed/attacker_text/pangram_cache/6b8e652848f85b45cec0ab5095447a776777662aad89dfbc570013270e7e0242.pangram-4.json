@@ -1,0 +1,76 @@
+{
+ "text_sha256": "6b8e652848f85b45cec0ab5095447a776777662aad89dfbc570013270e7e0242",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:45:21+00:00",
+ "word_count": 125,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hi, you're trying to trick me again, once again, the minimum possible ransom amount is $5 million. Judging by your documents you regularly violate tax laws and evade taxes, you understate your profits, although in fact it is much higher, you are engaged in money laundering, this is the first thing. Secondly as soon as all this becomes public, none of your investors will not trust you with money for your business, as well as the reputation as a credit institution will be forever and irrevocably ruined, your competitors will be very happy to download all the loan agreements and lure your clients to themselves, so please stop pissing in my ears, pay 5 million dollars and let's go as ships at sea in peace.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 0.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Hi, you're trying to trick me again, once again, the minimum possible ransom amount is $5 million. Judging by your documents you regularly violate tax laws and evade taxes, you understate your profits, although in fact it is much higher, you are engaged in money laundering, this is the first thing. Secondly as soon as all this becomes public, none of your investors will not trust you with money for your business, as well as the reputation as a credit institution will be forever and irrevocably ruined, your competitors will be very happy to download all the loan agreements and lure your clients to themselves, so please stop pissing in my ears, pay 5 million dollars and let's go as ships at sea in peace.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 711,
+    "word_count": 127,
+    "token_length": 153,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001406469731591642,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.0,
+    "std": 1.2331496550981606e-39,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.2331496550981606e-39,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,76 @@
+{
+ "text_sha256": "000e89db99493fea0fe2d5f3f9f7f26e41ea2524a9b5267142340d69a628a058",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:02:41+00:00",
+ "word_count": 84,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "in 1-2 days we will have a meeting with our outsourced technician to\ncheck everything that is missing. all depends from the cost. estimation\nof lost data. still your cost is far too high to be able to pay. I still\ntell you that we are willing to keep our options open and your service\nof instant full recovery is still an option for us. But we need to work a\nlot on the price to be able to see it as an option.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.6431581898834392e-33,
+  "fraction_ai_assisted": 3.42467535591735e-40,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "in 1-2 days we will have a meeting with our outsourced technician to\ncheck everything that is missing. all depends from the cost. estimation\nof lost data. still your cost is far too high to be able to pay. I still\ntell you that we are willing to keep our options open and your service\nof instant full recovery is still an option for us. But we need to work a\nlot on the price to be able to see it as an option.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.643158557225424e-33,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 410,
+    "word_count": 85,
+    "token_length": 95,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.42467535591735e-40,
+     2.6431583735544315e-33
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988326618477064
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002439024392515421,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.6431581898834392e-33,
+    "std": 1.2695232206135172e-17,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.2695233033315785e-17,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

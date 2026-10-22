@@ -1,0 +1,96 @@
+{
+ "text_sha256": "1c8488a1e3e6c63bd87080ce658f9d36ca1609bb9c610a8769c77cb3512b2ae1",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:44:12+00:00",
+ "word_count": 86,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hello. We still have not received an archive of files from you to check. We are running out of time, we are ready to help if you cooperate. We also want to let you know that in 24 hours all the stolen information will be uploaded to the servers, and in another 48 hours, it will be published on our blog. We need 20-30 files up to 50kb for verification, please prepare an archive and give it to us if you plan to solve the problem.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 4.164917651212907e-13,
+  "fraction_ai_assisted": 7.693065040967264e-16,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Hello.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.994562237068621e-11,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 6,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.526185249422194e-14,
+     2.991799169516085e-11
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9524484477161538
+   },
+   {
+    "text": " We still have not received an archive of files from you to check. We are running out of time, we are ready to help if you cooperate. We also want to let you know that in 24 hours all the stolen information will be uploaded to the servers, and in another 48 hours, it will be published on our blog. We need 20-30 files up to 50kb for verification, please prepare an archive and give it to us if you plan to solve the problem.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 6,
+    "end_index": 431,
+    "word_count": 86,
+    "token_length": 105,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412406
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002320185536518693,
+   "human": 1.0,
+   "mixed": 1.1102230246251565e-16,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 4.164917651212907e-13,
+    "std": 7.614479358153403e-08,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 7.621508046895542e-08,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

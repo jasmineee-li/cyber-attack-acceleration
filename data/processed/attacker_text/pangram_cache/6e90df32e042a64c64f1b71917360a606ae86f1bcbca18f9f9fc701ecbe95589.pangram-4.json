@@ -1,0 +1,216 @@
+{
+ "text_sha256": "6e90df32e042a64c64f1b71917360a606ae86f1bcbca18f9f9fc701ecbe95589",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:41:48+00:00",
+ "word_count": 313,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "1. Administrators must work in browsers in in-private mode\n2. Administrators are prohibited from saving passwords in browsers\n3. Administrators are prohibited from saving files with password lists on their computers or shared resources, as well as sending them by e-mail\n4. All users are forbidden to open suspicious mail, punish with money. Allocate for this one computer without connection to the corporate network\n5. Administrators work in virtual machines. Virtual machines must be in cryptocontainers\n6. Configure firewalls so that administrator's computers do not have direct access to critical servers, but virtual machines have it (firewall rules and network ranges)\n7. Limit the list of domain administrators. Split domain administrator password between security department and administration department (password is very long)\n8. Delegate small roles to administrators for daily work (resetting passwords, creating users)\n9. Use strong antivirus, Cylaence or Сarbon Black or Cortex (we do not advertise antivirus, think byr yourself)\n10. Limit access to the Internet on servers and admin's computers. Create a terminal server in the DMZ and use the terminal browser applications\n11. All suspicious letters with links should be sent to the IT department for verification on a stand alone virtual machine.\n12. Configure mail filters to work with white lists. Anything that is not included in the whitelist must be moderated.\n13. Prevent users from launching scripting programming languages (vbs, js and others) and unknown file extensions. If you doubt about openning link, transfer it to the IT department for verification on a stand alone virtual machine.\n14. Open documents with macros only from trusted users. If you doubt about openning document, transfer it to the IT department for verification on a stand alone virtual machine.\n15. If the user has launched a suspicious file, he should immediately contact the IT department.\n16. Disable remote launch for powershell\n17. Set 2FA Authorisation for network infrustructure. (Backups)",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 8.431066319064214e-16,
+  "fraction_ai_assisted": 2.1998771455619737e-21,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 8,
+  "windows": [
+   {
+    "text": "1.",
+    "label": "Human Written",
+    "ai_assistance_score": 8.61351625875556e-13,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 2,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.249374366796834e-18,
+     8.613505416733835e-13
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9763021576865032
+   },
+   {
+    "text": " Administrators must work in browsers in in-private mode\n2. Administrators are prohibited from saving passwords in browsers\n3. Administrators are prohibited from saving files with password lists on their computers or shared resources, as well as sending them by e-mail\n4. All users are forbidden to open suspicious mail, punish with money. Allocate for this one computer without connection to the corporate network\n5. Administrators work in virtual machines. Virtual machines must be in cryptocontainers\n6. Configure firewalls so that administrator's computers do not have direct access to critical servers, but virtual machines have it (firewall rules and network ranges)\n7. Limit the list of domain administrators. Split domain administrator password between security department and administration department (password is very long)\n8. Delegate small roles to administrators for daily work (resetting passwords, creating users)\n9. Use strong antivirus, Cylaence or Сarbon Black or Cortex (we do not advertise antivirus, think byr yourself)\n10. Limit access to the Internet on servers and admin's computers. Create a terminal server in the DMZ and use the terminal browser applications\n11. All suspicious letters with links should be sent to the IT department for verification on a stand alone virtual machine.\n12. Configure mail filters to work with white lists. Anything that is not included in the whitelist must be moderated.\n",
+    "label": "Human Written",
+    "ai_assistance_score": 8.181903225173127e-20,
+    "confidence": "High",
+    "start_index": 2,
+    "end_index": 1433,
+    "word_count": 221,
+    "token_length": 293,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.0936921691463048e-30,
+     8.181903225173127e-20
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988860788014555
+   },
+   {
+    "text": "13.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.0199810608669694e-16,
+    "confidence": "Medium",
+    "start_index": 1433,
+    "end_index": 1436,
+    "word_count": 1,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.0985822181225617e-27,
+     1.0199810608669694e-16
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9892909364252324
+   },
+   {
+    "text": " Prevent users from launching scripting programming languages (vbs, js and others) and unknown file extensions. If you doubt about openning link, transfer it to the IT department for verification on a stand alone virtual machine.\n",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 1436,
+    "end_index": 1666,
+    "word_count": 35,
+    "token_length": 44,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412403
+   },
+   {
+    "text": "14.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.3917483212794141e-16,
+    "confidence": "Medium",
+    "start_index": 1666,
+    "end_index": 1669,
+    "word_count": 1,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.1731577885396326e-27,
+     1.3917483212794141e-16
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9892909364252324
+   },
+   {
+    "text": " Open documents with macros only from trusted users. If you doubt about openning document, transfer it to the IT department for verification on a stand alone virtual machine.\n",
+    "label": "Human Written",
+    "ai_assistance_score": 8.002028560541465e-37,
+    "confidence": "High",
+    "start_index": 1669,
+    "end_index": 1844,
+    "word_count": 28,
+    "token_length": 33,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     8.002028560541465e-37
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9985514146943856
+   },
+   {
+    "text": "15.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.9403731494028006e-16,
+    "confidence": "Medium",
+    "start_index": 1844,
+    "end_index": 1847,
+    "word_count": 1,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.154503051189611e-28,
+     1.9403731494028006e-16
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9892702731203206
+   },
+   {
+    "text": " If the user has launched a suspicious file, he should immediately contact the IT department.\n16. Disable remote launch for powershell\n17. Set 2FA Authorisation for network infrustructure. (Backups)",
+    "label": "Human Written",
+    "ai_assistance_score": 1.4819085430494688e-19,
+    "confidence": "High",
+    "start_index": 1847,
+    "end_index": 2045,
+    "word_count": 29,
+    "token_length": 48,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.444629363799504e-33,
+     1.4819085430494688e-19
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9983777230512821
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0014669926604256034,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.2643078468513704e-15,
+    "std": 1.3619125827091239e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 9.07964869956146e-10,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

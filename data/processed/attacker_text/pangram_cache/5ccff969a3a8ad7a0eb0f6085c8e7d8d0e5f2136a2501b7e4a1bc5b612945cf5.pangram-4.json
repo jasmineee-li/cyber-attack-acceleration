@@ -1,0 +1,256 @@
+{
+ "text_sha256": "5ccff969a3a8ad7a0eb0f6085c8e7d8d0e5f2136a2501b7e4a1bc5b612945cf5",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:41:36+00:00",
+ "word_count": 132,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "1. Backup (provided there is no direct access to copies from local machines)\n2. It is important to regularly evaluate which employees have access and\npermission to which resources. Most employees do not need a high level\nof domain access.\n3. Use professional e-mail and web security tools that can analyze the\ncontent of websites, email attachments, and files for malware.\n4. Keep your operating system, software and all devices updated on an ongoing basis.\n5. Antivirus software, IPS (intrusion prevention systems) and corporate\nemail protection have been updated to the latest version.\n6. Divide your network into specific security zones so that malware caught in one zone cannot spread to others.\n7. Security training courses to teach employees not to download files,\nopen email attachments, or follow unknown links in messages.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 8.237200255657023e-14,
+  "fraction_ai_assisted": 2.2082384681394187e-18,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 10,
+  "windows": [
+   {
+    "text": "1.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.394678982360233e-11,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 2,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     6.857094873399697e-16,
+     3.394644634835409e-11
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9524484477161538
+   },
+   {
+    "text": " Backup (provided there is no direct access to copies from local machines)\n2. It is important to regularly evaluate which employees have access and\npermission to which resources. Most employees do not need a high level\nof domain access.\n",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 2,
+    "end_index": 239,
+    "word_count": 39,
+    "token_length": 46,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   },
+   {
+    "text": "3.",
+    "label": "Human Written",
+    "ai_assistance_score": 8.716310550931083e-14,
+    "confidence": "Medium",
+    "start_index": 239,
+    "end_index": 241,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.066341176166051e-17,
+     8.715277170735433e-14
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9821373680795109
+   },
+   {
+    "text": " Use professional e-mail and web security tools that can analyze the\ncontent of websites, email attachments, and files for malware.\n",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 241,
+    "end_index": 373,
+    "word_count": 21,
+    "token_length": 25,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412406
+   },
+   {
+    "text": "4.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.545383403029972e-14,
+    "confidence": "Medium",
+    "start_index": 373,
+    "end_index": 375,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.7035787862003645e-17,
+     6.544031538446154e-14
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9826592442977486
+   },
+   {
+    "text": " Keep your operating system, software and all devices updated on an ongoing basis.\n",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 375,
+    "end_index": 458,
+    "word_count": 13,
+    "token_length": 16,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412403
+   },
+   {
+    "text": "5.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.4397777595035484e-14,
+    "confidence": "Medium",
+    "start_index": 458,
+    "end_index": 460,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.876073357639485e-17,
+     3.4368399104292915e-14
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9855219342695816
+   },
+   {
+    "text": " Antivirus software, IPS (intrusion prevention systems) and corporate\nemail protection have been updated to the latest version.\n",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 460,
+    "end_index": 588,
+    "word_count": 17,
+    "token_length": 27,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   },
+   {
+    "text": "6.",
+    "label": "Human Written",
+    "ai_assistance_score": 9.21984250014038e-14,
+    "confidence": "Medium",
+    "start_index": 588,
+    "end_index": 590,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.253115762291283e-16,
+     9.213576489209771e-14
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9821373680795109
+   },
+   {
+    "text": " Divide your network into specific security zones so that malware caught in one zone cannot spread to others.\n7. Security training courses to teach employees not to download files,\nopen email attachments, or follow unknown links in messages.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.0087723161741406e-19,
+    "confidence": "High",
+    "start_index": 590,
+    "end_index": 831,
+    "word_count": 38,
+    "token_length": 45,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.4916889553028996e-22,
+     2.007026448093771e-19
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990138401597541
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0012033694656565785,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 8.237200255657023e-14,
+    "std": 1.4080053567511186e-08,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.4080241861336162e-08,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

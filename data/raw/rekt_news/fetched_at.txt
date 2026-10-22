@@ -1,0 +1,1 @@
+fetched 2026-10-18 from https://rekt.news/leaderboard/ (embedded __NEXT_DATA__ JSON; robots.txt disallows only /api)

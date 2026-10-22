@@ -1,0 +1,76 @@
+{
+ "text_sha256": "3927f3ecfb519219cd1d07c39b24e67f18a8370e4f7994b1a127a26c58e0be68",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:47:21+00:00",
+ "word_count": 61,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Here is the update. We have taken note of what is still encrypted and the financial impact of losing it or rebuilding it. I am running the numbers again to confirm but I dont think it amounts to the $300k that was quoted. To discuss payment, we would hope to see a revised quote, if that is something you can provide.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.6669744798918152e-23,
+  "fraction_ai_assisted": 2.220443519289329e-22,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Here is the update. We have taken note of what is still encrypted and the financial impact of losing it or rebuilding it. I am running the numbers again to confirm but I dont think it amounts to the $300k that was quoted. To discuss payment, we would hope to see a revised quote, if that is something you can provide.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.2769191760794098e-22,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 317,
+    "word_count": 61,
+    "token_length": 71,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.220443519289329e-22,
+     1.6669744798918152e-23
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987762337476086
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0031545741949230433,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.6669744798918152e-23,
+    "std": 9.995664235554202e-13,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.782563238324821e-12,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

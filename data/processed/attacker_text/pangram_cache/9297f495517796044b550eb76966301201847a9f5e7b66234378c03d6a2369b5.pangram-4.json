@@ -1,0 +1,76 @@
+{
+ "text_sha256": "9297f495517796044b550eb76966301201847a9f5e7b66234378c03d6a2369b5",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:08:05+00:00",
+ "word_count": 122,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We managed to gather this amount you requested. It's been very hard.\nPlease let us know if you accept the following.\nWhen we pay 50.000$ USD to this wallet [redacted] you will keep your promise to:\n1. Give us a tool to decrypt all our files in ESXi and all computers affected and we will decrypt today\n2. Provide technical support from your side in case something doesn't work\n3. Promise you will never attack us in the future\n4. Help us understand how we can prevent such incidents again in the future and explain how you managed to get in our infrastructure along with technical details.\nWhen we have your replies and confirmation for the above we proceed in the payment.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.9164883607694608e-33,
+  "fraction_ai_assisted": 3.602683842389881e-35,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We managed to gather this amount you requested. It's been very hard.\nPlease let us know if you accept the following.\nWhen we pay 50.000$ USD to this wallet [redacted] you will keep your promise to:\n1. Give us a tool to decrypt all our files in ESXi and all computers affected and we will decrypt today\n2. Provide technical support from your side in case something doesn't work\n3. Promise you will never attack us in the future\n4. Help us understand how we can prevent such incidents again in the future and explain how you managed to get in our infrastructure along with technical details.\nWhen we have your replies and confirmation for the above we proceed in the payment.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.9345018933408507e-33,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 673,
+    "word_count": 125,
+    "token_length": 150,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.602683842389881e-35,
+     2.9164883607694608e-33
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987072843049953
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001485884073190391,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.9164883607694608e-33,
+    "std": 9.539929425675109e-18,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 9.598669175333725e-18,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

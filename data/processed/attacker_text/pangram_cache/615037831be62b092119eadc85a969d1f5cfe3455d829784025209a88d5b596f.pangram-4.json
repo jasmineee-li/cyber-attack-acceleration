@@ -1,0 +1,76 @@
+{
+ "text_sha256": "615037831be62b092119eadc85a969d1f5cfe3455d829784025209a88d5b596f",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:53:29+00:00",
+ "word_count": 94,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "you constantly say other things. not interested. we just need 2 files and an amount we can pay. small discount cannot be paid. big discount from your side will be paid. just need those files faster. why you always say not satisfied? right now we can pay you 8000$, we can find another 3000-8000$ by next week. but we cannot make money appear out of nothing. clients need to pay us for us to find the money. if you cannot work with this unfortunately we cannot afford your service. please help us pay you.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.1165665994597933e-20,
+  "fraction_ai_assisted": 5.5871606093389185e-25,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "you constantly say other things. not interested. we just need 2 files and an amount we can pay. small discount cannot be paid. big discount from your side will be paid. just need those files faster. why you always say not satisfied? right now we can pay you 8000$, we can find another 3000-8000$ by next week. but we cannot make money appear out of nothing. clients need to pay us for us to find the money. if you cannot work with this unfortunately we cannot afford your service. please help us pay you.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.1165945491172097e-20,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 504,
+    "word_count": 95,
+    "token_length": 122,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.5871606093389185e-25,
+     1.1165665994597933e-20
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9971770963883286
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0019841270986944437,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.1165665994597933e-20,
+    "std": 1.9058615796652134e-11,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.9059080702543696e-11,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

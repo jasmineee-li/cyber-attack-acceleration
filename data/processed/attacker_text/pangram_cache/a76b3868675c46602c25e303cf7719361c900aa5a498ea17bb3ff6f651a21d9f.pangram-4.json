@@ -1,0 +1,76 @@
+{
+ "text_sha256": "a76b3868675c46602c25e303cf7719361c900aa5a498ea17bb3ff6f651a21d9f",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:59:14+00:00",
+ "word_count": 56,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Yeah, we've noticed a significant disruption to our network. You mentioned that you've sent part of the list of what you took; can you please send the full list? We need a complete picture of what you're in possession of, as I'm sure you understand. We'll review everything you mentioned and get back to you soon.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 0.9999527931213379,
+  "fraction_ai_assisted": 1.1377153582864008e-32,
+  "fraction_human": 4.718874697573483e-05,
+  "headline": "AI Generated",
+  "num_ai_segments": 1,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "Yeah, we've noticed a significant disruption to our network. You mentioned that you've sent part of the list of what you took; can you please send the full list? We need a complete picture of what you're in possession of, as I'm sure you understand. We'll review everything you mentioned and get back to you soon.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9999528527259827,
+    "confidence": "Low",
+    "start_index": 0,
+    "end_index": 313,
+    "word_count": 61,
+    "token_length": 68,
+    "is_humanized": false,
+    "humanizer_score": 0.0561913326382637,
+    "class_probabilities": [
+     4.718874697573483e-05,
+     1.1377154317547977e-32,
+     0.9999528527259827
+    ],
+    "confidence_score": 0.9999528527259827,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.7648902401749238
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Low",
+   "boundary": "ai"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.00319488812237978,
+   "human": 1.570430896435937e-08,
+   "mixed": 1.2626706848095637e-05,
+   "ai": 0.9999873638153076,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.9999527931213379,
+    "std": 0.00333940121345222,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   },
+   "human_coverage": {
+    "mean": 4.718874697573483e-05,
+    "std": 0.00333940121345222,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

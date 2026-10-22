@@ -1,0 +1,76 @@
+{
+ "text_sha256": "4f9fd42bc3f935518241ea67922147d9cbe943dc1499a005a1d3ede2d45c479c",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:37:36+00:00",
+ "word_count": 51,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "we will provide the decrypted copies soon. Right now we are trying to figure out what of your resources were attacked, cause for now as we can see this particular strain of Conti was used in [redacted] network, so I ask you again, are you talking to us on their behalf?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 4.351031731728557e-42,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "we will provide the decrypted copies soon. Right now we are trying to figure out what of your resources were attacked, cause for now as we can see this particular strain of Conti was used in [redacted] network, so I ask you again, are you talking to us on their behalf?",
+    "label": "Human Written",
+    "ai_assistance_score": 4.351031731728557e-42,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 269,
+    "word_count": 51,
+    "token_length": 61,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     4.351031731728557e-42
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988459681950375
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0037174720782786608,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 4.351031731728557e-42,
+    "std": 8.241801138357035e-22,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 8.241801138357035e-22,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

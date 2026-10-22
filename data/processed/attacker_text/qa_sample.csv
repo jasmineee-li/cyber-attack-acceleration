@@ -1,0 +1,202 @@
+qa_pool,message_id,group_name,source_path,message_index,year,date_confidence,raw_role,normalized_role,role_confidence,raw_timestamp,word_count,language,prose_share,template_cluster_id,eligibility_reason,text_for_analysis,reviewer_verdict,reviewer_note
+2026,e5ff10382736b748-0015,Nightspire,Nightspire/20260203.json,15,2026.0,high,Nightspire,attacker,high,,66,en,0.939,,eligible,"The default ransom demand is 5% of every company's revenue, but we have set it at 2% for your company. This is the best amount we can offer. I think you have to discuss this amount with your company management. We believe you can easily afford this amount. Let us know if you have any suggestions for a different amount. How much can you pay ?",,
+2026,1da2b39f18a25939-0005,Akira,Akira/20260106.json,5,2026.0,medium,Akira,attacker,high,,137,en,0.927,t1268,template,"These files were taken from your network prior to encryption. You can pick 2-3 random files up to 10 MB each from the list and we will upload them to this chat as a proof of possession.
+To prove that we can properly decrypt your data you can upload 2-3 encrypted files up to 10 MB each to our chat and we will upload decrypted copies back.
+We're looking through your financial papers to come up with a reasonable demand to you. We offer:
+
+1) full decryption assistance;
+2) evidence of data removal and guarantees not to publish or sell your data;
+3) security report on vulnerabilities we found;
+4) guarantees not to attack you in the future.
+
+Let me know whether you're interested in a whole deal or in parts. This will affect the final price.",,
+2026,2e3663ab1cc86695-0026,SilentRansomGroup,SilentRansomGroup/20260318.json,26,2026.0,high,SRG,attacker,high,"Mar 18, 2026, 12:46 PM",15,und,0.933,,too_short,"Any offer less than 6 figure is not acceptable, you have one hour to decide.",,
+2026,b573a3fc8e48d668-0001,Akira,Akira/20260315.json,1,2026.0,medium,Akira,attacker,high,,199,en,0.97,t1877,template,"Hello. You've reached an Akira support chat. Currently, we are preparing the list of data we took from your network. For now you have to know that dealing with us is the best possible way to settle this quick and cheap. Keep in touch and be patient with us. We will reach out to you soon. Do you have a permission to conduct a negotiation on behalf of your organization? Once we get a response you will be provided with all the details. ATTENTION! Strictly prohibited: - Deleting files with .arika extension; - Replacing or renaming .arika and .akira files; - Using third party software to recover your systems. Negotiations with Akira can only be conducted in THIS chat room. You should ignore any attempts (such as emails/social media messages, phone calls, etc.) to redirect you to another chat or email address (proton.me is often used by unauthorized individuals) on our behalf. Be careful while working with recovery agencies as they often try to use your cyber incident to stuff their pockets. There are many risks for you to lose money and get nothing in return. If you violate any of these rules, we cannot guarantee a successful recovery.",,
+2026,525ebf1b16447496-0025,Akira,Akira/20260212.json,25,2026.0,medium,Akira,attacker,high,,27,en,0.963,t1671,too_short,"The data of your company and your employees is now freely available. https://akiral2iz6a7qgd3ayp3l6yub7xx2uep76idk3u2kollpj5z3z636bad.onion We can delete them, but you have to agree to our terms and conditions.",,
+long,28933a328d97caf8-0002,Conti,Conti/20211112.json,2,2021.0,high,Conti,attacker,high,"12/11/2021, 5:29:29 PM",405,en,0.968,,eligible,"The good news is that we are businessmen. We want a ransom for anything that needs to be kept secret, and we don' t want to ruin your business. The amount at which we are ready to meet you and keep everything as collateral is $ 1,950,000
+If you have secured a contract with us, all the consequences stated in this release would not affect you. We always keep the terms of the contract. - before your decision to have a contract with us or not your information will not be published or any other way disclosed. - In case you didnt contact us in 3 days just 1-3% of all your information will be published. You file structure will not be introduced to third parties. - In case of contract with us all the information will be deleted without the any possibility of recovery. You will be provided with the deletion report Despite the rumours spread by recovery companies we have never had any leaks of the data. We mean the data of the clients who have a contract with us and paid it. We are working with facts, not with rumours. And we have facts and proves of some recovery companies who secretly add 10-50% to our price for the client. If you have refused to make a contract with us or you just decided not to start communication, you should know: The dark information market has a turnover of about 500 billion dollars. We are going to loose the additional income so: - Your data will be fully uploaded to public access or never uploaded at all in case you make a contract with us and buy it - You file structure can be and will be introduced to other parties so they can choose what to buy if we didnt make a contract - You files can be sold and we dont care about the way those files will be used and where those files will be published. The main idea is that you can settle the wave the lawsuits and claims but in a few years the information that was sold can appear again as a a new data breach and you will have to solve that problem again and again.
+After payment you will get decryptors to all your systems, full file tree of downloaded data, non-recoverable deletion with proof log and security report on how you were hacked.",,
+long,81b37b8fd939c75c-0057,REvil,REvil/20210603.json,57,2021.0,medium,REvil,attacker,high,2 days ago,313,en,0.927,,eligible,"1. Administrators must work in browsers in in-private mode
+2. Administrators are prohibited from saving passwords in browsers
+3. Administrators are prohibited from saving files with password lists on their computers or shared resources, as well as sending them by e-mail
+4. All users are forbidden to open suspicious mail, punish with money. Allocate for this one computer without connection to the corporate network
+5. Administrators work in virtual machines. Virtual machines must be in cryptocontainers
+6. Configure firewalls so that administrator's computers do not have direct access to critical servers, but virtual machines have it (firewall rules and network ranges)
+7. Limit the list of domain administrators. Split domain administrator password between security department and administration department (password is very long)
+8. Delegate small roles to administrators for daily work (resetting passwords, creating users)
+9. Use strong antivirus, Cylaence or Сarbon Black or Cortex (we do not advertise antivirus, think byr yourself)
+10. Limit access to the Internet on servers and admin's computers. Create a terminal server in the DMZ and use the terminal browser applications
+11. All suspicious letters with links should be sent to the IT department for verification on a stand alone virtual machine.
+12. Configure mail filters to work with white lists. Anything that is not included in the whitelist must be moderated.
+13. Prevent users from launching scripting programming languages ​​(vbs, js and others) and unknown file extensions. If you doubt about openning link, transfer it to the IT department for verification on a stand alone virtual machine.
+14. Open documents with macros only from trusted users. If you doubt about openning document, transfer it to the IT department for verification on a stand alone virtual machine.
+15. If the user has launched a suspicious file, he should immediately contact the IT department.
+16. Disable remote launch for powershell
+17. Set 2FA Authorisation for network infrustructure. (Backups)",,
+long,d43f0671e597d203-0034,REvil,REvil/20201126.json,34,2020.0,medium,REvil,attacker,high,1 day ago,679,en,0.979,,eligible,"I recommend that you do not trust such reports.
+We don't know what information the Coveware report was based on.
+How many companies are using Coveware?
+What is the size of the company and what is their revenue?
+Was there a data leak?
+Or was the company able to recover on its own and the company was interested only in non-disclosure?
+Company profiles?
+And much more.
+
+We also recommend that you be extremely careful when contacting a company like Coveware.
+As practice shows, the task of such companies is to make money on the client's problem. Most often they use payment per hour.
+Therefore, they usually start to play for time during negotiations and thereby pull money from the client.
+They won't care about your data. And if the deal does not take place,
+then the data is published and companies like Coveware will do it anyway
+for this fact - they will still make money.
+They are often too confident that we will agree to any amount and will
+not publish the data, but you can take a look at our blog and see how
+many companies they faked in this way.
+It is also a frequent case when we publish the first part of the data -
+companies immediately go to the deal, understanding how serious
+everything is.
+
+Returning to the topic of statistics of payments and amounts - as you
+understand, the companies that ignite do not want publicity, so you
+rarely see news that the company paid 5-10-15-20 million. But this
+happens.
+Here is a public example for you, to which we have nothing to do, but I think the meaning will be clear:
+https://www.wired.com/story/garmin-ransomware-hack-warning/
+
+This is a public event. The company did not want to pay, after which
+part of its data was published and as far as I know - after that the
+company quickly agreed to the deal.
+
+I could provide private evidence of other multi-million dollar deals, but of course I won't.
+We do business with integrity. All the more would you like it if in the
+future we would tell other companies about your case? If we come to a
+deal, no one will know about it, otherwise you will be another example
+for our other companies.
+
+As for the amount.
+I think you perfectly understand that you will incur large financial
+losses. You are already losing money and I don’t think you want it to
+continue like this. And now we are only talking about easy to work with.
+But do you understand that there will be other losses?
+Clients will find out about what happened to you and find out that their
+data has been published, including confidential. Including problems
+with their projects. I think it is not easy for them not to want to
+continue working with you, and they will also sue you. And probably it
+will also go about millions of claims.
+So what happens if competitors take advantage of the data we can publish?
+How will investors react to this?
+Believe me, there is enough data for the company to incur more serious losses and they will exceed the amount requested from us.
+
+We are not the first day in this business and we can conditionally
+calculate how much the company can and will be willing to pay. As well
+as possible losses of the company. Therefore, we offer an adequate
+amount and it does not include the discount that we can offer if the
+company conducts a correct and serious conversation, and is also ready
+to conduct a deal up to double the amount and publish the first part of
+the data.
+
+We are still waiting for a serious offer from you. Keep in mind that
+tomorrow we will be preparing the first publication for our blog
+regarding your company - we are going to publish it on Friday if we do
+not come to an agreement. The blog is followed by many media and as soon
+as a new entry appears there, after a few hours it appears on many news
+portals.",,
+long,fdd9f3c2c82e580b-0058,Avaddon,Avaddon/20210324.json,58,2021.0,high,Avaddon,attacker,high,23:13 24.03.2021,258,en,0.961,,eligible,"Sir, it seems to us that you do not quite
+understand the seriousness of the situation by offering us such a small
+price. Before the price of $ 45,000 for your network was set, we carried
+out a detailed analysis of your company's income and financial
+statements. We know about your financial capabilities so the price
+offered we are not satisfied with you. We are ready to give you a
+discount and offer $ 30,000 this is the lowest price. The files that we
+showed you are just a drop in the ocean, in fact, we have about 10GB of
+data pulled from your network and this data includes finance and
+accounting, passports, credit card data, agreements and contracts, tax
+data of your company for the last few years, confidential documents,
+data on your clients and tens of thousands of other data. Imagine the
+scale of the leak of this data and what consequences it will entail,
+such as lawsuits and proceedings. Your reputation will be severely
+collapsed. Also, if we make a post about you on the blog, then a DDOS
+attack will fall on your site 24/7 and your site will simply be
+inaccessible to your customers. Most importantly, this is not all that
+awaits you in our arsenal there are many more tools and techniques with
+which we will harm you more and more every day. We are a serious threat
+to your company and we ask you to take us and our proposals seriously.
+Consider our proposed price of $ 30,000 and let's cooperate.",,
+long,7c11b6983d8b4dea-0022,SilentRansomGroup,SilentRansomGroup/20260219.json,22,2026.0,high,SRG,attacker,high,"Mar 10, 2026, 10:50 AM",307,en,0.967,,eligible,"To prove your willingness to find a peaceful end , you need to take wise step by looking at the situation of your firm wisely. You have had the weekend and more than that to do so.
+
+The amount and the quality of the data involved is quite critical that can cause highly severe reputational and financial losses to your firm in case we find no agreement and that will cost much more than the figure We demand and the figure you offered.
+
+You will receive claims from individuals, organizations and legal entities for information leakage and breach of contracts, your current deals will be terminated , in other words, you will not be able to make money. Journalists and others will dig into your documents, finding inconsistencies or violations in them. Your organization will lose its reputation, shares will fall in price,and your organization will be forced to close.
+
+We have generously and sharply reduced Our demand by 35% to prove Our willingness to work with you , however , from your side We do not see any sensible progress.
+
+The gap between Our demand and your offer and the figure you offered itself shows only one thing , and that is , your dignity towards your clients , partners and employees is doubtable.
+
+Gathering the sum is solely your concern , stories about not having funds are heard from organizations such as yourself a lot. Your insurance will cover that for you.
+
+If We do not receive a reasonable offer close to Our final figure by the end of today, We will set a timer on Our website. Once the timer runs out, We will publish all your data, contact all your employees and clients and inform them about the incident and will make sure you will face unbearable consequences beyond your capabilities to survive.",,
+role_uncertain,3a4d1e319e1634da-0031,Cloak,Cloak/20230802.json,31,2023.0,high,Anonymous ,attacker,medium,2023-08-21 18:29:30,11,und,0.909,,role_uncertain,I'm still here and waiting for your representative for further negotiations,,
+role_uncertain,05ccd66b7be747eb-0044,Mallox,Mallox/20230427.json,44,2023.0,high,Support,attacker,medium,[27/04/2023 19:18],1,und,1.0,,role_uncertain,yes,,
+role_uncertain,5255b6f70fecb5da-0037,Cloak,Cloak/20230802-2.json,37,2023.0,high,Anonymous ,attacker,medium,2023-08-23 10:04:37,1,und,1.0,,role_uncertain,[redacted],,
+role_uncertain,05ccd66b7be747eb-0026,Mallox,Mallox/20230427.json,26,2023.0,high,Support,attacker,medium,[27/04/2023 18:21],3,und,1.0,,role_uncertain,Sent the file,,
+role_uncertain,05ccd66b7be747eb-0029,Mallox,Mallox/20230427.json,29,2023.0,high,Support,attacker,medium,[27/04/2023 18:25],10,und,0.9,,role_uncertain,current price for decryption tool after disocunt is 20000 USD,,
+date_unknown,650f1a45dafd8a52-0114,trinity,trinity/0004.json,114,,unknown,trinity,attacker,high,,8,und,0.875,,date_unknown,4 ID we made a decrypter on them.,,
+date_unknown,8996e556b1ad08fc-0152,trinity,trinity/0003.json,152,,unknown,trinity,attacker,high,,15,und,0.867,t2022,date_unknown,you haven't paid anything and pissed us off the price is back to 0.7 bitcoin,,
+date_unknown,10603c8f9d00d7c5-0005,trinity,trinity/0013.json,5,,unknown,trinity,attacker,high,,2,und,0.5,,date_unknown,"0,5 BTC",,
+date_unknown,650f1a45dafd8a52-0022,trinity,trinity/0004.json,22,,unknown,trinity,attacker,high,,9,und,1.0,,date_unknown,when can I expect a bitcoin transfer from you?,,
+date_unknown,9765e5f59791f593-0022,trinity,trinity/0011.json,22,,unknown,trinity,attacker,high,,8,und,1.0,,date_unknown,the file can be decrypted on any computer,,
+template,75decf185c64ea84-0001,Akira,Akira/20240201.json,1,2024.0,medium,Akira,attacker,high,,75,en,0.987,t1258,template,"Hello. You've reached Akira support chat. Currently, we are preparing the list of data we took from your network. For now you have to know that dealing with us is the best possible way to settle this quick and cheap. Keep in touch and be patient with us. Do you have a permission to conduct a negotiation on behalf of your organization? Once we get a response you will be provided with all the details.",,
+template,19f9dec3ff8d8cba-0031,Akira,Akira/20240329.json,31,2024.0,medium,Akira,attacker,high,,69,en,0.971,t1386,template,"To gain bitcoins you need to go to any exchange platform as binance or coinbase. Here are the guides: https://www.coinbase.com/how-to-buy/bitcoin
+https://www.binance.com/en/how-to-buy/bitcoin You also can buy bitcoin from any local brokers. If you withdraw funds from your bank account, then you have to inform the bank that you need this money for investment purposes only. Once we get payment, we will provide the decryptors for each of your systems immediately.",,
+template,0bd39c1bd0e2228f-0002,lockbit3.0,lockbit3.0/gavresorts_com_br.json,2,2022.0,high,LockBit 3.0,attacker,high,31.08.2022 14:12:27 UTC,21,en,0.952,t1048,too_short,to decrypt the data and avoid publication you need to pay us. we haven't published your name on our blog yet,,
+template,7e923e33afcdc5b7-0030,Conti,Conti/20210611.json,30,2021.0,high,Conti,attacker,high,"16/06/2021, 20:22:15",16,und,0.938,t0376,too_short,"The wallet for the payment is : [redacted]
+let me know once the transfer is made.",,
+template,f809749f05473d9e-0074,REvil,REvil/20210613.json,74,2021.0,medium,REvil,attacker,high,1 month ago,69,en,0.913,t0419,template,"You can use Bitcoin instead of Monero, but it will be more expensive for you in case of our merchant additional fee,
+so if u want to pay in BTC u need to add +10%. Or u can simply buy
+monero on this exchanges and withdraw on ur own wallet and send to us.
+https://www.okex.com/markets/spot?product=xmr_usdt
+https://www.binance.com/en/trade/XMR_BTC
+https://hitbtc.com/xmr-to-usdt
+https://www.hbg.com/en-us/exchange/xmr_usdt
+and there are all of the ways to get monero
+https://www.getmonero.org/community/merchants/#exchanges",,
+borderline_prose,5286128db6cbde63-0006,lockbit3.0,lockbit3.0/sirva_com.json,6,2023.0,high,LockBit 3.0,attacker,high,06.10.2023 13:47:34 UTC,2,und,0.5,,no_prose,File: [11.png],,
+borderline_prose,5286128db6cbde63-0030,lockbit3.0,lockbit3.0/sirva_com.json,30,2023.0,high,LockBit 3.0,attacker,high,07.10.2023 21:04:20 UTC,2,und,0.5,,no_prose,File: [data4.7z],,
+borderline_prose,2a7bf87e2b2d1f93-0008,Conti,Conti/20201230.json,8,2020.0,high,Conti,attacker,high,"12/30/2020, 3:31:45 PM",11,und,0.545,,no_prose,Hours and Revenue analysis November 2020 YTD (2).xlsx [ 52kB ],,
+borderline_prose,60a644eab7c5744c-0009,lockbit3.0,lockbit3.0/qsi-q3_de.json,9,2023.0,high,LockBit 3.0,attacker,high,25.01.2023 13:22:30 UTC,2,und,0.5,,no_prose,File: [1.png],,
+borderline_prose,33863027340376f4-0046,lockbit3.0,lockbit3.0/kaycan_com.json,46,2023.0,high,LockBit 3.0,attacker,high,13.03.2023 07:59:46 UTC,3,und,0.667,,no_prose,File: [files (1).7z],,
+eligible_random,ac9d0dc573f2cb53-0008,lockbit3.0,lockbit3.0/guardiananalytics_com.json,8,2023.0,high,LockBit 3.0,attacker,high,23.01.2023 19:38:43 UTC,56,en,0.982,,eligible,"this is a small part tree of the stolen data . we will not send a full tree, so as not to violate the confidentiality of data. You can select multiple files from the list, we will send them to you, as proof. please note that the lines in square brackets are folders and not files",,
+eligible_random,2e3663ab1cc86695-0014,SilentRansomGroup,SilentRansomGroup/20260318.json,14,2026.0,high,SRG,attacker,high,"Mar 16, 2026, 4:44 PM",125,en,0.984,,eligible,"As We have clarified before, ignorance will be considered as no willingness to bring a peaceful end to this matter.
+Our course of action is clear as well.
+Therefore, a 24 hour timer has been set on Our website with a part of your name, if there is no offer close to Our figure on the table before the deadline, once the timer runs out We will publish all your data, contact all your employees and clients and inform them about the incident.
+All the consequences you were reminded of by Us will be happening to your firm and the results will only put the existence of your firm in danger.
+
+Bellow you can find your firm by the name of ( W... S... H...)",,
+eligible_random,fd37e70217a2ca9e-0010,REvil,REvil/20201014.json,10,2020.0,medium,REvil,attacker,high,1 month ago,57,en,0.947,,eligible,"If you think its easy to restore for 800k - go and do it. we dont care.
+first dump will be full of your client net passwords, [redacted] email
+dump, phone and password(that he use in many other services than your
+network). next will be with clients info, NDAs, payment infromation and
+technical specification of your production",,
+eligible_random,7c11b6983d8b4dea-0028,SilentRansomGroup,SilentRansomGroup/20260219.json,28,2026.0,high,SRG,attacker,high,"Mar 16, 2026, 4:10 AM",144,en,0.986,,eligible,"You have had enough time to do your internal discussions, take loans or borrow money and bring a reasonable offer on the table, however , We only see stalling for time.
+We have clarified before that attempts to convince Us that Our demand is not realistic or instead of making progress bringing stories about not having funds is not going to succeed.
+You are well aware of Our plan of action and what consequences you will face in case we meet no mutual path.
+A convincing offer should be on the table Today, otherwise your data will be published, all your employees and clients will be informed and you will face all the consequences We have reminded you of.
+A 12 hour timer has been set.
+
+You can find your data on Our website once the timer runs out if there is no agreement.",,
+eligible_random,8f4b8a52631595c9-0026,kairos,kairos/20250519.json,26,2025.0,high,Kairos,attacker,high,06/06/2025 06:26:37 pm,92,en,0.891,,eligible,"We are willing to give you a discount and will settle for 2 million.We realize that bidding is part of the deal, but lets not drag this process out.Youve seen the documents we have,we also know how important they are to you.Making your documents public will cost you more than $250,000 in damages.You also know how badly your reputation would be damaged.Your negligence could hurt innocent people whose documents you lost.We are very pleased to talk to you,but lets speed up our dialog and move on to more realistic amounts to negotiate.",,
+eligible_random,1b4a6586a9fad567-0002,NoEscape,NoEscape/20230912.json,2,2023.0,high,NoEscape,attacker,high,00:08 19.09.2023,84,en,0.952,,eligible,"Hello.
+Your company's servers/computers have been encrypted and compromised by NoEscape ransomware.
+
+To get our special software to recover all your files, you need to send us the amount in Bitcoin shown on your page. That's roughly the equivalent of $80,000
+
+You should know that only we can recover your files and no one else. Only we have the software that can do this. If you try to restore it yourself or someone else tries to do it, your files will be permanently deleted.",,
+eligible_random,82c9a9902aa58c8d-0084,Conti,Conti/20201109.json,84,2020.0,high,Conti,attacker,high,"11/12/2020, 1:35:15 PM",59,en,0.932,,eligible,"Good morning. As I promised earlier I will send you one SQL base from server [internal IP address] . It's still preparing. But I won't give you any more files. If we do not come to an agreement, then you will see all your databases for free on the cartel's news servers. There will be many surprises for you.",,
+eligible_random,337ec68551ddfbea-0031,REvil,REvil/20201104.json,31,2020.0,medium,REvil,attacker,high,15 days ago,53,en,1.0,,eligible,"What proof do you need? We got access to your network, encrypted the
+data there and downloaded it, I see no point in this question, we always
+do this, these are our methods, did you see our blog? You have two
+options to get the files: after payment or publicly on the blog.",,
+victim,e74dbf0c08e0dbb8-0061,lockbit3.0,lockbit3.0/lapostemobile_fr.json,61,2022.0,high,Victim,victim,high,09.07.2022 12:13:31 UTC,6,und,1.0,,role_not_attacker,Is it a good business ransomware?,,
+victim,bdc22e1dc08e135f-0146,Darkside,Darkside/20201115.json,146,2020.0,medium,Victim,victim,high,4 days  ago,2,und,1.0,,role_not_attacker,Ok thanks,,
+victim,e3e70d7578a95aa0-0054,Akira,Akira/20250417.json,54,2025.0,medium,Victim,victim,high,,9,und,1.0,,role_not_attacker,This is sent in full please provide the decryptor,,
+victim,a895d7ecdcadd95c-0099,lockbit3.0,lockbit3.0/samyang_com.json,99,2022.0,high,Victim,victim,high,08.08.2022 08:23:58 UTC,25,en,0.92,,role_not_attacker,"Net Income last year was about $30M on a $ basis. And as you know, this year is worse because of the global economic downturn.",,
+victim,a4f52595cf9dd3b2-0037,REvil,REvil/20210401.json,37,2021.0,medium,Victim,victim,high,14 days ago,13,und,1.0,,role_not_attacker,"our technican asks how you did the attack, through remote desktop or mail?",,

@@ -1,0 +1,176 @@
+{
+ "text_sha256": "c3ad2e82c5a553d2890d9eeb83c0d22da6d9fb03283148137e27a52b9ed4599d",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:06:46+00:00",
+ "word_count": 116,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Stalling? Your price is what's preventing this matter from being resolved. We have been clear about our concerns from the beginning. What would you consider a significant increase in our offer? $25,000? That's almost double.\nFrankly, after receiving calls and emails about the post, we shouldn't be increasing our offer at all. Yet we are still attempting to resolve this with you, and we know that if you give us some time, we can come to an agreement with you.\nSo do you want to work with us or not? We're here. Show us a price that accurately reflects the 3.6GB of data involved, because nothing in the realm of $1,330,000 does, and you know that.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.4161239889065591e-11,
+  "fraction_ai_assisted": 7.480500051858241e-13,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 6,
+  "windows": [
+   {
+    "text": "Stalling?",
+    "label": "Human Written",
+    "ai_assistance_score": 5.646703660211472e-10,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 9,
+    "word_count": 1,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.364833577381489e-11,
+     5.378461565008763e-10
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.927321668909825
+   },
+   {
+    "text": " Your price is what's preventing this matter from being resolved. We have been clear about our concerns from the beginning.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.0423141598561254e-18,
+    "confidence": "High",
+    "start_index": 9,
+    "end_index": 132,
+    "word_count": 21,
+    "token_length": 23,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.9828812441399546e-23,
+     1.0422892410401722e-18
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9935085950731832
+   },
+   {
+    "text": " What would you consider a significant increase in our offer? $25,000? That's almost double.",
+    "label": "Human Written",
+    "ai_assistance_score": 4.703808870187842e-11,
+    "confidence": "Medium",
+    "start_index": 132,
+    "end_index": 224,
+    "word_count": 16,
+    "token_length": 24,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.436215138927397e-14,
+     4.702090800057235e-11
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.976846969830086
+   },
+   {
+    "text": "\nFrankly, after receiving calls and emails about the post, we shouldn't be increasing our offer at all. Yet we are still attempting to resolve this with you, and we know that if you give us some time, we can come to an agreement with you.\nSo do you want to work with us or not?",
+    "label": "Human Written",
+    "ai_assistance_score": 2.1132823214201822e-20,
+    "confidence": "High",
+    "start_index": 224,
+    "end_index": 501,
+    "word_count": 56,
+    "token_length": 64,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.14543167406815e-28,
+     2.1132823214201822e-20
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9947435116711484
+   },
+   {
+    "text": " We're here.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.1987494250595994e-12,
+    "confidence": "Medium",
+    "start_index": 501,
+    "end_index": 513,
+    "word_count": 3,
+    "token_length": 4,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.9679768678928546e-14,
+     3.18890963982299e-12
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9696618637318078
+   },
+   {
+    "text": " Show us a price that accurately reflects the 3.6GB of data involved, because nothing in the realm of $1,330,000 does, and you know that.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.7393074724019454e-20,
+    "confidence": "High",
+    "start_index": 513,
+    "end_index": 650,
+    "word_count": 27,
+    "token_length": 40,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     9.640559007605074e-38,
+     2.7393074724019454e-20
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9940278343662212
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Medium",
+   "boundary": "human"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0015384615398943424,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.4161239889065591e-11,
+    "std": 5.739894390899281e-07,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 5.830269742546079e-07,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

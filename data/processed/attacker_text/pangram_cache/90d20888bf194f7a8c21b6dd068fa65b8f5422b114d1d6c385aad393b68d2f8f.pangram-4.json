@@ -1,0 +1,96 @@
+{
+ "text_sha256": "90d20888bf194f7a8c21b6dd068fa65b8f5422b114d1d6c385aad393b68d2f8f",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:11:08+00:00",
+ "word_count": 63,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Thank you for your response and your lower price. We appreciate how professional you are. I am going back to my board now, but the last request took a lot of time and effort. You said you have 500gb of our data. Is there proof you can give me that I can take to my board to help try to get more funds?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.0760475626855892e-12,
+  "fraction_ai_assisted": 8.394665872507843e-21,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Thank you for your response and your lower price. We appreciate how professional you are. I am going back to my board now, but the last request took a lot of time and effort. You said you have 500gb of our data.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.8039164724723778e-17,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 211,
+    "word_count": 42,
+    "token_length": 51,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.192145785067208e-20,
+     1.803320406122972e-17
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9944386517990139
+   },
+   {
+    "text": " Is there proof you can give me that I can take to my board to help try to get more funds?",
+    "label": "Human Written",
+    "ai_assistance_score": 3.5987389283842486e-12,
+    "confidence": "Medium",
+    "start_index": 211,
+    "end_index": 301,
+    "word_count": 21,
+    "token_length": 22,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.2629916790255518e-22,
+     3.5987389283842486e-12
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9696618637318081
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Medium",
+   "boundary": "human"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.003322259057313204,
+   "human": 1.0,
+   "mixed": 3.5988989566249074e-12,
+   "ai": 3.064639741478375e-42,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.0760475626855892e-12,
+    "std": 5.672210363627528e-07,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 5.672210363627528e-07,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

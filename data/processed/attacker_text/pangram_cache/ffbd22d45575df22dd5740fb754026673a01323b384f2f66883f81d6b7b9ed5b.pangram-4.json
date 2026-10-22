@@ -1,0 +1,76 @@
+{
+ "text_sha256": "ffbd22d45575df22dd5740fb754026673a01323b384f2f66883f81d6b7b9ed5b",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:51:36+00:00",
+ "word_count": 98,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We are filing extensions on all our clients until we get the servers decrypted. This is a process in USA where we tell the government we need more time. We lost a lot of clients but can stay in business. The owner has gone to the bank and they are finishing the loan. It will take a day or two to get it. But we will be sending the 25,000 in the next couple of days. It is very busy today at work. We need to know how to send you files to show you can decrypt them.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 4.438052366363128e-41,
+  "fraction_ai_assisted": 9.045101327523829e-41,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We are filing extensions on all our clients until we get the servers decrypted. This is a process in USA where we tell the government we need more time. We lost a lot of clients but can stay in business. The owner has gone to the bank and they are finishing the loan. It will take a day or two to get it. But we will be sending the 25,000 in the next couple of days. It is very busy today at work. We need to know how to send you files to show you can decrypt them.",
+    "label": "Human Written",
+    "ai_assistance_score": 8.960603030125043e-41,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 465,
+    "word_count": 99,
+    "token_length": 113,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     9.045101327523829e-41,
+     4.438052366363128e-41
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989645444634235
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0021505376789718866,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 4.438052366363128e-41,
+    "std": 1.720094618822745e-21,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.9981302665858704e-21,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

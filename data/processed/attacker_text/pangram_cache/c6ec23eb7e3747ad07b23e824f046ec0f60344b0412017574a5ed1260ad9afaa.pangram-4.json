@@ -1,0 +1,96 @@
+{
+ "text_sha256": "c6ec23eb7e3747ad07b23e824f046ec0f60344b0412017574a5ed1260ad9afaa",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:01:12+00:00",
+ "word_count": 68,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "This has all been very overwhelming, and we’d really appreciate some time to review everything you’ve sent us. We’re committed to finding a way forward. Please reconsider taking our name down from your website — this is the first real opportunity we’ve had to reach out. It’s been quite hectic on our end, and as you can imagine, we’ve been juggling a lot.\nWe’ll choose the files asap.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 0.9971346259117126,
+  "fraction_ai_assisted": 5.427803389038144e-14,
+  "fraction_human": 0.0028653498739004135,
+  "headline": "AI Generated",
+  "num_ai_segments": 2,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "This has all been very overwhelming, and we’d really appreciate some time to review everything you’ve sent us. We’re committed to finding a way forward. Please reconsider taking our name down from your website — this is the first real opportunity we’ve had to reach out. It’s been quite hectic on our end, and as you can imagine, we’ve been juggling a lot.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 356,
+    "word_count": 68,
+    "token_length": 78,
+    "is_humanized": false,
+    "humanizer_score": 0.02217724733054638,
+    "class_probabilities": [
+     2.970204600638466e-20,
+     1.5192144473360603e-30,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9959137793901851
+   },
+   {
+    "text": "\nWe’ll choose the files asap.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9619600176811218,
+    "confidence": "Low",
+    "start_index": 356,
+    "end_index": 385,
+    "word_count": 6,
+    "token_length": 8,
+    "is_humanized": false,
+    "humanizer_score": 0.02217724733054638,
+    "class_probabilities": [
+     0.03803998976945877,
+     7.205877062578525e-13,
+     0.9619600176811218
+    ],
+    "confidence_score": 0.9619600176811218,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.5309585690261428
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002597402548417449,
+   "human": 0.0,
+   "mixed": 1.1102230246251565e-16,
+   "ai": 1.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.9971346259117126,
+    "std": 0.014409070834517479,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   },
+   "human_coverage": {
+    "mean": 0.0028653498739004135,
+    "std": 0.014409070834517479,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

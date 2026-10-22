@@ -1,0 +1,76 @@
+{
+ "text_sha256": "03d1290afa267a811cc9a193ac5017d408527b12b92f1a521626a0977cc87cab",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:41:09+00:00",
+ "word_count": 679,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "I recommend that you do not trust such reports.\nWe don't know what information the Coveware report was based on.\nHow many companies are using Coveware?\nWhat is the size of the company and what is their revenue?\nWas there a data leak?\nOr was the company able to recover on its own and the company was interested only in non-disclosure?\nCompany profiles?\nAnd much more.\nWe also recommend that you be extremely careful when contacting a company like Coveware.\nAs practice shows, the task of such companies is to make money on the client's problem. Most often they use payment per hour.\nTherefore, they usually start to play for time during negotiations and thereby pull money from the client.\nThey won't care about your data. And if the deal does not take place,\nthen the data is published and companies like Coveware will do it anyway\nfor this fact - they will still make money.\nThey are often too confident that we will agree to any amount and will\nnot publish the data, but you can take a look at our blog and see how\nmany companies they faked in this way.\nIt is also a frequent case when we publish the first part of the data -\ncompanies immediately go to the deal, understanding how serious\neverything is.\nReturning to the topic of statistics of payments and amounts - as you\nunderstand, the companies that ignite do not want publicity, so you\nrarely see news that the company paid 5-10-15-20 million. But this\nhappens.\nHere is a public example for you, to which we have nothing to do, but I think the meaning will be clear:\nhttps://www.wired.com/story/garmin-ransomware-hack-warning/\nThis is a public event. The company did not want to pay, after which\npart of its data was published and as far as I know - after that the\ncompany quickly agreed to the deal.\nI could provide private evidence of other multi-million dollar deals, but of course I won't.\nWe do business with integrity. All the more would you like it if in the\nfuture we would tell other companies about your case? If we come to a\ndeal, no one will know about it, otherwise you will be another example\nfor our other companies.\nAs for the amount.\nI think you perfectly understand that you will incur large financial\nlosses. You are already losing money and I don’t think you want it to\ncontinue like this. And now we are only talking about easy to work with.\nBut do you understand that there will be other losses?\nClients will find out about what happened to you and find out that their\ndata has been published, including confidential. Including problems\nwith their projects. I think it is not easy for them not to want to\ncontinue working with you, and they will also sue you. And probably it\nwill also go about millions of claims.\nSo what happens if competitors take advantage of the data we can publish?\nHow will investors react to this?\nBelieve me, there is enough data for the company to incur more serious losses and they will exceed the amount requested from us.\nWe are not the first day in this business and we can conditionally\ncalculate how much the company can and will be willing to pay. As well\nas possible losses of the company. Therefore, we offer an adequate\namount and it does not include the discount that we can offer if the\ncompany conducts a correct and serious conversation, and is also ready\nto conduct a deal up to double the amount and publish the first part of\nthe data.\nWe are still waiting for a serious offer from you. Keep in mind that\ntomorrow we will be preparing the first publication for our blog\nregarding your company - we are going to publish it on Friday if we do\nnot come to an agreement. The blog is followed by many media and as soon\nas a new entry appears there, after a few hours it appears on many news\nportals.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.4567086478240194e-20,
+  "fraction_ai_assisted": 7.536060805042574e-30,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "I recommend that you do not trust such reports.\nWe don't know what information the Coveware report was based on.\nHow many companies are using Coveware?\nWhat is the size of the company and what is their revenue?\nWas there a data leak?\nOr was the company able to recover on its own and the company was interested only in non-disclosure?\nCompany profiles?\nAnd much more.\nWe also recommend that you be extremely careful when contacting a company like Coveware.\nAs practice shows, the task of such companies is to make money on the client's problem. Most often they use payment per hour.\nTherefore, they usually start to play for time during negotiations and thereby pull money from the client.\nThey won't care about your data. And if the deal does not take place,\nthen the data is published and companies like Coveware will do it anyway\nfor this fact - they will still make money.\nThey are often too confident that we will agree to any amount and will\nnot publish the data, but you can take a look at our blog and see how\nmany companies they faked in this way.\nIt is also a frequent case when we publish the first part of the data -\ncompanies immediately go to the deal, understanding how serious\neverything is.\nReturning to the topic of statistics of payments and amounts - as you\nunderstand, the companies that ignite do not want publicity, so you\nrarely see news that the company paid 5-10-15-20 million. But this\nhappens.\nHere is a public example for you, to which we have nothing to do, but I think the meaning will be clear:\nhttps://www.wired.com/story/garmin-ransomware-hack-warning/\nThis is a public event. The company did not want to pay, after which\npart of its data was published and as far as I know - after that the\ncompany quickly agreed to the deal.\nI could provide private evidence of other multi-million dollar deals, but of course I won't.\nWe do business with integrity. All the more would you like it if in the\nfuture we would tell other companies about your case? If we come to a\ndeal, no one will know about it, otherwise you will be another example\nfor our other companies.\nAs for the amount.\nI think you perfectly understand that you will incur large financial\nlosses. You are already losing money and I don’t think you want it to\ncontinue like this. And now we are only talking about easy to work with.\nBut do you understand that there will be other losses?\nClients will find out about what happened to you and find out that their\ndata has been published, including confidential. Including problems\nwith their projects. I think it is not easy for them not to want to\ncontinue working with you, and they will also sue you. And probably it\nwill also go about millions of claims.\nSo what happens if competitors take advantage of the data we can publish?\nHow will investors react to this?\nBelieve me, there is enough data for the company to incur more serious losses and they will exceed the amount requested from us.\nWe are not the first day in this business and we can conditionally\ncalculate how much the company can and will be willing to pay. As well\nas possible losses of the company. Therefore, we offer an adequate\namount and it does not include the discount that we can offer if the\ncompany conducts a correct and serious conversation, and is also ready\nto conduct a deal up to double the amount and publish the first part of\nthe data.\nWe are still waiting for a serious offer from you. Keep in mind that\ntomorrow we will be preparing the first publication for our blog\nregarding your company - we are going to publish it on Friday if we do\nnot come to an agreement. The blog is followed by many media and as soon\nas a new entry appears there, after a few hours it appears on many news\nportals.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.456708486265306e-20,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 3719,
+    "word_count": 692,
+    "token_length": 793,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     7.536061557358958e-30,
+     2.456708486265306e-20
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987190291229607
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0010755578987300396,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.1839096516828593e-20,
+    "std": 9.693136918120793e-12,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 9.08731596915846e-12,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,96 @@
+{
+ "text_sha256": "ee1bfc2478af6d0ab79de4ae2480364461750ad658f87bfbbc9e4c306efa752b",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:53:23+00:00",
+ "word_count": 75,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "no sir. I didn't say that. we cannot find that money, not even close. Although we could give you money for your service, because it will help us save time. this is 5 times more than we can afford. don't forget i told you that our office is in greece. not in the united states of america or germany. So we cannot afford your services. So if you don't help us pay, we cannot pay.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 6.219396325240844e-17,
+  "fraction_ai_assisted": 1.3689040908461494e-18,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "no sir.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.3864519109245593e-15,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 7,
+    "word_count": 2,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     7.372526465553657e-17,
+     3.349589248818289e-15
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9867167280997569
+   },
+   {
+    "text": " I didn't say that. we cannot find that money, not even close. Although we could give you money for your service, because it will help us save time. this is 5 times more than we can afford. don't forget i told you that our office is in greece. not in the united states of america or germany. So we cannot afford your services. So if you don't help us pay, we cannot pay.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.8190102696206229e-31,
+    "confidence": "High",
+    "start_index": 7,
+    "end_index": 377,
+    "word_count": 76,
+    "token_length": 92,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.1224156618371044e-34,
+     1.8179491508701356e-31
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9984663692903933
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0026525198481976986,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 6.219396325240844e-17,
+    "std": 1.0746139533779342e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.086375878145418e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

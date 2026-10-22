@@ -1,0 +1,76 @@
+{
+ "text_sha256": "ba354624e814d1d0fc01ccda3f420bda297511734202321bfbb3ab6a4d8fd0fc",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:47:32+00:00",
+ "word_count": 189,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "I am reaching out to you on behalf of [redacted], in response to the recent security incident they have experienced. As an authorized third-party negotiator, I have been entrusted with the task of facilitating a constructive dialogue between your team and our organization. Firstly, we would like to request a detailed list of your demands to understand the scope and nature of your requirements. This information is crucial to proceed with any discussions and to assess the feasibility of meeting these demands. Secondly, for verification purposes and to ensure the integrity of our negotiations, we kindly ask you to provide proof of the data that has been compromised. This should include a comprehensive list of all data that has been accessed, copied, or encrypted. This step is essential for us to evaluate the situation accurately and to take appropriate actions from our end. We are committed to finding a resolution to this situation and hope that we can engage in a professional and constructive manner. Please send the requested information at your earliest convenience so that we can move forward with the negotiation process. We await your prompt response.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 1.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 5.608801667210118e-23,
+  "headline": "AI Generated",
+  "num_ai_segments": 1,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "I am reaching out to you on behalf of [redacted], in response to the recent security incident they have experienced. As an authorized third-party negotiator, I have been entrusted with the task of facilitating a constructive dialogue between your team and our organization. Firstly, we would like to request a detailed list of your demands to understand the scope and nature of your requirements. This information is crucial to proceed with any discussions and to assess the feasibility of meeting these demands. Secondly, for verification purposes and to ensure the integrity of our negotiations, we kindly ask you to provide proof of the data that has been compromised. This should include a comprehensive list of all data that has been accessed, copied, or encrypted. This step is essential for us to evaluate the situation accurately and to take appropriate actions from our end. We are committed to finding a resolution to this situation and hope that we can engage in a professional and constructive manner. Please send the requested information at your earliest convenience so that we can move forward with the negotiation process. We await your prompt response.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 1169,
+    "word_count": 190,
+    "token_length": 211,
+    "is_humanized": false,
+    "humanizer_score": 0.008474334143102169,
+    "class_probabilities": [
+     5.608801667210118e-23,
+     0.0,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989563050718447
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0017108640167862177,
+   "human": 0.0,
+   "mixed": 0.0,
+   "ai": 1.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.9991445541381836,
+    "std": 1.1802341872910183e-12,
+    "p10": 0.9991445541381836,
+    "p50": 0.9991445541381836,
+    "p90": 0.9991445541381836
+   },
+   "human_coverage": {
+    "mean": 5.427872947609696e-23,
+    "std": 1.1802341872910183e-12,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

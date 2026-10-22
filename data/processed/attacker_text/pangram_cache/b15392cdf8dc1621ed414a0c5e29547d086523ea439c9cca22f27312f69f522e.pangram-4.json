@@ -1,0 +1,96 @@
+{
+ "text_sha256": "b15392cdf8dc1621ed414a0c5e29547d086523ea439c9cca22f27312f69f522e",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:36:59+00:00",
+ "word_count": 59,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Good day. Do not think that we have forgotten about you. Just busy at the end of the year with more important things. We have already agreed with partners to publish your patient's private data. Also next week we will send out a press release for companies involved in the field of computer security. But you still have time.......",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 8.396504430053258e-18,
+  "fraction_ai_assisted": 4.1829977637602325e-17,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Good day.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.0780116321904964e-15,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 9,
+    "word_count": 2,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.5384136378134928e-15,
+     3.088047868139704e-16
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9885824464565888
+   },
+   {
+    "text": " Do not think that we have forgotten about you. Just busy at the end of the year with more important things. We have already agreed with partners to publish your patient's private data. Also next week we will send out a press release for companies involved in the field of computer security. But you still have time.......",
+    "label": "Human Written",
+    "ai_assistance_score": 2.6687918184458814e-29,
+    "confidence": "High",
+    "start_index": 9,
+    "end_index": 331,
+    "word_count": 58,
+    "token_length": 64,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.795873816820623e-31,
+     2.654812576315168e-29
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9986357588982808
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.003021148033440113,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 8.396504430053258e-18,
+    "std": 4.778114015557833e-10,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.1686208667427422e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

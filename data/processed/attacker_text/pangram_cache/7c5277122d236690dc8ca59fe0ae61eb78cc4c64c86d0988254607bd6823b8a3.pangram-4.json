@@ -1,0 +1,76 @@
+{
+ "text_sha256": "7c5277122d236690dc8ca59fe0ae61eb78cc4c64c86d0988254607bd6823b8a3",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:36:54+00:00",
+ "word_count": 94,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "If there is no money, then there is no agreement. I think when we start spreading your information it will spur you on and you will find money to save yourself from even larger losses. We consulted with lawyers and calculated that only the fines for the leakage of personal data will exceed the amount we ask for several times. I am not even mentioning what losses you will incur in the future because of a damaged business reputation. You have no more time. Please make a decision on which path you are going.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.638270704777911e-32,
+  "fraction_ai_assisted": 2.3572241022449622e-34,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "If there is no money, then there is no agreement. I think when we start spreading your information it will spur you on and you will find money to save yourself from even larger losses. We consulted with lawyers and calculated that only the fines for the leakage of personal data will exceed the amount we ask for several times. I am not even mentioning what losses you will incur in the future because of a damaged business reputation. You have no more time. Please make a decision on which path you are going.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.6500567988864306e-32,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 510,
+    "word_count": 94,
+    "token_length": 101,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.3572241022449622e-34,
+     2.6382709986514986e-32
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987074533917858
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0019607844296842813,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.638270704777911e-32,
+    "std": 3.4493600288306215e-17,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.464735331184512e-17,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

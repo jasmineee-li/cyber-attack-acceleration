@@ -1,0 +1,76 @@
+{
+ "text_sha256": "af97f7d58280f46028888b030acb7fb2757ac627fd6a35c66b94ccb826a4e616",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:07:51+00:00",
+ "word_count": 161,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Thank you for the file.\nIt's been a very hard year for our company, also as you know we are in Greece and since 2010 it's been very tough times for businesses. And the end of the year is always very hard financially with cashflows.\nThat's why i am asking for your understanding in price, so I can make an easier decision for my manager to decide.\nPlease if you can convince your own management to consider a generous discount it will help us in our decision with positive result.\nFrom our side we want our files faster and without loses than the options we have now.\nIt seems that you can provide this service from the proof you sent.\nIt would be nice if we can find an agreement on a price we can pay so we can pay you.\nRight now the amount you said is far beyond our real financial capability so we cannot consider this an option.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.2084086620907355e-27,
+  "fraction_ai_assisted": 8.258518256619895e-26,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Thank you for the file.\nIt's been a very hard year for our company, also as you know we are in Greece and since 2010 it's been very tough times for businesses. And the end of the year is always very hard financially with cashflows.\nThat's why i am asking for your understanding in price, so I can make an easier decision for my manager to decide.\nPlease if you can convince your own management to consider a generous discount it will help us in our decision with positive result.\nFrom our side we want our files faster and without loses than the options we have now.\nIt seems that you can provide this service from the proof you sent.\nIt would be nice if we can find an agreement on a price we can pay so we can pay you.\nRight now the amount you said is far beyond our real financial capability so we cannot consider this an option.",
+    "label": "Human Written",
+    "ai_assistance_score": 4.250099984889371e-26,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 832,
+    "word_count": 164,
+    "token_length": 180,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     8.258518256619895e-26,
+     1.2084087583872327e-27
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989750878240292
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0012019231216982007,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.2084086620907355e-27,
+    "std": 5.7797517619628206e-15,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 4.812908968934715e-14,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

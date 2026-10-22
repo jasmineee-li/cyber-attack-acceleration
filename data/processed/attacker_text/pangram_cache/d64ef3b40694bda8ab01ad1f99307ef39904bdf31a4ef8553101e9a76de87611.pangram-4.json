@@ -1,0 +1,96 @@
+{
+ "text_sha256": "d64ef3b40694bda8ab01ad1f99307ef39904bdf31a4ef8553101e9a76de87611",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:00:33+00:00",
+ "word_count": 81,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Good news! We got an appointment to meet with the State BOE to explain the situation and to request emergency funding. We will meet with them on Friday afternoon. They said that they'll have to vote on the measure of the emergency funding request during their next closed-door session, which will happen on Thursday, October 17th in the morning. Once the voting is done, they will let us know right away and then I'll be back here to let you know.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 3.203790685217268e-16,
+  "fraction_ai_assisted": 2.2241713109056855e-19,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Good news!",
+    "label": "Human Written",
+    "ai_assistance_score": 1.4325915670757028e-14,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 10,
+    "word_count": 2,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     9.9420459096749e-18,
+     1.432094528142254e-14
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9863589367308141
+   },
+   {
+    "text": " We got an appointment to meet with the State BOE to explain the situation and to request emergency funding. We will meet with them on Friday afternoon. They said that they'll have to vote on the measure of the emergency funding request during their next closed-door session, which will happen on Thursday, October 17th in the morning. Once the voting is done, they will let us know right away and then I'll be back here to let you know.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.8021765391103367e-41,
+    "confidence": "High",
+    "start_index": 10,
+    "end_index": 447,
+    "word_count": 82,
+    "token_length": 93,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     2.8021765391103367e-41
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989242572350646
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0022371364757418633,
+   "human": 1.0,
+   "mixed": 1.1102230246251565e-16,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 3.203790685217268e-16,
+    "std": 2.67718447410914e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.6781137307807512e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

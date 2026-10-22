@@ -1,0 +1,76 @@
+{
+ "text_sha256": "bb723579c6d2d2a03b9aaeef73581e7f127afb0ebc6c207487b792c876aa117f",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:48:28+00:00",
+ "word_count": 220,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We acknowledge receipt of your message and understand the gravity of the situation you have placed us in. It is apparent from your communication that you believe our organization has the means to meet your demands. However, this assumption fails to reflect our current financial reality. We're reaching out under challenging circumstances that have perhaps not been fully visible from the outside. Despite our best efforts over the past five years, we've faced significant financial hurdles, reflected in our inability to issue dividends and our struggle to secure additional funding. Our financial avenues, unfortunately, are quite constrained. Given this perspective, complying with your request is comparable to trying to squeeze blood from a stone, which is why we have been unable to distribute dividends to our shareholders for the previous 5 years in a row. We are diligently striving to maintain our operations and assist our committed team amidst these challenging circumstances. With respect and understanding, we kindly ask if you could reconsider your current stance. Please restore our data so we can continue to provide our services. We greatly appreciate your understanding and kindly request that you consider restoring our data. We are eager to work through this situation with a positive outcome, and we sincerely hope to find a path forward that allows us to overcome this challenge.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 1.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 2.424856067946938e-24,
+  "headline": "AI Generated",
+  "num_ai_segments": 1,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "We acknowledge receipt of your message and understand the gravity of the situation you have placed us in. It is apparent from your communication that you believe our organization has the means to meet your demands. However, this assumption fails to reflect our current financial reality. We're reaching out under challenging circumstances that have perhaps not been fully visible from the outside. Despite our best efforts over the past five years, we've faced significant financial hurdles, reflected in our inability to issue dividends and our struggle to secure additional funding. Our financial avenues, unfortunately, are quite constrained. Given this perspective, complying with your request is comparable to trying to squeeze blood from a stone, which is why we have been unable to distribute dividends to our shareholders for the previous 5 years in a row. We are diligently striving to maintain our operations and assist our committed team amidst these challenging circumstances. With respect and understanding, we kindly ask if you could reconsider your current stance. Please restore our data so we can continue to provide our services. We greatly appreciate your understanding and kindly request that you consider restoring our data. We are eager to work through this situation with a positive outcome, and we sincerely hope to find a path forward that allows us to overcome this challenge.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 1402,
+    "word_count": 222,
+    "token_length": 253,
+    "is_humanized": false,
+    "humanizer_score": 0.2537236511707306,
+    "class_probabilities": [
+     2.424856067946938e-24,
+     0.0,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9986151898691853
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0014265335630625486,
+   "human": 0.0,
+   "mixed": 0.0,
+   "ai": 1.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.0,
+    "std": 3.429441789142701e-13,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   },
+   "human_coverage": {
+    "mean": 2.424856067946938e-24,
+    "std": 3.429441789142701e-13,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

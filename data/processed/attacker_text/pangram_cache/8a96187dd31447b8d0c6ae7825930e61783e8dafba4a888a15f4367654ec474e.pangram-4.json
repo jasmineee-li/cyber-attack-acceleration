@@ -1,0 +1,96 @@
+{
+ "text_sha256": "8a96187dd31447b8d0c6ae7825930e61783e8dafba4a888a15f4367654ec474e",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:09:52+00:00",
+ "word_count": 50,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "I know. We will continue the recovery process to the end. I want to delete the data you have. But the customer can't believe it's working properly. You guys need to recover little by little. You have to pay little by little and recover normally to make an additional deposit.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 8.004076712568301e-18,
+  "fraction_ai_assisted": 1.104986119351665e-18,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "I know.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.3615095434849987e-16,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 7,
+    "word_count": 2,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.3410167231541975e-17,
+     3.1444586742400643e-16
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9892702731203206
+   },
+   {
+    "text": " We will continue the recovery process to the end. I want to delete the data you have. But the customer can't believe it's working properly. You guys need to recover little by little. You have to pay little by little and recover normally to make an additional deposit.",
+    "label": "Human Written",
+    "ai_assistance_score": 5.605193857299268e-45,
+    "confidence": "High",
+    "start_index": 7,
+    "end_index": 275,
+    "word_count": 50,
+    "token_length": 55,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     5.605193857299268e-45
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988380095239828
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.003636363660916686,
+   "human": 1.0,
+   "mixed": 1.1102230246251565e-16,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 8.004076712568301e-18,
+    "std": 4.5137582560528244e-10,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 4.815257637069692e-10,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

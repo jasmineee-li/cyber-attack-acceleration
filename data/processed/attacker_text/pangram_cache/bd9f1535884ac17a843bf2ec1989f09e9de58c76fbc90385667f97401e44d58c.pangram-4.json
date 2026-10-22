@@ -1,0 +1,76 @@
+{
+ "text_sha256": "bd9f1535884ac17a843bf2ec1989f09e9de58c76fbc90385667f97401e44d58c",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:10:36+00:00",
+ "word_count": 128,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "No one is trying to trick you and we are not pissing in your ears. Your accusations are unfounded as we are audited by regulators every year. We have tried to explain our business model to you and you seem to not understand. We are a not for profit credit Union and our net revenue last year was $3M. Our records are public and you can look them up. We have told you we will give you 25 percent of our net revenue, which is 750K. We have been through your blog and companies with larger revenue than we have are charged less than you are asking from us. We are willing to sail in peace just modify your understanding of the situation and we will pay quickly.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 0.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "No one is trying to trick you and we are not pissing in your ears. Your accusations are unfounded as we are audited by regulators every year. We have tried to explain our business model to you and you seem to not understand. We are a not for profit credit Union and our net revenue last year was $3M. Our records are public and you can look them up. We have told you we will give you 25 percent of our net revenue, which is 750K. We have been through your blog and companies with larger revenue than we have are charged less than you are asking from us. We are willing to sail in peace just modify your understanding of the situation and we will pay quickly.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 658,
+    "word_count": 128,
+    "token_length": 148,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412406
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0015197568573057652,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.0,
+    "std": 2.5631254380465875e-25,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.5631254380465875e-25,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

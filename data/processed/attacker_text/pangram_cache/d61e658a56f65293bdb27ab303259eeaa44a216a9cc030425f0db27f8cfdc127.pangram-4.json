@@ -1,0 +1,76 @@
+{
+ "text_sha256": "d61e658a56f65293bdb27ab303259eeaa44a216a9cc030425f0db27f8cfdc127",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:00:42+00:00",
+ "word_count": 99,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Our ability to pay is limited, and we have already raised as much as we can from our friends, family, and employees. Our collection efforts are now at $204,000, and we can pay you this now for the decryption tool. We do not see a way to get a higher number. If we cannot restore our business we will have to shut down, and we will return the funds we have raised to pay you. Surely, even from your perspective, getting this amount is better than putting us in a position where we can pay you nothing at all.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 8.620316787327201e-32,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Our ability to pay is limited, and we have already raised as much as we can from our friends, family, and employees. Our collection efforts are now at $204,000, and we can pay you this now for the decryption tool. We do not see a way to get a higher number. If we cannot restore our business we will have to shut down, and we will return the funds we have raised to pay you. Surely, even from your perspective, getting this amount is better than putting us in a position where we can pay you nothing at all.",
+    "label": "Human Written",
+    "ai_assistance_score": 8.620316199580025e-32,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 507,
+    "word_count": 100,
+    "token_length": 119,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     8.620316199580025e-32
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988937703509163
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0019723866134881973,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 8.620316787327201e-32,
+    "std": 8.64935981211255e-17,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 8.64935981211255e-17,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

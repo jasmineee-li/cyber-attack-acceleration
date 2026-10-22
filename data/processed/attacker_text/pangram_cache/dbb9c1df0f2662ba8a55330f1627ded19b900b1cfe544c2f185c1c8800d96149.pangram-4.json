@@ -1,0 +1,76 @@
+{
+ "text_sha256": "dbb9c1df0f2662ba8a55330f1627ded19b900b1cfe544c2f185c1c8800d96149",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:43:28+00:00",
+ "word_count": 58,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We believe that your business is insured against such situations, and we also don't believe that you can make a BTC wallet for 1.5 weeks and transfer money to it. Further delay will only increase the cost. As for how we got into the system, of course we can tell you, but for a separate fee of $10,000.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.322117855091769e-31,
+  "fraction_ai_assisted": 5.86422275728332e-32,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We believe that your business is insured against such situations, and we also don't believe that you can make a BTC wallet for 1.5 weeks and transfer money to it. Further delay will only increase the cost. As for how we got into the system, of course we can tell you, but for a separate fee of $10,000.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.6153289341812176e-31,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 302,
+    "word_count": 61,
+    "token_length": 76,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.86422275728332e-32,
+     2.322117855091769e-31
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987784760330558
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0033112582750618458,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.322117855091769e-31,
+    "std": 1.8183307894778289e-16,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.035018096299934e-16,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,76 @@
+{
+ "text_sha256": "7f420c4e1861b8c4087a741502cb5094e87ff59263bcb1ed20c1c0b783a077c3",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:38:35+00:00",
+ "word_count": 139,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "There are rules and they are as follows. If you can't figure them out, we recommend that you contact any negotiation company. The usual timeline is to enter into negotiations 1-2 days after the incident, to deal with the files within 2-6 hours, and then proceed to discuss payment. Within 8 days, we haven't made progress with checking the files and haven't started discussing payment. It's surprising, since companies with your profile are popular, judging by our download statistics. And such companies usually try to resolve the issue literally over the first weekend, so that by the beginning of the week, no one notices the incident. You have been provided with a single list, which you will see, and the rest you will be able to view on our blog in a week, if the negotiations are not successful.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.901710139659914e-23,
+  "fraction_ai_assisted": 6.832258959043179e-33,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "There are rules and they are as follows. If you can't figure them out, we recommend that you contact any negotiation company. The usual timeline is to enter into negotiations 1-2 days after the incident, to deal with the files within 2-6 hours, and then proceed to discuss payment. Within 8 days, we haven't made progress with checking the files and haven't started discussing payment. It's surprising, since companies with your profile are popular, judging by our download statistics. And such companies usually try to resolve the issue literally over the first weekend, so that by the beginning of the week, no one notices the incident. You have been provided with a single list, which you will see, and the rest you will be able to view on our blog in a week, if the negotiations are not successful.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.901710297432095e-23,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 802,
+    "word_count": 145,
+    "token_length": 168,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     6.832258959043179e-33,
+     1.901710297432095e-23
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9982842854847556
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0012468828354030848,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.901710139659914e-23,
+    "std": 9.739014065687779e-13,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 9.739014065687779e-13,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

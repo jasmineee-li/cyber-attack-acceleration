@@ -1,0 +1,96 @@
+{
+ "text_sha256": "a6af5d55b190f20c705f6cf1074264bfa6248c87bc39103db66bcbcbff1d75a8",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:05:20+00:00",
+ "word_count": 55,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hello there. You encrypted our network and we are stuck. But the amount on your website must be a mistake. We are a tiny company in a very rural state that just finally came out of lockdown. There is no way we can ever pay this much. Is there something different we can work out?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 8.425886712591754e-16,
+  "fraction_ai_assisted": 8.841526772426175e-19,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Hello there.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.9600464372208914e-14,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 12,
+    "word_count": 2,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.0556551607047234e-17,
+     1.959018647442693e-14
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9859068627450981
+   },
+   {
+    "text": " You encrypted our network and we are stuck. But the amount on your website must be a mistake. We are a tiny company in a very rural state that just finally came out of lockdown. There is no way we can ever pay this much. Is there something different we can work out?",
+    "label": "Human Written",
+    "ai_assistance_score": 2.571849715805387e-26,
+    "confidence": "High",
+    "start_index": 12,
+    "end_index": 279,
+    "word_count": 53,
+    "token_length": 58,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     8.036586822749258e-41,
+     2.571849715805387e-26
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9977096420049404
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.00358422938734293,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 8.425886712591754e-16,
+    "std": 6.019997833561774e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 6.023155307843808e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

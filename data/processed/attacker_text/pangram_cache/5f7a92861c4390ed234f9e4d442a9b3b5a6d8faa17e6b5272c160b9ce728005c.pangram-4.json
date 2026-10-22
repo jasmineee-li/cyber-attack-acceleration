@@ -1,0 +1,96 @@
+{
+ "text_sha256": "5f7a92861c4390ed234f9e4d442a9b3b5a6d8faa17e6b5272c160b9ce728005c",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:39:20+00:00",
+ "word_count": 79,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We understand your concerns. Rest assured, you won’t encounter any technical issues when decrypting the files. The encryption-decryption mechanism has been tested repeatedly, and currently there’s no way for any other company to decrypt the files we encrypted. We often hear similar promises, but they’re simply not possible. When the timer expires, we’ll permanently delete the decryption keys, making the files impossible to unlock - no matter the cost. We’re sharing this so you can make an informed decision.",
+  "version": "4.1",
+  "prediction": "We believe that this text is a mix of AI and AI-assisted content.",
+  "prediction_short": "Mixed",
+  "fraction_ai": 0.4922202229499817,
+  "fraction_ai_assisted": 0.5077757239341736,
+  "fraction_human": 4.044780325784814e-06,
+  "headline": "AI Detected",
+  "num_ai_segments": 1,
+  "num_ai_assisted_segments": 1,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "We understand your concerns. Rest assured, you won’t encounter any technical issues when decrypting the files. The encryption-decryption mechanism has been tested repeatedly, and currently there’s no way for any other company to decrypt the files we encrypted.",
+    "label": "AI-Assisted",
+    "ai_assistance_score": 0.5000282526016235,
+    "confidence": "Low",
+    "start_index": 0,
+    "end_index": 260,
+    "word_count": 41,
+    "token_length": 48,
+    "is_humanized": false,
+    "humanizer_score": 0.0178776104003191,
+    "class_probabilities": [
+     7.965106306073721e-06,
+     0.9999275803565979,
+     6.442277663154528e-05
+    ],
+    "confidence_score": 0.9999275803565979,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.8417186764235923
+   },
+   {
+    "text": " We often hear similar promises, but they’re simply not possible. When the timer expires, we’ll permanently delete the decryption keys, making the files impossible to unlock - no matter the cost. We’re sharing this so you can make an informed decision.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 260,
+    "end_index": 512,
+    "word_count": 43,
+    "token_length": 51,
+    "is_humanized": false,
+    "humanizer_score": 0.0178776104003191,
+    "class_probabilities": [
+     3.4738924047424074e-21,
+     2.79240866540853e-11,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.965217162355261
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Low",
+   "boundary": "ai"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001953125,
+   "human": 0.0,
+   "mixed": 1.0,
+   "ai": 6.506417626894745e-09,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.4922202229499817,
+    "std": 0.0013381213648244739,
+    "p10": 0.4921875,
+    "p50": 0.4921875,
+    "p90": 0.4921875
+   },
+   "human_coverage": {
+    "mean": 4.044780325784814e-06,
+    "std": 0.000470300525194034,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

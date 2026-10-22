@@ -1,0 +1,76 @@
+{
+ "text_sha256": "7691ac29440085c4391b2c2a2164cf0f9cf692e720698f69d58bec6d798a0ac3",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:00:54+00:00",
+ "word_count": 198,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Morning, obviously you know our frustration when waking up this morning and to realize that we've been hacked... a second time in 2 years... you clearly do not do your research... you can check that we are a lodge/hotel in the rural parts of [redacted-location], which is a third world country (do you know where that is???)... please check your world map and our web address to confirm this. We also only use [redacted-software-vendor]'s \"Reservation\" and \"Point of Sale\" system like the other poor souls above. We are all trying to make a decent living after Covid struck, and we in the hospitality sector suffered the most without being able to trade fully for 12-18 months. So with hardly being able to pay our staff where do you think we will be able to get US Dollars to pay you? Our US exchange rate is currently [redacted-currency] to 1$. You should hack the [redacted-location] government because they will be the only ones who can afford to pay you in US$... So please be reasonable and hack the big guys in the future not us on the ground trying to make a living. [redacted] Thanks and awaiting your reply...",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.3592595103950726e-43,
+  "fraction_ai_assisted": 6.436163846643885e-42,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Morning, obviously you know our frustration when waking up this morning and to realize that we've been hacked... a second time in 2 years... you clearly do not do your research... you can check that we are a lodge/hotel in the rural parts of [redacted-location], which is a third world country (do you know where that is???)... please check your world map and our web address to confirm this. We also only use [redacted-software-vendor]'s \"Reservation\" and \"Point of Sale\" system like the other poor souls above. We are all trying to make a decent living after Covid struck, and we in the hospitality sector suffered the most without being able to trade fully for 12-18 months. So with hardly being able to pay our staff where do you think we will be able to get US Dollars to pay you? Our US exchange rate is currently [redacted-currency] to 1$. You should hack the [redacted-location] government because they will be the only ones who can afford to pay you in US$... So please be reasonable and hack the big guys in the future not us on the ground trying to make a living. [redacted] Thanks and awaiting your reply...",
+    "label": "Human Written",
+    "ai_assistance_score": 3.354708523593612e-42,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 1119,
+    "word_count": 207,
+    "token_length": 264,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     6.436163846643885e-42,
+     1.3592595103950726e-43
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989308731151589
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0017873101169243455,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.3872854796815689e-43,
+    "std": 7.113823949893146e-23,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 4.430133791589665e-22,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

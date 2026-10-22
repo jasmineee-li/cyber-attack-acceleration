@@ -1,0 +1,76 @@
+{
+ "text_sha256": "5e41c2f1234bae442cd7b638dadf87ddc7fbfddf32b69c2b4b257d145c49b328",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:54:19+00:00",
+ "word_count": 85,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We have spoken with senior management and our banker and can secure a total of $175,000 USD in exchange for the decryption key, proof of deletion and a security report.\nAs I mentioned before, we are a small business and have been hit hard by the economic downturn and the pandemic, but were able to secure loans for this amount.\nToday is a holiday but we are able to pay these funds quickly. We can start working on payment if you provide us with instructions.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.401298464324817e-45,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We have spoken with senior management and our banker and can secure a total of $175,000 USD in exchange for the decryption key, proof of deletion and a security report.\nAs I mentioned before, we are a small business and have been hit hard by the economic downturn and the pandemic, but were able to secure loans for this amount.\nToday is a holiday but we are able to pay these funds quickly. We can start working on payment if you provide us with instructions.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.401298464324817e-45,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 460,
+    "word_count": 86,
+    "token_length": 102,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     1.401298464324817e-45
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988842115293655
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0021739129442721605,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.401298464324817e-45,
+    "std": 1.4141639657467493e-23,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.4141639657467493e-23,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

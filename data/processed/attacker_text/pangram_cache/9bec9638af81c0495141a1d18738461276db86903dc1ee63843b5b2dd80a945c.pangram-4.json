@@ -1,0 +1,116 @@
+{
+ "text_sha256": "9bec9638af81c0495141a1d18738461276db86903dc1ee63843b5b2dd80a945c",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:52:04+00:00",
+ "word_count": 136,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "we acknowledge your position. However. USD 250000 within 36 hours is not feasible- not due to unwillingness but due to structural changes flow limitations. Banks will only open in 10 hours Ns we can remit to a third party tomorrow only which will reach their wallet by Thursday after ehich they will pay so 36 hours is impossible for us. We have carefully assessed all avenues and increased our dffer to USD 75000 which represents the absolute ceiling of whT can be mobilised. This is a financial reality. You may consider partial decryption aligned to this amount allowing both parties to demonstrate good faith and preserve value. What you are demanding is beyond our means. The repercussions to our business are catastrophic both ways. Please accept USD 750000 and we will Work immediately on transferring this",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 1.0,
+  "fraction_ai_assisted": 5.476479300171598e-21,
+  "fraction_human": 4.523420527036137e-11,
+  "headline": "AI Generated",
+  "num_ai_segments": 3,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "we acknowledge your position. However.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 38,
+    "word_count": 5,
+    "token_length": 7,
+    "is_humanized": false,
+    "humanizer_score": 0.16597884893417358,
+    "class_probabilities": [
+     9.629591568582896e-10,
+     1.171678331720577e-19,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9231991956610243
+   },
+   {
+    "text": " USD 250000 within 36 hours is not feasible- not due to unwillingness but due to structural changes flow limitations. Banks will only open in 10 hours Ns we can remit to a third party tomorrow only which will reach their wallet by Thursday after ehich they will pay so 36 hours is impossible for us. We have carefully assessed all avenues and increased our dffer to USD 75000 which represents the absolute ceiling of whT can be mobilised. This is a financial reality. You may consider partial decryption aligned to this amount allowing both parties to demonstrate good faith and preserve value. What you are demanding is beyond our means. The repercussions to our business are catastrophic both ways.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 38,
+    "end_index": 738,
+    "word_count": 119,
+    "token_length": 152,
+    "is_humanized": false,
+    "humanizer_score": 0.16597884893417358,
+    "class_probabilities": [
+     3.478624107259584e-18,
+     4.2079748979053445e-36,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9955243984556165
+   },
+   {
+    "text": " Please accept USD 750000 and we will Work immediately on transferring this",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 738,
+    "end_index": 813,
+    "word_count": 12,
+    "token_length": 18,
+    "is_humanized": false,
+    "humanizer_score": 0.16597884893417358,
+    "class_probabilities": [
+     2.439409568441575e-12,
+     0.0,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9713161933998465
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0012300122762098908,
+   "human": 0.0,
+   "mixed": 0.0,
+   "ai": 1.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.0,
+    "std": 1.2842473324781167e-06,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   },
+   "human_coverage": {
+    "mean": 4.523420527036137e-11,
+    "std": 1.2842473324781167e-06,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

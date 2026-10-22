@@ -1,0 +1,76 @@
+{
+ "text_sha256": "0614fe980215bded4a00b4447e43c13301985fbb711e55f45d0a939c45ec65f7",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-19T23:53:30+00:00",
+ "word_count": 232,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We accept payments in bitcoins. To gain bitcoins you have to go to any exchange platform as binance or coinbase. Here are the guides: https://www.coinbase.com/how-to-buy/bitcoin\nhttps://www.binance.com/en/how-to-buy/bitcoin You also can buy bitcoin from any local brokers. If you withdraw funds from your bank account, then you have to inform the bank that you need this money for investment purposes only. We are the ones who can properly decrypt your data and restore your infrastructure in a short period of time.\nAfter payment you will receive a decryptor for each of your systems and manual on how to use it for particular file/system. You will be able to restore your infrastructure within 24 hours. If you face any problems during decryption process, we will be here to support. You will receive a security report that includes information about how we were able to penitrate your network, as well as exclusive first-hand information about the state of your network, the vulnerabilities that we found. What's more, you'll receive high-quality technical recommendations on eliminating any vulnerabilities and strengthening your network to secure your internal and external infrastructure.\nYou will also receive written guarantees that we will keep this conversation private, and delete this chat later. We won't come back for more money after payment and we won't attack you again. Our price is $200,000. Once you confirm the sum, I will drop off our wallet ID.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.8912005148051683e-33,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We accept payments in bitcoins. To gain bitcoins you have to go to any exchange platform as binance or coinbase. Here are the guides: https://www.coinbase.com/how-to-buy/bitcoin\nhttps://www.binance.com/en/how-to-buy/bitcoin You also can buy bitcoin from any local brokers. If you withdraw funds from your bank account, then you have to inform the bank that you need this money for investment purposes only. We are the ones who can properly decrypt your data and restore your infrastructure in a short period of time.\nAfter payment you will receive a decryptor for each of your systems and manual on how to use it for particular file/system. You will be able to restore your infrastructure within 24 hours. If you face any problems during decryption process, we will be here to support. You will receive a security report that includes information about how we were able to penitrate your network, as well as exclusive first-hand information about the state of your network, the vulnerabilities that we found. What's more, you'll receive high-quality technical recommendations on eliminating any vulnerabilities and strengthening your network to secure your internal and external infrastructure.\nYou will also receive written guarantees that we will keep this conversation private, and delete this chat later. We won't come back for more money after payment and we won't attack you again. Our price is $200,000. Once you confirm the sum, I will drop off our wallet ID.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.8912005148051683e-33,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 1467,
+    "word_count": 255,
+    "token_length": 307,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     1.8912005148051683e-33
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990127522180279
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0013633265625685453,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.9522070185739142e-33,
+    "std": 6.525636537827267e-18,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 6.321710047053344e-18,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,96 @@
+{
+ "text_sha256": "d5a575ba095d27f13a0b30b9ce21bb48b87cb3e3ae80e67d3e647966badd9015",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:43:00+00:00",
+ "word_count": 54,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "So in the last chat you agreed to the amount of 40,000 dollars.\nWe do not agree with this price.\nBut we agree to give you a discount of 5,000 dollars, and the final price will be 45,000 dollars, but on one condition: that you make the payment within 24 hours.\nDo you agree?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 4.614122452173408e-12,
+  "fraction_ai_assisted": 1.5372371090497565e-15,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "So in the last chat you agreed to the amount of 40,000 dollars.\nWe do not agree with this price.\nBut we agree to give you a discount of 5,000 dollars, and the final price will be 45,000 dollars, but on one condition: that you make the payment within 24 hours.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.842980151725498e-21,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 259,
+    "word_count": 54,
+    "token_length": 76,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.1690589281354905e-27,
+     3.842979343931931e-21
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9976468398100296
+   },
+   {
+    "text": "\nDo you agree?",
+    "label": "Human Written",
+    "ai_assistance_score": 8.999037626189477e-11,
+    "confidence": "Medium",
+    "start_index": 259,
+    "end_index": 273,
+    "word_count": 3,
+    "token_length": 4,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.99761233088329e-14,
+     8.997538825106233e-11
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9496322353693636
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0036630036775022745,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 4.614122452173408e-12,
+    "std": 4.864377274316212e-07,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 4.865187861469167e-07,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,76 @@
+{
+ "text_sha256": "5b28ff69af851d6e72b61ef3b253fa9d641d45a747c7a6f4070d364670e138d4",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:34:48+00:00",
+ "word_count": 69,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Thank you for the update. We hope you will come to an agreement soon because we will not wait long. Anyway restructuring you mentioned will be more expensive that a deal with us. We can help with the price and we can accept $200,000 this week. It is up to you to decide what way to choose. Let us know your decision asap please. We need to move on.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 4.58774886124709e-27,
+  "fraction_ai_assisted": 9.110605024238693e-39,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Thank you for the update. We hope you will come to an agreement soon because we will not wait long. Anyway restructuring you mentioned will be more expensive that a deal with us. We can help with the price and we can accept $200,000 this week. It is up to you to decide what way to choose. Let us know your decision asap please. We need to move on.",
+    "label": "Human Written",
+    "ai_assistance_score": 4.58774886124709e-27,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 348,
+    "word_count": 70,
+    "token_length": 84,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     9.110605024238693e-39,
+     4.58774886124709e-27
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9985424419790607
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0028735632076859474,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 4.58774886124709e-27,
+    "std": 1.7743038009426955e-14,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.7743038009426955e-14,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

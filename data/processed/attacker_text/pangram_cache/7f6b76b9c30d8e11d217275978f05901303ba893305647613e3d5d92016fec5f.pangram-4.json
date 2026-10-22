@@ -1,0 +1,116 @@
+{
+ "text_sha256": "7f6b76b9c30d8e11d217275978f05901303ba893305647613e3d5d92016fec5f",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:00:29+00:00",
+ "word_count": 124,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Good morning. We've been meeting and working on this for a few days now and the most we are able to afford to pay is still $80,000. We are a public school and simply don't have the budget for something like this. That said, we are trying to get an appointment to meet with the State Education Board to see about obtaining an emergency grant. Due to the Jewish holiday, we won't be able to get an appointment until after the weekend. I know you've been very patient with us so far, so all I ask right now is that you continue to remain patient so we can meet after the weekend to try to get the funds to pay you. Is this okay?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.2713973802709909e-16,
+  "fraction_ai_assisted": 3.478159321090835e-15,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 3,
+  "windows": [
+   {
+    "text": "Good morning.",
+    "label": "Human Written",
+    "ai_assistance_score": 8.95840273165173e-14,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 13,
+    "word_count": 2,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.670334877357238e-13,
+     6.067283872171871e-15
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9817138980542107
+   },
+   {
+    "text": " We've been meeting and working on this for a few days now and the most we are able to afford to pay is still $80,000. We are a public school and simply don't have the budget for something like this. That said, we are trying to get an appointment to meet with the State Education Board to see about obtaining an emergency grant. Due to the Jewish holiday, we won't be able to get an appointment until after the weekend. I know you've been very patient with us so far, so all I ask right now is that you continue to remain patient so we can meet after the weekend to try to get the funds to pay you.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 13,
+    "end_index": 611,
+    "word_count": 124,
+    "token_length": 137,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   },
+   {
+    "text": " Is this okay?",
+    "label": "Human Written",
+    "ai_assistance_score": 1.2819326172502622e-16,
+    "confidence": "Medium",
+    "start_index": 611,
+    "end_index": 625,
+    "word_count": 3,
+    "token_length": 4,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.7243761744327078e-16,
+     4.1974453003390836e-17
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9892702731203206
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0015999999595806003,
+   "human": 1.0,
+   "mixed": 1.1102230246251565e-16,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.2713973802709909e-16,
+    "std": 1.6266563651612387e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 8.660133055116148e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

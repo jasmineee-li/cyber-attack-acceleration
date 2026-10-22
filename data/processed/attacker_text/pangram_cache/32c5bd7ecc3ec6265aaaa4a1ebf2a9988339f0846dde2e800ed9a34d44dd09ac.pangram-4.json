@@ -1,0 +1,76 @@
+{
+ "text_sha256": "32c5bd7ecc3ec6265aaaa4a1ebf2a9988339f0846dde2e800ed9a34d44dd09ac",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:01:57+00:00",
+ "word_count": 60,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Now, let me repeat. I am trying very hard to work with you and you need\nto understand that we understand perfectly what position you are in,\nand what position WE ARE IN. I also check your reputation and you guys\nalways deliver on your promise which is great and it is a strong basis\nfor a good business transaction.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.1141569728415782e-28,
+  "fraction_ai_assisted": 7.063281067862191e-32,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Now, let me repeat. I am trying very hard to work with you and you need\nto understand that we understand perfectly what position you are in,\nand what position WE ARE IN. I also check your reputation and you guys\nalways deliver on your promise which is great and it is a strong basis\nfor a good business transaction.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.1145101402451303e-28,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 315,
+    "word_count": 60,
+    "token_length": 65,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     7.063280480115015e-32,
+     1.1141569728415782e-28
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989111799120363
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0031746032182127237,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.1141569728415782e-28,
+    "std": 2.5923564052912846e-15,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.5931780272501212e-15,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

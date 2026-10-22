@@ -1,0 +1,176 @@
+{
+ "text_sha256": "ff4b9feb127c518dcad833fb62f2e42d5e76c4f3bcbc2d8c4f97168b85d23efd",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:40:03+00:00",
+ "word_count": 336,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "1. You are saying about the price according to firm’s financials only. But you are not saying a word about penalties and fines possible if we leak their data. Hundred thousand or even millions USD under HIPAA only. But if class action claim will take place firm will suffer in millions for sure. We understand the price set doesn’t make anyone happy on your side. We have a lot of firm’s financial files through years and understand best what they can afford after seeing some samples.\nArchive Link - https://limewire.com/d/[Redacted]\nArchive Password - DscTVGg6{hp7Bujj\nBut the incident took place is firm’s fault only. They’ve neglected taking proper measures on systems security and grossly violated sensitive data storage conditions.\n2. We see you will not be able to complete the payment by Wednesday. You’ve lost too much time saying anything but nothing constructive for reaching a deal. So, looking ahead we move the timeline. Near Wednesday is still the deadline for you confirmed a deal. Near Friday - for payment completed. Samples of your sensitive data will be posted on our website near Thursday if we don’t shake hands by that time.\n3. Over a week since we are negotiating here with you. And still nothing constructive from you we see. You (you personally, we mean) saying ‘we’ as if you are part of [Redacted]. You are not and we understand that clearly. You are either the insurer’s employee, or an external negotiator hired by their insurers. That’s why you are not active enough and always reply once a day only. You don’t really care about [Redacted]'s firm. What you’re doing is try make a solid discount and nothing else. The point you may bring them to irreparable consequences doesn’t touch you. So, we will send the complete log of this negotiation to all [Redacted] partners if you bring their data to leaked.\nLet’s just do business and figure out this. We will make a solid discount step and set the price at $370,000. Do you confirm?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 3.997770517913683e-16,
+  "fraction_ai_assisted": 1.9382313875113841e-19,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 6,
+  "windows": [
+   {
+    "text": "1.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.7986828309646836e-13,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 2,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.876531349725958e-16,
+     3.7977447250349405e-13
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9786812097174021
+   },
+   {
+    "text": " You are saying about the price according to firm’s financials only. But you are not saying a word about penalties and fines possible if we leak their data. Hundred thousand or even millions USD under HIPAA only. But if class action claim will take place firm will suffer in millions for sure. We understand the price set doesn’t make anyone happy on your side. We have a lot of firm’s financial files through years and understand best what they can afford after seeing some samples.\nArchive Link - https://limewire.com/d/[Redacted]\nArchive Password - DscTVGg6{hp7Bujj\nBut the incident took place is firm’s fault only. They’ve neglected taking proper measures on systems security and grossly violated sensitive data storage conditions.\n",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 2,
+    "end_index": 738,
+    "word_count": 125,
+    "token_length": 155,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412403
+   },
+   {
+    "text": "2.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.188725526918562e-15,
+    "confidence": "Medium",
+    "start_index": 738,
+    "end_index": 740,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.900755375323604e-18,
+     6.187775155951742e-15
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9867167280997569
+   },
+   {
+    "text": " We see you will not be able to complete the payment by Wednesday. You’ve lost too much time saying anything but nothing constructive for reaching a deal. So, looking ahead we move the timeline. Near Wednesday is still the deadline for you confirmed a deal. Near Friday - for payment completed. Samples of your sensitive data will be posted on our website near Thursday if we don’t shake hands by that time.\n",
+    "label": "Human Written",
+    "ai_assistance_score": 1.966376592782619e-34,
+    "confidence": "High",
+    "start_index": 740,
+    "end_index": 1148,
+    "word_count": 73,
+    "token_length": 82,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     1.966376592782619e-34
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987306822904352
+   },
+   {
+    "text": "3.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.010160817241988e-15,
+    "confidence": "Medium",
+    "start_index": 1148,
+    "end_index": 1150,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.896993495338828e-19,
+     6.009916024720232e-15
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9867167280997569
+   },
+   {
+    "text": " Over a week since we are negotiating here with you. And still nothing constructive from you we see. You (you personally, we mean) saying ‘we’ as if you are part of [Redacted]. You are not and we understand that clearly. You are either the insurer’s employee, or an external negotiator hired by their insurers. That’s why you are not active enough and always reply once a day only. You don’t really care about [Redacted]'s firm. What you’re doing is try make a solid discount and nothing else. The point you may bring them to irreparable consequences doesn’t touch you. So, we will send the complete log of this negotiation to all [Redacted] partners if you bring their data to leaked.\nLet’s just do business and figure out this. We will make a solid discount step and set the price at $370,000. Do you confirm?",
+    "label": "Human Written",
+    "ai_assistance_score": 2.2805282246381743e-20,
+    "confidence": "High",
+    "start_index": 1150,
+    "end_index": 1961,
+    "word_count": 152,
+    "token_length": 193,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.5050300016167884e-30,
+     2.2805282246381743e-20
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987125260253286
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0010198878590017557,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 3.997770517913683e-16,
+    "std": 6.385883488668753e-10,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 0.9994900822639465,
+    "std": 6.387431139565081e-10,
+    "p10": 0.9994900822639465,
+    "p50": 0.9994900822639465,
+    "p90": 0.9994900822639465
+   }
+  }
+ },
+ "error": null
+}

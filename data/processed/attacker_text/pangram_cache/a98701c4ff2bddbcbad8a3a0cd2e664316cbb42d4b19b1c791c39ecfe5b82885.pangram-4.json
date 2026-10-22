@@ -1,0 +1,76 @@
+{
+ "text_sha256": "a98701c4ff2bddbcbad8a3a0cd2e664316cbb42d4b19b1c791c39ecfe5b82885",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:04:05+00:00",
+ "word_count": 53,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "That was not the deal. You confirmed you would provide the complete file trees and proof of deletion / shred logs. We are working on 3 other recovery cases with your group and now we have to tell all our clients and their legal, advisors that you are not following up on promises.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 3.3447829974229716e-28,
+  "fraction_ai_assisted": 4.474439606662769e-32,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "That was not the deal. You confirmed you would provide the complete file trees and proof of deletion / shred logs. We are working on 3 other recovery cases with your group and now we have to tell all our clients and their legal, advisors that you are not following up on promises.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.3450066460377636e-28,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 280,
+    "word_count": 52,
+    "token_length": 58,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.474439606662769e-32,
+     3.3447829974229716e-28
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988507302401148
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0035714285913854837,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 3.3447829974229716e-28,
+    "std": 5.126444990624472e-15,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 5.12678803896811e-15,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

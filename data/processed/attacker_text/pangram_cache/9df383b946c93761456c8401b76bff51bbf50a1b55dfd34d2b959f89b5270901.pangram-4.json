@@ -1,0 +1,96 @@
+{
+ "text_sha256": "9df383b946c93761456c8401b76bff51bbf50a1b55dfd34d2b959f89b5270901",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:42:23+00:00",
+ "word_count": 337,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hello,\nThank you for your fast reply and for engaging in the discussion.\nWe will explain the whole process in this email.\nAs you are aware, we got access to your computers and took a very large dataset. We looked through files and the amount of sensitive data is huge. It can be very critical for your company if leaked.\nWe want to get a payment for the confidentiality of this situation and deletion of this data. The faster we agree on everything - bigger discount we will be able to provide. We want to find a solution that will suit both parties\nIf you are not going to reply to our emails for more than 1 day, it will be considered as unwillingness to communicate and data will be posted on our website immediately.\nHere we attach a file tree with all the files that we took. You need to choose up to 10 RANDOM FILES from this tree and we will send it to you, so you can be sure that the files belong to your organization.\nAfter we show you the files, we will give you some time to review it and we will move on to the price negotiations. We will announce the price after we show you the files, so you can be sure that we actually have them.\nAfter you complete the payment we will send you the server with all the data that we took , give you a detailed explanation of how we got into the net, provide you with cyber security advice and record video evidence of us deleting the data.\nTalking about assurance, We will try to build trust between our organization, by providing you with evidence of us always doing what we promised to other clients, so you can be 100% sure that all aspects of the deal are going to be completed.\nIf you have any questions let us know. Please let us know that you received the information and the file tree.\nOne attachment",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 8.689663029935735e-13,
+  "fraction_ai_assisted": 2.5293997694812093e-21,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Hello,\nThank you for your fast reply and for engaging in the discussion.\nWe will explain the whole process in this email.\nAs you are aware, we got access to your computers and took a very large dataset. We looked through files and the amount of sensitive data is huge. It can be very critical for your company if leaked.\nWe want to get a payment for the confidentiality of this situation and deletion of this data. The faster we agree on everything - bigger discount we will be able to provide. We want to find a solution that will suit both parties\nIf you are not going to reply to our emails for more than 1 day, it will be considered as unwillingness to communicate and data will be posted on our website immediately.\nHere we attach a file tree with all the files that we took. You need to choose up to 10 RANDOM FILES from this tree and we will send it to you, so you can be sure that the files belong to your organization.\nAfter we show you the files, we will give you some time to review it and we will move on to the price negotiations. We will announce the price after we show you the files, so you can be sure that we actually have them.\nAfter you complete the payment we will send you the server with all the data that we took , give you a detailed explanation of how we got into the net, provide you with cyber security advice and record video evidence of us deleting the data.\nTalking about assurance, We will try to build trust between our organization, by providing you with evidence of us always doing what we promised to other clients, so you can be 100% sure that all aspects of the deal are going to be completed.\nIf you have any questions let us know. Please let us know that you received the information and the file tree.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.0576780655304516e-34,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 1742,
+    "word_count": 333,
+    "token_length": 372,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     2.0576780655304516e-34
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987634975830967
+   },
+   {
+    "text": "\nOne attachment",
+    "label": "Human Written",
+    "ai_assistance_score": 1.0178492076962087e-10,
+    "confidence": "Medium",
+    "start_index": 1742,
+    "end_index": 1757,
+    "word_count": 2,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.9627704441301165e-19,
+     1.0178492076962087e-10
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9496322353693636
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0011383038945496082,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 8.11035212513328e-13,
+    "std": 8.038925614073378e-08,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 0.9994308352470398,
+    "std": 8.038925614073378e-08,
+    "p10": 0.9994308352470398,
+    "p50": 0.9994308352470398,
+    "p90": 0.9994308352470398
+   }
+  }
+ },
+ "error": null
+}

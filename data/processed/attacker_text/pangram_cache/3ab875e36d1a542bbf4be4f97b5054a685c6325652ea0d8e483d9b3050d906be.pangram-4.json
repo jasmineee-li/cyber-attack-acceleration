@@ -1,0 +1,96 @@
+{
+ "text_sha256": "3ab875e36d1a542bbf4be4f97b5054a685c6325652ea0d8e483d9b3050d906be",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:44:35+00:00",
+ "word_count": 274,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "If I did not want to make a deal with you, your data would have already been published and the decryptor deleted. I am not forcing you to prove anything, I just kindly asked, refusing to give me such simple information says that you do not intend to cooperate with me honestly and tell me the truth. We are not attacking critical infrastructure, your commercial mail company with dozens of similar competitors is not. If you believe the news that your management is releasing, your mail services are fully restored and you are functioning as you are, humanitarian and medical supplies will be successfully delivered by your competitors, you will just get a little less profit, because you are very greedy and don't want to pay for my services. I'm sure you could easily pay $80 million, your income allows you to do so. If you want a discount, then make a counter offer, we are here to have constructive negotiations, not for me to give you a discount after every bluff you make until you say I'm fine with getting a free decryptor and free removal of stolen information. Any specific offer you make will be considered. You have a chance to make me an adequate payment offer by consulting with your board of directors, whose salaries are in the hundreds of thousands of pounds, but that does not stop them from being very greedy and not making concrete proposals to save the reputation of your commercial company which has more reasonable competitors who have already paid us money and successfully continue to earn new excess profits billions of pounds. Good day gentlemen.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 7.55660012531794e-18,
+  "fraction_ai_assisted": 4.419447336069013e-32,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "If I did not want to make a deal with you, your data would have already been published and the decryptor deleted. I am not forcing you to prove anything, I just kindly asked, refusing to give me such simple information says that you do not intend to cooperate with me honestly and tell me the truth. We are not attacking critical infrastructure, your commercial mail company with dozens of similar competitors is not. If you believe the news that your management is releasing, your mail services are fully restored and you are functioning as you are, humanitarian and medical supplies will be successfully delivered by your competitors, you will just get a little less profit, because you are very greedy and don't want to pay for my services. I'm sure you could easily pay $80 million, your income allows you to do so. If you want a discount, then make a counter offer, we are here to have constructive negotiations, not for me to give you a discount after every bluff you make until you say I'm fine with getting a free decryptor and free removal of stolen information. Any specific offer you make will be considered. You have a chance to make me an adequate payment offer by consulting with your board of directors, whose salaries are in the hundreds of thousands of pounds, but that does not stop them from being very greedy and not making concrete proposals to save the reputation of your commercial company which has more reasonable competitors who have already paid us money and successfully continue to earn new excess profits billions of pounds.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.093720984613284e-32,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 1554,
+    "word_count": 274,
+    "token_length": 301,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     6.093720984613284e-32
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990096823803107
+   },
+   {
+    "text": " Good day gentlemen.",
+    "label": "Human Written",
+    "ai_assistance_score": 5.947044263056452e-16,
+    "confidence": "Medium",
+    "start_index": 1554,
+    "end_index": 1574,
+    "word_count": 3,
+    "token_length": 4,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.478104971201709e-30,
+     5.947044263056452e-16
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9892636312535131
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001270647975616157,
+   "human": 1.0,
+   "mixed": 1.1102230246251565e-16,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 7.55660012531794e-18,
+    "std": 3.098673817536479e-10,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.098673817536479e-10,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,76 @@
+{
+ "text_sha256": "c826d34bfaf5fc414744eea802dfa42b1f6c5bf3f889ffa3b45e87213eb06de1",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:09:07+00:00",
+ "word_count": 144,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We're waiting to hear from the bank, we're hoping they will be able to help us out here. Please remain calm, we want this over with as much as you do. I'm not sure what they will think of all this. So please, do not publish anything, not even our name tomorrow or else my boss won't want to pay anything. We need to see what the bank says about a loan as we don't have anything close to your demand on hand. If it were up to me you'd already have your money, but there are other factors in play here. It's not just a one man operation, similar to yours. We will give you an update after we hear from the bank. We're hoping they will give us an answer Monday. I'm sorry but not all the decisions are up to me.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 0.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We're waiting to hear from the bank, we're hoping they will be able to help us out here. Please remain calm, we want this over with as much as you do. I'm not sure what they will think of all this. So please, do not publish anything, not even our name tomorrow or else my boss won't want to pay anything. We need to see what the bank says about a loan as we don't have anything close to your demand on hand. If it were up to me you'd already have your money, but there are other factors in play here. It's not just a one man operation, similar to yours. We will give you an update after we hear from the bank. We're hoping they will give us an answer Monday. I'm sorry but not all the decisions are up to me.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 708,
+    "word_count": 153,
+    "token_length": 169,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0014124293811619282,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.0,
+    "std": 1.5062027871431925e-27,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.506202979736187e-27,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

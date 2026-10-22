@@ -1,0 +1,116 @@
+{
+ "text_sha256": "dc8a4bbe01aa99aaf654f7e1f1fdbb7b747521ead09c25b8f035854f7d428d09",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:36:31+00:00",
+ "word_count": 62,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We have not yet heard from you an adequate price. The longer you drag out, the more you incur losses. We have a lot of experience in this area and we are perfectly aware of how much a company like you can pay. Let's not waste time and move on to specific steps. We are waiting for an adequate offer from you.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 5.934972158909771e-14,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 3,
+  "windows": [
+   {
+    "text": "We have not yet heard from you an adequate price.",
+    "label": "Human Written",
+    "ai_assistance_score": 4.2974254695429554e-15,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 49,
+    "word_count": 10,
+    "token_length": 11,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     4.2974254695429554e-15
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9867167280997569
+   },
+   {
+    "text": " The longer you drag out, the more you incur losses. We have a lot of experience in this area and we are perfectly aware of how much a company like you can pay. Let's not waste time and move on to specific steps.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.1510120971102572e-21,
+    "confidence": "High",
+    "start_index": 49,
+    "end_index": 261,
+    "word_count": 44,
+    "token_length": 48,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     2.1510120971102572e-21
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9961644819224243
+   },
+   {
+    "text": " We are waiting for an adequate offer from you.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.8444979621674036e-13,
+    "confidence": "Medium",
+    "start_index": 261,
+    "end_index": 308,
+    "word_count": 9,
+    "token_length": 10,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     3.8444979621674036e-13
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9786812097174022
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Medium",
+   "boundary": "human"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.003246753243729472,
+   "human": 1.0,
+   "mixed": 3.888001032237298e-13,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 5.934972158909771e-14,
+    "std": 9.518956289866765e-08,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 9.518956289866765e-08,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

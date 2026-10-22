@@ -1,0 +1,76 @@
+{
+ "text_sha256": "b6366cd8c1eb4f3920ec9571dc78c1afcbe4ea8331b849e3665eecd09bd138f5",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:45:40+00:00",
+ "word_count": 54,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "But there is another option. After payment you get decryptor tool returning you in business within 1-2 hours (with instruction), security report with advice how to prevent such incidents in future, full directory listing of your stolen private info, complete data deletion. No data will be posted ever. Everything will be kept in secret.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.3542229568014275e-31,
+  "fraction_ai_assisted": 4.826069583504327e-29,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "But there is another option. After payment you get decryptor tool returning you in business within 1-2 hours (with instruction), security report with advice how to prevent such incidents in future, full directory listing of your stolen private info, complete data deletion. No data will be posted ever. Everything will be kept in secret.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.4365770283731438e-29,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 337,
+    "word_count": 55,
+    "token_length": 66,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.8260698844308806e-29,
+     2.3542227217025573e-31
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9985049872980652
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002967359032481909,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.3542229568014275e-31,
+    "std": 1.3987894150023635e-16,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.0073262069740267e-15,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

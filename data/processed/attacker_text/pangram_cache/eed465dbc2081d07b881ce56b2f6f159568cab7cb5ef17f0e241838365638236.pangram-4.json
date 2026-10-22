@@ -1,0 +1,76 @@
+{
+ "text_sha256": "eed465dbc2081d07b881ce56b2f6f159568cab7cb5ef17f0e241838365638236",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:01:46+00:00",
+ "word_count": 169,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hi guys. Sorry for being late but my client took his time over the\nweekend to have internal meetings in order to respond to your last\nrequest. Notwithstanding my client has strived to find more budget to\npay your claims, there is no more money available to be put on the\ntable. The financial condition of my client is terribile and you know it\nand the economic situation of Italy has been catastrophic since a\ndecade with impactson [redacted]. My client can't afford to take away anymore\nmoney from the budget needed to run the company operations and to pay\nemployees salaries. It has been a difficult decision and my client is\nfully aware that this decision could stop the negotiation with you guys\nand that consequently he won't get the decrypter. However my client has\nreached the maximum cap and the costs he might face without the\ndecrypter are, according to cybersecurity analysts and loss adjusters,\nclose to $ 1 M. So this is it. Let me know.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 8.529334333587942e-19,
+  "fraction_ai_assisted": 1.705133474169332e-21,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Hi guys. Sorry for being late but my client took his time over the\nweekend to have internal meetings in order to respond to your last\nrequest. Notwithstanding my client has strived to find more budget to\npay your claims, there is no more money available to be put on the\ntable. The financial condition of my client is terribile and you know it\nand the economic situation of Italy has been catastrophic since a\ndecade with impactson [redacted]. My client can't afford to take away anymore\nmoney from the budget needed to run the company operations and to pay\nemployees salaries. It has been a difficult decision and my client is\nfully aware that this decision could stop the negotiation with you guys\nand that consequently he won't get the decrypter. However my client has\nreached the maximum cap and the costs he might face without the\ndecrypter are, according to cybersecurity analysts and loss adjusters,\nclose to $ 1 M. So this is it. Let me know.",
+    "label": "Human Written",
+    "ai_assistance_score": 8.537860497751833e-19,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 950,
+    "word_count": 170,
+    "token_length": 199,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.705133474169332e-21,
+     8.529334333587942e-19
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988540172213851
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0010526315309107304,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 8.529334333587942e-19,
+    "std": 8.896119951806725e-11,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 8.904194048753311e-11,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

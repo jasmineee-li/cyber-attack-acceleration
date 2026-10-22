@@ -1,0 +1,76 @@
+{
+ "text_sha256": "e8bb73f73b39321cb332b707b89d0f547c1c269cb78fff70436b81c74d4ec625",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:10:44+00:00",
+ "word_count": 204,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "• You continue to misinterpret our records, and this has drawn out our negotiations many days. We have nothing to hide in our financial records as they are public and regulators, third party auditors, investors, and others can view them at any time. The link we provided shows this. Now, Bluff 1 shows our cumulative net income for the year at $3.5M as of August 2022 (Cumulative means from January to Today), the prior month’s income rolls forward and we actually lost money in August. Bluff 2 shows the cumulative year-to-date income as of August which is included in our $3.5M earnings to date and not a separate income number as you incorrectly assessed. All our Financials can be found in the Accounting Drive, Board Reports folder by year and month. The balance sheet and income statement in the folder provides the financial picture. While you review these documents, please delay posting our information to your blog which will harm our negotiations. After you have read the documents, can we conclude our business. We just want to understand your position in that you will walk away from a million dollars which is 33 percent of our Net Revenue for payment of a decryption key.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 5.031714814955757e-37,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "• You continue to misinterpret our records, and this has drawn out our negotiations many days. We have nothing to hide in our financial records as they are public and regulators, third party auditors, investors, and others can view them at any time. The link we provided shows this. Now, Bluff 1 shows our cumulative net income for the year at $3.5M as of August 2022 (Cumulative means from January to Today), the prior month’s income rolls forward and we actually lost money in August. Bluff 2 shows the cumulative year-to-date income as of August which is included in our $3.5M earnings to date and not a separate income number as you incorrectly assessed. All our Financials can be found in the Accounting Drive, Board Reports folder by year and month. The balance sheet and income statement in the folder provides the financial picture. While you review these documents, please delay posting our information to your blog which will harm our negotiations. After you have read the documents, can we conclude our business. We just want to understand your position in that you will walk away from a million dollars which is 33 percent of our Net Revenue for payment of a decryption key.",
+    "label": "Human Written",
+    "ai_assistance_score": 5.0317152633712655e-37,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 1186,
+    "word_count": 208,
+    "token_length": 250,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     5.0317152633712655e-37
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990202671999352
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0016863406635820866,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 5.184191334001589e-37,
+    "std": 1.2190951678654723e-19,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.2190951678654723e-19,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

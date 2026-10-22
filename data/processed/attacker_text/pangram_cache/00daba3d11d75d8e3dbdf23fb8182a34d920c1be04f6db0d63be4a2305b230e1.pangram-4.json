@@ -1,0 +1,96 @@
+{
+ "text_sha256": "00daba3d11d75d8e3dbdf23fb8182a34d920c1be04f6db0d63be4a2305b230e1",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:56:39+00:00",
+ "word_count": 76,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "[redacted]: We have reviewed the data and while the files contain company information, they will not cause millions in damage. Even if they did, we'd have to live with that because we are on a tight budget in 2021. However, we think there is some value with your cooperation and we're prepared to pay $400,000 immediately. We can work out the details if you want to make a profit. Otherwise, we may be out of opportunities.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.1928989162128314e-17,
+  "fraction_ai_assisted": 7.048493487394181e-24,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "[redacted]: We have reviewed the data and while the files contain company information, they will not cause millions in damage. Even if they did, we'd have to live with that because we are on a tight budget in 2021. However, we think there is some value with your cooperation and we're prepared to pay $400,000 immediately. We can work out the details if you want to make a profit.",
+    "label": "Human Written",
+    "ai_assistance_score": 7.195714377315661e-31,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 380,
+    "word_count": 72,
+    "token_length": 93,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.0280497264060303e-37,
+     7.195713907117921e-31
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987572261298965
+   },
+   {
+    "text": " Otherwise, we may be out of opportunities.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.1734799745216997e-16,
+    "confidence": "Medium",
+    "start_index": 380,
+    "end_index": 423,
+    "word_count": 7,
+    "token_length": 9,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     6.933750986602708e-23,
+     1.1734795774750057e-16
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9892909364252322
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Medium",
+   "boundary": "human"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002364066196605563,
+   "human": 1.0,
+   "mixed": 2.220446049250313e-16,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.1928989162128314e-17,
+    "std": 1.1011991318810033e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.1011994649479107e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

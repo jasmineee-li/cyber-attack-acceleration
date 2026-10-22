@@ -1,0 +1,76 @@
+{
+ "text_sha256": "4fe34d4917e9fb28184ff899367e037a0201364147e199a9a9bdb80de763fe7f",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:03:53+00:00",
+ "word_count": 174,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hello REvil Team - We are IT team helping client with the discussions with you and recovering. We would like to discuss how to proceed with this situation and reach a mutual agreement. For us the value of data is certainly very important. Can you provide us with some files your operative acquired from systems. I would suggest 5 files, from 5 different systems, you can choose. If you prefer to provide a file-tree of the files you have it would help us to work with the client to assess the appropriate value.\nWe also have a few logistical issues we need your help with:\n1. Payment will need to in BTC, XMR is not possible on this situation\n2. Please provide an extra 48 hours to the clock. This is a long weekend and time will run out on Monday, but all banks are closed on Monday and closed on weekend. So we would appreciate the extra time so we can reach an understanding.\nThank you, looking forward to working with you again.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 0.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Hello REvil Team - We are IT team helping client with the discussions with you and recovering. We would like to discuss how to proceed with this situation and reach a mutual agreement. For us the value of data is certainly very important. Can you provide us with some files your operative acquired from systems. I would suggest 5 files, from 5 different systems, you can choose. If you prefer to provide a file-tree of the files you have it would help us to work with the client to assess the appropriate value.\nWe also have a few logistical issues we need your help with:\n1. Payment will need to in BTC, XMR is not possible on this situation\n2. Please provide an extra 48 hours to the clock. This is a long weekend and time will run out on Monday, but all banks are closed on Monday and closed on weekend. So we would appreciate the extra time so we can reach an understanding.\nThank you, looking forward to working with you again.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 932,
+    "word_count": 174,
+    "token_length": 203,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0010729613713920116,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.0,
+    "std": 1.381766000571956e-24,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.381766000571956e-24,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

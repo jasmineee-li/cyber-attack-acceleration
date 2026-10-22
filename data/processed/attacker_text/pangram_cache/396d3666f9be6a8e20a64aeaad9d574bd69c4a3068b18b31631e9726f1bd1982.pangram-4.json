@@ -1,0 +1,76 @@
+{
+ "text_sha256": "396d3666f9be6a8e20a64aeaad9d574bd69c4a3068b18b31631e9726f1bd1982",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:53:47+00:00",
+ "word_count": 124,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "The broker also advise us to confirm all deal terms with you.\nAfter we pay, please confirm you will:\n(1.) immediately provide working decryptor software for all our systems,\n(2.) provide detailed decryption process instructions and tech support if we have problems,\n(3.) provide detailed proof of our downloaded data - detailed file tree(s) of all data,\n(4.) provide confirmation of deletion of all our data - non-recoverable secure deletion with proof / shred log,\n(5.) confirm you will never publish any of our data, or our company name,\n(6.) agree to never attack us again,\n(7.) explain how you got into our network, and\n(8.) provide a security report so we can prevent future problems\nPlease confirm everything, all 8 items, thank you.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.947885910618593e-20,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "The broker also advise us to confirm all deal terms with you.\nAfter we pay, please confirm you will:\n(1.) immediately provide working decryptor software for all our systems,\n(2.) provide detailed decryption process instructions and tech support if we have problems,\n(3.) provide detailed proof of our downloaded data - detailed file tree(s) of all data,\n(4.) provide confirmation of deletion of all our data - non-recoverable secure deletion with proof / shred log,\n(5.) confirm you will never publish any of our data, or our company name,\n(6.) agree to never attack us again,\n(7.) explain how you got into our network, and\n(8.) provide a security report so we can prevent future problems\nPlease confirm everything, all 8 items, thank you.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.947885587501166e-20,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 739,
+    "word_count": 123,
+    "token_length": 162,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     2.947885587501166e-20
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9958355967424587
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0013531799195334315,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.947885910618593e-20,
+    "std": 4.8894950588351804e-11,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 4.8894950588351804e-11,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

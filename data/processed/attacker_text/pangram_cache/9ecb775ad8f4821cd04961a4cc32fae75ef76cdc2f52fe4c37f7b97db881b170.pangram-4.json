@@ -1,0 +1,76 @@
+{
+ "text_sha256": "9ecb775ad8f4821cd04961a4cc32fae75ef76cdc2f52fe4c37f7b97db881b170",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:56:50+00:00",
+ "word_count": 91,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "[redacted]: Thank you. I'm waiting for information about what files you took. Regarding our revenue, if this happened last year at this time, paying this much wouldn't have been a problem. But with the pandemic and financial crisis, people just aren't buying cars. We have a large inventory that isn't selling and by holding onto this inventory like we are, we're actually losing more money than making money. It will take us months to crawl out of this problem to start making a profit. Revenue is not profit, as you know.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.5257564025368045e-32,
+  "fraction_ai_assisted": 7.366973706816975e-34,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "[redacted]: Thank you. I'm waiting for information about what files you took. Regarding our revenue, if this happened last year at this time, paying this much wouldn't have been a problem. But with the pandemic and financial crisis, people just aren't buying cars. We have a large inventory that isn't selling and by holding onto this inventory like we are, we're actually losing more money than making money. It will take us months to crawl out of this problem to start making a profit. Revenue is not profit, as you know.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.5625912527037902e-32,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 523,
+    "word_count": 96,
+    "token_length": 112,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     7.366974165994456e-34,
+     1.5257564025368045e-32
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9985093448115988
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001912045874632895,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.5257564025368045e-32,
+    "std": 2.775106417256805e-17,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.8304055918755675e-17,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

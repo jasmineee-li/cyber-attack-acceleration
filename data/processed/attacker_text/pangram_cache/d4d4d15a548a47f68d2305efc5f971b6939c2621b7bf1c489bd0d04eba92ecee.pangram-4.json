@@ -1,0 +1,76 @@
+{
+ "text_sha256": "d4d4d15a548a47f68d2305efc5f971b6939c2621b7bf1c489bd0d04eba92ecee",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:10:40+00:00",
+ "word_count": 128,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "In good faith, paying you $1,000 to extend the leak clock does nobody any good. We cannot pay $5M and we have tried to explain this to you multiple times. Our net income is $3M. It seems like we have hit an impasse in our discussions. We do not understand how you can in good faith ask a company to pay more in net income than they made. It seems you want our business to go under. From a business perspective, we all win if you would lower your number and we sail our separate ways. If I could raise the amount to $1M, will this be enough to satisfy your demands. If so, I can talk further with the board about how to raise the additional amount.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 6.789977695901258e-40,
+  "fraction_ai_assisted": 5.605193857299268e-45,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "In good faith, paying you $1,000 to extend the leak clock does nobody any good. We cannot pay $5M and we have tried to explain this to you multiple times. Our net income is $3M. It seems like we have hit an impasse in our discussions. We do not understand how you can in good faith ask a company to pay more in net income than they made. It seems you want our business to go under. From a business perspective, we all win if you would lower your number and we sail our separate ways. If I could raise the amount to $1M, will this be enough to satisfy your demands. If so, I can talk further with the board about how to raise the additional amount.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.790005721870544e-40,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 647,
+    "word_count": 129,
+    "token_length": 153,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.605193857299268e-45,
+     6.789977695901258e-40
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989295861672112
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0015455950051546097,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 6.789977695901258e-40,
+    "std": 4.912991588438258e-21,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 4.913012591070999e-21,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,96 @@
+{
+ "text_sha256": "531dec020f105134052a7872d90c38825a0ff3b164c63b33c51735906ed2bd35",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:38:46+00:00",
+ "word_count": 146,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "I've checked the numbers and ran them by our team, we can have a deal on 1,200,000 USD fixed rate. that's around 11% discount for your case. We've already given you a lower initial price than normal, ( Normal cases would be around 1.8M - 2M in your revenue range with insurance and etc ) so further discounts will not be happening. and we've gone ahead and extended the timer for you until 11th of December. We expect your mother company and your insurance chipping in for your lack of cash and we can put this incident behind us in no time. We expect an update about your cash situation next week at least every 2 days, and if you need more time than 11th of December you can contact us later and we'll consider. Hopefully we can close out this deal without problems. best regards",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.2351061742365416e-14,
+  "fraction_ai_assisted": 3.737357750114286e-20,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "I've checked the numbers and ran them by our team, we can have a deal on 1,200,000 USD fixed rate. that's around 11% discount for your case. We've already given you a lower initial price than normal, ( Normal cases would be around 1.8M - 2M in your revenue range with insurance and etc ) so further discounts will not be happening. and we've gone ahead and extended the timer for you until 11th of December. We expect your mother company and your insurance chipping in for your lack of cash and we can put this incident behind us in no time. We expect an update about your cash situation next week at least every 2 days, and if you need more time than 11th of December you can contact us later and we'll consider. Hopefully we can close out this deal without problems.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 768,
+    "word_count": 149,
+    "token_length": 185,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   },
+   {
+    "text": " best regards",
+    "label": "Human Written",
+    "ai_assistance_score": 7.420149022129008e-13,
+    "confidence": "Medium",
+    "start_index": 768,
+    "end_index": 781,
+    "word_count": 2,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.245289542136894e-18,
+     7.420138180107283e-13
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9763021576865032
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001280409749597311,
+   "human": 1.0,
+   "mixed": 1.1102230246251565e-16,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.2351061742365416e-14,
+    "std": 1.4338321641105267e-08,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.433834295738734e-08,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

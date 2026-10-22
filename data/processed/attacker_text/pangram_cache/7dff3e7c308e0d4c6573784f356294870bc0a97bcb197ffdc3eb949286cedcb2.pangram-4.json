@@ -1,0 +1,76 @@
+{
+ "text_sha256": "7dff3e7c308e0d4c6573784f356294870bc0a97bcb197ffdc3eb949286cedcb2",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:04:50+00:00",
+ "word_count": 186,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We spoke to a few crypto places and with their fees, we can go up to 280k but in btc only. we are short 20k we cannot make it up sorry. Also, I want to ensure if we reach agreement, that you will come through on your side on the promises you are making. specifically, we need you to give us the decryptors and that they will work and if there are technical support issues, that you will help resolve. Also, that all our data will be deleted and you will provide some confirmation of deletion and I would also like to see the full listing of what you took. This is a lot of money for our company, you have to understand and I do not want to be attacked again, so I want your word that REvil will not attack us again and that you can tell me what I need to do to block whatever way you come in. If you are in agreement tell me what is \"Bitcoin Wallet ID to send BTC\" as my broker suggested. I need your assurance though.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.7881305628170674e-29,
+  "fraction_ai_assisted": 3.6415823452101886e-40,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We spoke to a few crypto places and with their fees, we can go up to 280k but in btc only. we are short 20k we cannot make it up sorry. Also, I want to ensure if we reach agreement, that you will come through on your side on the promises you are making. specifically, we need you to give us the decryptors and that they will work and if there are technical support issues, that you will help resolve. Also, that all our data will be deleted and you will provide some confirmation of deletion and I would also like to see the full listing of what you took. This is a lot of money for our company, you have to understand and I do not want to be attacked again, so I want your word that REvil will not attack us again and that you can tell me what I need to do to block whatever way you come in. If you are in agreement tell me what is \"Bitcoin Wallet ID to send BTC\" as my broker suggested. I need your assurance though.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.7881305628170674e-29,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 918,
+    "word_count": 186,
+    "token_length": 216,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.6415823452101886e-40,
+     2.7881305628170674e-29
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989876658611377
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0010893245926126838,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.7881305628170674e-29,
+    "std": 9.545437687548549e-16,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 9.545437687548549e-16,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,76 @@
+{
+ "text_sha256": "86fb1465f88c422693b363b9c4047cf02c1fa404d9e43b0ecfce8c794dfe2bcd",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:44:40+00:00",
+ "word_count": 103,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Naturally, I asked them for a smaller amount, their revenue is 58 times less than yours, they earn money 58 times less than you, I always ask for a fair and adequate amount from each company, I do not ask for what the company can not pay. Why do you have such a long chain of middlemen? why can't you communicate directly with the director? I will wait until Monday, but I think it is time to end this case. The journalists are asking me why I haven't published your information while I ignore their questions, they really want to see your files.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.3312335411085762e-43,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Naturally, I asked them for a smaller amount, their revenue is 58 times less than yours, they earn money 58 times less than you, I always ask for a fair and adequate amount from each company, I do not ask for what the company can not pay. Why do you have such a long chain of middlemen? why can't you communicate directly with the director? I will wait until Monday, but I think it is time to end this case. The journalists are asking me why I haven't published your information while I ignore their questions, they really want to see your files.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.3312335411085762e-43,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 546,
+    "word_count": 105,
+    "token_length": 124,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     1.3312335411085762e-43
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989409983195358
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0018315018387511373,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.3312335411085762e-43,
+    "std": 1.1451219758336008e-22,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.1451281605030977e-22,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

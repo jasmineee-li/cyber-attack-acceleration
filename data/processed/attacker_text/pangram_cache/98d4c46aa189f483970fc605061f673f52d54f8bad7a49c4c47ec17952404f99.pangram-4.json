@@ -1,0 +1,96 @@
+{
+ "text_sha256": "98d4c46aa189f483970fc605061f673f52d54f8bad7a49c4c47ec17952404f99",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:06:50+00:00",
+ "word_count": 95,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We are agreeable to proceeding with the following conditions: First, we will provide several encrypted files for you to decrypt as proof of your decryption capabilities. Following this, we will make an initial payment of $120,000 in exchange for the instructions and necessary tools to decrypt the rest of our systems. Once we have successfully recovered our data, we will make a final payment of $30,000. In return, we expect a report detailing how the attack was carried out and confirmation that all our data has been removed from your possession and any related systems",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 0.9999998807907104,
+  "fraction_ai_assisted": 7.168023119508149e-11,
+  "fraction_human": 1.457094498391598e-07,
+  "headline": "AI Generated",
+  "num_ai_segments": 2,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "We are agreeable to proceeding with the following conditions: First, we will provide several encrypted files for you to decrypt as proof of your decryption capabilities.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9999995231628418,
+    "confidence": "Low",
+    "start_index": 0,
+    "end_index": 169,
+    "word_count": 26,
+    "token_length": 31,
+    "is_humanized": false,
+    "humanizer_score": 0.02434450574219227,
+    "class_probabilities": [
+     4.940006874676328e-07,
+     2.421784717210329e-10,
+     0.9999995231628418
+    ],
+    "confidence_score": 0.9999995231628418,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.7836426914153131
+   },
+   {
+    "text": " Following this, we will make an initial payment of $120,000 in exchange for the instructions and necessary tools to decrypt the rest of our systems. Once we have successfully recovered our data, we will make a final payment of $30,000. In return, we expect a report detailing how the attack was carried out and confirmation that all our data has been removed from your possession and any related systems",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 169,
+    "end_index": 573,
+    "word_count": 71,
+    "token_length": 87,
+    "is_humanized": false,
+    "humanizer_score": 0.02434450574219227,
+    "class_probabilities": [
+     1.3367028837973916e-11,
+     3.579417849359362e-13,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9742662842767943
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Low",
+   "boundary": "ai"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0017452007159590721,
+   "human": 2.95587064710527e-23,
+   "mixed": 4.942428404319799e-07,
+   "ai": 0.9999995231628418,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.9999998807907104,
+    "std": 0.0002073689247481525,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   },
+   "human_coverage": {
+    "mean": 1.457094498391598e-07,
+    "std": 0.00020731760014314204,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

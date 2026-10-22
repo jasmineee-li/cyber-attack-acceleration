@@ -1,0 +1,76 @@
+{
+ "text_sha256": "c70832facb52f7fe9cffb555534f9bab54c7fe589eb439faf889577d0dfd1a36",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:04:09+00:00",
+ "word_count": 145,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hi,\nOur business has been seriously affected by the current Covid Pandemic since early last year. Our country (Singapore) is in lock down mode currently. Everybody is suffering and life is very tough here. Our company is no exception. Our company is small local family company and not a Listed Company. Our Company finance has become very tight right now. We really cannot afford your asking price. We could only fork up to US$20,000.\nWe have already finalised our recovery plan and with the offline back up data, we are in the process of rebuilding some data and files now. We do not have P&C data with Government, Customers or Vendors. However, we wish to save our business recovery time and cost. Hence, we sincerely come to you and hope to reach a mutual agreement and settle this amicably.\nHope to hear from you soon.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 5.3102112411832185e-34,
+  "fraction_ai_assisted": 1.2751816025355835e-43,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Hi,\nOur business has been seriously affected by the current Covid Pandemic since early last year. Our country (Singapore) is in lock down mode currently. Everybody is suffering and life is very tough here. Our company is no exception. Our company is small local family company and not a Listed Company. Our Company finance has become very tight right now. We really cannot afford your asking price. We could only fork up to US$20,000.\nWe have already finalised our recovery plan and with the offline back up data, we are in the process of rebuilding some data and files now. We do not have P&C data with Government, Customers or Vendors. However, we wish to save our business recovery time and cost. Hence, we sincerely come to you and hope to reach a mutual agreement and settle this amicably.\nHope to hear from you soon.",
+    "label": "Human Written",
+    "ai_assistance_score": 5.3102112411832185e-34,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 822,
+    "word_count": 148,
+    "token_length": 182,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.2751816025355835e-43,
+     5.3102112411832185e-34
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988565416592659
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0012165450025349855,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 5.3102112411832185e-34,
+    "std": 4.284619797144516e-18,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 4.284619797144516e-18,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

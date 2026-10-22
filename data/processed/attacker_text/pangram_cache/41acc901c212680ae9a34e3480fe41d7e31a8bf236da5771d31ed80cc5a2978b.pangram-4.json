@@ -1,0 +1,76 @@
+{
+ "text_sha256": "41acc901c212680ae9a34e3480fe41d7e31a8bf236da5771d31ed80cc5a2978b",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:39:47+00:00",
+ "word_count": 271,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We have breached your systems and duplicated over 3.8 TB of your sensitive data to our servers.\nThe link below contains the archive with the complete list of your files we have taken:\nArchive link - https://limewire.com/d/[Redacted]\nArchive password - 6rj75o1n_js^\nChoose for up to 3 files from the list and send us the file names. We’ll send you those files back as proof of your data availability on our side.\nConditions:\n(a) You have to pay us 4 BTC to save your data from leaked and avoid any additional damages possible;\n(b) We will provide you with our bitcoin address immediately after you confirm a deal and ready to proceed with the payment;\n(c) We set Wednesday, July 30, as the deadline for the payment to be completed;\n(d) You’d better stay online and be in touch with us daily within all this time. Otherwise, we will find your silence as declining a deal and will follow to harassing you, your staff, partners, and all other parties affected whose contacts we have on your files;\n(e) We will start leaking your files since Thursday, July 31, if we don’t get paid by that time.\nWhat you get if we are paid:\n(a) All your data we have will be permanently removed from our servers;\n(b) You will be provided with deletion proof;\n(c) We will take your name down from our website and will not ever spread a word related to this incident;\n(d) We will not ever leak, use, sell, or share with third parties even a file of your data;\n(e) We will not attack your company again.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 0.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We have breached your systems and duplicated over 3.8 TB of your sensitive data to our servers.\nThe link below contains the archive with the complete list of your files we have taken:\nArchive link - https://limewire.com/d/[Redacted]\nArchive password - 6rj75o1n_js^\nChoose for up to 3 files from the list and send us the file names. We’ll send you those files back as proof of your data availability on our side.\nConditions:\n(a) You have to pay us 4 BTC to save your data from leaked and avoid any additional damages possible;\n(b) We will provide you with our bitcoin address immediately after you confirm a deal and ready to proceed with the payment;\n(c) We set Wednesday, July 30, as the deadline for the payment to be completed;\n(d) You’d better stay online and be in touch with us daily within all this time. Otherwise, we will find your silence as declining a deal and will follow to harassing you, your staff, partners, and all other parties affected whose contacts we have on your files;\n(e) We will start leaking your files since Thursday, July 31, if we don’t get paid by that time.\nWhat you get if we are paid:\n(a) All your data we have will be permanently removed from our servers;\n(b) You will be provided with deletion proof;\n(c) We will take your name down from our website and will not ever spread a word related to this incident;\n(d) We will not ever leak, use, sell, or share with third parties even a file of your data;\n(e) We will not attack your company again.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 1479,
+    "word_count": 277,
+    "token_length": 354,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412403
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0013522650115191936,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.0,
+    "std": 3.9735852675379966e-32,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.9239153414911763e-32,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

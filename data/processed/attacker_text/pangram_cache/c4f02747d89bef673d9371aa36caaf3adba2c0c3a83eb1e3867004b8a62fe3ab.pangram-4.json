@@ -1,0 +1,96 @@
+{
+ "text_sha256": "c4f02747d89bef673d9371aa36caaf3adba2c0c3a83eb1e3867004b8a62fe3ab",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:45:55+00:00",
+ "word_count": 112,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hi. You didn't end up here by accident.\nYour network infrastructure has been encrypted. We also downloaded data from your network and are currently analyzing it for an article to be published on our blog.\nAs soon as the file list is ready, we will send it to you immediately for review.\nWhile negotiations are ongoing, only you can see the article. In case of prolonged silence, your company name and the article will be published on our blog. Files will be published automatically when the timer expires.\nBefore sending your first message, make sure to review the FAQ.\nReturn key:[redacted]\nWithout it, you will be unable to return to this chat.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 5.834111665992125e-11,
+  "fraction_ai_assisted": 3.367314023103307e-12,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Hi.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.2925334580415893e-08,
+    "confidence": "Low",
+    "start_index": 0,
+    "end_index": 3,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     7.250949285442232e-10,
+     1.256278636674324e-08
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.8721036307243204
+   },
+   {
+    "text": " You didn't end up here by accident.\nYour network infrastructure has been encrypted. We also downloaded data from your network and are currently analyzing it for an article to be published on our blog.\nAs soon as the file list is ready, we will send it to you immediately for review.\nWhile negotiations are ongoing, only you can see the article. In case of prolonged silence, your company name and the article will be published on our blog. Files will be published automatically when the timer expires.\nBefore sending your first message, make sure to review the FAQ.\nReturn key:[redacted]\nWithout it, you will be unable to return to this chat.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.4625760073526547e-20,
+    "confidence": "High",
+    "start_index": 3,
+    "end_index": 646,
+    "word_count": 113,
+    "token_length": 131,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.154025539277273e-21,
+     1.3048747505836302e-20
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9960247559120977
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0015479875728487968,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 5.834111665992125e-11,
+    "std": 5.205131969887589e-07,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 5.353238634597801e-07,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

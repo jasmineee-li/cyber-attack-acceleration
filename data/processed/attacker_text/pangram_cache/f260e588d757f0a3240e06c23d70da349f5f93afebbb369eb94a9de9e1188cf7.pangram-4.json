@@ -1,0 +1,76 @@
+{
+ "text_sha256": "f260e588d757f0a3240e06c23d70da349f5f93afebbb369eb94a9de9e1188cf7",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:47:56+00:00",
+ "word_count": 83,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We are only interested in decryption. What price for that? As a small local firm we are not having a good year and our available funds are very small. It will take us weeks because our cashflow is very tight. We do many cases for charity and to support children with life-limiting conditions. You will have seen this in our files. If you take our money, we can only give less to our charities. Please remember this when you talk about a price.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.51376844498893e-27,
+  "fraction_ai_assisted": 9.39610914576385e-27,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We are only interested in decryption. What price for that? As a small local firm we are not having a good year and our available funds are very small. It will take us weeks because our cashflow is very tight. We do many cases for charity and to support children with life-limiting conditions. You will have seen this in our files. If you take our money, we can only give less to our charities. Please remember this when you talk about a price.",
+    "label": "Human Written",
+    "ai_assistance_score": 7.211822632684866e-27,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 443,
+    "word_count": 84,
+    "token_length": 96,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     9.396108375391872e-27,
+     2.51376844498893e-27
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9983048932416863
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0022573363967239857,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.51376844498893e-27,
+    "std": 1.0923702806024671e-14,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.411196513719266e-14,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

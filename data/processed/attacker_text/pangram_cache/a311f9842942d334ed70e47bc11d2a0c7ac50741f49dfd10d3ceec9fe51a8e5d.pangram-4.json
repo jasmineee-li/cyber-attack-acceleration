@@ -1,0 +1,76 @@
+{
+ "text_sha256": "a311f9842942d334ed70e47bc11d2a0c7ac50741f49dfd10d3ceec9fe51a8e5d",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:53:03+00:00",
+ "word_count": 64,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "sir, company agreed to arrange $10000 as\nthe final settlement for data which you encrypted . we need to have some\ndetails to access and confirm. Kindly share some picture and proof to\nconfirm. We will arrange the money and it is my bread and butter and\nkindly helps me to settle this case. God will help you and save you.\nGod bless you.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.155117159047113e-22,
+  "fraction_ai_assisted": 4.9743582706513864e-34,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "sir, company agreed to arrange $10000 as\nthe final settlement for data which you encrypted . we need to have some\ndetails to access and confirm. Kindly share some picture and proof to\nconfirm. We will arrange the money and it is my bread and butter and\nkindly helps me to settle this case. God will help you and save you.\nGod bless you.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.155117159047113e-22,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 336,
+    "word_count": 63,
+    "token_length": 76,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.9743582706513864e-34,
+     1.155117159047113e-22
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.998724327067618
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0029761905316263437,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.155117159047113e-22,
+    "std": 2.2708529934939437e-12,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.2708529934939437e-12,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

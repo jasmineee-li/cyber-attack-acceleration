@@ -1,0 +1,96 @@
+{
+ "text_sha256": "75443b6b63c7dabf4b053c41bc14ebe63617963bdcb017c328770bac50e52f9d",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:43:02+00:00",
+ "word_count": 66,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We offer you the following options:\nMain Option:\nThe main payment is due on Tuesday. Find an additional $5,000 to bring the total payment to $45,000.\nWe are willing to offer you an alternate option:\nIf you make a $5,000 deposit today, we will give you a $5,000 discount and you can pay the balance of $35,000 on Monday or Tuesday.\nWhich option do you choose?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 4.936185466451748e-13,
+  "fraction_ai_assisted": 1.2437630871757065e-21,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "We offer you the following options:\nMain Option:\nThe main payment is due on Tuesday. Find an additional $5,000 to bring the total payment to $45,000.\nWe are willing to offer you an alternate option:\nIf you make a $5,000 deposit today, we will give you a $5,000 discount and you can pay the balance of $35,000 on Monday or Tuesday.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.8194553888942736e-28,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 330,
+    "word_count": 66,
+    "token_length": 95,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.4350277183611154e-40,
+     1.8194553888942736e-28
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.998031847527298
+   },
+   {
+    "text": "\nWhich option do you choose?",
+    "label": "Human Written",
+    "ai_assistance_score": 6.311265746128392e-12,
+    "confidence": "Medium",
+    "start_index": 330,
+    "end_index": 358,
+    "word_count": 5,
+    "token_length": 6,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.590239864231564e-20,
+     6.311265746128392e-12
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9670296792723792
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002793296007439494,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 4.936185466451748e-13,
+    "std": 1.9648673799110838e-07,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.9648673799110838e-07,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

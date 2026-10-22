@@ -1,0 +1,14 @@
+# Local Python environments and caches
+.venv/
+.uv-cache/
+.python-install/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+.DS_Store

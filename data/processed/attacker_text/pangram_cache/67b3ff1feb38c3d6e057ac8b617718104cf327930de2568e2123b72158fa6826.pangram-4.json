@@ -1,0 +1,96 @@
+{
+ "text_sha256": "67b3ff1feb38c3d6e057ac8b617718104cf327930de2568e2123b72158fa6826",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:43:15+00:00",
+ "word_count": 54,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We strongly advise you to complete your\ntransaction with us as soon as possible. As soon as we receive payment\nwe will immediately give you a decryptor. And the attack will be\nstopped. And the details of your partners and clients will not be made\npublic. That's the only way. Nothing personal. Simple business.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.582973420660361e-16,
+  "fraction_ai_assisted": 1.3410538453529167e-21,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "We strongly advise you to complete your\ntransaction with us as soon as possible. As soon as we receive payment\nwe will immediately give you a decryptor. And the attack will be\nstopped. And the details of your partners and clients will not be made\npublic. That's the only way. Nothing personal.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.729928135137579e-22,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 293,
+    "word_count": 53,
+    "token_length": 60,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.888632054388646e-27,
+     6.729908445169384e-22
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9984231432803529
+   },
+   {
+    "text": " Simple business.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.886599134024957e-15,
+    "confidence": "Medium",
+    "start_index": 293,
+    "end_index": 310,
+    "word_count": 2,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.4454444512090932e-20,
+     2.886586852047222e-15
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9870267008598583
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.003225806402042508,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.582973420660361e-16,
+    "std": 2.9463238515603507e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.9463362860582265e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

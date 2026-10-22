@@ -1,0 +1,76 @@
+{
+ "text_sha256": "117712a90b8761e926c9a51c792021e4647dabc503dac69e12c072d512a526cc",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:06:27+00:00",
+ "word_count": 70,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "I don't see how threatening us at this stage is still relevant. You've already mentioned this before, we know exactly what is at stake and we are doing all we can to try and meet your demands. I think that is clear at this point. We're not stalling, we're waiting for the same answers you are. I will try calling our representative directly to see if they have any updates.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 3.31127125979688e-24,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "I don't see how threatening us at this stage is still relevant. You've already mentioned this before, we know exactly what is at stake and we are doing all we can to try and meet your demands. I think that is clear at this point. We're not stalling, we're waiting for the same answers you are. I will try calling our representative directly to see if they have any updates.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.31127125979688e-24,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 373,
+    "word_count": 74,
+    "token_length": 82,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     3.31127125979688e-24
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9968895269913199
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002680965233594179,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 3.31127125979688e-24,
+    "std": 8.007516091174116e-13,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 8.007516091174116e-13,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

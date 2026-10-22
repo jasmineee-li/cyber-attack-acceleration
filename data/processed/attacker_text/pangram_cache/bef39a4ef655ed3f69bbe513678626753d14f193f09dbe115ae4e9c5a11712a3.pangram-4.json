@@ -1,0 +1,76 @@
+{
+ "text_sha256": "bef39a4ef655ed3f69bbe513678626753d14f193f09dbe115ae4e9c5a11712a3",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:42:43+00:00",
+ "word_count": 59,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "when you have 'error open file' try to recheck permissions of a file copying it to another folder because permissions could change. use the command ls -la. Example: -rw-r--r-- 1 root root 8024 Aug\nDecrypter should be run as host\nfile permissions -rw\nIf host and permission don't match, then change host using 'chown' or change permissions using 'chmod'",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 3.319268671545436e-32,
+  "fraction_ai_assisted": 2.385373510078444e-30,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "when you have 'error open file' try to recheck permissions of a file copying it to another folder because permissions could change. use the command ls -la. Example: -rw-r--r-- 1 root root 8024 Aug\nDecrypter should be run as host\nfile permissions -rw\nIf host and permission don't match, then change host using 'chown' or change permissions using 'chmod'",
+    "label": "Human Written",
+    "ai_assistance_score": 1.2258795181618092e-30,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 352,
+    "word_count": 62,
+    "token_length": 88,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.385373510078444e-30,
+     3.319268377671848e-32
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989070016102469
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0028409091755747795,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 3.319268671545436e-32,
+    "std": 4.7572447429680204e-17,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 4.060815709573413e-16,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

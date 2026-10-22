@@ -1,0 +1,76 @@
+{
+ "text_sha256": "2eb394e92e565eec04830fd6c6b23fc07c45b4bf1a985fc35605683285ae53f5",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:37:47+00:00",
+ "word_count": 99,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Our advice to you. Put a server in the domain that will download daily updates from Microsoft. And once a week or twice a week, distribute updates from this server to all computers and servers on your network. Thus, in the future you will protect your network from known public vulnerabilities. Also install Black Carbon or Sentinel antivirus. Make it a rule to change all important passwords once a month.\nYou got a malware virus somewhere on the Internet. We used that tool and accessed your terminal. We received all necessary passwords from over there. The rest was easy.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.6452345461947552e-22,
+  "fraction_ai_assisted": 2.5144460148767566e-23,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Our advice to you. Put a server in the domain that will download daily updates from Microsoft. And once a week or twice a week, distribute updates from this server to all computers and servers on your network. Thus, in the future you will protect your network from known public vulnerabilities. Also install Black Carbon or Sentinel antivirus. Make it a rule to change all important passwords once a month.\nYou got a malware virus somewhere on the Internet. We used that tool and accessed your terminal. We received all necessary passwords from over there. The rest was easy.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.7709567601638934e-22,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 575,
+    "word_count": 99,
+    "token_length": 113,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.5144458571045756e-23,
+     1.6452345461947552e-22
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9982737010171738
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0017391304718330503,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.6452345461947552e-22,
+    "std": 2.3301128821567874e-12,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.5015213424989247e-12,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

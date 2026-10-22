@@ -1,0 +1,76 @@
+{
+ "text_sha256": "cc8238c9a32ede39ee05f2f2174f2b389e0d63506720e7b2d1a78875709e3fd3",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:09:26+00:00",
+ "word_count": 129,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "I am still trying to work with you here. I am trying to get the board to find a solution with you, but they have two major concerns. You haven't showed us that you could handle the large files, and your starting point here is way too high. We have told you who we are, and our numbers wouldn't at all justify the demand you have put forward. I am doing what I can to drive things forward on my end, but your demand is simply too high for the board to consider. If you can give me a lower starting point, I think I may be able to get the board to work with you. I really want to find a solution here, please help me do that.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.601811883854216e-29,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "I am still trying to work with you here. I am trying to get the board to find a solution with you, but they have two major concerns. You haven't showed us that you could handle the large files, and your starting point here is way too high. We have told you who we are, and our numbers wouldn't at all justify the demand you have put forward. I am doing what I can to drive things forward on my end, but your demand is simply too high for the board to consider. If you can give me a lower starting point, I think I may be able to get the board to work with you. I really want to find a solution here, please help me do that.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.601811883854216e-29,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 623,
+    "word_count": 131,
+    "token_length": 144,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     1.601811883854216e-29
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987689184599056
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0016051364364102483,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.601811883854216e-29,
+    "std": 1.01412554857238e-15,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.01412554857238e-15,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,76 @@
+{
+ "text_sha256": "2893b078d9dc991b322b7fc8a8c4be395a0c8f33e3e4c8afcf0092c4bad318fd",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:09:09+00:00",
+ "word_count": 131,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We are here. We apologize for not giving you an update yesterday but we already short staffed and could not make to the chat. Please do not reveal anything related to the attack to the public. We're working and juggling a lot to get everyone to get on board with a payment here. It has been tough for us to scramble funds together, but at this moment we have $25k on hand that we can send your way. Unfortunately the bank never got back to us about a loan amount, so we're still waiting to see if they will give us any amount. They aren't too happy about sending money to hackers. Is this something you would make a profit from? How much does it cost you to hack a company?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.7102279440260954e-22,
+  "fraction_ai_assisted": 1.3784389057484765e-26,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We are here. We apologize for not giving you an update yesterday but we already short staffed and could not make to the chat. Please do not reveal anything related to the attack to the public. We're working and juggling a lot to get everyone to get on board with a payment here. It has been tough for us to scramble funds together, but at this moment we have $25k on hand that we can send your way. Unfortunately the bank never got back to us about a loan amount, so we're still waiting to see if they will give us any amount. They aren't too happy about sending money to hackers. Is this something you would make a profit from? How much does it cost you to hack a company?",
+    "label": "Human Written",
+    "ai_assistance_score": 2.7102968589147755e-22,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 673,
+    "word_count": 134,
+    "token_length": 153,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.3784389057484765e-26,
+     2.7102279440260954e-22
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988940229721828
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001485884073190391,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.7102279440260954e-22,
+    "std": 2.1982951483451307e-12,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.198351093177231e-12,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

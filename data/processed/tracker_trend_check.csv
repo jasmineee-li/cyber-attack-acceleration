@@ -1,0 +1,8 @@
+tracker,fit_from,fit_to,trend_growth_per_year,compared_quarters,actual_avg,trend_avg,ratio_to_trend,max_past_ratio,max_past_quarter,margin_log_2022,margin_linear_2022,margin_log_2023,margin_linear_2023,variants_with_acceleration,margin_log_2022_to2024,margin_linear_2022_to2024,margin_log_2023_to2024,margin_linear_2023_to2024,gaps_left_out,verdict
+SlowMist Hacked,2022Q1,2025Q4,-0.136,2026Q2-2026Q3,121.0,56.5,2.14,1.67,2023Q4,1.286,1.218,2.418,3.118,4 of 4,0.595,0.642,0.989,1.031,,acceleration
+Comparitech crypto heists,2022Q1,2025Q4,-0.183,2026Q2-2026Q3,90.5,27.5,3.29,1.67,2023Q3,1.974,2.156,4.008,11.143,4 of 4,1.294,1.288,4.301,,,acceleration
+CertiK,2023Q1,2025Q4,0.001,2026Q2-2026Q3,158.5,93.1,1.7,1.26,2024Q4,1.353,1.355,1.353,1.355,4 of 4,1.15,1.161,1.15,1.161,,acceleration
+rekt.news leaderboard,2022Q1,2025Q4,-0.031,2026Q2-2026Q3,18.5,11.3,1.64,1.64,2025Q3,1.001,0.964,1.09,1.083,0 of 4,0.943,0.892,1.162,1.194,,no clear acceleration
+DeFiHackLabs,2022Q1,2025Q4,0.2,2026Q2-2026Q3,59.0,69.5,0.85,1.62,2022Q4,0.525,0.643,0.912,0.932,0 of 4,0.41,0.567,1.113,1.117,2025Q4,no clear acceleration
+Web3 Is Going Great (hack/scam),2022Q1,2025Q4,-0.266,2026Q2-2026Q3,29.5,16.6,1.78,1.7,2024Q1,1.042,1.525,1.232,1.74,3 of 4,0.831,1.062,0.865,0.912,,unclear
+BlockSec Security Incidents,2023Q1,2025Q4,0.05,2026Q2,29.0,20.7,1.4,1.3,2024Q1,1.082,1.097,1.082,1.097,0 of 4,0.9,0.979,0.9,0.979,,no clear acceleration

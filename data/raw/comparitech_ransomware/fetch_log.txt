@@ -1,0 +1,6 @@
+2023-07: monthly file failed (500); fetching incidents one by one
+2023-07: incident prospect-medical-holdings-inc-2023-07 failed (500), skipped
+WARNING 2023-07: manifest says 80, file has 79
+2024-10: monthly file failed (500); fetching incidents one by one
+2024-10: incident siam-daikin-sales-co-ltd-2024-10 failed (500), skipped
+WARNING 2024-10: manifest says 154, file has 153

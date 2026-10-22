@@ -1,0 +1,76 @@
+{
+ "text_sha256": "923ae531ad37cbd4186923026b832b92f1107553c03dc662537f9a7876d02e45",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:48:08+00:00",
+ "word_count": 112,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Dear Sirs, we are grateful for you and your boss's patience. We must avoid any increase. Do not publish our data. As I said before, we are new to making crypto payments and it is taking more time that we want, but we do intend to pay and resolve this. We are making progress but no certainty on which day and which time. We are grateful for your understanding and I will update you on what day we can begin the transfer to your account. Let me update you on Monday next week on the exact payment date and how much we can transfer. No deal if you choose to publish. [redacted].",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.569654098409892e-22,
+  "fraction_ai_assisted": 4.4573186983632404e-29,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Dear Sirs, we are grateful for you and your boss's patience. We must avoid any increase. Do not publish our data. As I said before, we are new to making crypto payments and it is taking more time that we want, but we do intend to pay and resolve this. We are making progress but no certainty on which day and which time. We are grateful for your understanding and I will update you on what day we can begin the transfer to your account. Let me update you on Monday next week on the exact payment date and how much we can transfer. No deal if you choose to publish. [redacted].",
+    "label": "Human Written",
+    "ai_assistance_score": 1.5696543508453818e-22,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 576,
+    "word_count": 113,
+    "token_length": 129,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.4573183974366866e-29,
+     1.569654224627637e-22
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9986486160363316
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0017361111240461469,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.569654098409892e-22,
+    "std": 1.8083453571376973e-12,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.8083455739781318e-12,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

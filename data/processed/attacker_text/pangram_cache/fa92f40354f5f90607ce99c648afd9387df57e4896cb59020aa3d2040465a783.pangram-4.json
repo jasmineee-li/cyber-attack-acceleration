@@ -1,0 +1,76 @@
+{
+ "text_sha256": "fa92f40354f5f90607ce99c648afd9387df57e4896cb59020aa3d2040465a783",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:03:33+00:00",
+ "word_count": 263,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Good evening Sir, as I predicted on Wednesday or Thursday (sorry, last\nweek was like crazy hell for me, very little sleep, very stressful, and\nalmost no time for my young kids), the charity's leaderhip could not\nmake a decision before the weekend. As predicted they asked me to ask\nyou to delay reply until after the weekend (Monday afternoon), as well\nas to seek, if possible, additional discount to 1M. I told them,\nbluntly, that I'm not sure about additional discount, becasue from what I\nunderstood from you, what your boss already approved was beyond the\nususal discount you give. I left board meeting really frustrated, first\nof all on a personal level, due to the fact that I thought I will have a\nquite weekend, handing over our correspondance to the person who will\ntake care of execution and buying the XMR, but also because I have no\nface to disspoint you. I know that you expect an answer, and I feel bad\nthat I can't deliver any positive results at the moment. I need to ask\nyou for an extension. I'll be here to reply to all your notes, to\nprovide you with any background information you need, and even if you\nwant to exchange weekend receipies. Board and trustees will reconvene\nafter the weekend, on Monday morning, and on the positive side, it gives\nme time to talk and to be successful in persuading them to complete the\ndeal in order to recover all systems by Tuesady/Wednesdy. Thanks in\nadvance for you understandging. I really appreciate it. Respectfully,\n[redacted].",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 4.4609230085456865e-31,
+  "fraction_ai_assisted": 1.5514450522612875e-35,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Good evening Sir, as I predicted on Wednesday or Thursday (sorry, last\nweek was like crazy hell for me, very little sleep, very stressful, and\nalmost no time for my young kids), the charity's leaderhip could not\nmake a decision before the weekend. As predicted they asked me to ask\nyou to delay reply until after the weekend (Monday afternoon), as well\nas to seek, if possible, additional discount to 1M. I told them,\nbluntly, that I'm not sure about additional discount, becasue from what I\nunderstood from you, what your boss already approved was beyond the\nususal discount you give. I left board meeting really frustrated, first\nof all on a personal level, due to the fact that I thought I will have a\nquite weekend, handing over our correspondance to the person who will\ntake care of execution and buying the XMR, but also because I have no\nface to disspoint you. I know that you expect an answer, and I feel bad\nthat I can't deliver any positive results at the moment. I need to ask\nyou for an extension. I'll be here to reply to all your notes, to\nprovide you with any background information you need, and even if you\nwant to exchange weekend receipies. Board and trustees will reconvene\nafter the weekend, on Monday morning, and on the positive side, it gives\nme time to talk and to be successful in persuading them to complete the\ndeal in order to recover all systems by Tuesady/Wednesdy. Thanks in\nadvance for you understandging. I really appreciate it. Respectfully,\n[redacted].",
+    "label": "Human Written",
+    "ai_assistance_score": 4.461000591172841e-31,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 1488,
+    "word_count": 268,
+    "token_length": 331,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.5514451957542503e-35,
+     4.4609230085456865e-31
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.998927853184357
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0013440860202535987,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 4.4609230085456865e-31,
+    "std": 8.482356678649524e-17,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 8.482504247670804e-17,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,76 @@
+{
+ "text_sha256": "b7e30b065eb2e5029c1358366e47c6ecfde222c71ce0a856b24ca4b784fece60",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:01:28+00:00",
+ "word_count": 346,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hello guys,\nI am the person in charge to negotiate with you on behalf of my client.\nThe amount of XMR requested to my client to get the decryption tool, the\nfiles back available and not published in the dark web (I have seen\nsome exfiltrated data are published on your blog) is huge and my client\ncannot afford to fully pay your claims. My client is trying to cope with\nthis difficult situation, since it has been heavily struck by the\ncurrent economic crisis due to the coronavirus pandemic, with a dramatic\nfall of sales in the last months. My client’s net revenues amount to\nEUR 500.000,00 in the last financial statement (2.5 billion as gross\nrevenues, which is a not relevant data if you guys are acquainted with\neconomics). The financial situation of my client has been catastrophic\nsince 2010, with a substantial decrease y/y in net revenues and gross\noperating profits. The cyberattack you have carried out on my client’s\nsystems has blocked the company operation and all its internal\noperations have been shut down including deliveries, and as a\nconsequence my client is not able to fulfil the market with its copper\nproducts and get revenues. My client has already had to make budget cuts\nand fire many of its employees or put them on unemployed insurance,\nwith devastating effects on families and children amid the economic\ncrisis due to Covid19. Therefore, it is impossible for my client to pay\nyou 7.5 million USD. According to my client’s financial condition, I\nthink he might be considering paying a certain amount in order to\nprotect his business and to obtain the decrypting tool for all the files\nvery quickly. However, such amount would be lower than the one you have\nrequested, due to the heavy financial situation. In my personal\nopinion, my client has the financial availability to pay you 500.000 USD\nvery quickly. A greater amount would be very difficult (almost\nimpossible in my very personal opinion) to be paid because of the\ncurrent financial situation. Let me know on this point.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.3959913770976244e-32,
+  "fraction_ai_assisted": 7.062544260197078e-43,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Hello guys,\nI am the person in charge to negotiate with you on behalf of my client.\nThe amount of XMR requested to my client to get the decryption tool, the\nfiles back available and not published in the dark web (I have seen\nsome exfiltrated data are published on your blog) is huge and my client\ncannot afford to fully pay your claims. My client is trying to cope with\nthis difficult situation, since it has been heavily struck by the\ncurrent economic crisis due to the coronavirus pandemic, with a dramatic\nfall of sales in the last months. My client’s net revenues amount to\nEUR 500.000,00 in the last financial statement (2.5 billion as gross\nrevenues, which is a not relevant data if you guys are acquainted with\neconomics). The financial situation of my client has been catastrophic\nsince 2010, with a substantial decrease y/y in net revenues and gross\noperating profits. The cyberattack you have carried out on my client’s\nsystems has blocked the company operation and all its internal\noperations have been shut down including deliveries, and as a\nconsequence my client is not able to fulfil the market with its copper\nproducts and get revenues. My client has already had to make budget cuts\nand fire many of its employees or put them on unemployed insurance,\nwith devastating effects on families and children amid the economic\ncrisis due to Covid19. Therefore, it is impossible for my client to pay\nyou 7.5 million USD. According to my client’s financial condition, I\nthink he might be considering paying a certain amount in order to\nprotect his business and to obtain the decrypting tool for all the files\nvery quickly. However, such amount would be lower than the one you have\nrequested, due to the heavy financial situation. In my personal\nopinion, my client has the financial availability to pay you 500.000 USD\nvery quickly. A greater amount would be very difficult (almost\nimpossible in my very personal opinion) to be paid because of the\ncurrent financial situation. Let me know on this point.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.3959913770976244e-32,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 2008,
+    "word_count": 355,
+    "token_length": 416,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     7.062544260197078e-43,
+     1.3959913770976244e-32
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990458509943728
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0014940239489078522,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.3959913770976244e-32,
+    "std": 1.3700657005803577e-17,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 0.9995020031929016,
+    "std": 1.3700657005803577e-17,
+    "p10": 0.9995020031929016,
+    "p50": 0.9995020031929016,
+    "p90": 0.9995020031929016
+   }
+  }
+ },
+ "error": null
+}

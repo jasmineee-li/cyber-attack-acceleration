@@ -1,0 +1,96 @@
+{
+ "text_sha256": "b88c266e986bcb6d23e4e82c103a6e2f006932e7656ace582e6ceb54c63e7b2a",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:05:26+00:00",
+ "word_count": 72,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Please man. That’s not fair! My boss is going to kill me. You have to give us more time… please! I am sure we can come up with more money, but you're demanding so much from us. Is there any way we can prove to you our financial situation. I can email you our tax records or something from our accountant? You have to believe me man… Please give me more time…",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.5452054788568228e-17,
+  "fraction_ai_assisted": 1.066029117825291e-18,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Please man.",
+    "label": "Human Written",
+    "ai_assistance_score": 5.202413363960461e-16,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 11,
+    "word_count": 2,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.469440003636469e-17,
+     5.028941545758372e-16
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9892702731203206
+   },
+   {
+    "text": " That’s not fair! My boss is going to kill me. You have to give us more time… please! I am sure we can come up with more money, but you're demanding so much from us. Is there any way we can prove to you our financial situation. I can email you our tax records or something from our accountant? You have to believe me man… Please give me more time…",
+    "label": "Human Written",
+    "ai_assistance_score": 8.694150918161954e-29,
+    "confidence": "High",
+    "start_index": 11,
+    "end_index": 358,
+    "word_count": 72,
+    "token_length": 83,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.2681020292193339e-31,
+     8.687810395673166e-29
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9986620766770314
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002793296007439494,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.5452054788568228e-17,
+    "std": 6.890455983565857e-10,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 7.124176248929359e-10,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

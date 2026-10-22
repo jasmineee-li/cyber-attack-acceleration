@@ -1,0 +1,76 @@
+{
+ "text_sha256": "6574390d619bcf61c812a950f95914291a9054a89a98658e56e30310d5832d00",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:50:30+00:00",
+ "word_count": 135,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Did you klook at the tax returns? The PNL are not accurate. Look at the bank statements. they will tell you our situation. We barely have $20K in the bank most of the time. Money comes in slower than it goes out. If you see our 2024 bank statements you will see. We missed payroll 3 weeks ago. I am willing to pay you something. Nothing about this is fair. You are committing a criminal act. I am trying to pay you to commit a criminal act. I just want to move on. Our cashflow is miserable. This virus makes matters even worse. As we are unable to collect any money from any of our clients. You can keep accusing me of cheating but I am offering you want I can without bankrupting the company.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 7.826099083819831e-30,
+  "fraction_ai_assisted": 5.605193857299268e-45,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Did you klook at the tax returns? The PNL are not accurate. Look at the bank statements. they will tell you our situation. We barely have $20K in the bank most of the time. Money comes in slower than it goes out. If you see our 2024 bank statements you will see. We missed payroll 3 weeks ago. I am willing to pay you something. Nothing about this is fair. You are committing a criminal act. I am trying to pay you to commit a criminal act. I just want to move on. Our cashflow is miserable. This virus makes matters even worse. As we are unable to collect any money from any of our clients. You can keep accusing me of cheating but I am offering you want I can without bankrupting the company.",
+    "label": "Human Written",
+    "ai_assistance_score": 7.826099083819831e-30,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 694,
+    "word_count": 135,
+    "token_length": 166,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.605193857299268e-45,
+     7.826099083819831e-30
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9980646836459985
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0014409221475943923,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 7.826099083819831e-30,
+    "std": 5.541865523341766e-16,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 5.541865523341766e-16,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

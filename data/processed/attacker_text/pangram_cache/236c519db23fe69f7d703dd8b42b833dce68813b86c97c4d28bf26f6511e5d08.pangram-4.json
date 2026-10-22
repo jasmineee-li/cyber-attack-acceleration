@@ -1,0 +1,96 @@
+{
+ "text_sha256": "236c519db23fe69f7d703dd8b42b833dce68813b86c97c4d28bf26f6511e5d08",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:43:19+00:00",
+ "word_count": 89,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Welcome. To decrypt this file, we will\nneed to wait for a technician. Decoding of small files is possible in\nautomatic mode. Try to find a file of the desired size on your NAS. You\nshould definitely have them there. After payment, you get a decryptor\nfor all your files. Including your NAS and your virtual machines. We all\nwant this case to end quickly and quietly. You can also find out\ninformation about us on the Internet. The companies we work with always\nget what they pay for.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 6.387817792080641e-13,
+  "fraction_ai_assisted": 6.489311976561797e-17,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Welcome.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.856840888327717e-11,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 8,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.9179220984045596e-15,
+     3.856644864574932e-11
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9524484477161538
+   },
+   {
+    "text": " To decrypt this file, we will\nneed to wait for a technician. Decoding of small files is possible in\nautomatic mode. Try to find a file of the desired size on your NAS. You\nshould definitely have them there. After payment, you get a decryptor\nfor all your files. Including your NAS and your virtual machines. We all\nwant this case to end quickly and quietly. You can also find out\ninformation about us on the Internet. The companies we work with always\nget what they pay for.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.2599180981297633e-29,
+    "confidence": "High",
+    "start_index": 8,
+    "end_index": 483,
+    "word_count": 88,
+    "token_length": 102,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.368194404708941e-43,
+     3.2599180981297633e-29
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9982145460004582
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0020703934133052826,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 6.387817792080641e-13,
+    "std": 1.0286027674055731e-07,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.0286549922966515e-07,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

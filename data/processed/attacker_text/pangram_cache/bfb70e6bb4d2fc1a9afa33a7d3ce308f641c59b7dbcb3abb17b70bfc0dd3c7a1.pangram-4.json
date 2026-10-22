@@ -1,0 +1,96 @@
+{
+ "text_sha256": "bfb70e6bb4d2fc1a9afa33a7d3ce308f641c59b7dbcb3abb17b70bfc0dd3c7a1",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:40:28+00:00",
+ "word_count": 59,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "So you just had a meeting about finances. What do you have to offer? We are willing to make an additional discount and accept payment from you today. The price will be 60,000 dollars. That's a very good discount. We're ready to make the deal today and start rebuilding you. It's up to you. Time is running out today.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.7310807260838453e-14,
+  "fraction_ai_assisted": 2.845820590594972e-29,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "So you just had a meeting about finances. What do you have to offer? We are willing to make an additional discount and accept payment from you today. The price will be 60,000 dollars. That's a very good discount. We're ready to make the deal today and start rebuilding you. It's up to you.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.388448631641491e-17,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 289,
+    "word_count": 58,
+    "token_length": 70,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.3020577988483865e-36,
+     1.388448631641491e-17
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9940736121314391
+   },
+   {
+    "text": " Time is running out today.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.0245193325593713e-13,
+    "confidence": "Medium",
+    "start_index": 289,
+    "end_index": 316,
+    "word_count": 5,
+    "token_length": 6,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.3306635235181827e-28,
+     2.0245193325593713e-13
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9817138980542107
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0031645570416003466,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.7310807260838453e-14,
+    "std": 3.846452756306462e-08,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.846452756306462e-08,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

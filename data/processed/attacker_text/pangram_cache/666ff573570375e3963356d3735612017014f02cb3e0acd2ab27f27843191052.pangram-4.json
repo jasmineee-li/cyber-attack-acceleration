@@ -1,0 +1,96 @@
+{
+ "text_sha256": "666ff573570375e3963356d3735612017014f02cb3e0acd2ab27f27843191052",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:59:16+00:00",
+ "word_count": 53,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "What? That makes very little sense. Especially when you admit to us that you could be bluffing and the reasoning is based on some kind of scheme. Can we just stop with the games? It's childish and we are dealing with enough problems as it is- just send us the full list please.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 3.665381935686121e-14,
+  "fraction_ai_assisted": 7.329118806333732e-16,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "What?",
+    "label": "Human Written",
+    "ai_assistance_score": 2.0509232333265626e-12,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 5,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.0603317149473517e-14,
+     2.0306215476467715e-12
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9729837107667858
+   },
+   {
+    "text": " That makes very little sense. Especially when you admit to us that you could be bluffing and the reasoning is based on some kind of scheme. Can we just stop with the games? It's childish and we are dealing with enough problems as it is- just send us the full list please.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.465050542198539e-32,
+    "confidence": "High",
+    "start_index": 5,
+    "end_index": 277,
+    "word_count": 53,
+    "token_length": 61,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.7495359215188963e-37,
+     3.465036730139917e-32
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9986839769604735
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.003610108280554414,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 3.665381935686121e-14,
+    "std": 2.5722000529526667e-08,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.5977890061312792e-08,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

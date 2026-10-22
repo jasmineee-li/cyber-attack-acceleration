@@ -1,0 +1,96 @@
+{
+ "text_sha256": "d3c34144b4b325ebab881e023261750a0c03991b2e9921a45f2009d2527e4719",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:56:43+00:00",
+ "word_count": 85,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "[redacted]: We took this management and discussed. They were certainly appreciative of you being able to include the decryptor in the $600,000 price. While the price itself is still high for us, we feel more confident in being able to move past this with you. We may be paying more than the value, but want to keep the positivity in our discussions. As a result, we can increase our offer to $450,000 and can begin the transfer soon if you are with us. Thank you.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.674325265904741e-15,
+  "fraction_ai_assisted": 1.5395541137034357e-19,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "[redacted]: We took this management and discussed. They were certainly appreciative of you being able to include the decryptor in the $600,000 price. While the price itself is still high for us, we feel more confident in being able to move past this with you. We may be paying more than the value, but want to keep the positivity in our discussions. As a result, we can increase our offer to $450,000 and can begin the transfer soon if you are with us.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.793494955046713e-41,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 452,
+    "word_count": 85,
+    "token_length": 111,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     6.793494955046713e-41
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989095109813579
+   },
+   {
+    "text": " Thank you.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.1256801561851035e-13,
+    "confidence": "Medium",
+    "start_index": 452,
+    "end_index": 463,
+    "word_count": 2,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     6.480122992573068e-18,
+     1.1256477656452005e-13
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9817629179331306
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0021598271559923887,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.674325265904741e-15,
+    "std": 7.971002524698179e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 7.971231674730461e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

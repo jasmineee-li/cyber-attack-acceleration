@@ -1,0 +1,76 @@
+{
+ "text_sha256": "060dfc594259f186a164cb2a8b635a2e43c8ce223788ec7c329e04361c723356",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:39:52+00:00",
+ "word_count": 125,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Here are your files:\nArchive Link - https://limewire.com/d/[Redacted]\nArchive Password - 7o6iFf(sT)8pFGW32q4Y\nYou had enough time to reach out in time and then your name would not appear on our website. But you’ve ignored the timeline. So, now your name will be taken down after we make a deal and you pay ONLY. There’s no other way at this point. No need saying anything about that anymore.\nUnfortunately, this is non-negotiable at this point. It will be taken down immediately after the deal is closed.\nDon’t make us repeat same things again and again. Your name up on our website is your fault only.\nYou have to be active and strictly constructive. The soonest you pay - the soonest your name will be taken down.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 6.172949390463864e-24,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Here are your files:\nArchive Link - https://limewire.com/d/[Redacted]\nArchive Password - 7o6iFf(sT)8pFGW32q4Y\nYou had enough time to reach out in time and then your name would not appear on our website. But you’ve ignored the timeline. So, now your name will be taken down after we make a deal and you pay ONLY. There’s no other way at this point. No need saying anything about that anymore.\nUnfortunately, this is non-negotiable at this point. It will be taken down immediately after the deal is closed.\nDon’t make us repeat same things again and again. Your name up on our website is your fault only.\nYou have to be active and strictly constructive. The soonest you pay - the soonest your name will be taken down.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.1729489960334114e-24,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 715,
+    "word_count": 132,
+    "token_length": 175,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     6.1729489960334114e-24
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9976668816149327
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001398601452820003,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 6.172949390463864e-24,
+    "std": 5.342898432708632e-13,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 5.342898432708632e-13,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

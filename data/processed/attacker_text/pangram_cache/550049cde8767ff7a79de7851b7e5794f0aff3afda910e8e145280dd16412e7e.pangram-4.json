@@ -1,0 +1,116 @@
+{
+ "text_sha256": "550049cde8767ff7a79de7851b7e5794f0aff3afda910e8e145280dd16412e7e",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:07:18+00:00",
+ "word_count": 69,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Good morning. If this is what I hope it is, thank you very much. I am so relieved that these people will keep their businesses and their livelihoods. You have made this old man very happy. If there is anything I can do for you, please let me know. I can be contacted at [redacted]@gmail.com or +61 [redacted]. I want to give you a big hug. Thank you again.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.8996632026913327e-13,
+  "fraction_ai_assisted": 8.336492845865962e-14,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 3,
+  "windows": [
+   {
+    "text": "Good morning.",
+    "label": "Human Written",
+    "ai_assistance_score": 8.529607575802345e-12,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 13,
+    "word_count": 2,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.2422912051428545e-12,
+     7.4084618648107e-12
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9625564139830184
+   },
+   {
+    "text": " If this is what I hope it is, thank you very much. I am so relieved that these people will keep their businesses and their livelihoods. You have made this old man very happy. If there is anything I can do for you, please let me know. I can be contacted at [redacted]@gmail.com or +61 [redacted]. I want to give you a big hug.",
+    "label": "Human Written",
+    "ai_assistance_score": 7.793891336062668e-28,
+    "confidence": "High",
+    "start_index": 13,
+    "end_index": 339,
+    "word_count": 66,
+    "token_length": 85,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.98873843508998e-29,
+     7.644454098335287e-28
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9975121356298949
+   },
+   {
+    "text": " Thank you again.",
+    "label": "Human Written",
+    "ai_assistance_score": 4.2247469086466316e-13,
+    "confidence": "Medium",
+    "start_index": 339,
+    "end_index": 356,
+    "word_count": 3,
+    "token_length": 4,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.1066417342275054e-14,
+     4.069414618647349e-13
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9773000171536393
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002808988792821765,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.8996632026913327e-13,
+    "std": 1.0395672944696344e-07,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.1776202768487565e-07,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

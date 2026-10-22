@@ -1,0 +1,96 @@
+{
+ "text_sha256": "15ffd8b0b9725b0924244521fa162159fd140b24874a82f13bfb62b7f297fb65",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:06:35+00:00",
+ "word_count": 109,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We were under the clear impression, based on your previous message, that you were offering a significantly better price. Right now, the lack of clarity and simply reiterating the justification for such a high price isn't helping either of us move this forward. We need to see meaningful movement on your end.\nWe're actively working on our side to put together a serious offer, but at this point it feels like we may be too far apart. The last thing we want is to waste time or risk misunderstanding, so we need to know if you're willing to meet us somewhere more reasonable. Can you offer a concrete discount?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 1.0,
+  "fraction_ai_assisted": 2.0581546110026443e-19,
+  "fraction_human": 5.816078955250825e-12,
+  "headline": "AI Generated",
+  "num_ai_segments": 2,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "We were under the clear impression, based on your previous message, that you were offering a significantly better price. Right now, the lack of clarity and simply reiterating the justification for such a high price isn't helping either of us move this forward. We need to see meaningful movement on your end.\nWe're actively working on our side to put together a serious offer, but at this point it feels like we may be too far apart. The last thing we want is to waste time or risk misunderstanding, so we need to know if you're willing to meet us somewhere more reasonable.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 574,
+    "word_count": 106,
+    "token_length": 117,
+    "is_humanized": false,
+    "humanizer_score": 0.019035320729017258,
+    "class_probabilities": [
+     6.395254732290124e-24,
+     3.79546225590959e-31,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9980182497424165
+   },
+   {
+    "text": " Can you offer a concrete discount?",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 574,
+    "end_index": 609,
+    "word_count": 6,
+    "token_length": 7,
+    "is_humanized": false,
+    "humanizer_score": 0.019035320729017258,
+    "class_probabilities": [
+     1.0119977078559828e-10,
+     3.5811891265421776e-18,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9496322353693637
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0016420361353084445,
+   "human": 0.0,
+   "mixed": 0.0,
+   "ai": 1.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.0,
+    "std": 5.781499794466072e-07,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   },
+   "human_coverage": {
+    "mean": 5.816078955250825e-12,
+    "std": 5.781499794466072e-07,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

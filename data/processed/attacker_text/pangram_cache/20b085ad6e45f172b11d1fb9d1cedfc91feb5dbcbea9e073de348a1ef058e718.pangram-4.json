@@ -1,0 +1,76 @@
+{
+ "text_sha256": "20b085ad6e45f172b11d1fb9d1cedfc91feb5dbcbea9e073de348a1ef058e718",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:40:05+00:00",
+ "word_count": 92,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "to increase our offer to you,\nWhat’s wrong with you??? You haven’t offered even anything. What are you talking about?\nWe allow you to request for 3 more files but no more further and today only.\nYou’ve ignored this. So, you’ve lost your chance. Looks like you find it a game. Well, even if it is - we set rules. We will not provide you with any more files you request.\nBut we will now send you some more files we’ve picked while investigating your data. Just hold on for a while.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.345198874749261e-29,
+  "fraction_ai_assisted": 2.3289851320045644e-36,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "to increase our offer to you,\nWhat’s wrong with you??? You haven’t offered even anything. What are you talking about?\nWe allow you to request for 3 more files but no more further and today only.\nYou’ve ignored this. So, you’ve lost your chance. Looks like you find it a game. Well, even if it is - we set rules. We will not provide you with any more files you request.\nBut we will now send you some more files we’ve picked while investigating your data. Just hold on for a while.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.3451990252125378e-29,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 479,
+    "word_count": 96,
+    "token_length": 113,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.3289851320045644e-36,
+     2.345198874749261e-29
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.998450568199282
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002087682718411088,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.345198874749261e-29,
+    "std": 1.013993834949082e-15,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.013993834949082e-15,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

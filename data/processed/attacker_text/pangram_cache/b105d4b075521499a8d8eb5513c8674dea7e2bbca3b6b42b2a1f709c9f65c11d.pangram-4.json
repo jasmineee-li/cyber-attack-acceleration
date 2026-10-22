@@ -1,0 +1,76 @@
+{
+ "text_sha256": "b105d4b075521499a8d8eb5513c8674dea7e2bbca3b6b42b2a1f709c9f65c11d",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:02:39+00:00",
+ "word_count": 119,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "I told you that our office is in greece and if you read the news we are\nclosed by lockdown and it was the worst year for any office here in\ngreece so such an amount unfortunately is not something that is\nfeasible.\nSo please consider if you can really help us work with you in some way.\nWe have about 2 days until weekend to decide because new equipment has\nbeen ordered to set everything from scratch. Hopefully the most\nimportant system from our operation is up and running today. We are\nmissing a lot of data still and in 1=2 days we will have a total\nestimation of losses that require manual work.\nThank you for communication.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.638858845960973e-24,
+  "fraction_ai_assisted": 6.111931456275602e-29,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "I told you that our office is in greece and if you read the news we are\nclosed by lockdown and it was the worst year for any office here in\ngreece so such an amount unfortunately is not something that is\nfeasible.\nSo please consider if you can really help us work with you in some way.\nWe have about 2 days until weekend to decide because new equipment has\nbeen ordered to set everything from scratch. Hopefully the most\nimportant system from our operation is up and running today. We are\nmissing a lot of data still and in 1=2 days we will have a total\nestimation of losses that require manual work.\nThank you for communication.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.6388896115362765e-24,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 629,
+    "word_count": 120,
+    "token_length": 133,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     6.111932058128709e-29,
+     2.638859043176199e-24
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988895329244796
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0015898251440376043,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.638858845960973e-24,
+    "std": 3.488042374464456e-13,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.4880827609953813e-13,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,116 @@
+{
+ "text_sha256": "d32fba0d4a2b9de3ddbffb5b268445e050f36d5013d02935217b0b8a59cc7753",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:34:53+00:00",
+ "word_count": 395,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We don't want you take this as a threat but we think your management don't fully understand the consequences that could appear after our further actions. Let me clarify something more:\nThe personal data of your employees, clients and partners, now at our hands. But if you don't pay, it will be released to public. At the most basic level, they face the risk of identity theft, which can manifest in unauthorized loans, financial losses, and other forms of personal fraud. Because your files are saturated with financial data as well, it makes such scenario even more possible. But the risks don't stop at financial implications. With such data. We are willing to give it back, but if it gets published, more even criminals can engage in targeted blackmail schemes, zeroing in on employees, especially those holding pivotal positions within the company. By doing so, they (or we) could coerce your people into acting against your company's best interests. Moreover, the exposure of personal details like home addresses or daily routines could pose a direct threat to the physical safety of employees, making them vulnerable to potential harm or intimidation\nDrawings, logos, formats, internal mail correspondence with your clients and employees, email templates with authentic templates and structures. Now when we have your templates, we can weaponize them to launch convincing phishing attacks if you don't pay. We will mislead employees, clients, or vendors into unintentionally opening our malware and ransomware. This use of your templates can harm your reputation as well. Your stakeholders will begin to question the company's integrity and ability to safeguard critical information, leading to an erosion of trust.\nAccounting files, documents, and audits. When this financial information becomes public on our blog, competitors, upon obtaining this data, could gain invaluable insights into your company's financial health and strategic direction making. Such knowledge would offer them an undue competitive advantage, potentially undermining the company's market position. Furthermore, regulatory bodies might penalize the company for failing to adequately safeguard sensitive data, leading to hefty fines and further erosion of stakeholder trust.\nTry to calculate possible loses from lawsuits, penalties and total loss of your clients. Reputational damage for your business is really deadly.\nYou have to estimate this payment not as a loss or ransom, it is your investment in your company's future. Without getting a deal here your business is fated.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 3.028834642945441e-14,
+  "fraction_ai_assisted": 5.782465682917889e-26,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 3,
+  "windows": [
+   {
+    "text": "We don't want you take this as a threat but we think your management don't fully understand the consequences that could appear after our further actions. Let me clarify something more:\nThe personal data of your employees, clients and partners, now at our hands. But if you don't pay, it will be released to public. At the most basic level, they face the risk of identity theft, which can manifest in unauthorized loans, financial losses, and other forms of personal fraud. Because your files are saturated with financial data as well, it makes such scenario even more possible.",
+    "label": "Human Written",
+    "ai_assistance_score": 4.740592704810856e-42,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 577,
+    "word_count": 101,
+    "token_length": 115,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     4.740592704810856e-42
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9985508017669662
+   },
+   {
+    "text": " But the risks don't stop at financial implications. With such data.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.1402672426066851e-12,
+    "confidence": "Medium",
+    "start_index": 577,
+    "end_index": 645,
+    "word_count": 12,
+    "token_length": 14,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.1769283267038733e-24,
+     1.1402672426066851e-12
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9752853846916404
+   },
+   {
+    "text": " We are willing to give it back, but if it gets published, more even criminals can engage in targeted blackmail schemes, zeroing in on employees, especially those holding pivotal positions within the company. By doing so, they (or we) could coerce your people into acting against your company's best interests. Moreover, the exposure of personal details like home addresses or daily routines could pose a direct threat to the physical safety of employees, making them vulnerable to potential harm or intimidation\nDrawings, logos, formats, internal mail correspondence with your clients and employees, email templates with authentic templates and structures. Now when we have your templates, we can weaponize them to launch convincing phishing attacks if you don't pay. We will mislead employees, clients, or vendors into unintentionally opening our malware and ransomware. This use of your templates can harm your reputation as well. Your stakeholders will begin to question the company's integrity and ability to safeguard critical information, leading to an erosion of trust.\nAccounting files, documents, and audits. When this financial information becomes public on our blog, competitors, upon obtaining this data, could gain invaluable insights into your company's financial health and strategic direction making. Such knowledge would offer them an undue competitive advantage, potentially undermining the company's market position. Furthermore, regulatory bodies might penalize the company for failing to adequately safeguard sensitive data, leading to hefty fines and further erosion of stakeholder trust.\nTry to calculate possible loses from lawsuits, penalties and total loss of your clients. Reputational damage for your business is really deadly.\nYou have to estimate this payment not as a loss or ransom, it is your investment in your company's future. Without getting a deal here your business is fated.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.662486770025613e-32,
+    "confidence": "High",
+    "start_index": 645,
+    "end_index": 2560,
+    "word_count": 292,
+    "token_length": 360,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     2.662486770025613e-32
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987901449828723
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0011718750465661287,
+   "human": 1.0,
+   "mixed": 1.1102230246251565e-16,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 3.12765492758299e-14,
+    "std": 2.5194029973363286e-08,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 0.9996093511581421,
+    "std": 2.5194029973363286e-08,
+    "p10": 0.9996093511581421,
+    "p50": 0.9996093511581421,
+    "p90": 0.9996093511581421
+   }
+  }
+ },
+ "error": null
+}

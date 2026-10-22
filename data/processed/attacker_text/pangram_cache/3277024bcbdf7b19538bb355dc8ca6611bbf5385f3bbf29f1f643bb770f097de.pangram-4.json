@@ -1,0 +1,76 @@
+{
+ "text_sha256": "3277024bcbdf7b19538bb355dc8ca6611bbf5385f3bbf29f1f643bb770f097de",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:07:24+00:00",
+ "word_count": 89,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We recognize and respect the effort you have made to move this forward. As a small county and limited resources, we are doing our best to navigate this within what is financially feasible for us. That said, we are committed to finding a resolution and have taken steps internally to increase our offer to $430,000. This reflects a sincere attempt to make progress despite our constraints. We ask that you consider this proposal as part of a continued effort to resolve the matter in a constructive and timely manner.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 1.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.6129446617124357e-29,
+  "headline": "AI Generated",
+  "num_ai_segments": 1,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "We recognize and respect the effort you have made to move this forward. As a small county and limited resources, we are doing our best to navigate this within what is financially feasible for us. That said, we are committed to finding a resolution and have taken steps internally to increase our offer to $430,000. This reflects a sincere attempt to make progress despite our constraints. We ask that you consider this proposal as part of a continued effort to resolve the matter in a constructive and timely manner.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 516,
+    "word_count": 90,
+    "token_length": 103,
+    "is_humanized": false,
+    "humanizer_score": 0.010137470439076424,
+    "class_probabilities": [
+     1.6129445112491588e-29,
+     0.0,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.998498442595058
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0019379844889044762,
+   "human": 0.0,
+   "mixed": 0.0,
+   "ai": 1.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.0,
+    "std": 1.4897522302684436e-15,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   },
+   "human_coverage": {
+    "mean": 1.6129446617124357e-29,
+    "std": 1.4897522302684436e-15,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

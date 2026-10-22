@@ -1,0 +1,136 @@
+{
+ "text_sha256": "375c2028d2aa33489aa26cb050504becd47f65f4fe3d66a04c84b690c8830f62",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:34:59+00:00",
+ "word_count": 217,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We think your management don't fully understand the consequences that could appear after our further actions. Let me clarify something more:\nThe personal data of your employees, clients and partners, now at our hands. But if you don't pay, it will be released to public. At the most basic level, they face the risk of identity theft, which can manifest in unauthorized loans, financial losses, and other forms of personal fraud. Because your files are saturated with financial data as well, it makes such scenario even more possible. But the risks don't stop at financial implications. With such data. We are willing to give it back, but if it gets published, more even criminals can engage in targeted blackmail schemes, zeroing in on employees, especially those holding pivotal positions within the company. By doing so, they (or we) could coerce your people into acting against your company's best interests. Moreover, the exposure of personal details like home addresses or daily routines could pose a direct threat to the physical safety of employees, making them vulnerable to potential harm or intimidation. Try to calculate possible loses from lawsuits, penalties and total loss of your clients. Reputational damage for your business is really deadly. $150,000 and we will get this over with. Neither 90k nor 100k will be accepted.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.314360815740656e-07,
+  "fraction_ai_assisted": 4.542496803901066e-23,
+  "fraction_human": 0.9999998807907104,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 4,
+  "windows": [
+   {
+    "text": "We think your management don't fully understand the consequences that could appear after our further actions. Let me clarify something more:\nThe personal data of your employees, clients and partners, now at our hands. But if you don't pay, it will be released to public. At the most basic level, they face the risk of identity theft, which can manifest in unauthorized loans, financial losses, and other forms of personal fraud. Because your files are saturated with financial data as well, it makes such scenario even more possible.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.8823246086661405e-21,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 533,
+    "word_count": 90,
+    "token_length": 104,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     1.8823246086661405e-21
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9971461573699726
+   },
+   {
+    "text": " But the risks don't stop at financial implications.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.384462161193369e-06,
+    "confidence": "Low",
+    "start_index": 533,
+    "end_index": 585,
+    "word_count": 9,
+    "token_length": 10,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     0.9999966025352478,
+     2.3215820610071487e-37,
+     3.384462161193369e-06
+    ],
+    "confidence_score": 0.9999966025352478,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.7271657596705399
+   },
+   {
+    "text": " With such data.",
+    "label": "Human Written",
+    "ai_assistance_score": 5.452870793787312e-11,
+    "confidence": "Medium",
+    "start_index": 585,
+    "end_index": 601,
+    "word_count": 3,
+    "token_length": 4,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.801501971546722e-21,
+     5.452870793787312e-11
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9524484477161538
+   },
+   {
+    "text": " We are willing to give it back, but if it gets published, more even criminals can engage in targeted blackmail schemes, zeroing in on employees, especially those holding pivotal positions within the company. By doing so, they (or we) could coerce your people into acting against your company's best interests. Moreover, the exposure of personal details like home addresses or daily routines could pose a direct threat to the physical safety of employees, making them vulnerable to potential harm or intimidation. Try to calculate possible loses from lawsuits, penalties and total loss of your clients. Reputational damage for your business is really deadly. $150,000 and we will get this over with. Neither 90k nor 100k will be accepted.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.64652569558166e-42,
+    "confidence": "High",
+    "start_index": 601,
+    "end_index": 1339,
+    "word_count": 120,
+    "token_length": 157,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     1.64652569558166e-42
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9983497178370065
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0014936520019546151,
+   "human": 1.0,
+   "mixed": 1.1102230246251565e-16,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.314360815740656e-07,
+    "std": 7.144457777030766e-05,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 0.9999998807907104,
+    "std": 7.007065141806379e-05,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

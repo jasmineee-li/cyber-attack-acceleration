@@ -1,0 +1,76 @@
+{
+ "text_sha256": "797ffc21e73a365884f210b14760a631ec15a3cf8c523a5b82bc62ee91d8a5e9",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:54:34+00:00",
+ "word_count": 99,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Our leadership wants this to come to an end for both of us so we can get back to normality. They would like to offer $39,250 with all fees included. This would include the decryptor with any assistance we may need with it, proof that all our data has been removed from your systems and deleted with the promise not to ask for any additional money for anything after payment is received, a detailed explanation on how you got into our systems, and the promise to never attack us again. Please accept this offer so we can move on.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 6.380535031532959e-27,
+  "fraction_ai_assisted": 4.111409694329013e-42,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Our leadership wants this to come to an end for both of us so we can get back to normality. They would like to offer $39,250 with all fees included. This would include the decryptor with any assistance we may need with it, proof that all our data has been removed from your systems and deleted with the promise not to ask for any additional money for anything after payment is received, a detailed explanation on how you got into our systems, and the promise to never attack us again. Please accept this offer so we can move on.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.380535031532959e-27,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 528,
+    "word_count": 100,
+    "token_length": 113,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.111409694329013e-42,
+     6.380535031532959e-27
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988051481727113
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0018939394503831863,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 6.380535031532959e-27,
+    "std": 2.3058864320464438e-14,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.3058864320464438e-14,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

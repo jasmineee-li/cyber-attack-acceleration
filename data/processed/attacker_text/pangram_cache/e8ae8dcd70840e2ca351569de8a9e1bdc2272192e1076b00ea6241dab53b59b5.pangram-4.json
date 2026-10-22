@@ -1,0 +1,96 @@
+{
+ "text_sha256": "e8ae8dcd70840e2ca351569de8a9e1bdc2272192e1076b00ea6241dab53b59b5",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:45:28+00:00",
+ "word_count": 90,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We studied your revenue data. we found information that the revenue is about $100 million. in addition, your site translates to the site of a large california company with $1 billion in revenue. based on this, the requested amount is quite real. pay and no one will ever know about the attack. we will return all your files and tell you about the attack, and delete your data from our servers forever. if you delay and do not negotiate actively, we will publish a post about you on our blog.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 6.740830055724775e-18,
+  "fraction_ai_assisted": 3.220881685272661e-20,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "We studied your revenue data.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.144018845127215e-16,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 29,
+    "word_count": 5,
+    "token_length": 6,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.453285898965693e-19,
+     1.1412921931304443e-16
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9892909364252322
+   },
+   {
+    "text": " we found information that the revenue is about $100 million. in addition, your site translates to the site of a large california company with $1 billion in revenue. based on this, the requested amount is quite real. pay and no one will ever know about the attack. we will return all your files and tell you about the attack, and delete your data from our servers forever. if you delay and do not negotiate actively, we will publish a post about you on our blog.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.164864650869093e-25,
+    "confidence": "High",
+    "start_index": 29,
+    "end_index": 491,
+    "word_count": 85,
+    "token_length": 100,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.602729412087861e-29,
+     6.164734488819732e-25
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9978870770613164
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0020366599783301353,
+   "human": 1.0,
+   "mixed": 1.1102230246251565e-16,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 6.740830055724775e-18,
+    "std": 6.309791023006994e-10,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 6.324847312555448e-10,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

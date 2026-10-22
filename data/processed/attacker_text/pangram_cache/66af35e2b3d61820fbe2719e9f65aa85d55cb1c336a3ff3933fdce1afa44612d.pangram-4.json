@@ -1,0 +1,76 @@
+{
+ "text_sha256": "66af35e2b3d61820fbe2719e9f65aa85d55cb1c336a3ff3933fdce1afa44612d",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:56:18+00:00",
+ "word_count": 70,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "[redacted]: Were certainly moving much quicker than wed like but its difficult to get the bank to make rapid decisions. Based on a discussion with them, we have preliminary approval for $3,100,000. They are still viewing this as a major risk but we continue to pressure them for assistance. We wanted to give you an update immediately even though they are still completing their review. We will wait for you.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 7.114786233979771e-22,
+  "fraction_ai_assisted": 1.7310647785793026e-20,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "[redacted]: Were certainly moving much quicker than wed like but its difficult to get the bank to make rapid decisions. Based on a discussion with them, we have preliminary approval for $3,100,000. They are still viewing this as a major risk but we continue to pressure them for assistance. We wanted to give you an update immediately even though they are still completing their review. We will wait for you.",
+    "label": "Human Written",
+    "ai_assistance_score": 9.366802617268686e-21,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 408,
+    "word_count": 72,
+    "token_length": 89,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.7310647785793026e-20,
+     7.114786233979771e-22
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9981877337352163
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0024509804788976908,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 7.114786233979771e-22,
+    "std": 6.193871370657744e-12,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.1173407605278314e-11,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,96 @@
+{
+ "text_sha256": "917b4d68a6dae056bdf6dcd03b1976ffc0e2ecf6bd43216a538633708c80bee6",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:43:10+00:00",
+ "word_count": 128,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Welcome. Your Servers have been\nencrypted by us. To decipher and restore the functionality of your\nnetwork, you have to pay us $1,000,000 in Bitcoin. Additionally I\ninform you that we have about a million files from your servers\nconcerning your patients. As well as contracts with partners and\nconfidential agreements. Medical histories, doctor's appointments,\nprescriptions, ultrasound images, and personal data. In the event that\nyou do not pay the ransom, this data will be published in our public\nblog. The amount of $ 1,000,000 is not big for your company. We did not\nput a high price, because we respect health care. We offer to solve\neverything quickly and without too much noise. You pay, we give you a\ndecryptor and destroy your data from our servers",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.6004057887958334e-12,
+  "fraction_ai_assisted": 7.50248266092227e-18,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Welcome.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.518388609289545e-10,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 8,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     7.117980491758429e-16,
+     1.5183850010647149e-10
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9439935064935066
+   },
+   {
+    "text": " Your Servers have been\nencrypted by us. To decipher and restore the functionality of your\nnetwork, you have to pay us $1,000,000 in Bitcoin. Additionally I\ninform you that we have about a million files from your servers\nconcerning your patients. As well as contracts with partners and\nconfidential agreements. Medical histories, doctor's appointments,\nprescriptions, ultrasound images, and personal data. In the event that\nyou do not pay the ransom, this data will be published in our public\nblog. The amount of $ 1,000,000 is not big for your company. We did not\nput a high price, because we respect health care. We offer to solve\neverything quickly and without too much noise. You pay, we give you a\ndecryptor and destroy your data from our servers",
+    "label": "Human Written",
+    "ai_assistance_score": 5.278928078500118e-37,
+    "confidence": "High",
+    "start_index": 8,
+    "end_index": 759,
+    "word_count": 131,
+    "token_length": 167,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     5.278928078500118e-37
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.99885302111334
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0013175230706110597,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.6004057887958334e-12,
+    "std": 1.298790692771945e-07,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.2987936770514352e-07,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

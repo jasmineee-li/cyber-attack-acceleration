@@ -1,0 +1,136 @@
+{
+ "text_sha256": "3e7eac677a6e3317a5510935ba6b1672fd2de777ad2e86598937e56e73a6c958",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:46:22+00:00",
+ "word_count": 90,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We appreciate your willingness to negotiate, and we want to be clear that we are not trying to fool you. Any and all funds in our accounts have been borrowewd and is already expensed, meaning it does not belong to us. We would like to offer $90.000 based on what we believe we are able to pull together. We know this is lower than you expect, and please know we are truly doing our best to survive here. If we can pay this relatively quickly, would you accept this amount?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 8.085797986723264e-08,
+  "fraction_ai_assisted": 4.878570433788323e-29,
+  "fraction_human": 0.9999999403953552,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 4,
+  "windows": [
+   {
+    "text": "We appreciate your willingness to negotiate, and we want to be clear that we are not trying to fool you.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.6539254261169773e-11,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 104,
+    "word_count": 20,
+    "token_length": 22,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     7.503155760509069e-35,
+     3.6539254261169773e-11
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9524484477161538
+   },
+   {
+    "text": " Any and all funds in our accounts have been borrowewd and is already expensed, meaning it does not belong to us. We would like to offer $90.000 based on what we believe we are able to pull together.",
+    "label": "Human Written",
+    "ai_assistance_score": 9.943235934042599e-24,
+    "confidence": "High",
+    "start_index": 104,
+    "end_index": 303,
+    "word_count": 39,
+    "token_length": 51,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     8.828180325246348e-44,
+     9.943235934042599e-24
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9962086906697472
+   },
+   {
+    "text": " We know this is lower than you expect, and please know we are truly doing our best to survive here.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.816116418420279e-07,
+    "confidence": "Low",
+    "start_index": 303,
+    "end_index": 403,
+    "word_count": 20,
+    "token_length": 22,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     0.9999996423721313,
+     1.4163061242492061e-36,
+     3.816116418420279e-07
+    ],
+    "confidence_score": 0.9999996423721313,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.7836426914153133
+   },
+   {
+    "text": " If we can pay this relatively quickly, would you accept this amount?",
+    "label": "Human Written",
+    "ai_assistance_score": 2.0055387556970833e-15,
+    "confidence": "Medium",
+    "start_index": 403,
+    "end_index": 472,
+    "word_count": 12,
+    "token_length": 14,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.3372237223912517e-28,
+     2.0055387556970833e-15
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9885824464565888
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Low",
+   "boundary": "human"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0021186440717428923,
+   "human": 0.9999996423721313,
+   "mixed": 3.816481921603554e-07,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 8.085797986723264e-08,
+    "std": 0.00013088539708405733,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 0.9999999403953552,
+    "std": 0.00013088539708405733,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

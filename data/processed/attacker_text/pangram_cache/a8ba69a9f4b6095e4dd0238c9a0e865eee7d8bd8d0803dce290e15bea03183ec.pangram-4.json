@@ -1,0 +1,76 @@
+{
+ "text_sha256": "a8ba69a9f4b6095e4dd0238c9a0e865eee7d8bd8d0803dce290e15bea03183ec",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:10:28+00:00",
+ "word_count": 115,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We want to get to a deal as quickly as possible. After discussions with the board and reviewing our financials, we are looking to increase our offer to be between $250K to $400K. We want to settle today so hopefully you can understand our position and we can close this deal. For the amount within the range, we would like the decryption software, support for it, you said you had data of ours so we would like a listing of the documents and some type of deletion log to prove you no longer have it, explain how you got into our network, and to never attack us again. We look forward to your positive response.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 5.291152851356317e-30,
+  "fraction_ai_assisted": 3.29305139116332e-43,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We want to get to a deal as quickly as possible. After discussions with the board and reviewing our financials, we are looking to increase our offer to be between $250K to $400K. We want to settle today so hopefully you can understand our position and we can close this deal. For the amount within the range, we would like the decryption software, support for it, you said you had data of ours so we would like a listing of the documents and some type of deletion log to prove you no longer have it, explain how you got into our network, and to never attack us again. We look forward to your positive response.",
+    "label": "Human Written",
+    "ai_assistance_score": 5.2911524751981246e-30,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 610,
+    "word_count": 115,
+    "token_length": 136,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.29305139116332e-43,
+     5.2911524751981246e-30
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988880807438977
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0016393442638218403,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 5.291152851356317e-30,
+    "std": 6.107232487063225e-16,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 6.107232487063225e-16,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

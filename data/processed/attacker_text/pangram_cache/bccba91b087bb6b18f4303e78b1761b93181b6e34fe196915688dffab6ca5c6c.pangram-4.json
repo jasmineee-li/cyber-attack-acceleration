@@ -1,0 +1,76 @@
+{
+ "text_sha256": "bccba91b087bb6b18f4303e78b1761b93181b6e34fe196915688dffab6ca5c6c",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:47:11+00:00",
+ "word_count": 78,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "They have responded only that they are processing and phone support is saying that it is in compliance department and has been escalated to higher level. We have contacted some people from Bitstamp here in Slovenia to help us accelerate the process there. Hope to get answer asap. I have today opened account also on other exchange and I will try to proceed also there (Swissborg) if Bitstamp doesn't work. Can you help me what are other options?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.8216880036222622e-42,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "They have responded only that they are processing and phone support is saying that it is in compliance department and has been escalated to higher level. We have contacted some people from Bitstamp here in Slovenia to help us accelerate the process there. Hope to get answer asap. I have today opened account also on other exchange and I will try to proceed also there (Swissborg) if Bitstamp doesn't work. Can you help me what are other options?",
+    "label": "Human Written",
+    "ai_assistance_score": 1.8216880036222622e-42,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 446,
+    "word_count": 79,
+    "token_length": 94,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     1.8216880036222622e-42
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988715953067181
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0022421525791287422,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.8216880036222622e-42,
+    "std": 3.219362811223571e-22,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.219362811223571e-22,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

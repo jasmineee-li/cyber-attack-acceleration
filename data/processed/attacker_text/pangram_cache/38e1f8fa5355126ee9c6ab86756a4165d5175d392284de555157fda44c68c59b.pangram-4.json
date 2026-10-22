@@ -1,0 +1,116 @@
+{
+ "text_sha256": "38e1f8fa5355126ee9c6ab86756a4165d5175d392284de555157fda44c68c59b",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:43:38+00:00",
+ "word_count": 190,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hello. This is the Lockbit team. We see that you relaxed and thought that we had forgotten about you? Don't worry - we have enough time and energy for everyone. Your data is quite interesting because you did all the work for us. For example, the Active Clients folder in the Scanned Client Info folder is just ready to be delivered to your clients, don't you think? How will your life and financial well-being (not to mention your reputation and credibility) change when all the documents are in the public domain? Let's not hide it - we have partners who would love to buy all your data from us. But we want to help you first and save, first of all, the fate of you and your employees. It's not very pleasant to find yourself on the street with huge debts from lawsuits and to be blacklisted by employees who allowed leaks and damage to the businesses of partners who trusted you. You still have the option to settle with us, and we are committed to removing all of your files and pointing out cybersecurity issues. The choice is yours...",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.0898125934674652e-12,
+  "fraction_ai_assisted": 8.999372698870883e-15,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 3,
+  "windows": [
+   {
+    "text": "Hello.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.8944391888542356e-10,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 6,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.5583914367289786e-12,
+     1.886647227333782e-10
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9390367126978779
+   },
+   {
+    "text": " This is the Lockbit team. We see that you relaxed and thought that we had forgotten about you? Don't worry - we have enough time and energy for everyone. Your data is quite interesting because you did all the work for us. For example, the Active Clients folder in the Scanned Client Info folder is just ready to be delivered to your clients, don't you think? How will your life and financial well-being (not to mention your reputation and credibility) change when all the documents are in the public domain? Let's not hide it - we have partners who would love to buy all your data from us. But we want to help you first and save, first of all, the fate of you and your employees. It's not very pleasant to find yourself on the street with huge debts from lawsuits and to be blacklisted by employees who allowed leaks and damage to the businesses of partners who trusted you. You still have the option to settle with us, and we are committed to removing all of your files and pointing out cybersecurity issues.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.917545063117866e-28,
+    "confidence": "High",
+    "start_index": 6,
+    "end_index": 1016,
+    "word_count": 188,
+    "token_length": 212,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.4795896777316415e-35,
+     6.917545063117866e-28
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987409357531432
+   },
+   {
+    "text": " The choice is yours...",
+    "label": "Human Written",
+    "ai_assistance_score": 1.4215938606951424e-14,
+    "confidence": "Medium",
+    "start_index": 1016,
+    "end_index": 1039,
+    "word_count": 4,
+    "token_length": 5,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.685157887480145e-21,
+     1.421593691288553e-14
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9863589367308141
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0019249278120696545,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.0898262544148385e-12,
+    "std": 7.936749568671075e-08,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 6.642464001060944e-08,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

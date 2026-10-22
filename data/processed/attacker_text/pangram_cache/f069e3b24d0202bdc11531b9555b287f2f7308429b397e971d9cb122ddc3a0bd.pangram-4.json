@@ -1,0 +1,96 @@
+{
+ "text_sha256": "f069e3b24d0202bdc11531b9555b287f2f7308429b397e971d9cb122ddc3a0bd",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:45:34+00:00",
+ "word_count": 80,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "What happened? The bad news is that we have hacked your network and encrypted your servers. We have also downloaded more than 500GB of your private data including financial, contracts, databases and other papers containing SSN DOB addresses and other private customers info. In case of publishing this data you will have huge legal and government fines. The good news is that we are businessmans and we want to get a ransom for everything to unlock and keep in secret.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 3.1165264144999553e-18,
+  "fraction_ai_assisted": 1.2885552404628798e-21,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "What happened?",
+    "label": "Human Written",
+    "ai_assistance_score": 1.0420256227148546e-16,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 14,
+    "word_count": 2,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.307456121282088e-20,
+     1.0418102248833458e-16
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9892909364252322
+   },
+   {
+    "text": " The bad news is that we have hacked your network and encrypted your servers. We have also downloaded more than 500GB of your private data including financial, contracts, databases and other papers containing SSN DOB addresses and other private customers info. In case of publishing this data you will have huge legal and government fines. The good news is that we are businessmans and we want to get a ransom for everything to unlock and keep in secret.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 14,
+    "end_index": 468,
+    "word_count": 78,
+    "token_length": 94,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412406
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0021367522422224283,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 3.1165264144999553e-18,
+    "std": 3.0533492401119133e-10,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.0539804019014127e-10,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

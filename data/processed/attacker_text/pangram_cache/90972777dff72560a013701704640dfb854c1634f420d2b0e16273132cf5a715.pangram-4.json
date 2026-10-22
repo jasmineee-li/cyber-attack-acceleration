@@ -1,0 +1,196 @@
+{
+ "text_sha256": "90972777dff72560a013701704640dfb854c1634f420d2b0e16273132cf5a715",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:42:29+00:00",
+ "word_count": 396,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Reasonability of the demand is clear. We will remind you of some points in order to clarify again.\n1. The amount and the quality of the data involved is indeed serious and will destroy your reputation in case of a data leak , the figure We are demanding will be several times lower than what you will spend on settling collective lawsuits, regulatory fines to the US government, reputational losses, financial damage because of losing clients due to this incident as well as repairing what you have lost and securing your systems through external cyber specialists.\n2. Each case is individual and We set a price for each case based on many factors, such as your financial capabilities and background.\n3. Speaking of background , your firm is suffering from multiple lawsuits against itself in different courts which are jeopardizing your reputation already , a data breach could only put the existence of your firm in danger.\nBesides, As a firm participating in the cyber security field and especially after winning a cyber incident case, your name will Glow on the news as The Victim.\nAnd this all will cost much more than the figure We demand.\nAs We have clarified before , in case We do not meet a mutual path , We will publish your data, contact all your employees and clients and inform them about the incident.\nThey will terminate their contracts with you , in easy words, you will not be able to make any money , also , they will file lawsuits against your firm for failure to employ reasonable security measures under Section 5 of the Federal Trade Commission Act, 15 U.S.C. §.\nThis will not only have unbearable reputational losses but also significant financial losses.\nWe are expecting an offer close to Our figure by the end of today.\nIn case there is no reasonable offer on the table, We will set a timer on Our website, once the timer runs out , We will publish the data set and follow Our plan of action that We described and make sure you will face unbearable consequences beyond your capabilities to survive.\nBelow you can visit Our website, check other organizations that have decided not to make a wise decision and face the consequences, and you can find your firm among them if there will be no offer or agreement.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 4.872347256077019e-17,
+  "fraction_ai_assisted": 1.1324759160462163e-18,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 7,
+  "windows": [
+   {
+    "text": "Reasonability of the demand is clear. We will remind you of some points in order to clarify again.\n1. The amount and the quality of the data involved is indeed serious and will destroy your reputation in case of a data leak , the figure We are demanding will be several times lower than what you will spend on settling collective lawsuits, regulatory fines to the US government, reputational losses, financial damage because of losing clients due to this incident as well as repairing what you have lost and securing your systems through external cyber specialists.\n",
+    "label": "Human Written",
+    "ai_assistance_score": 7.099921418709216e-21,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 566,
+    "word_count": 95,
+    "token_length": 108,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.871213817820341e-22,
+     6.856360349164965e-21
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989231662520605
+   },
+   {
+    "text": "2.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.219433012355372e-15,
+    "confidence": "Medium",
+    "start_index": 566,
+    "end_index": 568,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.9081211294839455e-16,
+     6.074027101464962e-15
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9867167280997569
+   },
+   {
+    "text": " Each case is individual and We set a price for each case based on many factors, such as your financial capabilities and background.\n",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 568,
+    "end_index": 701,
+    "word_count": 23,
+    "token_length": 26,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412403
+   },
+   {
+    "text": "3.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.808828183208068e-15,
+    "confidence": "Medium",
+    "start_index": 701,
+    "end_index": 703,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.427769440565289e-16,
+     6.587439605300685e-15
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9867167280997569
+   },
+   {
+    "text": " Speaking of background , your firm is suffering from multiple lawsuits against itself in different courts which are jeopardizing your reputation already , a data breach could only put the existence of your firm in danger.\nBesides, As a firm participating in the cyber security field and especially after winning a cyber incident case, your name will Glow on the news as The Victim.\nAnd this all will cost much more than the figure We demand.\nAs We have clarified before , in case We do not meet a mutual path , We will publish your data, contact all your employees and clients and inform them about the incident.\nThey will terminate their contracts with you , in easy words, you will not be able to make any money , also , they will file lawsuits against your firm for failure to employ reasonable security measures under Section 5 of the Federal Trade Commission Act, 15 U.S.C.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 703,
+    "end_index": 1582,
+    "word_count": 152,
+    "token_length": 177,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   },
+   {
+    "text": " §.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.803398687506193e-14,
+    "confidence": "Medium",
+    "start_index": 1582,
+    "end_index": 1585,
+    "word_count": 0,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.5454329541628174e-16,
+     2.7856714737662866e-14
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9856015779092702
+   },
+   {
+    "text": "\nThis will not only have unbearable reputational losses but also significant financial losses.\nWe are expecting an offer close to Our figure by the end of today.\nIn case there is no reasonable offer on the table, We will set a timer on Our website, once the timer runs out , We will publish the data set and follow Our plan of action that We described and make sure you will face unbearable consequences beyond your capabilities to survive.\nBelow you can visit Our website, check other organizations that have decided not to make a wise decision and face the consequences, and you can find your firm among them if there will be no offer or agreement.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 1585,
+    "end_index": 2235,
+    "word_count": 116,
+    "token_length": 130,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0013422819320112467,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 3.739416866322751e-17,
+    "std": 2.2403909283319479e-10,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.254607472940151e-10,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

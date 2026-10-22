@@ -1,0 +1,76 @@
+{
+ "text_sha256": "cec74f1b3c9f4f872509a107f7c1e1dbe5314d5117eb6be682f281216ff272ac",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:11:00+00:00",
+ "word_count": 52,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We have researched your group and your capabilities. However, your revenue numbers for our company are incorrect. Yes, everyone was hit with COVID, but my staff was forced to evacuate due to wildfires, and even after, we could barely breathe the air outside for weeks. We would ask that you consider $900,000.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.0089928202445884e-30,
+  "fraction_ai_assisted": 4.987089279657817e-26,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We have researched your group and your capabilities. However, your revenue numbers for our company are incorrect. Yes, everyone was hit with COVID, but my staff was forced to evacuate due to wildfires, and even after, we could barely breathe the air outside for weeks. We would ask that you consider $900,000.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.493745552840707e-26,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 309,
+    "word_count": 53,
+    "token_length": 71,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.987089587806608e-26,
+     2.0089928202445884e-30
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9979116803076573
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0032362460624426603,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.0089928202445884e-30,
+    "std": 5.814489959558259e-16,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 9.161250181860189e-14,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

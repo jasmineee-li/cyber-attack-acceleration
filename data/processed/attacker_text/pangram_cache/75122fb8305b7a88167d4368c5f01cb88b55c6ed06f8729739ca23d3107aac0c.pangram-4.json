@@ -1,0 +1,76 @@
+{
+ "text_sha256": "75122fb8305b7a88167d4368c5f01cb88b55c6ed06f8729739ca23d3107aac0c",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:49:46+00:00",
+ "word_count": 54,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Oh, I understand. That is making it a whole lot more complicated, I have no experience with bit coins and that sort. Are you sure we can get more than usd 5000 each day on those places? It looks like it might take a lot of time to even get approved on their site.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.310058366613621e-26,
+  "fraction_ai_assisted": 3.5040443363891234e-26,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Oh, I understand. That is making it a whole lot more complicated, I have no experience with bit coins and that sort. Are you sure we can get more than usd 5000 each day on those places? It looks like it might take a lot of time to even get approved on their site.",
+    "label": "Human Written",
+    "ai_assistance_score": 4.062080534808183e-26,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 263,
+    "word_count": 54,
+    "token_length": 65,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.5040443363891234e-26,
+     2.310058366613621e-26
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988588190098416
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0038022813387215137,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.310058366613621e-26,
+    "std": 3.864186328230747e-14,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 6.130387403225843e-14,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

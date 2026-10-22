@@ -1,0 +1,76 @@
+{
+ "text_sha256": "e2eda045532d002168e7788d3095e32451238a616ebb5ea37bd94ddc6365c01d",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:05:59+00:00",
+ "word_count": 111,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Whatever assessment you've made is likely inaccurate. The most important distinction you didn't factor in was that we don't have huge amounts of money to pay out to anyone - that includes to lawsuits and regulators.\nI understand you want to make as much money as possible but it still doesn't change the constraints we're operating from.\nWe would like to be able to work with you towards a solution that makes sense, a peaceful one – the alternative would be both of us walking away empty handed with time wasted. We would like to avoid that, if possible.\nSo again, I ask...do you have a more reasonable number in mind?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 9.51566036009311e-19,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Whatever assessment you've made is likely inaccurate. The most important distinction you didn't factor in was that we don't have huge amounts of money to pay out to anyone - that includes to lawsuits and regulators.\nI understand you want to make as much money as possible but it still doesn't change the constraints we're operating from.\nWe would like to be able to work with you towards a solution that makes sense, a peaceful one – the alternative would be both of us walking away empty handed with time wasted. We would like to avoid that, if possible.\nSo again, I ask...do you have a more reasonable number in mind?",
+    "label": "Human Written",
+    "ai_assistance_score": 9.51566036009311e-19,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 619,
+    "word_count": 115,
+    "token_length": 128,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     9.51566036009311e-19
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9979747781002589
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0016155089251697063,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 9.51566036009311e-19,
+    "std": 2.8543817309767405e-10,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.8543817309767405e-10,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

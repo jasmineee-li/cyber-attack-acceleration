@@ -1,0 +1,20 @@
+[project]
+name = "cyber_ts"
+version = "0.1.0"
+description = "Time series of cyber attacks, starting with crypto hacks, to test whether attacks accelerated in 2026."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "dvc>=3,<4",
+    "langdetect>=1.0.9",
+    "matplotlib>=3.11.2",
+    "pandas>=3.0.6",
+    "pangram-sdk>=1.0.0",
+    "pytest>=9.1.1",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+    "statsmodels>=0.15.0",
+]
+
+[tool.uv]
+package = false

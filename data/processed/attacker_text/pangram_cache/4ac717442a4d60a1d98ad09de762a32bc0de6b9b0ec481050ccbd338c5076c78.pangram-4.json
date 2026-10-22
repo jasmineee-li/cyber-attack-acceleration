@@ -1,0 +1,96 @@
+{
+ "text_sha256": "4ac717442a4d60a1d98ad09de762a32bc0de6b9b0ec481050ccbd338c5076c78",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:49:30+00:00",
+ "word_count": 61,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hi. Sorry for the delay in respons, but things are really hectic here. And people want to do different things. Also stupid things. I hope we can manage, so we can all get on with what we do. The company is not in a good position right now so it is a lot to handle right now. I try my best.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 5.824950710577731e-14,
+  "fraction_ai_assisted": 5.970651053718842e-20,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Hi.",
+    "label": "Human Written",
+    "ai_assistance_score": 5.611372044106444e-12,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 3,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.751727183903267e-18,
+     5.611369008340361e-12
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9670296792723793
+   },
+   {
+    "text": " Sorry for the delay in respons, but things are really hectic here. And people want to do different things. Also stupid things. I hope we can manage, so we can all get on with what we do. The company is not in a good position right now so it is a lot to handle right now. I try my best.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.5042021825258774e-23,
+    "confidence": "High",
+    "start_index": 3,
+    "end_index": 289,
+    "word_count": 60,
+    "token_length": 69,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.4002831688541814e-39,
+     3.5042021825258774e-23
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9983684366641528
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0034602077212184668,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 5.824950710577731e-14,
+    "std": 2.4589960290199997e-08,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.4589972724697873e-08,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

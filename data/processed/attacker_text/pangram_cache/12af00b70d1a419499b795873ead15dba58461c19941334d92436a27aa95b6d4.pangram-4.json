@@ -1,0 +1,76 @@
+{
+ "text_sha256": "12af00b70d1a419499b795873ead15dba58461c19941334d92436a27aa95b6d4",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:35:03+00:00",
+ "word_count": 132,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We're glad you googled us and got to know us better and familiarize yourself with our business reputation. You've also probably googled a lot of \"smart\" articles about negotiating. 10% at the start, then 20% and so on up to 50%. We can save time and decide your offer is $2,500,000. The problem is that our original demand was $6,900,000. The problem is that you run the risk of running into the biggest problem of all and damaging not only your business, but also Carlyle, which has recently successfully taken you over and your stock price has skyrocketed. The mere mention of that data leak on our blog will crash your stock by 20-30%. The subsequent publicity and reputational damage will bury your business and leave a black stain on Carlyle's reputation.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 0.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We're glad you googled us and got to know us better and familiarize yourself with our business reputation. You've also probably googled a lot of \"smart\" articles about negotiating. 10% at the start, then 20% and so on up to 50%. We can save time and decide your offer is $2,500,000. The problem is that our original demand was $6,900,000. The problem is that you run the risk of running into the biggest problem of all and damaging not only your business, but also Carlyle, which has recently successfully taken you over and your stock price has skyrocketed. The mere mention of that data leak on our blog will crash your stock by 20-30%. The subsequent publicity and reputational damage will bury your business and leave a black stain on Carlyle's reputation.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 760,
+    "word_count": 140,
+    "token_length": 189,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0013157895300537348,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.0,
+    "std": 2.461966388621738e-32,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.461966388621738e-32,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

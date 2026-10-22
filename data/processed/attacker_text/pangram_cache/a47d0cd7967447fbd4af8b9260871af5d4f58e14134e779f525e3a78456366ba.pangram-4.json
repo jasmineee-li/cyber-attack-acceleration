@@ -1,0 +1,76 @@
+{
+ "text_sha256": "a47d0cd7967447fbd4af8b9260871af5d4f58e14134e779f525e3a78456366ba",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:08:21+00:00",
+ "word_count": 93,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Thank you for your response. In order for us to justify making a payment to you, which will benefit us both, we need to justify this action to our company stakeholders. We understand that it is normal practice for companies in our situation to be provided with details of the files in your possession. Once you have given us this, we will pick a file of our choosing for you to prove that you have the data concerned. When we have completed these steps we can move forward towards a resolution with you.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 6.237773644771808e-28,
+  "fraction_ai_assisted": 6.270340407537317e-26,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Thank you for your response. In order for us to justify making a payment to you, which will benefit us both, we need to justify this action to our company stakeholders. We understand that it is normal practice for companies in our situation to be provided with details of the files in your possession. Once you have given us this, we will pick a file of our choosing for you to prove that you have the data concerned. When we have completed these steps we can move forward towards a resolution with you.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.1975481472538454e-26,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 503,
+    "word_count": 93,
+    "token_length": 101,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     6.270340407537317e-26,
+     6.237773644771808e-28
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988886522623583
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001988071482628584,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 6.237773644771808e-28,
+    "std": 5.8926388074587166e-15,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 5.937315390855055e-14,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

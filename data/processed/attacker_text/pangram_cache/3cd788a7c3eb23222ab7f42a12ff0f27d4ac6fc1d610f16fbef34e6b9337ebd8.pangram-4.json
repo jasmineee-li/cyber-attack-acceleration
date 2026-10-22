@@ -1,0 +1,96 @@
+{
+ "text_sha256": "3cd788a7c3eb23222ab7f42a12ff0f27d4ac6fc1d610f16fbef34e6b9337ebd8",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:08:32+00:00",
+ "word_count": 120,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hello. We have considered our position very carefully and have fully assessed the limited value of the data that you hold. Whilst we would prefer that you do not make our information publicly available, we have prepared for this eventuality should you choose this route. As it is not in either of our interests for our information to be made public, we are prepared to make a final settlement offer of USD 200k to reach agreement today, based on you not publishing any of our data and agreeing to destroy it immediately after payment. This figure is extremely generous and is a win-win scenario for both of us. Your money is ready now. Please advise how you wish to proceed?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.9516896101632805e-14,
+  "fraction_ai_assisted": 5.543729334638904e-14,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Hello.",
+    "label": "Human Written",
+    "ai_assistance_score": 5.306125764464875e-12,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 6,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     6.227456050833524e-12,
+     2.1923979558885476e-12
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9631070566138987
+   },
+   {
+    "text": " We have considered our position very carefully and have fully assessed the limited value of the data that you hold. Whilst we would prefer that you do not make our information publicly available, we have prepared for this eventuality should you choose this route. As it is not in either of our interests for our information to be made public, we are prepared to make a final settlement offer of USD 200k to reach agreement today, based on you not publishing any of our data and agreeing to destroy it immediately after payment. This figure is extremely generous and is a win-win scenario for both of us. Your money is ready now. Please advise how you wish to proceed?",
+    "label": "Human Written",
+    "ai_assistance_score": 1.058388500288285e-30,
+    "confidence": "High",
+    "start_index": 6,
+    "end_index": 674,
+    "word_count": 120,
+    "token_length": 135,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.367518503205838e-32,
+     1.0465509900568604e-30
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988611465366313
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0014836795162409544,
+   "human": 1.0,
+   "mixed": 1.1102230246251565e-16,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.9516896101632805e-14,
+    "std": 1.3181081115476445e-08,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.5831143446453098e-08,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

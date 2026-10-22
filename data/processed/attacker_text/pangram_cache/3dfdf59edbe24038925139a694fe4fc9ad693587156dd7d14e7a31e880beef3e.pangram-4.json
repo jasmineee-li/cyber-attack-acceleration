@@ -1,0 +1,76 @@
+{
+ "text_sha256": "3dfdf59edbe24038925139a694fe4fc9ad693587156dd7d14e7a31e880beef3e",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:38:26+00:00",
+ "word_count": 117,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hello, [redacted]. We downloaded more then 500 GB of sensitive data\nfrom your network, if you don't pay, we will publish them.\nWe know that you have 3 million cyber insurance police from Response\nLimit, you must contact Beazley Group to take money for payment.\nAlso, we know about your 45 millions credit line. So, please, don't say us that you haven't money or etc.\nShares of your company ([redacted]) are traded on NASDAQ. If you don't contact\nus, we will notify all the biggest mass media about your company hack\nand data leak, what will lead to the fall of the price of your shares.\nAnd you can be sure, we always do that was promised.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 6.725557867451101e-33,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Hello, [redacted]. We downloaded more then 500 GB of sensitive data\nfrom your network, if you don't pay, we will publish them.\nWe know that you have 3 million cyber insurance police from Response\nLimit, you must contact Beazley Group to take money for payment.\nAlso, we know about your 45 millions credit line. So, please, don't say us that you haven't money or etc.\nShares of your company ([redacted]) are traded on NASDAQ. If you don't contact\nus, we will notify all the biggest mass media about your company hack\nand data leak, what will lead to the fall of the price of your shares.\nAnd you can be sure, we always do that was promised.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.725557132767132e-33,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 639,
+    "word_count": 121,
+    "token_length": 157,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     6.725557132767132e-33
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990158423781362
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0015649452107027173,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 6.725557867451101e-33,
+    "std": 1.376416876041601e-17,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.376416876041601e-17,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

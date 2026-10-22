@@ -1,0 +1,76 @@
+{
+ "text_sha256": "846bda2898c96f7f131ff0de5689136b16a74bcb9a4e9b17d50ba503149139ae",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:01:32+00:00",
+ "word_count": 466,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Oh well, so you guys are familiar with economics. Are you sure you are\nable to read the numbers? My Client has been losing money since 2010. In\nthe consolidated financial report you exfiltrated you can see that in\nthe first three months of 2020 only the financial loss amounts to EUR\n[redacted] M. And take a look at the net financial position as at 31 March\n2020 which is negative by EUR [redacted] M. Moreover, look at bond trading\nlevel (30% yield) that my client needs to repay:\n[redacted]. The\nfinancial situation of my client is negative. I think you picked the\nwrong victim and the financial analysis you have performed prior to\nundertaking the hacking operations is absolutely wrong. Look at the\nchart herein attached and maybe you will be able to understand that\neconomics is not hacking and my client is not Grubman nor Travelex nor\n[redacted] (the latter, just to remain in the [redacted] boundaries and a victim\nyou may know).\nWith regard to the insurance manual you guys have exfiltrated please\nnote that the insurance company Chubb does not cover the expenses\nrelated to a ransom payment but only the expenses my client is is facing\nfor business interruption and recovery.\nThis being said, my client needs to resume normal operations as soon as\npossible minimising financial losses due to inactivity caused by your\nactions. So we need to find a trade-off between your requests and my\nclient’s capability to pay. Too much money requested and really my\nclient does not have that financial capability. My client understands\nyour position and aspirations but can’t reach that amount. Overnight I\nconvinced my client to add more money on the table. His offer now\namounts to 750.000,00 but this will entail more sacrifices in terms of\nemployment and debt repayment. People will be fired amid this financial\ncrisis but I guess you guys don’t care about people left without\nlivelihood.\nIf you guys don’t accept it, my client will set up the new\ninfrastructure without data. It won’t be easy but my client is pretty\nsure to go back on the business within a few weeks. I mean my client is\nmaking the argument that the cost to restart the new infrastructure\nwithout data will not be higher than 700-800 k USD. That amount\nrepresents the break-event point for my client. If my client pays a\ndollar more, it won’t be convenient for him. So accept these 750 k USD\nor set a new affordable price or get nothing. If you accept or if you\nset a price which my client is able to meet, he will start the payment\nprocess as soon as possible, after finding a trusted exchange.\nPlease stop the countdown as usual during the negotiations with your hacking group.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 7.188661121986312e-42,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Oh well, so you guys are familiar with economics. Are you sure you are\nable to read the numbers? My Client has been losing money since 2010. In\nthe consolidated financial report you exfiltrated you can see that in\nthe first three months of 2020 only the financial loss amounts to EUR\n[redacted] M. And take a look at the net financial position as at 31 March\n2020 which is negative by EUR [redacted] M. Moreover, look at bond trading\nlevel (30% yield) that my client needs to repay:\n[redacted]. The\nfinancial situation of my client is negative. I think you picked the\nwrong victim and the financial analysis you have performed prior to\nundertaking the hacking operations is absolutely wrong. Look at the\nchart herein attached and maybe you will be able to understand that\neconomics is not hacking and my client is not Grubman nor Travelex nor\n[redacted] (the latter, just to remain in the [redacted] boundaries and a victim\nyou may know).\nWith regard to the insurance manual you guys have exfiltrated please\nnote that the insurance company Chubb does not cover the expenses\nrelated to a ransom payment but only the expenses my client is is facing\nfor business interruption and recovery.\nThis being said, my client needs to resume normal operations as soon as\npossible minimising financial losses due to inactivity caused by your\nactions. So we need to find a trade-off between your requests and my\nclient’s capability to pay. Too much money requested and really my\nclient does not have that financial capability. My client understands\nyour position and aspirations but can’t reach that amount. Overnight I\nconvinced my client to add more money on the table. His offer now\namounts to 750.000,00 but this will entail more sacrifices in terms of\nemployment and debt repayment. People will be fired amid this financial\ncrisis but I guess you guys don’t care about people left without\nlivelihood.\nIf you guys don’t accept it, my client will set up the new\ninfrastructure without data. It won’t be easy but my client is pretty\nsure to go back on the business within a few weeks. I mean my client is\nmaking the argument that the cost to restart the new infrastructure\nwithout data will not be higher than 700-800 k USD. That amount\nrepresents the break-event point for my client. If my client pays a\ndollar more, it won’t be convenient for him. So accept these 750 k USD\nor set a new affordable price or get nothing. If you accept or if you\nset a price which my client is able to meet, he will start the payment\nprocess as soon as possible, after finding a trusted exchange.\nPlease stop the countdown as usual during the negotiations with your hacking group.",
+    "label": "Human Written",
+    "ai_assistance_score": 7.188661121986312e-42,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 2651,
+    "word_count": 477,
+    "token_length": 589,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     7.188661121986312e-42
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990171373502496
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0011316484306007624,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 6.901394936799724e-42,
+    "std": 3.5348094807774733e-22,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.461168242424261e-22,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

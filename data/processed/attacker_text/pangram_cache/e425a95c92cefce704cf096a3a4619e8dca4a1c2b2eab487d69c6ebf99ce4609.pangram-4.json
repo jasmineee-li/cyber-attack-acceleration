@@ -1,0 +1,76 @@
+{
+ "text_sha256": "e425a95c92cefce704cf096a3a4619e8dca4a1c2b2eab487d69c6ebf99ce4609",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:08:46+00:00",
+ "word_count": 107,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "No, the first group did not give us any advice. And unfortunately, as we have said we can't pay the amount you are asking. If we could, we would gladly pay it. Two of these attacks in very short order has left us very distraught and in a bad place. But we cannot give you what we don't have. We can still offer you the same amount we did before of $400,000 that we can pay in short order if you are willing to accept it. We just want to be done with this and get back to business as this has been extremely difficult for us.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 6.726232628759122e-44,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "No, the first group did not give us any advice. And unfortunately, as we have said we can't pay the amount you are asking. If we could, we would gladly pay it. Two of these attacks in very short order has left us very distraught and in a bad place. But we cannot give you what we don't have. We can still offer you the same amount we did before of $400,000 that we can pay in short order if you are willing to accept it. We just want to be done with this and get back to business as this has been extremely difficult for us.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.726232628759122e-44,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 524,
+    "word_count": 110,
+    "token_length": 128,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     6.726232628759122e-44
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988432197153793
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0019083969527855515,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 6.726232628759122e-44,
+    "std": 7.593527742003146e-23,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 7.593527742003146e-23,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

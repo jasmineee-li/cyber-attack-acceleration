@@ -1,0 +1,76 @@
+{
+ "text_sha256": "7fcbc5969dd486c9ee4befa2090edbd34643dc522a95d00f2084426ba5a8c0c2",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:56:14+00:00",
+ "word_count": 73,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "[redacted]: The board is working diligently with the bank. It's just that the holiday has slowed things down since the bank is not fully staffed. Trust us, if we knew there was a guarantee that we'd have certain funds available in a few days, then we would tell you. But there's just not much clarity right now. I can't get you any real answers today but the board will update us on Monday.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.6044867416519155e-42,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "[redacted]: The board is working diligently with the bank. It's just that the holiday has slowed things down since the bank is not fully staffed. Trust us, if we knew there was a guarantee that we'd have certain funds available in a few days, then we would tell you. But there's just not much clarity right now. I can't get you any real answers today but the board will update us on Monday.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.6030854431875907e-42,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 390,
+    "word_count": 77,
+    "token_length": 91,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     1.6030854431875907e-42
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989186315770353
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0025641026441007853,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.6044867416519155e-42,
+    "std": 4.30185566828761e-22,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 4.30185566828761e-22,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

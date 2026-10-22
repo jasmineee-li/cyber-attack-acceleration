@@ -1,0 +1,96 @@
+{
+ "text_sha256": "1cd8e90cbdda01f89f7a8113ccbab959c1644dc502cbb201708878118abf5142",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:38:31+00:00",
+ "word_count": 158,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hello. Your network has been attacked. The files are encrypted, and we also took files from your network. I will now send you a part of the list of these files. You can select 1-3 small files from the list and they will be provided to you as proof. You can also send 1-3 small encrypted files and we will decrypt them as proof of the decryption capability. After that, we will discuss the amount you will pay to receive the decryptor and delete the files we downloaded from you. If we do not reach an agreement before the expiration of the timer that you see, the data taken will be published, and the decryption program will be deleted. It is impossible to decrypt without this program, after removing the decryptor, even we will not be able to do it. You can also see a short list of questions and answers to the right of this chat window.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.159367605174308e-13,
+  "fraction_ai_assisted": 2.2498256517236245e-16,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Hello.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.6266236621542696e-11,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 6,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.1535056955068336e-14,
+     1.6250469719869542e-11
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9625564139830184
+   },
+   {
+    "text": " Your network has been attacked. The files are encrypted, and we also took files from your network. I will now send you a part of the list of these files. You can select 1-3 small files from the list and they will be provided to you as proof. You can also send 1-3 small encrypted files and we will decrypt them as proof of the decryption capability. After that, we will discuss the amount you will pay to receive the decryptor and delete the files we downloaded from you. If we do not reach an agreement before the expiration of the timer that you see, the data taken will be published, and the decryption program will be deleted. It is impossible to decrypt without this program, after removing the decryptor, even we will not be able to do it. You can also see a short list of questions and answers to the right of this chat window.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.626256013212351e-30,
+    "confidence": "High",
+    "start_index": 6,
+    "end_index": 841,
+    "word_count": 159,
+    "token_length": 182,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.9671015210899674e-37,
+     6.626256013212351e-30
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989728023502745
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0011890606256201863,
+   "human": 1.0,
+   "mixed": 1.1102230246251565e-16,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.159367605174308e-13,
+    "std": 2.8759956194335246e-08,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.878784677307067e-08,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

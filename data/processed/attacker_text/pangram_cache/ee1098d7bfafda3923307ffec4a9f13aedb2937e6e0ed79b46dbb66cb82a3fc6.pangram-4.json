@@ -1,0 +1,76 @@
+{
+ "text_sha256": "ee1098d7bfafda3923307ffec4a9f13aedb2937e6e0ed79b46dbb66cb82a3fc6",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:44:42+00:00",
+ "word_count": 233,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "I understand that your job as a negotiator is to get the ransom price as low as possible, you are a good negotiator, but in this case you are offering too small an amount for a very large company, the damage we can do to your client is absolutely incomparable to the amount you are offering. It doesn't matter who wins your lawsuit, we are now talking about saving a lot more in lost profits for your client, your client would be much better off paying us the ransom and then suing the IT company and recovering the damages. The company's stock could collapse so badly that your client would lose hundreds of millions of dollars instead of just $18 million. I appreciate the increase in buyout amount from your side and see it as a desire to make a good deal for both of us, but 1 million is absolutely not enough for a company with annual revenues of 10 billion dollars. At the same time to show respect to you as a brilliant negotiator I am ready to make a discount of 3 million dollars, in this way I am ready to completely remove all your stolen data, provide decryption keys, and forget about the fact that you have ever been attacked, our deal will be an absolute secret and no one will ever know about it. It's up to you.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 6.008641686146523e-22,
+  "fraction_ai_assisted": 1.0411647589933391e-41,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "I understand that your job as a negotiator is to get the ransom price as low as possible, you are a good negotiator, but in this case you are offering too small an amount for a very large company, the damage we can do to your client is absolutely incomparable to the amount you are offering. It doesn't matter who wins your lawsuit, we are now talking about saving a lot more in lost profits for your client, your client would be much better off paying us the ransom and then suing the IT company and recovering the damages. The company's stock could collapse so badly that your client would lose hundreds of millions of dollars instead of just $18 million. I appreciate the increase in buyout amount from your side and see it as a desire to make a good deal for both of us, but 1 million is absolutely not enough for a company with annual revenues of 10 billion dollars. At the same time to show respect to you as a brilliant negotiator I am ready to make a discount of 3 million dollars, in this way I am ready to completely remove all your stolen data, provide decryption keys, and forget about the fact that you have ever been attacked, our deal will be an absolute secret and no one will ever know about it. It's up to you.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.008642191017502e-22,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 1228,
+    "word_count": 236,
+    "token_length": 269,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.0411647589933391e-41,
+     6.008642191017502e-22
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990042012054456
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0016286644386127591,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 6.008641686146523e-22,
+    "std": 2.7980081359485487e-12,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.7980081359485487e-12,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

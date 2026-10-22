@@ -1,0 +1,76 @@
+{
+ "text_sha256": "9bb407ce219af3de739121a1bc49e935a09b8a01c172cf1a504a7b224b9bc8cb",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-19T23:57:50+00:00",
+ "word_count": 102,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We have assessed your losses in the event of a data leak, the penalties you will face if you decide not to pay us, as well as losses from class action lawsuits, and have presented you with our demands and offered you a discount to encourage you to move faster. All you have done so far is waste time. Our final warning remains in effect; you must make an offer close to ours in order to close the deal this week. If we do not receive an offer from you by the end of today, we will proceed with the worst-case scenario.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 3.4930764518257454e-19,
+  "fraction_ai_assisted": 1.9812062152992556e-21,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We have assessed your losses in the event of a data leak, the penalties you will face if you decide not to pay us, as well as losses from class action lawsuits, and have presented you with our demands and offered you a discount to encourage you to move faster. All you have done so far is waste time. Our final warning remains in effect; you must make an offer close to ours in order to close the deal this week. If we do not receive an offer from you by the end of today, we will proceed with the worst-case scenario.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.5029824566489508e-19,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 518,
+    "word_count": 103,
+    "token_length": 113,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.9812062152992556e-21,
+     3.4930764518257454e-19
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9976675899112761
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.00193050189409405,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 3.4930764518257454e-19,
+    "std": 1.6423630511130938e-10,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.6470140529190047e-10,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

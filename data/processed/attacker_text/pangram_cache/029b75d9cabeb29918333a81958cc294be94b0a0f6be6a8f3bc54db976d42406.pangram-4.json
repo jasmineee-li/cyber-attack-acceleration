@@ -1,0 +1,96 @@
+{
+ "text_sha256": "029b75d9cabeb29918333a81958cc294be94b0a0f6be6a8f3bc54db976d42406",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:47:36+00:00",
+ "word_count": 61,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Understood. My client needs proof that if they pay any fees to help decrypt, that it is going to work. Do you have a way for them to test decryption on one of their business critical systems? As for files taken, while its a concern, it's a smaller concern at this time. Please provide copies of the following files as evidence:",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.6493038597032897e-16,
+  "fraction_ai_assisted": 2.877249856185393e-20,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Understood.",
+    "label": "Human Written",
+    "ai_assistance_score": 7.876085885100224e-15,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 11,
+    "word_count": 1,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     8.553279144369821e-19,
+     7.87565813346186e-15
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9867167280997567
+   },
+   {
+    "text": " My client needs proof that if they pay any fees to help decrypt, that it is going to work. Do you have a way for them to test decryption on one of their business critical systems? As for files taken, while its a concern, it's a smaller concern at this time. Please provide copies of the following files as evidence:",
+    "label": "Human Written",
+    "ai_assistance_score": 3.2170419132328837e-35,
+    "confidence": "High",
+    "start_index": 11,
+    "end_index": 327,
+    "word_count": 61,
+    "token_length": 69,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     3.2170419132328837e-35
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987182391665553
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0030581040773540735,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.6493038597032897e-16,
+    "std": 2.9853026717319153e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.9854647642935106e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

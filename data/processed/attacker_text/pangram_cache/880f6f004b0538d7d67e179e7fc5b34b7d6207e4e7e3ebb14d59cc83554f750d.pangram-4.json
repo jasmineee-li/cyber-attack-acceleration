@@ -1,0 +1,76 @@
+{
+ "text_sha256": "880f6f004b0538d7d67e179e7fc5b34b7d6207e4e7e3ebb14d59cc83554f750d",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:07:56+00:00",
+ "word_count": 164,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Please don't misunderstand the interest to find a way to pay you with insult. This was not my point. I respect you are talking with us right now and understanding our side. I just want to make it work for our company based on our limitations in cashflow in the end of the year. I know that you don't care about us. You attacked us after all. I understand that it's just business for you. Some pay, some don't. We want us to both benefit from this incident. We gain knowledge and you gain money. But we wanted to get an amount that we can be able to pay you realistically. We are not here to play either. Unfortunately if your purpose is to raise the price there is no point of discussing any more. Even if we find the correct amount we can pay, we will need at least 7 working days to pay you. Regulations are hard with this kind of transactions.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.935647792919682e-33,
+  "fraction_ai_assisted": 1.807675018979014e-43,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Please don't misunderstand the interest to find a way to pay you with insult. This was not my point. I respect you are talking with us right now and understanding our side. I just want to make it work for our company based on our limitations in cashflow in the end of the year. I know that you don't care about us. You attacked us after all. I understand that it's just business for you. Some pay, some don't. We want us to both benefit from this incident. We gain knowledge and you gain money. But we wanted to get an amount that we can be able to pay you realistically. We are not here to play either. Unfortunately if your purpose is to raise the price there is no point of discussing any more. Even if we find the correct amount we can pay, we will need at least 7 working days to pay you. Regulations are hard with this kind of transactions.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.93564760924869e-33,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 846,
+    "word_count": 168,
+    "token_length": 189,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.807675018979014e-43,
+     1.93564760924869e-33
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9986715264746807
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0011820330983027816,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.935647792919682e-33,
+    "std": 7.859406132155227e-18,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 7.85940695933584e-18,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

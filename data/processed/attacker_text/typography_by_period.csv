@@ -1,0 +1,7 @@
+normalized_role,period,messages,chats,em_dash,nb_hyphen,narrow_nbsp,curly_apostrophe,any_gpt_marker,chats_with_gpt_marker,gpt_marker_share
+attacker,2020-22,2198,103,0,0,0,12,0,0,0.0
+attacker,2023-24,1441,79,0,0,0,1,0,0,0.0
+attacker,2025-26,1245,76,11,1,1,37,13,4,0.0104
+victim,2020-22,2239,96,0,0,0,31,0,0,0.0
+victim,2023-24,1335,70,1,0,0,54,1,1,0.0007
+victim,2025-26,1123,73,9,0,0,61,9,5,0.008

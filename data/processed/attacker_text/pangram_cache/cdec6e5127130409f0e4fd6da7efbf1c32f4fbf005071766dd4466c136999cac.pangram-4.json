@@ -1,0 +1,76 @@
+{
+ "text_sha256": "cdec6e5127130409f0e4fd6da7efbf1c32f4fbf005071766dd4466c136999cac",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:06:57+00:00",
+ "word_count": 51,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We have conducted an initial test to verify that the process we're following is correct. Could you confirm that you have received the first transfer of $5? Meanwhile, we are in the process of acquiring the total amount of cryptocurrency needed for the full payment, but it is taking some time.",
+  "version": "4.1",
+  "prediction": "We believe this text is mainly AI, with some human-written content.",
+  "prediction_short": "AI",
+  "fraction_ai": 0.9820072650909424,
+  "fraction_ai_assisted": 3.100621278148306e-16,
+  "fraction_human": 0.017992760986089706,
+  "headline": "AI Detected",
+  "num_ai_segments": 1,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "We have conducted an initial test to verify that the process we're following is correct. Could you confirm that you have received the first transfer of $5? Meanwhile, we are in the process of acquiring the total amount of cryptocurrency needed for the full payment, but it is taking some time.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9820072650909424,
+    "confidence": "Low",
+    "start_index": 0,
+    "end_index": 293,
+    "word_count": 52,
+    "token_length": 60,
+    "is_humanized": false,
+    "humanizer_score": 0.08546259999275208,
+    "class_probabilities": [
+     0.017992760986089706,
+     3.100621278148306e-16,
+     0.9820072650909424
+    ],
+    "confidence_score": 0.9820072650909424,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.5662797800855224
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Low",
+   "boundary": "ai"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0034129691775888205,
+   "human": 0.01799163408577442,
+   "mixed": 3.3407991395506542e-06,
+   "ai": 0.9820050001144409,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.9820072650909424,
+    "std": 0.1329222023487091,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   },
+   "human_coverage": {
+    "mean": 0.017992760986089706,
+    "std": 0.1329222023487091,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

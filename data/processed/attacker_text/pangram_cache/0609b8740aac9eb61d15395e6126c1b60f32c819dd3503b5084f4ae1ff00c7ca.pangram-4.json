@@ -1,0 +1,96 @@
+{
+ "text_sha256": "0609b8740aac9eb61d15395e6126c1b60f32c819dd3503b5084f4ae1ff00c7ca",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:50:41+00:00",
+ "word_count": 68,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We apologize for the delay. Internal discussions were necessary to determine a viable offer. Considering current constraints, your initial demand exceeds our capabilities. Our proposal for the full deal is $150,000 USD. Also, we kindly request the temporary removal of the public post during negotiations as a sign of good faith. While we cannot guarantee immediate payment, we are committed to resolving this matter as quickly as possible.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 1.0,
+  "fraction_ai_assisted": 4.1009252607247457e-14,
+  "fraction_human": 2.2732302706884866e-09,
+  "headline": "AI Generated",
+  "num_ai_segments": 2,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "We apologize for the delay.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9999999403953552,
+    "confidence": "Low",
+    "start_index": 0,
+    "end_index": 27,
+    "word_count": 5,
+    "token_length": 6,
+    "is_humanized": false,
+    "humanizer_score": 0.018200406804680824,
+    "class_probabilities": [
+     3.7045236211952215e-08,
+     6.682989123034389e-13,
+     0.9999999403953552
+    ],
+    "confidence_score": 0.9999999403953552,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.8506700701978303
+   },
+   {
+    "text": " Internal discussions were necessary to determine a viable offer. Considering current constraints, your initial demand exceeds our capabilities. Our proposal for the full deal is $150,000 USD. Also, we kindly request the temporary removal of the public post during negotiations as a sign of good faith. While we cannot guarantee immediate payment, we are committed to resolving this matter as quickly as possible.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 27,
+    "end_index": 440,
+    "word_count": 64,
+    "token_length": 78,
+    "is_humanized": false,
+    "humanizer_score": 0.018200406804680824,
+    "class_probabilities": [
+     1.3207765607483324e-22,
+     3.1120888193129517e-27,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9962938244467393
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0022727272007614374,
+   "human": 0.0,
+   "mixed": 0.0,
+   "ai": 1.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.0,
+    "std": 1.1810850992333144e-05,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   },
+   "human_coverage": {
+    "mean": 2.2732302706884866e-09,
+    "std": 1.1810743671958335e-05,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

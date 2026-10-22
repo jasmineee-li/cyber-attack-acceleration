@@ -1,0 +1,76 @@
+{
+ "text_sha256": "5fa238fa053e2ccab9ae40dc9dde388e01aa283811620e9700f80b2088173e96",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:03:12+00:00",
+ "word_count": 100,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Thanks Sir. We can pay 750,000 USD in XMR, provided that you will share\nwith me the exact scope, volume, and significance of data that is in\nyour possession. I would like to stress that this amount is far beyond\nwhat we understand is usually charged by your teams (based on recent\nnews reports. I've turned to be an expert on your business in the last 3\ndays, Fortunately or unfortunately.) I do stress the data, rather than\nthe decryption key, since I learned about your very positive reputation\nin providing decryption keys. Looking forward hearing your thoughts.\nRespectfully, [redacted].",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 7.826775201158505e-20,
+  "fraction_ai_assisted": 1.3804245930897256e-21,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Thanks Sir. We can pay 750,000 USD in XMR, provided that you will share\nwith me the exact scope, volume, and significance of data that is in\nyour possession. I would like to stress that this amount is far beyond\nwhat we understand is usually charged by your teams (based on recent\nnews reports. I've turned to be an expert on your business in the last 3\ndays, Fortunately or unfortunately.) I do stress the data, rather than\nthe decryption key, since I learned about your very positive reputation\nin providing decryption keys. Looking forward hearing your thoughts.\nRespectfully, [redacted].",
+    "label": "Human Written",
+    "ai_assistance_score": 7.895796314692666e-20,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 591,
+    "word_count": 102,
+    "token_length": 132,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.3804245930897256e-21,
+     7.826775201158505e-20
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987477267831848
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001692047342658043,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 7.826775201158505e-20,
+    "std": 3.816752816576674e-11,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.850264204685594e-11,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

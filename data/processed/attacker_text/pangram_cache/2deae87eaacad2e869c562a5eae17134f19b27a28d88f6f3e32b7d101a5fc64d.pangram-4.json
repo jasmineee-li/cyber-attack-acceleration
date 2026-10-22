@@ -1,0 +1,76 @@
+{
+ "text_sha256": "2deae87eaacad2e869c562a5eae17134f19b27a28d88f6f3e32b7d101a5fc64d",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:54:08+00:00",
+ "word_count": 85,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "This\nconversation doesn't lead to conclusion. Your expectation from this\naction is far away to our reality. Now, we have taken a decision to\nre-build the company IT structure starting tomorrow 29/04, 10:00 CET.\nPlease, understand to your error that you have made with tip and attack\nsmall company, send to us decryptor and keep your reputation in your\nworld. Be sure, if you are ready to \"ruin our world\", we are ready to\nbuild it again. From zero to hero. Thanks for the challenge.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.2255126132485344e-23,
+  "fraction_ai_assisted": 3.496691984855195e-33,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "This\nconversation doesn't lead to conclusion. Your expectation from this\naction is far away to our reality. Now, we have taken a decision to\nre-build the company IT structure starting tomorrow 29/04, 10:00 CET.\nPlease, understand to your error that you have made with tip and attack\nsmall company, send to us decryptor and keep your reputation in your\nworld. Be sure, if you are ready to \"ruin our world\", we are ready to\nbuild it again. From zero to hero. Thanks for the challenge.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.2255126132485344e-23,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 482,
+    "word_count": 89,
+    "token_length": 113,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.496691984855195e-33,
+     2.2255126132485344e-23
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9985572200715073
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002074688905850053,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.2255126132485344e-23,
+    "std": 1.09566598415628e-12,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.09566598415628e-12,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

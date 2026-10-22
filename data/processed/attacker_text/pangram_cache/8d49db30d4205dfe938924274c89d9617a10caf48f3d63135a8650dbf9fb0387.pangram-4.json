@@ -1,0 +1,96 @@
+{
+ "text_sha256": "8d49db30d4205dfe938924274c89d9617a10caf48f3d63135a8650dbf9fb0387",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:43:40+00:00",
+ "word_count": 75,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hello. This is Lockbit. We have prepared files that we will send to the people who signed them describing the whole situation and your attitude to their security and trade secrets. We are sending you some of the screenshots for your review. Recipients: Pension Advisory Group, Ltd. -pag@pagltd.com -dennis@pagltd.com -melody@pagltd.com Frost, PLLC -drichardson@frostpllc.com -dcooper@frostpllc.com -erachal@frostpllc.com We will send out tomorrow, so you have 24 hours to go to tor chat and start solving the problem.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 4.733800835045668e-14,
+  "fraction_ai_assisted": 3.458388301552499e-15,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Hello.",
+    "label": "Human Written",
+    "ai_assistance_score": 4.227957393909687e-12,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 6,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.9799779180730845e-13,
+     4.078958525111087e-12
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9692243709710958
+   },
+   {
+    "text": " This is Lockbit. We have prepared files that we will send to the people who signed them describing the whole situation and your attitude to their security and trade secrets. We are sending you some of the screenshots for your review. Recipients: Pension Advisory Group, Ltd. -pag@pagltd.com -dennis@pagltd.com -melody@pagltd.com Frost, PLLC -drichardson@frostpllc.com -dcooper@frostpllc.com -erachal@frostpllc.com We will send out tomorrow, so you have 24 hours to go to tor chat and start solving the problem.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.2843073463796004e-28,
+    "confidence": "High",
+    "start_index": 6,
+    "end_index": 517,
+    "word_count": 86,
+    "token_length": 142,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.4018173690060055e-31,
+     1.2816064703738404e-28
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988716278882309
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0019342360319569707,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 4.733800835045668e-14,
+    "std": 2.3438799345854022e-08,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.4279895427525844e-08,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

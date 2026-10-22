@@ -1,0 +1,96 @@
+{
+ "text_sha256": "dbef81170187d85a04c39ecd08bc37fa26663be05f9905a7a689d5e927fc70a5",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:49:42+00:00",
+ "word_count": 145,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Thanks. The company is in an crazy internal fight, people shout at each other, disagreeing on what to do. Some think we should try to find a solution with you (my team), some think that would be a dangerous mistake, potentially unlawfull and they want to try finding technical ways, and again some seem to have been giving up because they think the company was going down no matter what, due to really bad economy, closed projects and laid off people. They actually think this situation can be used for a restructuring process. No matter what I still believe that my team will get (some of) its way, but maybe in a very limited fashion. Perhaps a group of us will have to work out something on our own. These are the discussions. It is fucked up, but I don't quit. I will get back.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.02646343410958e-15,
+  "fraction_ai_assisted": 1.88329114910108e-15,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Thanks.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.311561365838128e-13,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 7,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.1012147100388234e-13,
+     2.260954146343988e-13
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9773000171536393
+   },
+   {
+    "text": " The company is in an crazy internal fight, people shout at each other, disagreeing on what to do. Some think we should try to find a solution with you (my team), some think that would be a dangerous mistake, potentially unlawfull and they want to try finding technical ways, and again some seem to have been giving up because they think the company was going down no matter what, due to really bad economy, closed projects and laid off people. They actually think this situation can be used for a restructuring process. No matter what I still believe that my team will get (some of) its way, but maybe in a very limited fashion. Perhaps a group of us will have to work out something on our own. These are the discussions. It is fucked up, but I don't quit. I will get back.",
+    "label": "Human Written",
+    "ai_assistance_score": 5.41661048400385e-26,
+    "confidence": "High",
+    "start_index": 7,
+    "end_index": 781,
+    "word_count": 145,
+    "token_length": 168,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.8738136156916786e-30,
+     5.41631712635472e-26
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989100529336276
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001280409749597311,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.02646343410958e-15,
+    "std": 4.2617980255954535e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 5.9196803015026944e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

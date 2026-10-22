@@ -1,0 +1,76 @@
+{
+ "text_sha256": "ea088295128e9d7458b7f2c19f69378205b3a821807f6983d99da5a5f78c3198",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:00:05+00:00",
+ "word_count": 59,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "I understand your point, and I’m just trying to get a full understanding so I can present everything as accurate to leadership as I can. I know you’ve shown us that you have the data and can decrypt, that’s clear. But if you have any examples or data points around your reliability, that would really help support this internally.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 1.0,
+  "fraction_ai_assisted": 8.407790785948902e-45,
+  "fraction_human": 6.207089645824614e-20,
+  "headline": "AI Generated",
+  "num_ai_segments": 1,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "I understand your point, and I’m just trying to get a full understanding so I can present everything as accurate to leadership as I can. I know you’ve shown us that you have the data and can decrypt, that’s clear. But if you have any examples or data points around your reliability, that would really help support this internally.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 330,
+    "word_count": 62,
+    "token_length": 68,
+    "is_humanized": false,
+    "humanizer_score": 0.014582290314137936,
+    "class_probabilities": [
+     6.207089645824614e-20,
+     8.407790785948902e-45,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9941457671885096
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0030303029343485832,
+   "human": 5.883437474037638e-37,
+   "mixed": 0.0,
+   "ai": 1.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.0,
+    "std": 1.5350828941329553e-10,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   },
+   "human_coverage": {
+    "mean": 6.207089645824614e-20,
+    "std": 1.5350828941329553e-10,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

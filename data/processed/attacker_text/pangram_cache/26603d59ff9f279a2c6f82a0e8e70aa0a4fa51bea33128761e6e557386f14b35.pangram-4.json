@@ -1,0 +1,76 @@
+{
+ "text_sha256": "26603d59ff9f279a2c6f82a0e8e70aa0a4fa51bea33128761e6e557386f14b35",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:49:23+00:00",
+ "word_count": 77,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We have been discussing your services and after your assurances we feel a lot better with moving forward with an agreement. We can gather and access 208K within the next 24 hours and pay. Please work with us here. We do not have a cyber insurance policy to pull funds from, and this is out of pocket cash we have to access. We appreciate that your team will stand behind your service as you value your reputation.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 7.772035883053761e-28,
+  "fraction_ai_assisted": 8.368567627430521e-33,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We have been discussing your services and after your assurances we feel a lot better with moving forward with an agreement. We can gather and access 208K within the next 24 hours and pay. Please work with us here. We do not have a cyber insurance policy to pull funds from, and this is out of pocket cash we have to access. We appreciate that your team will stand behind your service as you value your reputation.",
+    "label": "Human Written",
+    "ai_assistance_score": 7.772077772030052e-28,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 413,
+    "word_count": 77,
+    "token_length": 90,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     8.36856836211449e-33,
+     7.772035883053761e-28
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.998893928341178
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002421307610347867,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 7.772035883053761e-28,
+    "std": 6.994860335347635e-15,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 6.994898028313788e-15,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

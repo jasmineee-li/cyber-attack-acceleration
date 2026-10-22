@@ -1,0 +1,76 @@
+{
+ "text_sha256": "075553f24d7a202f701fd0d8ead2712c9345281e60527791aaae6e6bd49278a3",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:00:58+00:00",
+ "word_count": 131,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "My executives want me to make you aware that we have been through this before. We were ransomwared a few years ago, and similar to you they asked for a ridiculous amount of money. We did not pay them. Their loss puts you at an advantage though. We did buy Bitcoin then for the potential situation we are in right now. My boss does not want to waste money or time on this any longer and is willing to pay you that Bitcoin so we can all walk away today. As you know banks are closed today and tomorrow due to holiday, so we only have what Bitcoin we have to work with. We can send you $1,500,000 within hours. Accept and we will start the process of cold storage removal",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.3672560356561096e-30,
+  "fraction_ai_assisted": 1.284670504544739e-31,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "My executives want me to make you aware that we have been through this before. We were ransomwared a few years ago, and similar to you they asked for a ridiculous amount of money. We did not pay them. Their loss puts you at an advantage though. We did buy Bitcoin then for the potential situation we are in right now. My boss does not want to waste money or time on this any longer and is willing to pay you that Bitcoin so we can all walk away today. As you know banks are closed today and tomorrow due to holiday, so we only have what Bitcoin we have to work with. We can send you $1,500,000 within hours. Accept and we will start the process of cold storage removal",
+    "label": "Human Written",
+    "ai_assistance_score": 1.4314894668437985e-30,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 668,
+    "word_count": 133,
+    "token_length": 154,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.284670504544739e-31,
+     1.3672560356561096e-30
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987658584425012
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001497006043791771,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.3672560356561096e-30,
+    "std": 2.0732245761770232e-16,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.168437961591103e-16,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

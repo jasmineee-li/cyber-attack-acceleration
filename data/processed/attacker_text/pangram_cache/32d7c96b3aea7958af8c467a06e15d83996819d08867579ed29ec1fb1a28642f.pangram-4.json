@@ -1,0 +1,96 @@
+{
+ "text_sha256": "32d7c96b3aea7958af8c467a06e15d83996819d08867579ed29ec1fb1a28642f",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:54:49+00:00",
+ "word_count": 111,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Also, our management wants to make sure, once the payment is make: 1) you will provide us the data back through download, 2) you will delete our data from your side and provide proof, 3) you will provide us the decryptor, with support if there is any question or issue with the decryptor), 4) you will tell us how you hacked our network, 5) you will not publish the data or the blog post / any media that you hacked our network and data. We were just able to test the decryption too now that the portal is back up. Please confirm and I will let my management know. Thank you!",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.230181501838919e-18,
+  "fraction_ai_assisted": 1.1287659083602236e-25,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Also, our management wants to make sure, once the payment is make: 1) you will provide us the data back through download, 2) you will delete our data from your side and provide proof, 3) you will provide us the decryptor, with support if there is any question or issue with the decryptor), 4) you will tell us how you hacked our network, 5) you will not publish the data or the blog post / any media that you hacked our network and data. We were just able to test the decryption too now that the portal is back up. Please confirm and I will let my management know.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 564,
+    "word_count": 108,
+    "token_length": 135,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412406
+   },
+   {
+    "text": " Thank you!",
+    "label": "Human Written",
+    "ai_assistance_score": 1.165776739262014e-16,
+    "confidence": "Medium",
+    "start_index": 564,
+    "end_index": 575,
+    "word_count": 2,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.900367182134701e-24,
+     1.165776606913116e-16
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9892909364252322
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0017391304718330503,
+   "human": 1.0,
+   "mixed": 1.1102230246251565e-16,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.230181501838919e-18,
+    "std": 2.06553482651195e-10,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.06553482651195e-10,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

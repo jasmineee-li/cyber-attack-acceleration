@@ -1,0 +1,76 @@
+{
+ "text_sha256": "9546d1854a66b3c9a2ba4a6879f832c3f3e7a52785470d19eb2dc2be29e47fa1",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:40:46+00:00",
+ "word_count": 175,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "To use a decryptor run it as administrator and turn off antivirus before.\nYou can use a decryptor as gui application or through cmd.\nCMD commands:\ndec.exe -full\ndec.exe -path \"C:\\folder\"\ndec.exe -file \"C:\\folder\\file.txt.random_ext\"\n* decryptor with -full option will decrypt all with default params.\nIf you use it as gui application, I recommend you choose \"create\nbackups\" option. If you use decryptor without this option, you should\nnot interrupt decryption process, otherwise some files will be\nirreversibly damaged.\nHow it works with \"create backups\" option:\n1. Decryptor looking for encrypted file\n2. creating backup of file\n3. decrypting file\n4. removing the backup\n5. looking for a next file and loop repeating.\nYou can collect list of extensions, input to the textarea above the chat\nand click \"Download\" to generate General decryptor to decrypt files\nwith these extensions.\nBut this way is not necessary, because we provide you the universal\ndecryptor. It just works little slowest but you don't need collect\nanything, just download it and use on any system with admin rights,\nDOWNLOAD:",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 6.563943904031194e-30,
+  "fraction_ai_assisted": 4.484155085839415e-44,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "To use a decryptor run it as administrator and turn off antivirus before.\nYou can use a decryptor as gui application or through cmd.\nCMD commands:\ndec.exe -full\ndec.exe -path \"C:\\folder\"\ndec.exe -file \"C:\\folder\\file.txt.random_ext\"\n* decryptor with -full option will decrypt all with default params.\nIf you use it as gui application, I recommend you choose \"create\nbackups\" option. If you use decryptor without this option, you should\nnot interrupt decryption process, otherwise some files will be\nirreversibly damaged.\nHow it works with \"create backups\" option:\n1. Decryptor looking for encrypted file\n2. creating backup of file\n3. decrypting file\n4. removing the backup\n5. looking for a next file and loop repeating.\nYou can collect list of extensions, input to the textarea above the chat\nand click \"Download\" to generate General decryptor to decrypt files\nwith these extensions.\nBut this way is not necessary, because we provide you the universal\ndecryptor. It just works little slowest but you don't need collect\nanything, just download it and use on any system with admin rights,\nDOWNLOAD:",
+    "label": "Human Written",
+    "ai_assistance_score": 6.563943904031194e-30,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 1096,
+    "word_count": 183,
+    "token_length": 246,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.484155085839415e-44,
+     6.563943904031194e-30
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988113721258098
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0018248175038024783,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 6.865412877954943e-30,
+    "std": 3.7892818282765097e-16,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.7892818282765097e-16,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

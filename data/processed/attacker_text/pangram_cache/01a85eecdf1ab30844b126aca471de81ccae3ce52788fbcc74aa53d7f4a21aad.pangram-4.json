@@ -1,0 +1,116 @@
+{
+ "text_sha256": "01a85eecdf1ab30844b126aca471de81ccae3ce52788fbcc74aa53d7f4a21aad",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:01:35+00:00",
+ "word_count": 484,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Ok guys. What I am trying to let you understand is that my client is\nnot in a good financial position and the financial statement you have\nhad to chance to read clearly testifies what I am saying. The production\nplants are on hold and people are put on unemployed insurances and are\nbeing fired. I know that you guys don’t care because your goal is your\npersonal profit. You carried out a perfect and clean job on my client’s\nnetwork I have been told and you clearly deserve to be rewarded for your\nwork. The issue is not if my client is willing to pay but how much\nmoney my client can afford to pay without worsening his financial\ncondition and safeguarding jobs and families. This is the main issue.\nYou guys are considering the data exfiltrated as valuable data that may\ncause a catastrophic reputational damage to my client if disclosed to\nthe general public. Well, this is not the case. My client is not\ninterested if you guys disclose [redacted] email dump or NDAs or whatever\ndocument you have in your hands. The value of the data you guys have\nstolen is irrelevant to my client. My client resells commodities ([redacted]) with a B2B model, there’s no industrial secret to be\nprotected. And again, please believe me that I’m not bluffing on this\npoint. You have read the documents you have stolen and you guys are\nexperienced in the field: I bet you haven’t found any information worth\nUSD 6.75 M. Any. So again, my client is interested in a quick restore of\nits network. Analysts have estimated that to restore the systems from\nscratch it will cost around EUR 800 k. Than there is the business\ninterruption which is also covered by the insurance policy you have had\nthe chance to read. If my client gets the decrypter, the network will be\nrestored faster and the business will restart in a matter of days.\nOtherwise it will take longer but the costs incurred by my client will\nbe integrally covered by the cybersecurity insurance policy.\nThis being said, we are at a negotiation table. Your demands (USD 6.75\nM) do not match our last offer (USD 750k ). We are way too far to reach\nan agreement. You guys say that our last offer do not you’re your\nexpectations and to come back with a higher offer. But you guys have not\nlowered your request and showed any availability to reach an agreement\nand a win-win solution for both the parties involved. I mean, this is\nnot a negotiation. Are you guys willing to get a reward for your team?\nWhat if I convince my client to put USD 1 M on the table? My client will\nnever pay you the amount you have requested, but with some sacrifice he\nmight be able to reach the USD 1 M threshold.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.559842605232071e-17,
+  "fraction_ai_assisted": 1.2011571640686011e-23,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 3,
+  "windows": [
+   {
+    "text": "Ok guys. What I am trying to let you understand is that my client is\nnot in a good financial position and the financial statement you have\nhad to chance to read clearly testifies what I am saying. The production\nplants are on hold and people are put on unemployed insurances and are\nbeing fired. I know that you guys don’t care because your goal is your\npersonal profit. You carried out a perfect and clean job on my client’s\nnetwork I have been told and you clearly deserve to be rewarded for your\nwork. The issue is not if my client is willing to pay but how much\nmoney my client can afford to pay without worsening his financial\ncondition and safeguarding jobs and families. This is the main issue.\nYou guys are considering the data exfiltrated as valuable data that may\ncause a catastrophic reputational damage to my client if disclosed to\nthe general public. Well, this is not the case. My client is not\ninterested if you guys disclose [redacted] email dump or NDAs or whatever\ndocument you have in your hands. The value of the data you guys have\nstolen is irrelevant to my client. My client resells commodities ([redacted]) with a B2B model, there’s no industrial secret to be\nprotected. And again, please believe me that I’m not bluffing on this\npoint. You have read the documents you have stolen and you guys are\nexperienced in the field: I bet you haven’t found any information worth\nUSD 6.75 M.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.2831604038201975e-19,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 1404,
+    "word_count": 260,
+    "token_length": 303,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.1602784209260346e-28,
+     2.2831604038201975e-19
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989557006502023
+   },
+   {
+    "text": " Any.",
+    "label": "Human Written",
+    "ai_assistance_score": 8.14066424947163e-15,
+    "confidence": "Medium",
+    "start_index": 1404,
+    "end_index": 1409,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     6.318053986294042e-21,
+     8.14066086133984e-15
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9867167280997569
+   },
+   {
+    "text": " So again, my client is interested in a quick restore of\nits network. Analysts have estimated that to restore the systems from\nscratch it will cost around EUR 800 k. Than there is the business\ninterruption which is also covered by the insurance policy you have had\nthe chance to read. If my client gets the decrypter, the network will be\nrestored faster and the business will restart in a matter of days.\nOtherwise it will take longer but the costs incurred by my client will\nbe integrally covered by the cybersecurity insurance policy.\nThis being said, we are at a negotiation table. Your demands (USD 6.75\nM) do not match our last offer (USD 750k ). We are way too far to reach\nan agreement. You guys say that our last offer do not you’re your\nexpectations and to come back with a higher offer. But you guys have not\nlowered your request and showed any availability to reach an agreement\nand a win-win solution for both the parties involved. I mean, this is\nnot a negotiation. Are you guys willing to get a reward for your team?\nWhat if I convince my client to put USD 1 M on the table? My client will\nnever pay you the amount you have requested, but with some sacrifice he\nmight be able to reach the USD 1 M threshold.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.5503223521103684e-39,
+    "confidence": "High",
+    "start_index": 1409,
+    "end_index": 2630,
+    "word_count": 231,
+    "token_length": 272,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     1.5503223521103684e-39
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989806194099237
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0011406843550503254,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.8708969262654917e-17,
+    "std": 2.069745624888597e-10,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.7260896878479315e-10,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

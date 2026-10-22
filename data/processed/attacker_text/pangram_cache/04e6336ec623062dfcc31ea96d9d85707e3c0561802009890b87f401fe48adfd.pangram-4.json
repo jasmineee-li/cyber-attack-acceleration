@@ -1,0 +1,136 @@
+{
+ "text_sha256": "04e6336ec623062dfcc31ea96d9d85707e3c0561802009890b87f401fe48adfd",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:59:32+00:00",
+ "word_count": 112,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Thank you for being flexible with the amount, but it's still a lot of money, and we can't get it approved by the end of this week. We're taking your offer seriously and considering the next steps, but our Chairman and President, who are key decision-makers, are currently overseas for an executive meeting and aren’t reachable right now. Since they won’t return to the U.S. until Monday, we’ll need a bit more time to sort things out. We get that you don’t offer separate pricing for each service, although we hoped that might speed things up. We’ll update you by Tuesday after we’ve had a chance to go over everything with them.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 0.999977171421051,
+  "fraction_ai_assisted": 1.6315359106390385e-15,
+  "fraction_human": 2.2819787773187272e-05,
+  "headline": "AI Generated",
+  "num_ai_segments": 4,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "Thank you for being flexible with the amount, but it's still a lot of money, and we can't get it approved by the end of this week.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.999889612197876,
+    "confidence": "Low",
+    "start_index": 0,
+    "end_index": 130,
+    "word_count": 29,
+    "token_length": 32,
+    "is_humanized": false,
+    "humanizer_score": 0.05648307129740715,
+    "class_probabilities": [
+     0.0001104126640711911,
+     3.9792715830434453e-16,
+     0.999889612197876
+    ],
+    "confidence_score": 0.999889612197876,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.6493428912783752
+   },
+   {
+    "text": " We're taking your offer seriously and considering the next steps, but our Chairman and President, who are key decision-makers, are currently overseas for an executive meeting and aren’t reachable right now.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 130,
+    "end_index": 337,
+    "word_count": 34,
+    "token_length": 39,
+    "is_humanized": false,
+    "humanizer_score": 0.05648307129740715,
+    "class_probabilities": [
+     2.7165518327159596e-34,
+     5.652766646374352e-28,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9964400477300972
+   },
+   {
+    "text": " Since they won’t return to the U.S.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 337,
+    "end_index": 373,
+    "word_count": 9,
+    "token_length": 10,
+    "is_humanized": false,
+    "humanizer_score": 0.05648307129740715,
+    "class_probabilities": [
+     1.7199410087980544e-19,
+     2.7069597512965546e-14,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9856644562842577
+   },
+   {
+    "text": " until Monday, we’ll need a bit more time to sort things out. We get that you don’t offer separate pricing for each service, although we hoped that might speed things up. We’ll update you by Tuesday after we’ve had a chance to go over everything with them.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 373,
+    "end_index": 629,
+    "word_count": 51,
+    "token_length": 56,
+    "is_humanized": false,
+    "humanizer_score": 0.05648307129740715,
+    "class_probabilities": [
+     2.4844726679488104e-31,
+     1.7794665182928746e-23,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9958980783152691
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Low",
+   "boundary": "ai"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0015898251440376043,
+   "human": 0.0,
+   "mixed": 0.0001104126640711911,
+   "ai": 0.999889612197876,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.999977171421051,
+    "std": 0.0021715916227549314,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   },
+   "human_coverage": {
+    "mean": 2.2819787773187272e-05,
+    "std": 0.0021715916227549314,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,76 @@
+{
+ "text_sha256": "d6e3e47630d858d6769899ccba2de98d4fbe8280bcb5e66510a359767ccf348f",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:04:38+00:00",
+ "word_count": 99,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We can't!! How do I get $355k out of nowhere? We might be able to get a\nfew more thousand dollars but definitely not $355k. I think the most we\ncan actually send you is $284,811.29. THis is what we wired to the\nbroker and he can purchase the crypto. His own fee is included in that\namount but I think I can ask him to hold off on charging that so the\nfull amount is yours okay? Please let me call him and ask this. It is\nonly the afternoon where he is so it should be fast",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 4.414264848525718e-19,
+  "fraction_ai_assisted": 8.44991004975601e-30,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We can't!! How do I get $355k out of nowhere? We might be able to get a\nfew more thousand dollars but definitely not $355k. I think the most we\ncan actually send you is $284,811.29. THis is what we wired to the\nbroker and he can purchase the crypto. His own fee is included in that\namount but I think I can ask him to hold off on charging that so the\nfull amount is yours okay? Please let me call him and ask this. It is\nonly the afternoon where he is so it should be fast",
+    "label": "Human Written",
+    "ai_assistance_score": 4.414264848525718e-19,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 472,
+    "word_count": 102,
+    "token_length": 126,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     8.44991004975601e-30,
+     4.414264848525718e-19
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9986548600239407
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0021186440717428923,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 4.414264848525718e-19,
+    "std": 9.670705902742327e-11,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 9.670705902742327e-11,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

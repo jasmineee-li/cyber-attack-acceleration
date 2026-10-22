@@ -1,0 +1,76 @@
+{
+ "text_sha256": "72fc0fa58b2a6c1c8a851fca3ceec42765588803271e1e694f34c8427749dabb",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:38:09+00:00",
+ "word_count": 124,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "monero manual\nhere is the fastest and safest service to buy monero in your country https://localmonero.co/\nalternative way is to buy bitcoin via next manual and change it to monero here https://changelly.com/\nbitcoin manual\nhere are some services where you can safely buy and send bitcoin\nhttps://localcryptos.com/ manual how to buy and send is placed on the\nmain page, this is the simplest and fastest way, no any verification\nrequired///////\nhttps://paxful.com/ here is the short manual how to buy and send\nhttps://www.youtube.com/watch?v=EjB5qFW0bJ8 profile verification may be\nrequired////////\nhttps://www.coinbase.com/ here is the short manual how to buy and send\nhttps://www.youtube.com/watch?v=Neph3rjv0Co profile verification may be\nrequired///\nchose which one you like more, and buy bitcoin.\nhen text in chat and we provide the wallet for transfer",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 0.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "monero manual\nhere is the fastest and safest service to buy monero in your country https://localmonero.co/\nalternative way is to buy bitcoin via next manual and change it to monero here https://changelly.com/\nbitcoin manual\nhere are some services where you can safely buy and send bitcoin\nhttps://localcryptos.com/ manual how to buy and send is placed on the\nmain page, this is the simplest and fastest way, no any verification\nrequired///////\nhttps://paxful.com/ here is the short manual how to buy and send\nhttps://www.youtube.com/watch?v=EjB5qFW0bJ8 profile verification may be\nrequired////////\nhttps://www.coinbase.com/ here is the short manual how to buy and send\nhttps://www.youtube.com/watch?v=Neph3rjv0Co profile verification may be\nrequired///\nchose which one you like more, and buy bitcoin.\nhen text in chat and we provide the wallet for transfer",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 856,
+    "word_count": 147,
+    "token_length": 199,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001168224262073636,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.0,
+    "std": 7.627921091394651e-25,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 7.627921091394651e-25,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

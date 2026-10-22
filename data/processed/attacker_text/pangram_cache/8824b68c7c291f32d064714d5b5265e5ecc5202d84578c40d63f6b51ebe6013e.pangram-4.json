@@ -1,0 +1,96 @@
+{
+ "text_sha256": "8824b68c7c291f32d064714d5b5265e5ecc5202d84578c40d63f6b51ebe6013e",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:51:59+00:00",
+ "word_count": 79,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "USD 50000 is the maximum.we cam stretch to- even that is extremely difficult given our cash flow.This situation has already hit us very hard,and we are doing our best to recover.We know you want a fee so we will arrange this money. We don't have a wallet set up yet and will need a few days to make the payment. if you agree we ask you to decrypt 75% of files immediately so we can resume operations. please confirm",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.0738021583023283e-10,
+  "fraction_ai_assisted": 2.1810441941264112e-16,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "USD 50000 is the maximum.we cam stretch to- even that is extremely difficult given our cash flow.This situation has already hit us very hard,and we are doing our best to recover.We know you want a fee so we will arrange this money. We don't have a wallet set up yet and will need a few days to make the payment. if you agree we ask you to decrypt 75% of files immediately so we can resume operations.",
+    "label": "Human Written",
+    "ai_assistance_score": 7.146622168056567e-44,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 400,
+    "word_count": 82,
+    "token_length": 97,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     7.146622168056567e-44
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9985562042426069
+   },
+   {
+    "text": " please confirm",
+    "label": "Human Written",
+    "ai_assistance_score": 2.970855783601678e-09,
+    "confidence": "Medium",
+    "start_index": 400,
+    "end_index": 415,
+    "word_count": 2,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     6.0342220586581674e-15,
+     2.970852674977209e-09
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9026359534552363
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0024096386041492224,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.0738021583023283e-10,
+    "std": 1.9700794382515596e-06,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.970081257240963e-06,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

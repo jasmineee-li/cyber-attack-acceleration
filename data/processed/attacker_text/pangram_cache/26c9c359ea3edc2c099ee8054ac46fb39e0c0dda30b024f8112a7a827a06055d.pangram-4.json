@@ -1,0 +1,76 @@
+{
+ "text_sha256": "26c9c359ea3edc2c099ee8054ac46fb39e0c0dda30b024f8112a7a827a06055d",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:44:03+00:00",
+ "word_count": 97,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Throughout the negotiations, we did not come to anything! A post will be published tomorrow as a timer, not the data. You negotiate for a very long time and not productively. You don't even try to negotiate a price, and you don't pay the price of the descript and deletion of the data! Speaking of the date at the top of the chat, after 16 days your decryptor will be deleted and you will never decrypt your data. And the stolen data will also be published! Keep in mind, these aren't just threats, we're keeping our promises.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 4.2100437076957474e-36,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Throughout the negotiations, we did not come to anything! A post will be published tomorrow as a timer, not the data. You negotiate for a very long time and not productively. You don't even try to negotiate a price, and you don't pay the price of the descript and deletion of the data! Speaking of the date at the top of the chat, after 16 days your decryptor will be deleted and you will never decrypt your data. And the stolen data will also be published! Keep in mind, these aren't just threats, we're keeping our promises.",
+    "label": "Human Written",
+    "ai_assistance_score": 4.2100437076957474e-36,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 526,
+    "word_count": 101,
+    "token_length": 118,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     4.2100437076957474e-36
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9984423174698627
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0019011406693607569,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 4.2100437076957474e-36,
+    "std": 6.747358785504503e-19,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 6.747358785504503e-19,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

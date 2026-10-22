@@ -1,0 +1,76 @@
+{
+ "text_sha256": "db266ddedb81ebe4532cb5ae200699cff29ef5f752f30d4b0eacd4ca8c016c0e",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:42:03+00:00",
+ "word_count": 58,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We analized the company's revenue, possible reputational losses, files we have and encrypted data. The company provides IT security services, and belong to the most influential family in the world. It's great headline for newspapers. And if that's the case, you will lose most of you customers. Besides, we have huge value of you and your customers data.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.639519203260036e-43,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We analized the company's revenue, possible reputational losses, files we have and encrypted data. The company provides IT security services, and belong to the most influential family in the world. It's great headline for newspapers. And if that's the case, you will lose most of you customers. Besides, we have huge value of you and your customers data.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.639519203260036e-43,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 354,
+    "word_count": 61,
+    "token_length": 73,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     1.639519203260036e-43
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989372487228774
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0028248587623238564,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.639519203260036e-43,
+    "std": 1.2925833030844576e-22,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.2925833030844576e-22,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,76 @@
+{
+ "text_sha256": "7aaa9d9475b2204466fc3601578510a20ddb5f2c1c498850ca0ac43b9a79fba1",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:54:25+00:00",
+ "word_count": 127,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "A 50% discount, approximately $300,000 USD is very helpful.\nMy boss and his partners are able to contribute funds to the above offer and settle for $285,125 USD.\nThis is the maximum loan; we are able to secure the bank and funds from our personal account.\nAlso note that we are entering into a weekend, banks are closed. We will require more time to secure this amount and transfer funds to you.\nWe will need an extension on the timer.\nIf you agree to settle for $285,125 USD, please also confirm that you will provide us with a decryptor to unlock all systems and you will delete all files of your servers and provide a receipt of deletion?\nI am waiting for payment instructions, let’s move quickly.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.137816891610953e-32,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "A 50% discount, approximately $300,000 USD is very helpful.\nMy boss and his partners are able to contribute funds to the above offer and settle for $285,125 USD.\nThis is the maximum loan; we are able to secure the bank and funds from our personal account.\nAlso note that we are entering into a weekend, banks are closed. We will require more time to secure this amount and transfer funds to you.\nWe will need an extension on the timer.\nIf you agree to settle for $285,125 USD, please also confirm that you will provide us with a decryptor to unlock all systems and you will delete all files of your servers and provide a receipt of deletion?\nI am waiting for payment instructions, let’s move quickly.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.137816891610953e-32,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 700,
+    "word_count": 131,
+    "token_length": 166,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     1.137816891610953e-32
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988081387758588
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0014285714132711291,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.137816891610953e-32,
+    "std": 2.5498755589343337e-17,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.5498755589343337e-17,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

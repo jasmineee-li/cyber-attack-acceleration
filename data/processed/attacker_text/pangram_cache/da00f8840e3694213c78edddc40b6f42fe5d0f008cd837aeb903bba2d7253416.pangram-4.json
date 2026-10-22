@@ -1,0 +1,76 @@
+{
+ "text_sha256": "da00f8840e3694213c78edddc40b6f42fe5d0f008cd837aeb903bba2d7253416",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:06:11+00:00",
+ "word_count": 168,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Of course gathering the money is our concern, but its not solely our problem. Lets break this down in its most simplistic form. You want money. We want to pay you. You want more money than we can possibly come up with. We are trying our best to accommodate you.\nAll of those consequences, as severe as they may be, does not change the equation.\nNow we're willing to go to bat for you, well, for the sake of this deal...but we need to have a mutual understanding of our capabilities.\nWe will seek out whatever loans or funding sources necessary to arrive at a mutually acceptable amount...but it MUST be within reason. I must be straight-forward when I say there is no reality where we can secure half a million dollars.\nOptimistically, we can probably do close to $90,000 on short notice but hundreds of thousands of dollars is just not in the cards. Help us out, we want to pay you and put this behind us.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.814045334480945e-28,
+  "fraction_ai_assisted": 2.418953029944235e-33,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Of course gathering the money is our concern, but its not solely our problem. Lets break this down in its most simplistic form. You want money. We want to pay you. You want more money than we can possibly come up with. We are trying our best to accommodate you.\nAll of those consequences, as severe as they may be, does not change the equation.\nNow we're willing to go to bat for you, well, for the sake of this deal...but we need to have a mutual understanding of our capabilities.\nWe will seek out whatever loans or funding sources necessary to arrive at a mutually acceptable amount...but it MUST be within reason. I must be straight-forward when I say there is no reality where we can secure half a million dollars.\nOptimistically, we can probably do close to $90,000 on short notice but hundreds of thousands of dollars is just not in the cards. Help us out, we want to pay you and put this behind us.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.8140573715430976e-28,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 906,
+    "word_count": 173,
+    "token_length": 202,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.4189528462732426e-33,
+     2.814045334480945e-28
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989072798136965
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0011037527583539486,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.814045334480945e-28,
+    "std": 2.2292636622312303e-15,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.229273191351887e-15,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

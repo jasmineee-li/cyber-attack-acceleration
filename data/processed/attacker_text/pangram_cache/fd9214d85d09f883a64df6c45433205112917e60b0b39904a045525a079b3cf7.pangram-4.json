@@ -1,0 +1,136 @@
+{
+ "text_sha256": "fd9214d85d09f883a64df6c45433205112917e60b0b39904a045525a079b3cf7",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:38:53+00:00",
+ "word_count": 124,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hello. In the end, we want to get money from you. We’ve encrypted your files and also downloaded a large number of them to our own servers. We can give you a list of the files we took, along with 1‑3 small samples from that list. We can also decrypt 1‑3 small files that contain non‑critical information to demonstrate that we can recover all of your data. If you’d like, we can do all of that, or we can go straight to the payment request. You see a timer counting down the negotiation period. When it expires, if we don’t receive what we want, we will publish the stolen data publicly and delete the decryption tools, making any recovery of your data completely impossible.",
+  "version": "4.1",
+  "prediction": "We believe that this text is a mix of AI, AI-assisted, and human-written content.",
+  "prediction_short": "Mixed",
+  "fraction_ai": 0.4726024270057678,
+  "fraction_ai_assisted": 0.454410582780838,
+  "fraction_human": 0.07298700511455536,
+  "headline": "AI Detected",
+  "num_ai_segments": 2,
+  "num_ai_assisted_segments": 1,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Hello. In the end, we want to get money from you.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.479510830104118e-06,
+    "confidence": "Low",
+    "start_index": 0,
+    "end_index": 49,
+    "word_count": 11,
+    "token_length": 14,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     0.9999873638153076,
+     1.2350646102277096e-05,
+     3.0418789265240775e-07
+    ],
+    "confidence_score": 0.9999873638153076,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.683756345177665
+   },
+   {
+    "text": " We’ve encrypted your files and also downloaded a large number of them to our own servers. We can give you a list of the files we took, along with 1‑3 small samples from that list. We can also decrypt 1‑3 small files that contain non‑critical information to demonstrate that we can recover all of your data.",
+    "label": "AI-Assisted",
+    "ai_assistance_score": 0.4995761513710022,
+    "confidence": "Low",
+    "start_index": 49,
+    "end_index": 356,
+    "word_count": 60,
+    "token_length": 69,
+    "is_humanized": false,
+    "humanizer_score": 0.02022436074912548,
+    "class_probabilities": [
+     0.0008692174451425672,
+     0.9991092085838318,
+     2.154955654987134e-05
+    ],
+    "confidence_score": 0.9991092085838318,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.6543423478938547
+   },
+   {
+    "text": " If you’d like, we can do all of that, or we can go straight to the payment request.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 356,
+    "end_index": 440,
+    "word_count": 19,
+    "token_length": 22,
+    "is_humanized": false,
+    "humanizer_score": 0.02022436074912548,
+    "class_probabilities": [
+     2.1166479150618622e-23,
+     2.084181073494801e-20,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9940278343662212
+   },
+   {
+    "text": " You see a timer counting down the negotiation period. When it expires, if we don’t receive what we want, we will publish the stolen data publicly and delete the decryption tools, making any recovery of your data completely impossible.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 440,
+    "end_index": 675,
+    "word_count": 40,
+    "token_length": 46,
+    "is_humanized": false,
+    "humanizer_score": 0.02022436074912548,
+    "class_probabilities": [
+     1.002079549981133e-13,
+     5.342736886584931e-13,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9770865335381465
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Low",
+   "boundary": "ai"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.00148148147854954,
+   "human": 2.8608811356762963e-39,
+   "mixed": 1.0,
+   "ai": 1.601977572818214e-08,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.4726024270057678,
+    "std": 0.001477793324738741,
+    "p10": 0.4725925922393799,
+    "p50": 0.4725925922393799,
+    "p90": 0.4725925922393799
+   },
+   "human_coverage": {
+    "mean": 0.07298700511455536,
+    "std": 0.007254067808389664,
+    "p10": 0.072592593729496,
+    "p50": 0.072592593729496,
+    "p90": 0.072592593729496
+   }
+  }
+ },
+ "error": null
+}

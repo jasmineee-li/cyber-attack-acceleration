@@ -1,0 +1,76 @@
+{
+ "text_sha256": "4b2bcc9ae927e6658c81d7c7ad8e992f00d03f6f2bc96a6e070ff3bac6611700",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:47:42+00:00",
+ "word_count": 135,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Lets be realistic, you have our financial data for a [redacted] company... It's 2024, everything is digital and online. If you looked at the financials, you would see that my client is incapable of affording 1 million. There is no competitor to sell the information to. All you would be doing is destroying a business, and getting absolutely nothing for it. I will need some time to discuss further with my client, but in the mean time I ask that you please actually review the financials. There is no possible way to settle this matter for a sum of 6 figures, however I’m confident if you can bring the price down to a 5 figure settlement for Decryption and deletion of the data on your end, we’ll be able to come to a swift resolution.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 0.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Lets be realistic, you have our financial data for a [redacted] company... It's 2024, everything is digital and online. If you looked at the financials, you would see that my client is incapable of affording 1 million. There is no competitor to sell the information to. All you would be doing is destroying a business, and getting absolutely nothing for it. I will need some time to discuss further with my client, but in the mean time I ask that you please actually review the financials. There is no possible way to settle this matter for a sum of 6 figures, however I’m confident if you can bring the price down to a 5 figure settlement for Decryption and deletion of the data on your end, we’ll be able to come to a swift resolution.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 737,
+    "word_count": 138,
+    "token_length": 168,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0013568521244451404,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.0,
+    "std": 1.109811922738575e-24,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.109811922738575e-24,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

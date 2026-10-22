@@ -1,0 +1,136 @@
+{
+ "text_sha256": "7184bcd802f20343726a7e487f07997b657ebcfb0d2671107aadad1c7183e504",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:06:54+00:00",
+ "word_count": 65,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Once the payment is made, how does the decryption process work? What guarantees do we have that all our data will be fully recovered and secured? We also want to understand what you will provide to us after the payment. Please understand that we are concerned due to our lack of experience with situations like this and need reassurance that everything will be resolved properly.",
+  "version": "4.1",
+  "prediction": "We believe that this text is a mix of AI and human-written content.",
+  "prediction_short": "AI",
+  "fraction_ai": 0.8313375115394592,
+  "fraction_ai_assisted": 4.950581299610103e-14,
+  "fraction_human": 0.16866247355937958,
+  "headline": "AI Detected",
+  "num_ai_segments": 3,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Once the payment is made, how does the decryption process work?",
+    "label": "Human Written",
+    "ai_assistance_score": 0.003035782603546977,
+    "confidence": "Low",
+    "start_index": 0,
+    "end_index": 63,
+    "word_count": 11,
+    "token_length": 14,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     0.9969642162322998,
+     2.9556966683191854e-13,
+     0.003035782603546977
+    ],
+    "confidence_score": 0.9969642162322998,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.5752700798496947
+   },
+   {
+    "text": " What guarantees do we have that all our data will be fully recovered and secured?",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9864105582237244,
+    "confidence": "Low",
+    "start_index": 63,
+    "end_index": 145,
+    "word_count": 15,
+    "token_length": 16,
+    "is_humanized": false,
+    "humanizer_score": 0.01623561605811119,
+    "class_probabilities": [
+     0.013589429669082165,
+     1.7294383080232955e-15,
+     0.9864105582237244
+    ],
+    "confidence_score": 0.9864105582237244,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.5662797800855224
+   },
+   {
+    "text": " We also want to understand what you will provide to us after the payment.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 145,
+    "end_index": 219,
+    "word_count": 14,
+    "token_length": 15,
+    "is_humanized": false,
+    "humanizer_score": 0.01623561605811119,
+    "class_probabilities": [
+     4.925670427091688e-10,
+     3.123666701248031e-26,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9273216689098251
+   },
+   {
+    "text": " Please understand that we are concerned due to our lack of experience with situations like this and need reassurance that everything will be resolved properly.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 219,
+    "end_index": 379,
+    "word_count": 25,
+    "token_length": 27,
+    "is_humanized": false,
+    "humanizer_score": 0.01623561605811119,
+    "class_probabilities": [
+     1.059168072713387e-33,
+     0.0,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9970615349158793
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Low",
+   "boundary": "ai"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0026385225355625153,
+   "human": 1.0588945866058285e-33,
+   "mixed": 0.013589429669082165,
+   "ai": 0.9864105582237244,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.8313375115394592,
+    "std": 0.026722420006990433,
+    "p10": 0.8337730765342712,
+    "p50": 0.8337730765342712,
+    "p90": 0.8337730765342712
+   },
+   "human_coverage": {
+    "mean": 0.16866247355937958,
+    "std": 0.026722420006990433,
+    "p10": 0.16622690856456757,
+    "p50": 0.16622690856456757,
+    "p90": 0.16622690856456757
+   }
+  }
+ },
+ "error": null
+}

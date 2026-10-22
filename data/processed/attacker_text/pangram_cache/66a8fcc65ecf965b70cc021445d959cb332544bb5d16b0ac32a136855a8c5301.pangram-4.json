@@ -1,0 +1,96 @@
+{
+ "text_sha256": "66a8fcc65ecf965b70cc021445d959cb332544bb5d16b0ac32a136855a8c5301",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:57:37+00:00",
+ "word_count": 51,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hi - We are trying to see what we can do but meanwhile can you send me any files from: 1. E:\\mssql\\data folder on a server called [redacted]-db? log files or something like that. Also on a server called [redacted] can you get me a file from c:\\users\\[redacted]\\documents\\[redacted]\\exports please? thank you.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 8.268280350887331e-16,
+  "fraction_ai_assisted": 3.038522041965286e-18,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Hi - We are trying to see what we can do but meanwhile can you send me any files from: 1. E:\\mssql\\data folder on a server called [redacted]-db? log files or something like that. Also on a server called [redacted] can you get me a file from c:\\users\\[redacted]\\documents\\[redacted]\\exports please?",
+    "label": "Human Written",
+    "ai_assistance_score": 7.015588139642461e-34,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 297,
+    "word_count": 56,
+    "token_length": 85,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.092037274234433e-37,
+     7.015041718440321e-34
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988433812794145
+   },
+   {
+    "text": " thank you.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.3193723824128584e-14,
+    "confidence": "Medium",
+    "start_index": 297,
+    "end_index": 308,
+    "word_count": 2,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     8.50786163478474e-17,
+     2.3151185829517473e-14
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9856644562842578
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.003246753243729472,
+   "human": 1.0,
+   "mixed": 1.1102230246251565e-16,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 8.268280350887331e-16,
+    "std": 5.434111827185006e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 5.444087847195078e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,76 @@
+{
+ "text_sha256": "a5822b227b1da64aef29bf8eab52dcf605118b456097d2cd6d65acf03fe3b817",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:02:05+00:00",
+ "word_count": 122,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "First, thank you for finally providing this information which will\nallow me to work with the boss. Second, I will certainly push to make a\ndecision as fast as possible. HOWEVER - reducing the timer will not\nwork. Actually because you delay the analysis for no real reason we will\nneed more time. Given the amount it will not happen before Friday. You\ncan try and push and you are doing a great job of that, but in a company\nthat needs to follow process, it will not work and all you will do is\nend up losing this opportunity to close the issue for both side. Please\nincrease the timer as we are asking. I am trying to work with you.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.2965431308504036e-36,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "First, thank you for finally providing this information which will\nallow me to work with the boss. Second, I will certainly push to make a\ndecision as fast as possible. HOWEVER - reducing the timer will not\nwork. Actually because you delay the analysis for no real reason we will\nneed more time. Given the amount it will not happen before Friday. You\ncan try and push and you are doing a great job of that, but in a company\nthat needs to follow process, it will not work and all you will do is\nend up losing this opportunity to close the issue for both side. Please\nincrease the timer as we are asking. I am trying to work with you.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.2965431308504036e-36,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 632,
+    "word_count": 121,
+    "token_length": 137,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     1.2965431308504036e-36
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987918733631825
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0015822785208001733,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.2965431308504036e-36,
+    "std": 2.4808219320322205e-19,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.4808219320322205e-19,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

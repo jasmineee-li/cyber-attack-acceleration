@@ -1,0 +1,76 @@
+{
+ "text_sha256": "41923946afbc4b019e0cb57cbbfe50f3bb714473d293bb85a0d60b07983add1e",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:50:47+00:00",
+ "word_count": 148,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Thank you for clearly outlining the risks involved and your concerns. We have carefully evaluated the situation and fully understand the severity. As previously mentioned, our organization operates in an economically developing country, with most of our profits consistently reinvested into business growth and essential operational activities. Additionally, the process of converting funds to cryptocurrency involves significant bureaucratic hurdles and limitations on available resources. Nevertheless, given the seriousness of the situation, we held another internal meeting and secured approval for an additional increase. After making a substantial effort, our maximum feasible offer has now been raised from $162,000 USD to $200,000 USD. Unfortunately, ongoing financial commitments and internal regulations severely limit any possibility of further increments beyond this point. We kindly ask for your understanding, as this represents our absolute maximum effort given the circumstances. We remain fully committed to resolving this matter promptly and appreciate your cooperation.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 1.0,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 5.099701802659643e-32,
+  "headline": "AI Generated",
+  "num_ai_segments": 1,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "Thank you for clearly outlining the risks involved and your concerns. We have carefully evaluated the situation and fully understand the severity. As previously mentioned, our organization operates in an economically developing country, with most of our profits consistently reinvested into business growth and essential operational activities. Additionally, the process of converting funds to cryptocurrency involves significant bureaucratic hurdles and limitations on available resources. Nevertheless, given the seriousness of the situation, we held another internal meeting and secured approval for an additional increase. After making a substantial effort, our maximum feasible offer has now been raised from $162,000 USD to $200,000 USD. Unfortunately, ongoing financial commitments and internal regulations severely limit any possibility of further increments beyond this point. We kindly ask for your understanding, as this represents our absolute maximum effort given the circumstances. We remain fully committed to resolving this matter promptly and appreciate your cooperation.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 1088,
+    "word_count": 150,
+    "token_length": 188,
+    "is_humanized": false,
+    "humanizer_score": 0.026189027354121208,
+    "class_probabilities": [
+     5.099701802659643e-32,
+     0.0,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9986994114517715
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0018382353009656072,
+   "human": 0.0,
+   "mixed": 0.0,
+   "ai": 1.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.0,
+    "std": 5.60457018128692e-17,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   },
+   "human_coverage": {
+    "mean": 5.025793183098867e-32,
+    "std": 5.60457018128692e-17,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

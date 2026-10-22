@@ -1,0 +1,76 @@
+{
+ "text_sha256": "155dc603b3aaf7d0e203fe5232bb0b03b4620867bcfa5555aa90737899eb26ab",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:51:42+00:00",
+ "word_count": 86,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Listen, paying anything close to half a million dollars is not going to happen. We just can't afford to dig ourselves into anymore debt right now. What we can pay you is $47,000. We don't even need the full decryption assistance part of all this. We're mainly just worried about items 2-5. Can you accept this much or at the very least give us a much lower price since we don't need item 1?? This has to have a huge impact on the amount you want.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 4.543458036849641e-40,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Listen, paying anything close to half a million dollars is not going to happen. We just can't afford to dig ourselves into anymore debt right now. What we can pay you is $47,000. We don't even need the full decryption assistance part of all this. We're mainly just worried about items 2-5. Can you accept this much or at the very least give us a much lower price since we don't need item 1?? This has to have a huge impact on the amount you want.",
+    "label": "Human Written",
+    "ai_assistance_score": 4.543472049834284e-40,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 446,
+    "word_count": 92,
+    "token_length": 109,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     4.543472049834284e-40
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987311125158087
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0022421525791287422,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 4.543458036849641e-40,
+    "std": 7.479385677956516e-21,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 7.479385677956516e-21,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

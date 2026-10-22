@@ -1,0 +1,300 @@
+template_cluster_id,members,conversations,groups,years,median_words,example
+t1258,74,65,Akira,2023|2024|2025|2026,75.0,"Hello. You've reached an Akira support chat. Currently, we are preparing the list of data we took from your network. For now you have to know that dealing with us is the best possible way to settle this quick and cheap. Keep in touch and be patient with us. We will reach out to you soon.
+
+Do you hav"
+t1268,46,46,Akira,2023|2024|2025|2026,137.0,These files were taken from your network prior to encryption. You can pick 2-3 random files from the list and we will upload them to this chat as a proof of possession. To prove that we can properly decrypt your data you can upload 2-3 encrypted files to our chat and we will upload decrypted copies 
+t1270,28,28,Akira,2023|2024|2025|2026,25.0,"You can find yourself in our news column: https://akiral2iz6a7qgd3ayp3l6yub7xx2uep76idk3u2kollpj5z3z636bad.onion/ If you want this post to be removed, we have to agree at something."
+t1386,26,26,Akira,2023|2024|2025|2026,72.0,"To gain bitcoins you need to go to any exchange platform as binance or coinbase. Here are the guides: https://www.coinbase.com/how-to-buy/bitcoin
+https://www.binance.com/en/how-to-buy/bitcoin You also can buy bitcoin from any local brokers. If you withdraw funds from your bank account, then you have"
+t1267,23,22,Akira|Dragonforce,2023|2024|2025,75.0,"We're looking through your files to calculate a fair demand to you. I will let you know the sum shortly. We offer:
+1) full decryption assistance;
+2) evidence of data removal;
+3) security report on vulnerabilities we found;
+4) guarantees not to publish or sell your data;
+5) guarantees not to attack y"
+t1299,20,19,Akira,2023|2024|2025|2026,29.0,"unlocker.exe -p=""path_to_unlock""
+unlocker.exe -s=""C:\paths.txt""
+where ""paths.txt"" is a list of paths for the decryptor, each path on a new line"
+t1275,19,19,Akira,2023|2024|2025,213.0,"Initial access to your network was purchased on the dark web. Spending weeks inside of your network we've managed to detect some fails we highly recommend to eliminate: 1. None of your employees should open suspicious emails, suspicious links or download any files, much less run them on their comput"
+t1266,18,18,Akira,2023|2024,57.0,These files were taken from your network prior to encryption. You can pick 2-3 random files from the list and we will upload them to this chat as a proof of possession. To prove that we can properly decrypt your data you can upload 2-3 encrypted files to our chat and we will upload decrypted copies 
+t1398,15,15,Akira,2024|2025|2026,24.0,"You have 24 hours to give us your decision regarding this deal. If you stay silent, we will announce the breach on our blog."
+t1279,12,12,Akira,2023|2024|2025|2026,186.0,"If we receive the payment within next 48 hours, we will provide you with a 20% discount.
+After payment you will receive a deletion log which means the raid drives that contained the only copy of your data are fully formatted and erased. There is no need to deceive you since we value our reputation a"
+t0265,12,12,Conti,2020|2021,152.5,As you already know - your network and all of your data were encrypted by CONTI team. Besides the encryption process we've downloaded a large pack of your internal documents and files that will be published in case our negotiations fail. How it happens can be seen on our website https://continews.be
+t0370,11,11,Conti,2021,35.0,"Decryptor:
+1) Launch the decryptor under Administrative rights
+2) Wait till the decryptor window is closed
+3) if any of the files haven't changed the extension back to the original - repeat 1 and 2"
+t1478,8,7,Akira,2024|2025|2026,23.0,Do you have a permission to conduct a negotiation on behalf of your organization? Once we get your reply you will be provided with all the details.
+t0060,7,2,Conti,2020,47.0,"In the event that you and we do not reach a consensus, we will start publishing and selling your private information very soon. Please keep us writing notifying how it is going if there is still no success, so we understand that you are still with us."
+t1401,6,5,Akira,2024|2025|2026,37.0,"$175,000 and we will get this over. We can't go any lower. To prove that we can properly decrypt your data you can upload 2-3 encrypted files up to 10 mb each to our chat and we will upload decrypted copies back."
+t1422,6,6,Akira,2024|2025,15.0,"Please review. Give me encrypted files asap, if you want to test our decryption tool."
+t0663,6,6,REvil,2021,208.0,"Hello,
+
+We are REvil Group.
+We want to inform that your company local network have been hacked and encrypted. We have all your local network data. The Price to unlock is $5.500,000. Now we're keeping it a secret, but if you do not reply us within 3 days it will be posted on our news-site. Think abou"
+t1048,5,5,lockbit3.0,2022|2023,21.0,to decrypt the data and avoid publication you need to pay us. we haven't published your name on our blog yet
+t1588,5,4,lockbit3.0,2024|2025,85.0,"You can attach a few files for test decryption by packing them into an archive with zip, rar, tar, 7zip, 7z, tar.gz extensions of no more than 10 megabytes using the attach button directly in the chat.\r
+\r
+If your archive weighs more than 10 megabytes, please use our file sharing service.\r
+http://"
+t1277,4,4,Akira,2023|2025,23.0,"If we don't get a respond within next 24 hours, we will be forced to announce your corporate data leak on our blog."
+t0427,4,4,REvil,2021,79.0,"To use a decryptor run it as administrator and turn off antivirus before.
+You can use a decryptor as gui application or through cmd.
+
+CMD commands:
+UniversalDecryptor.exe -full
+UniversalDecryptor.exe -path ""C:\folder""
+UniversalDecryptor.exe -file ""C:\folder\file.txt.random_ext""
+
+* decryptor with -fu"
+t1076,4,4,BlackBasta,2022|2023,141.0,"Security report and recommendation:
+Your network has been compromised by mailing of messages to the emails with malicious attachments.
+One of the users launched malware.
+To avoid this in the future, give you recommendations of network protection:
+1. Use sandbox to analyze the contents of letters and"
+t1534,4,4,fog,2024,23.0,"Esxi
+
+chmod +x unlocker
+./unlocker --id [redacted] --log --target ""/vmfs/volumes/""
+
+Windows
+unlocker.exe -nomutex -console -target \\SERVER\C$
+unlocker.exe -nomutex -console -target C:\"
+t0636,4,4,Conti,2021,50.0,"You can choose any 2 files from the listing, we will discard them as proof that the files were really stolen
+You can also send 2 files for a free decrypt
+---
+Upon conclusion of the agreement, our price includes
+1) Universal decryptor for your network
+2) Permanently delete all stolen information + lo"
+t0570,4,4,Conti,2021,21.0,We will also try to find a buyer for your data and access to your network if you refuse to pay.
+t0585,4,1,Conti,2021,15.0,"Offer $250,000 rejected. Make the best offer. Your new price is $850.000. Your next step."
+t1877,4,4,Akira,2026,199.0,"Hello. You've reached an Akira support chat. Currently, we are preparing the list of data we took from your network. For now you have to know that dealing with us is the best possible way to settle this quick and cheap. Keep in touch and be patient with us. We will reach out to you soon. Do you have"
+t0586,3,1,Conti,2021,18.0,"If we don't agree by Tuesday, publications will begin Wednesday. All deadlines are out. Your tactics will lead to a deplorable result for you."
+t0573,3,3,Conti,2021,27.0,"We will send you 30% of the file tree, you will select any 3 pcs of non-sensitive information and we will provide them to you as evidence."
+t1384,3,3,Akira,2023|2025,15.0,Here is the BTC wallet [redacted] Let me know when can we expect the transfer.
+t1475,3,3,fog,2024,29.0,"We can decrypt your systems in a couple of hours for only $400,000. Just send us 3 random encrypted files to be sure - we'll decrypt them for free."
+t0908,3,3,lockbit3.0,2022,54.0,"The price of the decryptor and deletion of your data is $1,000,000 in bitcoins. 285gb of data was stolen. At the moment we haven't published your name to the blog to keep the attack secret, but if you don't pay we will fix it! We know who you are and how much you earn."
+t0901,3,3,lockbit3.0,2022,27.0,To decrypt your files and prevent us of destructive actions against your company you will need to pay $120 000 . We also have all your files.
+t0387,3,3,Avaddon,2021,109.0,"You have been infected by the Avaddon
+ransomware. To receive a general decryptor, you need to pay the amount
+indicated to you in the BTC on the landing page. After paying the
+ransom, you will receive a general decryptor that will decrypt
+absolutely all PCs and servers on your network. We will also p"
+t0047,3,3,Conti|mount-locker,2020|2021,83.0,"Thank you for your efforts, now I see, that we can start moving towards you. It is fair and reasonable FIRST offer, and I glad, that we have now a chance to successfully negotiate.
+
+We are ready to make a discount of 1 million US dollars, so your price is now $8'000'000. Of course, we understand, th"
+t0044,3,3,Conti|mount-locker,2020|2021,113.0,"We don't think, that our estimates are incorrect. Your financial reports are somewhat more reliable, than your word here and now. And your proposal here is just from the textbooks - ten times less, than our initial demand. It seems, that you do not understand, how works our group. We don't ask $90 m"
+t0062,3,2,Conti,2020,64.0,"Well we start to publish your data. Here is the web link:
+https://continews.best/[redacted]
+If you want to stop that process you have last chance for that. Otherwise the most valuable part of info will be sold on the black markets and the the rest will be published. Private data of your employees an"
+t0514,3,3,Conti,2021,31.0,"You can choose any 2 files from the listing, we will discard them as proof that the files were really stolen.
+You can also send 2 files for a free decrypt."
+t0556,3,3,Avaddon,2021,18.0,"You can download the decryptor on your payment page, update it. Run the decryptor according to the instructions."
+t1671,3,3,Akira,2025|2026,27.0,"The data of your company and your employees is now freely available.
+
+https://akiral2iz6a7qgd3ayp3l6yub7xx2uep76idk3u2kollpj5z3z636bad.onion
+
+We can delete them, but you have to agree to our terms and conditions."
+t1288,3,3,Akira,2023|2024,51.0,"So, we've gone through your files to define your financial abilities. We've been looking through your bank statements, net income, cyber liability limits, financial audits - all the info that might help us to calculate our demand to you. We're willing to set a $190,000 price for ALL the services we "
+t1999,2,2,nova,,33.0,"Hello, welcome, First of All the Price to unlock the files and Stop Leak is 2M USD (BTC), Please Upload 2 files for decryptor test, we unlist the company from blog for now."
+t1312,2,2,Cloak,2023,22.0,"Hello!To help you I need to understand who I'm
+dealing with?Have you been authorized to negotiate on behalf of the
+entire company?"
+t1307,2,2,Cloak,2023,77.0,"* we know about your income so do not humiliate
+yourself.Discounts can only be granted to those companies that have
+applied to us in a timely manner and strictly comply with all our
+instructions.**Files must not be important, and their maximum size must
+be no more than 5 MB each.*** We will keep in "
+t1316,2,2,Cloak,2023,18.0,we are ready to cooperate.Give me an answer and we will move on to the question of price
+t1315,2,2,Cloak,2023,21.0,for those who want to recover files on [redacted].com. I have a question. How did you get access to this chat?
+t1314,2,2,Cloak,2023,70.0,"Get the point. Without the participation of your
+leadership, we will not be able to conclude an agreement with you.It is
+up to your bosses to decide whether or not they should pay us to decrypt
+the files and return the data.Therefore, I strongly recommend that you
+tell them about it. Let them give y"
+t1313,2,2,Cloak,2023,19.0,"As for [redacted].com, I can tell you that we can also solve this issue.Pass this on to your management."
+t1311,2,2,Cloak,2023,47.0,"As I warned you, your data is for sale.While the
+timer is running, no one else can see your files.After the time expires,
+your data will be available to our buyers, but it will not be available
+to you.Enter into negotiations quickly and we will stop this."
+t1310,2,2,Cloak,2023,38.0,"Your silence will only make things worse for
+yourself.We have more than 60 GB of your private data at our
+disposal.Urgently appoint an authorized representative and enter into
+negotiations.Otherwise, we will sell your data to a third party"
+t1308,2,2,Cloak,2023,26.0,"This is the general plan.I will discuss the specific
+amount of the ransom only with an authorized person who owns the right
+to conclude financial agreements."
+t1309,2,2,Cloak,2023,19.0,"if such a person is in touch with you, then tell him this and let him join our negotiations."
+t1915,2,2,Akira,2026,120.0,"Hello. You've reached an Akira support chat. Currently, we are preparing the list of data we took from your network. For now you have to know that dealing with us is the best possible way to settle this quick and cheap. Keep in touch and be patient with us. We will reach out to you soon. Do you have"
+t1387,2,2,Akira,2023|2024,50.0,"It was VPN credentials. We get access from different people on the darknet, this information is not in public domain. We recommend that you change your VPN credentials and reconsider your password policy - there is nothing to worry about anymore."
+t1932,2,2,SilentRansomGroup,2026,23.0,"We are waiting for your offer, and we will only begin removing your name and information from our website once we receive it."
+t1954,2,2,Akira,2026,43.0,"You have 24 hours to give us your decision regarding this deal. If you continue to drag this out, we will announce the incident on our blog without warning. If you want to avoid this, you must work quickly and inform us DAILY."
+t2022,2,1,trinity,,15.0,you haven't paid anything and pissed us off the price is back to 0.7 bitcoin
+t1704,2,2,Dragonforce,2025,59.0,"You can see the countdown timer. When it reaches 0, the data will be published, and the decryption tool will be deleted. Some promise to recover the data after our encryption, but this is not possible. Trying to negotiate just before the countdown ends will not make the position strong. Keep this in"
+t1753,2,2,Akira,2025,18.0,"$220,000 today. Here is our BTC wallet [redacted]. Let us know when you are ready to make payment."
+t1761,2,2,Akira,2025|2026,15.0,Here are the files. Do you want to see files from the list for proof?
+t1305,2,2,Cloak,2023,57.0,"1 Always answer my questions. If you don't have an
+answer and need to consult with management, tell me so. 2 Never end
+negotiations unilaterally. This may serve as a signal to me that you
+refuse to cooperate with us. 3 If the negotiations are completed today,
+be sure to indicate the time of the next"
+t1679,2,2,Akira,2025|2026,15.0,"$115,000 and we have a deal. Here is our BTC wallet ID for payment: [redacted]"
+t1670,2,2,Akira,2025,29.0,"We would maybe accept something less than $100,000 from you but that is not $10,000 for sure. If you cannot increase your offer, we have nothing to talk about."
+t1669,2,2,Akira,2025,17.0,"What amount you can call reasonable in this case? We are $90,000 apart. What do you suggest?"
+t1705,2,2,Dragonforce,2025,16.0,"In the absence of active negotiations, the data will be published in less than 48 hours."
+t1668,2,2,Akira,2025,32.0,"We do not have your bank statements or up-to-date reports. We're willing to make an exclusion and come down to the bottom line. $100,000 and we will get you back on track."
+t1667,2,2,Akira,2025,50.0,"This is not an argument that you've lost $335K in 2024. Previous years were profitable for you. So, we want you to stop trying to cheat us and make a fair deal. We don't want to make things more complicated and we hope you won't force us to take action."
+t1666,2,2,Akira,2025,29.0,"We cannot accept $4,000 or $10,000 fir this. If you want to come to an agreement, you should find a way to offer more. Waiting for your reply asap."
+t1624,2,2,Qilin|orova,2025|2026,74.5,"Your company's network is attacked and the entire system is encrypted. We have downloaded all the company's confidential data. After payment you will receive.
+1. Decryption tool for all devices
+2. Complete list of files taken from the network.
+3. Proof that all your data has been deleted.
+4. Informa"
+t1706,2,2,Dragonforce,2025,30.0,Data on the method of penetration and work within the network are provided only after successful completion of negotiations. We are waiting for your files to demonstrate the test decryption.
+t1582,2,2,Dragonforce,2024,33.0,"Hello. You've been attacked by DragonForce as you can see. We've researched information about your company and decided to set a price of $4,000,000. Otherwise your data will be published in our blog."
+t1755,2,2,Akira,2025,24.0,You will receive a deletion log which means the raid drives that contained the only copy of your data are fully formatted and erased.
+t1707,2,2,Dragonforce,2025,24.0,"We can decrypt all the data back, and we will delete the data that is received from your network. The cost will be 500,000$"
+t1580,2,2,Dragonforce,2024,39.0,"It's been a week since the file list was sent to you, and there is a week left until the timer expires and all data will be published. Will the announcement of the data leak help you negotiate faster?"
+t1708,2,2,Dragonforce,2025,86.0,"You have been provided with the necessary information. You can also see the countdown timer. Upon completion, the data will be published, and the decryption program will be deleted. You will not be able to recover data from recovery companies. After the timer expires, the decryptor will actually be "
+t1532,2,2,fog,2024,58.5,"Once the payment is made, you will get the .exe files that you will need to run on your systems (win or esxi) to decrypt your files. We guarantee that you will be able to recover all the encrypted data. We will give you a deletion log file which means the files we stole .were removed from our source"
+t1524,2,2,fog,2024,49.5,"If you want your data fully decrypted and the files we stole removed from our source, you will have to pay a fee. We will also be able to provide a security report and explain how we did it to get in. I will give you our demand soon."
+t1709,2,2,Dragonforce,2025,21.0,Abstract conversation does not lead to success. Name the amount and the due date. And we will discuss it with you.
+t1716,2,2,Dragonforce,2025,20.0,you can choose 3 random not important files from that listing and we send them to you as a proof
+t1703,2,2,Dragonforce,2025,49.0,"We got into your network and encrypted your files. We also took some of the files from your network. You can decrypt several of your files and check several files in our possession. After that, we will discuss payment for decrypting your files and deleting the data we received."
+t1754,2,2,Akira,2025,16.0,"Don't tell us stories. $200,000 is the lowest we can accept. Take it or leave it."
+t1306,2,2,Cloak,2023,29.0,"Now I will give you a step-by-step plan of further
+actions. Follow it strictly, as it is the shortest way to the to the
+successful completion of the case."
+t0035,2,2,Conti|mount-locker,2020,54.0,"Of course, the price is high, but it is much, much more cheaper, than pay to all the lawsuits, that your clients will send to you, because you have lost so much of their data. Companies of your size can lost tens of millions in such cases.
+https://www.zdnet.com/article/easyjet-faces-18-billion-class"
+t1304,2,2,Cloak,2023,20.0,"So that we do not have a misunderstanding and, as a result, undesirable consequences for you, follow these 3 rules:"
+t1303,2,2,Cloak,2023,18.0,"you must understand that based on your answers, appropriate decisions will be made that will affectthroughout your company."
+t0572,2,2,Conti,2021,15.0,The file tree and deletion log are expected to be checked out within 24 hours.
+t0569,2,2,Conti,2021,42.0,"We have your accounting, legal documents, finance, contracts and personal correspondence, DB, that's all I can say. It's about 50 Gigabate. You will receive a complete list of files after payment as well as a log of their removal from our server."
+t0566,2,2,Conti,2021,71.0,"Your network was hacked, workstations encrypted and we downloaded many private information from your servers. Note that we have also downloaded a lot of data from your network that in case of not making payment will be published on our website.
+If you will spend 3 days in silence we will start publu"
+t0564,2,2,Conti,2021,81.0,"You have been breached through the email phishing campaign. The overall security score is 2 out of 5.
+Our recommendations will be :
+1. Implement better email filtering policies
+2. Implement tape-based backup hardware
+3. Audit account access policies network wide
+4. Rebuild the network using segmenta"
+t0533,2,2,Conti,2021,32.0,"You need to pay this amount and we will give you decryptor for all your network, file tree on what we have downloaded from your network and wiping log of that information."
+t0434,2,2,REvil,2021,28.5,"Hello! You data is ready to be published. You can press the link and
+see what we've got. It's just an example of what we have. The full blog
+will be published after three days.
+http://dnpscnbaix6nkwvystl3yxglz7nteicqrou3t75tpcc5532cztc46qyd.onion/posts/[redacted]?s=[redacted]"
+t0419,2,2,REvil,2021,51.5,"Or u can simply buy monero on this exchanges and withdraw on ur own wallet and send to us.
+https://www.okex.com/markets/spot?product=xmr_usdt
+https://www.binance.com/en/trade/XMR_BTC
+https://hitbtc.com/xmr-to-usdt
+https://www.hbg.com/en-us/exchange/xmr_usdt
+and there are all of the ways to get moner"
+t0418,2,2,REvil,2021,42.0,"We value our reputation and we have proved ourselves over a long period
+of time. We have a 100% guarantee after the transaction is completed
+that you will receive the decryptor and your data and information about
+you will be immediately deleted."
+t0402,2,2,Avaddon,2021,79.0,"Cooperating with us, we guarantee you
+complete confidentiality on our part, General decryptor with which you
+can restore absolutely all files on your PCs / Servers, a complete tree
+of the files we have taken from you and confirmation of their deletion
+after payment. We will also point out to you the"
+t0384,2,2,REvil,2021,68.0,"I provide you additional proofs below and recommend you hurry up with decision, because payment procedure can takes time.
+If you don't pay, your files will be published to the blog and shared to
+media, other data will be sold. Anyway it will influence to your
+reputation, think about your customers a"
+t0376,2,2,Conti,2021,19.5,"We agree to accept.
+The btc wallet for the payment is : [redacted]
+let me know as soon as the transfer is made."
+t0267,2,1,Conti,2020,16.0,You can choose ANY file from the listing above and we will discard it as proof
+t0225,2,2,Darkside,2020|2021,22.0,"Linux decryption instruction:
+1. Upload decryptor to esxi.
+2. Set run permissions: chmod 777 decryptor
+3. Run decryptor: ./decryptor
+
+jump_decryptor.out
+2.38 MB"
+t0223,2,2,Darkside,2020|2021,259.5,"Windows:
+
+The decryptor works in 2 modes:
+1. GUI
+2. Console
+
+Three functions are available in GUI mode:
+1. ""DECRYPT ALL"" - search and decrypt ALL encrypted files on the local
+PC and on network resources (Shares), where this PC has access.
+2. ""DECRYPT FOLDER"" - decrypts files in the specified folder,"
+t0184,2,2,Conti,2020|2021,50.5,"So you should understand, that our team have plenty of projects running, and yours - just one from many. If we don't reach an agreement, we'll just shorten our profit. And on other hand, you would be ruined. That is much more serious threat, than none making payment to us."
+t0113,2,2,Conti,2020|2021,58.5,"Overall price is $15,000,000. For this price you will get everything mentioned above. Please pass this information on to your management. In the future, we are ready to communicate only with the representative who can make such decisions. We are ready to provide you with a small set of files from di"
+t0112,2,2,Conti,2020|2021,125.5,"Your network was ATTACKED, your computers and servers were LOCKED.
+Take into consideration that we have also downloaded data from your network that in case of not making payment will be published on our news website. After the payment you will get decryptor to all your systems, full file tree of dow"
+t0061,2,2,Conti,2020,194.0,"We think that you are not completely aware of the seriousness of the situation. In the event of a further delay, we will be able to use information resource https://continews.best and will start to sell you private data on the black markets.
+We will publish the full dump of your data on our news web"
+t0059,2,2,Conti,2020,108.5,"HI
+Price for you is 69btc. You need to pay this amount and we will give you decrypt tool for all your machines, security report on how you were hacked, file tree on what we have downloaded from your network and wiping log of that information.
+Take into consideration that we have downloaded a lot of "
+t0049,2,2,Conti|mount-locker,2020,198.0,"2020-10-25: https://privatlab.com/s/v/[redacted]
+pass:[redacted]
+
+Thank you for keeping in touch. We've already sent you proofs. Private data (like SSN, DOB) of your staff, data of clients, their diagnoses and your top-management data, source codes of your projects are not enough?
+
+We perfectly unde"
+t0048,2,2,Conti|mount-locker,2020,127.0,"We've discussed your proposal with team, and we are ready to make another discount. Understanding that you have some issues with signing new contracts, your price is now $7'500'000. Of course, we are ready to move on further, depending on your offers. Time is crucial here, so the more serious steps "
+t0043,2,2,Conti|mount-locker,2020,35.5,According to your financial reports your situation is much better than you say. As a group with an estimated yearly revenue ~$1billion you have enough money to pay us.
+t0041,2,2,Conti|mount-locker,2020,47.0,"Amount of money we want is just a small piece of your possible losses including but not limiting direct expenses such as payments for data recovery, dramatic cash flow drop, legal & government fines, attorneys & lawyers interests, but also reputation impact resulting in long-term customer abandonmen"
+t0580,2,1,Conti,2021,19.0,Let's not delay the negotiations. This has a negative effect on the fact of publishing you. Be more active.
+t0582,2,2,Conti,2021,27.0,150.000 and 1.500.000 why do you think we should agree to 1\10? Your proposal is not even close to what you can talk about and think about.
+t0583,2,1,Conti,2021,17.0,"Well, we see constructive dialogue and make a discount. Your new price is $900.000. Your next step."
+t1245,2,2,BlackBasta,2023|2024,154.0,"We are Black Basta Group. We are here to inform that your company local network has been hacked and encrypted. We've downloaded over 110GB of a sensitive information and data from your network.
+Check your page in our blog. Right now we're keeping it secret. However, if we don't come to an agreement "
+t1302,2,2,Cloak,2023,17.0,you have not given me confirmation that you are authorized to negotiate on behalf of the company.
+t1301,2,2,Cloak,2023,174.0,"Hello! If you are reading this message, your files
+are encrypted and your data is compromised.In order for YOU to quickly
+and without additional losses FOR YOU to regain control over your data,
+strictly follow the proposed scenario:1. ONLY an AUTHORIZED
+representative authorized to enter into financ"
+t1265,2,2,Akira,2023,64.0,"Congratulations, you have passed a surprise information security audit and become a victim of ransomware. Currently, we are preparing the list of data we took from your network. For now you have to know that dealing with us is the best possible way to settle this quick and cheap. Keep in touch and b"
+t0038,2,2,Conti|mount-locker,2020,21.0,We appreciate your desire to resolve this situation quickly and are waiting for your specific proposals?
+t1251,2,2,BlackBasta,2023,222.0,"How to decrypt windows?
+1. Drop executable to any folder.
+2. Start new terminal session with administrator rights. (run cmd.exe or powershell.exe with admin rights)
+3.1. In cmd.exe type full path to the executable file and press Enter.
+3.2. In powershell.exe type: ""& c:\full\path o\executable.exe"" w"
+t1250,2,2,BlackBasta,2023,55.0,"We are ready to help restore all your systems and files to their original state very quickly, but the minimum amount we can accept is $150k. Less payment is not possible. Therefore, tell your manager if he wants to make a deal, then he look for this amount. If not, then further negotiations are poin"
+t1249,2,2,BlackBasta,2023,79.0,"We also want to remind you that you have a lot of critical data, a lot of personal data of your employees and customers, copies of passports and driver's license ([redacted] and many others), their SSN, DOB, addresses and phone numbers, your NDA, confidential agreements, financial documents and othe"
+t1248,2,2,BlackBasta,2023,25.0,Are you seriously? This is an unacceptable offer. We will not even turn our heads in your direction for such a meager amount. Increase it.
+t1247,2,2,BlackBasta,2023,20.0,"You can send some encrypted files, we decrypt them and send back to you. But these files must be unimportant."
+t1246,2,2,BlackBasta,2023,20.0,"You can choose any 5 file names from this list and we will send them to you, like a proof."
+t1205,2,2,lockbit3.0,2023,21.0,Also we downloaded a lot of information from you.And so far we haven't published anything.There is no mention of an attack.
+t0584,2,2,Conti,2021,23.0,Evaluate our steps. You can negotiate with us. But offering funny amounts is not the best way for you. It leads to publication.
+t1138,2,1,lockbit3.0,2023,16.0,You will receive a complete list of the stolen data only after you pay the ransom.
+t1137,2,2,lockbit3.0,2023,37.0,"I just want to let you know that the data is ready to be published and the decryptor is ready to be deleted. You have had plenty of time to make your decision, your time is up."
+t1106,2,2,BlackBasta,2022|2024,74.5,"OK, we agree. After payment:
+1. You receive decryptors.
+2. Your page will be totally deleted from the blog.
+3. ALL your data will be deleted and you will receive the full deletion log.
+4. You will get penetration report and recommendations how to avoid such the situations in the future.
+5. You recei"
+t1103,2,2,BlackBasta,2022|2024,32.0,"This is the full list of your taken data. You can choose any 3 file names from list and I will send them to you, like a proof. But these files must not contain the important information."
+t1075,2,2,BlackBasta,2022,131.0,"How to decrypt linux?
+1. Drop executable via ftp/sftp/wget to any folder.
+2. Add rights to the new file: chmod +x ./decrypt_executable
+3. Just run it: nohup ./decrypt_executable > log.txt &
+4. Wait until you see smth like ""Done"" in file ""log.txt"".
+
+How to decrypt windows?
+1. Drop executable to any f"
+t0793,2,2,Hive,2021,16.5,"To decrypt your files and to prevent them to be disclosed you will need to pay $500,000."
+t0792,2,2,Hive,2021,19.0,To convince you to pay we can make calls to your partners and customers to notify them about the incident.
+t0714,2,2,Conti,2021,23.0,"we are ready to publish first data
+Silence will kill your business
+It is much more profitable to conclude an agreement with us"
+t0687,2,1,REvil,2021,29.0,"We are ready to consider options for a deferred payment if you pay 300k
+now and receive a decryptor and 300k the next day for non-dissemination
+of your data."
+t0630,2,1,Conti,2021,16.0,We see a constructive dialogue and take a step towards a meeting. our new proposal 700.000$
+t2043,2,1,trinity,,25.0,"decrypting your
+files will cost $30,000 if you pay quickly, negotiable. after payment
+you will receive a decryption program that will automatically decrypt
+your files."

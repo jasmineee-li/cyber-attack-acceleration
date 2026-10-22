@@ -1,0 +1,76 @@
+{
+ "text_sha256": "0d88ff7fc5d6bec1e2ba563696975be7ccd7f7717748d57be33e57d3490ef406",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:07:42+00:00",
+ "word_count": 93,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Good day Lockbit,\nWe have finally acquired the funds and is now in the process of buying bitcoin. We are evaluating possible sources of bitcoins this week without KYC then it might take some time since we have to split the purchase under $8,000 to avoid being flagged. We'll give you our wallet address once we start purchasing so you could monitor then we'll do an initial test transfer to you after.\nWe could send you a picture for proof of our activities with your required instructions if needed. Thank you for understanding.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.275722111030132e-24,
+  "fraction_ai_assisted": 1.2562270089631745e-32,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Good day Lockbit,\nWe have finally acquired the funds and is now in the process of buying bitcoin. We are evaluating possible sources of bitcoins this week without KYC then it might take some time since we have to split the purchase under $8,000 to avoid being flagged. We'll give you our wallet address once we start purchasing so you could monitor then we'll do an initial test transfer to you after.\nWe could send you a picture for proof of our activities with your required instructions if needed. Thank you for understanding.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.275722111030132e-24,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 529,
+    "word_count": 96,
+    "token_length": 111,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.2562270089631745e-32,
+     2.275722111030132e-24
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9988547122974926
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0018903592135757208,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.275722111030132e-24,
+    "std": 3.532081853559188e-13,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.532082124609731e-13,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

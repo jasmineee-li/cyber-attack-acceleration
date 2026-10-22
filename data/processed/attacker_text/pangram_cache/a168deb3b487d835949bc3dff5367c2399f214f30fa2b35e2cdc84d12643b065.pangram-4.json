@@ -1,0 +1,76 @@
+{
+ "text_sha256": "a168deb3b487d835949bc3dff5367c2399f214f30fa2b35e2cdc84d12643b065",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:41:14+00:00",
+ "word_count": 168,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "1) You can recover this data using the decryptor anyway. But if required, we will provide you with a link to all your data.\n2) Yes, we will provide you with information on how we got into the company's network and how we got access to all the data.\n3) We don't do that kind of thing. This will ruin our reputation. We\nwill give you recommendations on how to avoid repeated intrusion (from\nother teams).\n4) Why will we not save them - why waste resources on this? As soon as\nwe receive payment, we will delete the data from all backup servers and\nit will remain on only one server so that you can download it if you\nneed it. Then we will remove them from there.\nThis is a business. If we leak, we will ruin our reputation and other companies will not pay us.\n5) Our software is time-tested. This will not happen if you have not tried to restore data using third-party software.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 7.747238398721108e-26,
+  "fraction_ai_assisted": 2.2507184457722585e-32,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "1) You can recover this data using the decryptor anyway. But if required, we will provide you with a link to all your data.\n2) Yes, we will provide you with information on how we got into the company's network and how we got access to all the data.\n3) We don't do that kind of thing. This will ruin our reputation. We\nwill give you recommendations on how to avoid repeated intrusion (from\nother teams).\n4) Why will we not save them - why waste resources on this? As soon as\nwe receive payment, we will delete the data from all backup servers and\nit will remain on only one server so that you can download it if you\nneed it. Then we will remove them from there.\nThis is a business. If we leak, we will ruin our reputation and other companies will not pay us.\n5) Our software is time-tested. This will not happen if you have not tried to restore data using third-party software.",
+    "label": "Human Written",
+    "ai_assistance_score": 7.747239631316273e-26,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 876,
+    "word_count": 171,
+    "token_length": 201,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.2507184457722585e-32,
+     7.747238398721108e-26
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987615355169771
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0011415524641051888,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 7.747238398721108e-26,
+    "std": 4.205767949617273e-14,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 4.205768288430452e-14,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

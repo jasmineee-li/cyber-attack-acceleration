@@ -1,0 +1,76 @@
+{
+ "text_sha256": "4e174701807a9b89d6f96d404dfb27623ef79987f5a1f0cce18dabf5bd198748",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:01:00+00:00",
+ "word_count": 68,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "In the last ransomware case we walked away from a lower demand. You currently can have $1.5 million ready to be in your hands. Our bank is closed so we can only work with the bitcoin we have from the last incident, which is less than your demand. Additionally if this goes much longer, my executives may change their mind and just rebuild. Please make a reasonable offer",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 7.911665878747918e-24,
+  "fraction_ai_assisted": 1.4745269403106578e-26,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "In the last ransomware case we walked away from a lower demand. You currently can have $1.5 million ready to be in your hands. Our bank is closed so we can only work with the bitcoin we have from the last incident, which is less than your demand. Additionally if this goes much longer, my executives may change their mind and just rebuild. Please make a reasonable offer",
+    "label": "Human Written",
+    "ai_assistance_score": 7.919037783907208e-24,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 370,
+    "word_count": 69,
+    "token_length": 80,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.4745270943850534e-26,
+     7.911665878747918e-24
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987362992700564
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0027027027681469917,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 7.911665878747918e-24,
+    "std": 8.14167852060399e-13,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 8.14926197269944e-13,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

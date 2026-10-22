@@ -1,0 +1,96 @@
+{
+ "text_sha256": "f6e54c5c8e1f52e9f94268d09ae6dff6bf07ae1327e979739ade0ce557aedbd2",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:58:48+00:00",
+ "word_count": 93,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Thanks. I will get in touch with our finance team and CEO in the morning to see what they are able to find. I know that they had not had positive news with our secondary bank given that someone told them it was for a ransom and they declined our application. Is there any BEST price that we could pay if we agreed on something tomorrow? Right now you are asking for more than double what we can possibly offer you, so maybe there is some benefit if we can pay you fast?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.009595408239721e-15,
+  "fraction_ai_assisted": 1.072992538461541e-15,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Thanks.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.7058813942590761e-13,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 7,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     7.189049838285735e-14,
+     1.3464289362261073e-13
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9817138980542107
+   },
+   {
+    "text": " I will get in touch with our finance team and CEO in the morning to see what they are able to find. I know that they had not had positive news with our secondary bank given that someone told them it was for a ransom and they declined our application. Is there any BEST price that we could pay if we agreed on something tomorrow? Right now you are asking for more than double what we can possibly offer you, so maybe there is some benefit if we can pay you fast?",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 7,
+    "end_index": 469,
+    "word_count": 92,
+    "token_length": 99,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0021321962121874094,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.009595408239721e-15,
+    "std": 5.476674225235456e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 6.7829768468641305e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

@@ -1,0 +1,76 @@
+{
+ "text_sha256": "9d511ebeb641f3d738c4011de3c9b8d9d7e2db0f50b7cfe3e6e121f7ee5c5b3f",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:08:03+00:00",
+ "word_count": 154,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Please stay with me on this. Even if we find a way to work together, the amount is too big to find it these days. Last two years it's been very hard for us and it's the end of the year. We are trying to find whatever resources are available in cash and let you know. In the following two days we will have a better picture on our financials. We need at least 6-7 days to find 30k, we will need more to get more money to you. There is very limited cashflow in the end of the year which makes things very hard. Let me see what we can do and get back to you. I will try my best, because we want this to finish soon. There is big spending in the end of the year and limited cash receivable. Need more time to see what we can do for you.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.579419247794498e-31,
+  "fraction_ai_assisted": 3.791219533128908e-35,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Please stay with me on this. Even if we find a way to work together, the amount is too big to find it these days. Last two years it's been very hard for us and it's the end of the year. We are trying to find whatever resources are available in cash and let you know. In the following two days we will have a better picture on our financials. We need at least 6-7 days to find 30k, we will need more to get more money to you. There is very limited cashflow in the end of the year which makes things very hard. Let me see what we can do and get back to you. I will try my best, because we want this to finish soon. There is big spending in the end of the year and limited cash receivable. Need more time to see what we can do for you.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.5796088550332856e-31,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 732,
+    "word_count": 157,
+    "token_length": 179,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.791219533128908e-35,
+     1.579419247794498e-31
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989944132343651
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0013661201810464263,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.579419247794498e-31,
+    "std": 7.772705196250481e-17,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 7.773637594236951e-17,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

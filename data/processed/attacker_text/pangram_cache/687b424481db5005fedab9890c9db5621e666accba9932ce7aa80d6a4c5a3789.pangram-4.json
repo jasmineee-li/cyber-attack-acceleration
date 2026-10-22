@@ -1,0 +1,116 @@
+{
+ "text_sha256": "687b424481db5005fedab9890c9db5621e666accba9932ce7aa80d6a4c5a3789",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:58:02+00:00",
+ "word_count": 61,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hi, we would appreciate you removing the deadline you just set. In our opinion, deadlines are a bad idea. We have nothing to negotiate with you until the deadline is removed. We simply want to be able to discuss options and think through the best course of action without the added stress of a countdown. We would appreciate the professional courtesy.",
+  "version": "4.1",
+  "prediction": "We believe that this text is a mix of AI and human-written content.",
+  "prediction_short": "Mixed",
+  "fraction_ai": 0.7008612155914307,
+  "fraction_ai_assisted": 4.0042443068621646e-36,
+  "fraction_human": 0.2991388142108917,
+  "headline": "AI Detected",
+  "num_ai_segments": 2,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Hi, we would appreciate you removing the deadline you just set. In our opinion, deadlines are a bad idea.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.00040887738578021526,
+    "confidence": "Low",
+    "start_index": 0,
+    "end_index": 105,
+    "word_count": 19,
+    "token_length": 24,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     0.9995911717414856,
+     5.7799638017698595e-40,
+     0.00040887738578021526
+    ],
+    "confidence_score": 0.9995911717414856,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.6457580970731259
+   },
+   {
+    "text": " We have nothing to negotiate with you until the deadline is removed.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9994108080863953,
+    "confidence": "Low",
+    "start_index": 105,
+    "end_index": 174,
+    "word_count": 12,
+    "token_length": 13,
+    "is_humanized": false,
+    "humanizer_score": 0.07059220969676971,
+    "class_probabilities": [
+     0.0005891780601814389,
+     0.0,
+     0.9994108080863953
+    ],
+    "confidence_score": 0.9994108080863953,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.6177285318559557
+   },
+   {
+    "text": " We simply want to be able to discuss options and think through the best course of action without the added stress of a countdown. We would appreciate the professional courtesy.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 174,
+    "end_index": 351,
+    "word_count": 30,
+    "token_length": 33,
+    "is_humanized": false,
+    "humanizer_score": 0.07059220969676971,
+    "class_probabilities": [
+     3.02300018351076e-10,
+     7.940277081488167e-36,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9689356636756411
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Low",
+   "boundary": "ai"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0028490028344094753,
+   "human": 8.434269691791612e-16,
+   "mixed": 0.9990240931510925,
+   "ai": 0.0009759353124536574,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.7008612155914307,
+    "std": 0.006249792408198118,
+    "p10": 0.7008547186851501,
+    "p50": 0.7008547186851501,
+    "p90": 0.7008547186851501
+   },
+   "human_coverage": {
+    "mean": 0.2991388142108917,
+    "std": 0.006249792408198118,
+    "p10": 0.29914531111717224,
+    "p50": 0.29914531111717224,
+    "p90": 0.29914531111717224
+   }
+  }
+ },
+ "error": null
+}

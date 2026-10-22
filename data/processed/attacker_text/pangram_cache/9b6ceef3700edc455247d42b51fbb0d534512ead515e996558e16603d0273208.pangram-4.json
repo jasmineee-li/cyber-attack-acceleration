@@ -1,0 +1,96 @@
+{
+ "text_sha256": "9b6ceef3700edc455247d42b51fbb0d534512ead515e996558e16603d0273208",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:40:14+00:00",
+ "word_count": 140,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Welcome . I would like to add that in addition to encrypting your network, we have also downloaded work data (documents, pdfs, sql databases, customer and staff data, etc.). We would like to warn you that in case you: keep silent, ignore our messages, we will notify your clients and staff about the leakage of personal and work data. We will also be looking for a buyer for your downloaded files it may be (competitors, media, tax authorities or simply put in the public domain...). we will publish them for everyone on our blog. This blog is followed daily by hundreds of media portals. If we agree with you, get a transcript program for your entire network (all files will be in original condition). All your files downloaded to our cloud disk will be completely destroyed (everything will remain confidential).",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 8.734151436492511e-15,
+  "fraction_ai_assisted": 2.3938394962252654e-19,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Welcome .",
+    "label": "Human Written",
+    "ai_assistance_score": 7.899662911661776e-13,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 9,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.1650949607763067e-17,
+     7.899554491444527e-13
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9763021576865031
+   },
+   {
+    "text": " I would like to add that in addition to encrypting your network, we have also downloaded work data (documents, pdfs, sql databases, customer and staff data, etc.). We would like to warn you that in case you: keep silent, ignore our messages, we will notify your clients and staff about the leakage of personal and work data. We will also be looking for a buyer for your downloaded files it may be (competitors, media, tax authorities or simply put in the public domain...). we will publish them for everyone on our blog. This blog is followed daily by hundreds of media portals. If we agree with you, get a transcript program for your entire network (all files will be in original condition). All your files downloaded to our cloud disk will be completely destroyed (everything will remain confidential).",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 9,
+    "end_index": 814,
+    "word_count": 138,
+    "token_length": 166,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990083667016723
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0012285012053325772,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 8.734151436492511e-15,
+    "std": 9.826965019499312e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 9.827100022619106e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

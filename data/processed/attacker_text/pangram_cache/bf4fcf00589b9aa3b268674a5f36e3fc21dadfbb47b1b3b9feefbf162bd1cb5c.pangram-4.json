@@ -1,0 +1,76 @@
+{
+ "text_sha256": "bf4fcf00589b9aa3b268674a5f36e3fc21dadfbb47b1b3b9feefbf162bd1cb5c",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:44:14+00:00",
+ "word_count": 129,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "\"Don't mistake my kindness for weakness. I am kind to everyone, but when someone is unkind to me, weak is not what you are going to remember about me.\" Nice, cheeky try, that's how companies die. Okay, let's play this game together. Be prepared to embarrass yourself in front of the whole world, be sure to include the First and Last Name of your system administrator, everyone will be interested to know who could not tell the difference between decrypted file or not, after that he is waiting for a brilliant career advancement. Before you embarrass yourself, you should study who we are. And think about whether you can shake our reputation, or will you have to find a new job? Good luck. Keep an eye on the blog.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.0201890645317904e-22,
+  "fraction_ai_assisted": 2.729000842220423e-28,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "\"Don't mistake my kindness for weakness. I am kind to everyone, but when someone is unkind to me, weak is not what you are going to remember about me.\" Nice, cheeky try, that's how companies die. Okay, let's play this game together. Be prepared to embarrass yourself in front of the whole world, be sure to include the First and Last Name of your system administrator, everyone will be interested to know who could not tell the difference between decrypted file or not, after that he is waiting for a brilliant career advancement. Before you embarrass yourself, you should study who we are. And think about whether you can shake our reputation, or will you have to find a new job? Good luck. Keep an eye on the blog.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.0201904529269836e-22,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 716,
+    "word_count": 132,
+    "token_length": 155,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.729000842220423e-28,
+     1.0201890645317904e-22
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987203570558103
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001396648003719747,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.0201890645317904e-22,
+    "std": 1.251930416973357e-12,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.251932151696833e-12,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

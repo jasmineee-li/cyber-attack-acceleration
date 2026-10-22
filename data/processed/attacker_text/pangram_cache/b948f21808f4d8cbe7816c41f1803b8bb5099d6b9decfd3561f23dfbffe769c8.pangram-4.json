@@ -1,0 +1,136 @@
+{
+ "text_sha256": "b948f21808f4d8cbe7816c41f1803b8bb5099d6b9decfd3561f23dfbffe769c8",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:38:30+00:00",
+ "word_count": 56,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "I'm sure you've been following the news. You know that some people have chosen to settle, even after the incident became public. They placed a high value on data privacy. What would be the consequences if you were to handle it differently? It would be a significant news story. We expect a serious proposal from you.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 0.9999171495437622,
+  "fraction_ai_assisted": 8.457357671175572e-14,
+  "fraction_human": 8.28547272249125e-05,
+  "headline": "AI Generated",
+  "num_ai_segments": 4,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "I'm sure you've been following the news. You know that some people have chosen to settle, even after the incident became public.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9997954368591309,
+    "confidence": "Low",
+    "start_index": 0,
+    "end_index": 128,
+    "word_count": 24,
+    "token_length": 27,
+    "is_humanized": false,
+    "humanizer_score": 0.10193922370672226,
+    "class_probabilities": [
+     0.0002045475266641006,
+     2.081465018790099e-13,
+     0.9997954368591309
+    ],
+    "confidence_score": 0.9997954368591309,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.731794516553014
+   },
+   {
+    "text": " They placed a high value on data privacy.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 128,
+    "end_index": 170,
+    "word_count": 8,
+    "token_length": 9,
+    "is_humanized": false,
+    "humanizer_score": 0.10193922370672226,
+    "class_probabilities": [
+     1.3876456927963687e-10,
+     2.9076790262619543e-18,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9444106556380002
+   },
+   {
+    "text": " What would be the consequences if you were to handle it differently?",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 170,
+    "end_index": 239,
+    "word_count": 12,
+    "token_length": 13,
+    "is_humanized": false,
+    "humanizer_score": 0.10193922370672226,
+    "class_probabilities": [
+     1.960853226301061e-19,
+     8.962095663653818e-34,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9932769342820326
+   },
+   {
+    "text": " It would be a significant news story. We expect a serious proposal from you.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 239,
+    "end_index": 316,
+    "word_count": 14,
+    "token_length": 16,
+    "is_humanized": false,
+    "humanizer_score": 0.10193922370672226,
+    "class_probabilities": [
+     6.70358907273183e-11,
+     1.0698269645794149e-15,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9662938750163999
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Low",
+   "boundary": "ai"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0031645570416003466,
+   "human": 3.2547229490974694e-24,
+   "mixed": 4.6301465772558004e-07,
+   "ai": 0.9999995231628418,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.9999171495437622,
+    "std": 0.003245507599785924,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   },
+   "human_coverage": {
+    "mean": 8.28547272249125e-05,
+    "std": 0.003245507599785924,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   }
+  }
+ },
+ "error": null
+}

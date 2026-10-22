@@ -1,0 +1,76 @@
+{
+ "text_sha256": "b70b66ed4ab14fdea0dadcacf7128927d57c77f7145e0c2fc8e46e7f534bd09d",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:50:02+00:00",
+ "word_count": 74,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We need to set this straight. We reached out to you over the weekend and we've spent each weekday trying to turn on our bricked computers, which has been a slow process. We've also been reviewing your list and now you're asking for $450,000. We're a small shop out of [redacted], not some large corporation in a big city. Can we get more than 1 day to wrap our heads around all of this?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 5.761526870168365e-20,
+  "fraction_ai_assisted": 3.9192942275304424e-22,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We need to set this straight. We reached out to you over the weekend and we've spent each weekday trying to turn on our bricked computers, which has been a slow process. We've also been reviewing your list and now you're asking for $450,000. We're a small shop out of [redacted], not some large corporation in a big city. Can we get more than 1 day to wrap our heads around all of this?",
+    "label": "Human Written",
+    "ai_assistance_score": 5.781123295867629e-20,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 386,
+    "word_count": 79,
+    "token_length": 97,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.9192942275304424e-22,
+     5.761526870168365e-20
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9979693764260475
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0025906735099852085,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 5.761526870168365e-20,
+    "std": 6.579215644508807e-11,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 6.601555413432436e-11,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

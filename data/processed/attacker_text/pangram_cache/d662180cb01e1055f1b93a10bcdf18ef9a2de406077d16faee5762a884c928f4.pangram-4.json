@@ -1,0 +1,96 @@
+{
+ "text_sha256": "d662180cb01e1055f1b93a10bcdf18ef9a2de406077d16faee5762a884c928f4",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:52:02+00:00",
+ "word_count": 110,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "our cash flows are extremely tight,but under extreme duress we are willing to increase our offer to USD 75000 which is very close to six figures. This is a genuine stretch for us and the absolute maximum we can arrange. we respectfully request that you accept this amount and begin partial decryption so we can resume core operations. please confirm if this is acceptable - we are ready to begin arrangements immediately. 36 hours will not be possible as we have to remit money to a third party wallet and then make payment. We do not have a wallet. we will try our best to close it by Friday .",
+  "version": "4.1",
+  "prediction": "We believe that this text is a mix of AI and human-written content.",
+  "prediction_short": "Mixed",
+  "fraction_ai": 0.7104377150535583,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 0.28956228494644165,
+  "headline": "AI Detected",
+  "num_ai_segments": 1,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "our cash flows are extremely tight,but under extreme duress we are willing to increase our offer to USD 75000 which is very close to six figures. This is a genuine stretch for us and the absolute maximum we can arrange. we respectfully request that you accept this amount and begin partial decryption so we can resume core operations. please confirm if this is acceptable - we are ready to begin arrangements immediately. ",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 422,
+    "word_count": 72,
+    "token_length": 87,
+    "is_humanized": false,
+    "humanizer_score": 0.07110762596130371,
+    "class_probabilities": [
+     1.1406893190755096e-24,
+     0.0,
+     1.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.997187179738361
+   },
+   {
+    "text": "36 hours will not be possible as we have to remit money to a third party wallet and then make payment. We do not have a wallet. we will try our best to close it by Friday .",
+    "label": "Human Written",
+    "ai_assistance_score": 9.547699476872558e-28,
+    "confidence": "High",
+    "start_index": 422,
+    "end_index": 594,
+    "word_count": 37,
+    "token_length": 41,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     9.547699476872558e-28
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9979483705726064
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001683501643128693,
+   "human": 0.0,
+   "mixed": 1.0,
+   "ai": 1.3521829531502322e-40,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.7104377150535583,
+    "std": 3.8984329544904106e-13,
+    "p10": 0.7104377150535583,
+    "p50": 0.7104377150535583,
+    "p90": 0.7104377150535583
+   },
+   "human_coverage": {
+    "mean": 0.28956228494644165,
+    "std": 3.8984329544904106e-13,
+    "p10": 0.28956228494644165,
+    "p50": 0.28956228494644165,
+    "p90": 0.28956228494644165
+   }
+  }
+ },
+ "error": null
+}

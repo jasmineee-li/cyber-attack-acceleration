@@ -1,0 +1,76 @@
+{
+ "text_sha256": "9fd0a43eb2ce580eb4a78044652f49c9beaf8f88080e131bd217cc01ea38a650",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:06:31+00:00",
+ "word_count": 106,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "This is a lot to take in and I'm honestly shocked that you think we can pay $1.8 million for the files you have.\nYou stole less than 4GB. This makes no sense.\nI'm waiting to hear how that warrants a multi million dollar demand. And please don't try and tell us about all the damages we'll face if 4GB of stolen files gets published. Not even close to the amount you just mentioned. It sounds like you've been doing this for a while, so I expect there to be a reasonable explanation or a huge adjustment. Maybe it was just a mistake on your end.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.0010442837888707e-20,
+  "fraction_ai_assisted": 2.6640194034374443e-34,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "This is a lot to take in and I'm honestly shocked that you think we can pay $1.8 million for the files you have.\nYou stole less than 4GB. This makes no sense.\nI'm waiting to hear how that warrants a multi million dollar demand. And please don't try and tell us about all the damages we'll face if 4GB of stolen files gets published. Not even close to the amount you just mentioned. It sounds like you've been doing this for a while, so I expect there to be a reasonable explanation or a huge adjustment. Maybe it was just a mistake on your end.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.001044203009514e-20,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 544,
+    "word_count": 112,
+    "token_length": 127,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.664019173848704e-34,
+     1.001044203009514e-20
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9979239921188591
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0018382353009656072,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.0010442837888707e-20,
+    "std": 1.9685435573291166e-11,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.9685435573291166e-11,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

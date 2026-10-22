@@ -1,0 +1,76 @@
+{
+ "text_sha256": "c5428f4b2d8a9e18be3808325fb5c10b295d49dae8d7125597cfc95660833994",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:07:40+00:00",
+ "word_count": 120,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hi Lockbit, I've talked to our heads and most of them are against of paying at all. We don't know much about your business and the heads are insistent that you would go against your word and sell the data nonetheless. We've been transparent with our regulators and clients and have been working days and nights non-stop for restoration activities. And now, we just want to minimize the damage and hoping for peaceful restoration activities by deleting the data that you have.\nThe heads don't want to pay at all but I've told them that you value your reputation as you said and have managed to convince them to pay 40k for the destruction of data. Kindly consider this offer.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 7.959476051926277e-29,
+  "fraction_ai_assisted": 4.203895392974451e-45,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Hi Lockbit, I've talked to our heads and most of them are against of paying at all. We don't know much about your business and the heads are insistent that you would go against your word and sell the data nonetheless. We've been transparent with our regulators and clients and have been working days and nights non-stop for restoration activities. And now, we just want to minimize the damage and hoping for peaceful restoration activities by deleting the data that you have.\nThe heads don't want to pay at all but I've told them that you value your reputation as you said and have managed to convince them to pay 40k for the destruction of data. Kindly consider this offer.",
+    "label": "Human Written",
+    "ai_assistance_score": 7.959476051926277e-29,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 674,
+    "word_count": 126,
+    "token_length": 140,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.203895392974451e-45,
+     7.959476051926277e-29
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989617765666519
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0014836795162409544,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 7.959476051926277e-29,
+    "std": 1.8184077900666902e-15,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.8184077900666902e-15,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

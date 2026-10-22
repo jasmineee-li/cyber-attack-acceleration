@@ -1,0 +1,76 @@
+{
+ "text_sha256": "00efacdb635b805c16d235ca33d8479b90dcf0ec3ebca1cdc613f4dffc8dc21c",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:51:40+00:00",
+ "word_count": 57,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We are very aware of the stakes here, but the pressure you're putting on us isn't benefitting anyone. Let us be clear, if we weren't before - we ARE interested in reaching a deal with you. A lower price wouldn't hurt, especially if we want to settle this quickly. Can you give us a much better price?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 4.8254526238837045e-28,
+  "fraction_ai_assisted": 8.076305899045344e-37,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We are very aware of the stakes here, but the pressure you're putting on us isn't benefitting anyone. Let us be clear, if we weren't before - we ARE interested in reaching a deal with you. A lower price wouldn't hurt, especially if we want to settle this quickly. Can you give us a much better price?",
+    "label": "Human Written",
+    "ai_assistance_score": 4.8254526238837045e-28,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 300,
+    "word_count": 60,
+    "token_length": 69,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     8.076306795876361e-37,
+     4.8254526238837045e-28
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9987236856503826
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0033333334140479565,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 4.8254526238837045e-28,
+    "std": 7.714526208872727e-15,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 7.714526208872727e-15,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

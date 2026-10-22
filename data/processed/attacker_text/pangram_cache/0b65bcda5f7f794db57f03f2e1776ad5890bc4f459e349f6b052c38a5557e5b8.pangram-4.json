@@ -1,0 +1,76 @@
+{
+ "text_sha256": "0b65bcda5f7f794db57f03f2e1776ad5890bc4f459e349f6b052c38a5557e5b8",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:46:48+00:00",
+ "word_count": 101,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Yes, I am authorized to speak with you on behalf of our organization. Why would you do this to us? We are a non-profit organization who offers free services for poor and homeless women. This is a terrible thing that has happened to us and you are hurting these women the most by this action. We desperately ask you reconsider what you have done and let us get our operations back to normal as quickly as possible. These people need our help and we need yours to get back to normal. We beg of you to do the right thing here.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 9.229767981635071e-36,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Yes, I am authorized to speak with you on behalf of our organization. Why would you do this to us? We are a non-profit organization who offers free services for poor and homeless women. This is a terrible thing that has happened to us and you are hurting these women the most by this action. We desperately ask you reconsider what you have done and let us get our operations back to normal as quickly as possible. These people need our help and we need yours to get back to normal. We beg of you to do the right thing here.",
+    "label": "Human Written",
+    "ai_assistance_score": 9.229767981635071e-36,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 523,
+    "word_count": 102,
+    "token_length": 110,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     9.229767981635071e-36
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9986187267042126
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.001912045874632895,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 9.229767981635071e-36,
+    "std": 7.154435044457162e-19,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 7.154435044457162e-19,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

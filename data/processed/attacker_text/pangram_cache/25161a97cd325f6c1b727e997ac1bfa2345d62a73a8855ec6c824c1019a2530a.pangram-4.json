@@ -1,0 +1,96 @@
+{
+ "text_sha256": "25161a97cd325f6c1b727e997ac1bfa2345d62a73a8855ec6c824c1019a2530a",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:04:03+00:00",
+ "word_count": 129,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Please confirm you will provide after payment:\n1. Universal decryptor, and technical support in case of problems,\n2. Detailed proof of the downloaded data - complete file tree of all of compromised data files,\n3. Confirmation of 100% proof of permanent deletion of all compromised data from all your data storage locations and a shred/wiping log,\n4. Confirmation that you will delete and will never publish any of the data or this chat or release the company name anywhere, including on your publishing Happy Blog/leaks site, or on the dark web or the Internet,\n5. A security report on how company was breached, so we can prevent future problems, and\n6. Promise to never again breach or attack company’s networks or websites.\nPlease confirm 1 to 6. Thank you",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 7.460350425533141e-14,
+  "fraction_ai_assisted": 5.151727900877595e-19,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "Please confirm you will provide after payment:\n1. Universal decryptor, and technical support in case of problems,\n2. Detailed proof of the downloaded data - complete file tree of all of compromised data files,\n3. Confirmation of 100% proof of permanent deletion of all compromised data from all your data storage locations and a shred/wiping log,\n4. Confirmation that you will delete and will never publish any of the data or this chat or release the company name anywhere, including on your publishing Happy Blog/leaks site, or on the dark web or the Internet,\n5. A security report on how company was breached, so we can prevent future problems, and\n6. Promise to never again breach or attack company’s networks or websites.\nPlease confirm 1 to 6.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.563780097789946e-38,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 748,
+    "word_count": 129,
+    "token_length": 167,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     6.563780097789946e-38
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989224322057155
+   },
+   {
+    "text": " Thank you",
+    "label": "Human Written",
+    "ai_assistance_score": 5.654964777696003e-12,
+    "confidence": "Medium",
+    "start_index": 748,
+    "end_index": 758,
+    "word_count": 2,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.9050098222774966e-17,
+     5.6549452620568985e-12
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9670296792723792
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0013192612677812576,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 7.460350425533141e-14,
+    "std": 3.1372202613511035e-08,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 3.13723091949214e-08,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

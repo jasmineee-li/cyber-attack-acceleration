@@ -1,0 +1,96 @@
+{
+ "text_sha256": "9661f55445e47b527f1bccaa776bac7c381ebad1c695487ee4426dab9386b4ed",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:48:30+00:00",
+ "word_count": 65,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "As stated earlier, we have continually run our business at a loss for many years, and we would like to address the issue in a manner that enables us to continue our business. To that end, we would like to suggest a $20,000 settlement offer, which reflects our genuine desire to handle this matter in a way that is both responsible and practical for us.",
+  "version": "4.1",
+  "prediction": "We believe that this text is a mix of AI and human-written content.",
+  "prediction_short": "Mixed",
+  "fraction_ai": 0.5056816339492798,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 0.4943183958530426,
+  "headline": "AI Detected",
+  "num_ai_segments": 1,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "As stated earlier, we have continually run our business at a loss for many years, and we would like to address the issue in a manner that enables us to continue our business.",
+    "label": "Human Written",
+    "ai_assistance_score": 4.017682250800382e-15,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 174,
+    "word_count": 33,
+    "token_length": 36,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     4.017682250800382e-15
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9867167280997569
+   },
+   {
+    "text": " To that end, we would like to suggest a $20,000 settlement offer, which reflects our genuine desire to handle this matter in a way that is both responsible and practical for us.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9999995827674866,
+    "confidence": "Low",
+    "start_index": 174,
+    "end_index": 352,
+    "word_count": 33,
+    "token_length": 41,
+    "is_humanized": false,
+    "humanizer_score": 0.14332611858844757,
+    "class_probabilities": [
+     4.232450692143175e-07,
+     0.0,
+     0.9999995827674866
+    ],
+    "confidence_score": 0.9999995827674866,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.7836426914153133
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Low",
+   "boundary": "human"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0028409091755747795,
+   "human": 4.232450692143175e-07,
+   "mixed": 0.9999995827674866,
+   "ai": 4.017682250800382e-15,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.5056816339492798,
+    "std": 0.00032898280187509954,
+    "p10": 0.5056818127632141,
+    "p50": 0.5056818127632141,
+    "p90": 0.5056818127632141
+   },
+   "human_coverage": {
+    "mean": 0.4943183958530426,
+    "std": 0.00032898280187509954,
+    "p10": 0.4943181872367859,
+    "p50": 0.4943181872367859,
+    "p90": 0.4943181872367859
+   }
+  }
+ },
+ "error": null
+}

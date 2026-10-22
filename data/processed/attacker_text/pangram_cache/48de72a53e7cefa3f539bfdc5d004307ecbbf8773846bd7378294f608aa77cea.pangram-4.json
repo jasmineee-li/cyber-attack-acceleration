@@ -1,0 +1,96 @@
+{
+ "text_sha256": "48de72a53e7cefa3f539bfdc5d004307ecbbf8773846bd7378294f608aa77cea",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:46:38+00:00",
+ "word_count": 70,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "I’m sorry. I appreciate that you feel $25,000 is not acceptable. We do want your services, and we are trying to gather what we can. However, getting capital together is extremely difficult as awe are not a high cashflow business. We may be able to generate a bit more, but I’m not sure. Can you provide us with a more reasonable number given our financial situation? Can you accept $50,000?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 4.272766712556937e-17,
+  "fraction_ai_assisted": 7.975239257710142e-21,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "I’m sorry.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.6665345708657573e-15,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 10,
+    "word_count": 3,
+    "token_length": 4,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.1103430843247566e-19,
+     1.6663790344408178e-15
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9885824464565888
+   },
+   {
+    "text": " I appreciate that you feel $25,000 is not acceptable. We do want your services, and we are trying to gather what we can. However, getting capital together is extremely difficult as awe are not a high cashflow business. We may be able to generate a bit more, but I’m not sure. Can you provide us with a more reasonable number given our financial situation? Can you accept $50,000?",
+    "label": "Human Written",
+    "ai_assistance_score": 2.3027871890348697e-29,
+    "confidence": "High",
+    "start_index": 10,
+    "end_index": 390,
+    "word_count": 71,
+    "token_length": 91,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     2.3027871890348697e-29
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.99837306425345
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0025641026441007853,
+   "human": 1.0,
+   "mixed": 1.1102230246251565e-16,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 4.272766712556937e-17,
+    "std": 1.0467001709812962e-09,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.0467978706074632e-09,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

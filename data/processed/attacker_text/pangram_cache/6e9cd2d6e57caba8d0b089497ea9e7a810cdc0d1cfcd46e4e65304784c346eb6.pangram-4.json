@@ -1,0 +1,76 @@
+{
+ "text_sha256": "6e9cd2d6e57caba8d0b089497ea9e7a810cdc0d1cfcd46e4e65304784c346eb6",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:10:34+00:00",
+ "word_count": 229,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Our NET Revenue last year was $3 million. The document you provided has our clients’ money and we only hold the funds. We cannot access the funds as only our clients can. So, when we pay you in BTC it goes into a wallet. Your wallet is likely held at some brokerage firm. The brokerage firm cannot access your wallet and take that money. They are just holding the money and you are the one that controls it not us. When we report to our regulator, we must report the amount of funds we are holding. Again – this is loans and deposits that we cannot use and is reported to regulators. We are offering you 25% of our Net Revenue Number of $3million. $750,000 is a sizeable sum. We want to get to a deal and will pay you quickly. So, hopefully you understand that we do not control the $500,000,000 number as it controlled by our members. We only can control the $3 Million Net Revenue Number and we are offering 25% of that sum. I do not know if other organizations are giving you this amount of their Net Revenue. We are a not-for-profit credit union. Please understand that we want to settle and will pay you with funds we can control. Can we conclude our affairs and move forward and pay you what we control.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.802596928649634e-44,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Our NET Revenue last year was $3 million. The document you provided has our clients’ money and we only hold the funds. We cannot access the funds as only our clients can. So, when we pay you in BTC it goes into a wallet. Your wallet is likely held at some brokerage firm. The brokerage firm cannot access your wallet and take that money. They are just holding the money and you are the one that controls it not us. When we report to our regulator, we must report the amount of funds we are holding. Again – this is loans and deposits that we cannot use and is reported to regulators. We are offering you 25% of our Net Revenue Number of $3million. $750,000 is a sizeable sum. We want to get to a deal and will pay you quickly. So, hopefully you understand that we do not control the $500,000,000 number as it controlled by our members. We only can control the $3 Million Net Revenue Number and we are offering 25% of that sum. I do not know if other organizations are giving you this amount of their Net Revenue. We are a not-for-profit credit union. Please understand that we want to settle and will pay you with funds we can control. Can we conclude our affairs and move forward and pay you what we control.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.802596928649634e-44,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 1209,
+    "word_count": 233,
+    "token_length": 286,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     2.802596928649634e-44
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989860364855623
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0016542597441002727,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.802596928649634e-44,
+    "std": 2.966040641895379e-23,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 0.9991728663444519,
+    "std": 2.966040641895379e-23,
+    "p10": 0.9991728663444519,
+    "p50": 0.9991728663444519,
+    "p90": 0.9991728663444519
+   }
+  }
+ },
+ "error": null
+}

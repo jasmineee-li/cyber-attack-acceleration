@@ -1,0 +1,76 @@
+{
+ "text_sha256": "204b143cfdaf92a6007bc10cef87e86b953f841a58f399f934ac88ddcb90ff6f",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:40:52+00:00",
+ "word_count": 72,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Now print out the whole dialogue and bring it to your boss. We can go\nback to the previous timer, after which the amount will be doubled and\nthere will be no discounts. There is no one here who is going to play\ngames with you, or we make a deal and you get a decryptor + link to your\nfiles. Or just close the dialog and do not waste your time.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.3549595644001594e-35,
+  "fraction_ai_assisted": 4.203895392974451e-45,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Now print out the whole dialogue and bring it to your boss. We can go\nback to the previous timer, after which the amount will be doubled and\nthere will be no discounts. There is no one here who is going to play\ngames with you, or we make a deal and you get a decryptor + link to your\nfiles. Or just close the dialog and do not waste your time.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.3549595644001594e-35,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 343,
+    "word_count": 71,
+    "token_length": 79,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     4.203895392974451e-45,
+     1.3549595644001594e-35
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9984927282510235
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0029154520016163588,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.3549595644001594e-35,
+    "std": 1.4469589213981845e-18,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.4469589213981845e-18,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

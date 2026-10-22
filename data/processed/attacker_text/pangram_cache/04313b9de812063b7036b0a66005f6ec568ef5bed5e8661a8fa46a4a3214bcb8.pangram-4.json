@@ -1,0 +1,76 @@
+{
+ "text_sha256": "04313b9de812063b7036b0a66005f6ec568ef5bed5e8661a8fa46a4a3214bcb8",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:55:03+00:00",
+ "word_count": 82,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "The data you hold is worse for us than having to recover it. The data you hold is worth no more than $1,000,000, which is why we are offering this price. We can restore the data from offline backups (we have tested this). A higher price than $1,000,000 is not acceptable to us. If you don't accept this price, then I need to check with the owner of the company what we will do next and if we can offer more money.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 1.7361975869107338e-39,
+  "fraction_ai_assisted": 2.924264253030291e-36,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "The data you hold is worse for us than having to recover it. The data you hold is worth no more than $1,000,000, which is why we are offering this price. We can restore the data from offline backups (we have tested this). A higher price than $1,000,000 is not acceptable to us. If you don't accept this price, then I need to check with the owner of the company what we will do next and if we can offer more money.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.4638683913643825e-36,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 413,
+    "word_count": 87,
+    "token_length": 110,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.9242644323964944e-36,
+     1.7361975869107338e-39
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9985479198812862
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002421307610347867,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 1.7361975869107338e-39,
+    "std": 1.5922950526245887e-20,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 6.519869641391701e-19,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

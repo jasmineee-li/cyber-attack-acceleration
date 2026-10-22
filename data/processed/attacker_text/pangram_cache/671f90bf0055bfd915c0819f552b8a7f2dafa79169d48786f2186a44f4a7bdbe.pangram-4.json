@@ -1,0 +1,76 @@
+{
+ "text_sha256": "671f90bf0055bfd915c0819f552b8a7f2dafa79169d48786f2186a44f4a7bdbe",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:02:53+00:00",
+ "word_count": 65,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Just to repeat our deal. Once you receive the requested amount:\n1. You will stop any bad actions to our network\n2. You will provide decryptor that will decrypt all computers in our network\n3. You will help us if we have technical problems\n4. You will stop any other bad actions regarding our office\n5. You will provide security audit for our office\nCorrect?",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 3.8997192478924945e-29,
+  "fraction_ai_assisted": 3.5596890939736366e-29,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Just to repeat our deal. Once you receive the requested amount:\n1. You will stop any bad actions to our network\n2. You will provide decryptor that will decrypt all computers in our network\n3. You will help us if we have technical problems\n4. You will stop any other bad actions regarding our office\n5. You will provide security audit for our office\nCorrect?",
+    "label": "Human Written",
+    "ai_assistance_score": 5.679563794879313e-29,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 357,
+    "word_count": 65,
+    "token_length": 79,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     3.559688793047083e-29,
+     3.8997189469659407e-29
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9986858212473236
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002801120514050126,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 3.8997192478924945e-29,
+    "std": 1.6191540888951935e-15,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.239358812654844e-15,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

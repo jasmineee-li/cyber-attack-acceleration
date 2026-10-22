@@ -1,0 +1,76 @@
+{
+ "text_sha256": "c75fd32b3f0dfee24b9d0aea5ddbfa778bc64330a9fc86fdec42f57695061a34",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T03:01:17+00:00",
+ "word_count": 85,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We can’t seem to download that file. As for the price, we still do not have the means to pay that amount. As for our responses, we can’t sit here 24/7 and with it being the weekend, we can’t collect anything. We need to re group on Monday and see where the larger group stands.\nOne thing the partners have requested is the ability to request a few more files from the list. We are hoping to have those file names for you by Monday.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 4.344025239406933e-44,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We can’t seem to download that file. As for the price, we still do not have the means to pay that amount. As for our responses, we can’t sit here 24/7 and with it being the weekend, we can’t collect anything. We need to re group on Monday and see where the larger group stands.\nOne thing the partners have requested is the ability to request a few more files from the list. We are hoping to have those file names for you by Monday.",
+    "label": "Human Written",
+    "ai_assistance_score": 4.344025239406933e-44,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 431,
+    "word_count": 89,
+    "token_length": 101,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     4.344025239406933e-44
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989616324108448
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002320185536518693,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 4.344025239406933e-44,
+    "std": 6.026025151271718e-23,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 6.026028937804063e-23,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

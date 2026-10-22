@@ -1,0 +1,96 @@
+{
+ "text_sha256": "ee56ed94fae49053aaa41bd5dadafeea6e68639820621ab9306ab59de7106058",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:49:02+00:00",
+ "word_count": 62,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "I also understand that there is some USDT in our posession that could account for a significant percent of the deal if you could accept USDT instead of the bitcoin. I know that for some reason you do not like USDT bu this seems to be a way to get you more funds on a shoorter schedule. Awaiting your word. Thank you.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 8.598954403433774e-18,
+  "fraction_ai_assisted": 6.580173848080229e-27,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 2,
+  "windows": [
+   {
+    "text": "I also understand that there is some USDT in our posession that could account for a significant percent of the deal if you could accept USDT instead of the bitcoin. I know that for some reason you do not like USDT bu this seems to be a way to get you more funds on a shoorter schedule. Awaiting your word.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.133492102524192e-34,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 305,
+    "word_count": 60,
+    "token_length": 70,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     3.133492102524192e-34
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9989417865576102
+   },
+   {
+    "text": " Thank you.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.470245065120671e-16,
+    "confidence": "Medium",
+    "start_index": 305,
+    "end_index": 316,
+    "word_count": 2,
+    "token_length": 3,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.8903046161289056e-25,
+     2.470245065120671e-16
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9892702731203206
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0031645570416003466,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 8.598954403433774e-18,
+    "std": 5.471111896859782e-10,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 5.471111896859782e-10,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

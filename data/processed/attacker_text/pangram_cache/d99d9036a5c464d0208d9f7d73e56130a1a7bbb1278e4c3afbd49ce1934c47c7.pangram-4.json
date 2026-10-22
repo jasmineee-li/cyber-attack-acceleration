@@ -1,0 +1,116 @@
+{
+ "text_sha256": "d99d9036a5c464d0208d9f7d73e56130a1a7bbb1278e4c3afbd49ce1934c47c7",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:54:10+00:00",
+ "word_count": 57,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hello,\nAs per the file tree structure you have provided us, we would like the 3-files listed below to be decrypted (in their original format) and provided back to us as confirmation.\nBelow are the 3 files that we require in a decrypted format as confirmation.\n1. Summons_Complaint_From_[redacted].pdf\n2. 3450_Disbursement_Invoice_[redacted].csv.done\n3. 15-01-12 MED MAL CASES FROM [redacted].docx",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.105631883031044e-18,
+  "fraction_ai_assisted": 2.920230096190163e-19,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 3,
+  "windows": [
+   {
+    "text": "Hello,\nAs per the file tree structure you have provided us, we would like the 3-files listed below to be decrypted (in their original format) and provided back to us as confirmation.\nBelow are the 3 files that we require in a decrypted format as confirmation.\n",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 260,
+    "word_count": 47,
+    "token_length": 58,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   },
+   {
+    "text": "1.",
+    "label": "Human Written",
+    "ai_assistance_score": 4.458253626941379e-16,
+    "confidence": "Medium",
+    "start_index": 260,
+    "end_index": 262,
+    "word_count": 1,
+    "token_length": 2,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.782055347472217e-17,
+     4.169150958829442e-16
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9892702731203206
+   },
+   {
+    "text": " Summons_Complaint_From_[redacted].pdf\n2. 3450_Disbursement_Invoice_[redacted].csv.done\n3. 15-01-12 MED MAL CASES FROM [redacted].docx",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0,
+    "confidence": "High",
+    "start_index": 262,
+    "end_index": 396,
+    "word_count": 18,
+    "token_length": 59,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990737340412404
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0025252525229007006,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.105631883031044e-18,
+    "std": 1.0312373177612244e-10,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.1004257227664738e-10,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

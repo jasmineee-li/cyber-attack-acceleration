@@ -1,0 +1,76 @@
+{
+ "text_sha256": "7c7958a5eb6dc9ee6a9c5b613a4b438259c7e7e485a4f81dcddf620b56ee2f55",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:53:15+00:00",
+ "word_count": 68,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "6000 $ ? How fast we can have the data back? we have already started the manual entries of invoices so until tomorrow i will have clear picture of what we have. also we are moving all our restored data to microsoft 365, eveyrhting seems to be ok apart from our 2 databases with missing data. I will know tomorrow how much work we need of manual entries.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.0598047919504784e-32,
+  "fraction_ai_assisted": 2.382207389352189e-44,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "6000 $ ? How fast we can have the data back? we have already started the manual entries of invoices so until tomorrow i will have clear picture of what we have. also we are moving all our restored data to microsoft 365, eveyrhting seems to be ok apart from our 2 databases with missing data. I will know tomorrow how much work we need of manual entries.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.0598047919504784e-32,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 353,
+    "word_count": 66,
+    "token_length": 85,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.382207389352189e-44,
+     2.0598047919504784e-32
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9990267386299634
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.00283286115154624,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.0598047919504784e-32,
+    "std": 2.160581697918095e-17,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 2.160581697918095e-17,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

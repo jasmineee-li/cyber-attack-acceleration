@@ -1,0 +1,196 @@
+{
+ "text_sha256": "3af4d003ee759cb8711875ca83c498508a1516859c53dababd353a4c43944571",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:52:39+00:00",
+ "word_count": 104,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Thank you for your patience and for working with us. Our management wants to move forward with payment for data deletion, guarantees, and the security report. They have a final meeting scheduled tomorrow morning to discuss financing, and we will provide you with an offer right after. Could you also let us know what the security report contains? This information will support our decision-making process. We also request that you only use this chat to communicate with us and to please refrain from reaching out to our employees directly. We want to make a deal and I assure you, you have our full attention.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 0.0037782620638608932,
+  "fraction_ai_assisted": 9.849980972195544e-15,
+  "fraction_human": 0.9962217211723328,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 7,
+  "windows": [
+   {
+    "text": "Thank you for your patience and for working with us.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.336645773447956e-13,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 52,
+    "word_count": 10,
+    "token_length": 11,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     6.2204155270725374e-27,
+     1.336645773447956e-13
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9817138980542107
+   },
+   {
+    "text": " Our management wants to move forward with payment for data deletion, guarantees, and the security report.",
+    "label": "Human Written",
+    "ai_assistance_score": 7.152201850508064e-26,
+    "confidence": "High",
+    "start_index": 52,
+    "end_index": 158,
+    "word_count": 16,
+    "token_length": 19,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.1041578288434247e-35,
+     7.152201850508064e-26
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.995850703618891
+   },
+   {
+    "text": " They have a final meeting scheduled tomorrow morning to discuss financing, and we will provide you with an offer right after.",
+    "label": "Human Written",
+    "ai_assistance_score": 7.827012014861509e-14,
+    "confidence": "Medium",
+    "start_index": 158,
+    "end_index": 284,
+    "word_count": 21,
+    "token_length": 23,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.3085952088239105e-34,
+     7.827012014861509e-14
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9821373680795109
+   },
+   {
+    "text": " Could you also let us know what the security report contains?",
+    "label": "Human Written",
+    "ai_assistance_score": 0.00014873624604661018,
+    "confidence": "Low",
+    "start_index": 284,
+    "end_index": 346,
+    "word_count": 11,
+    "token_length": 12,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     0.9998512864112854,
+     3.2652547294079085e-18,
+     0.00014873624604661018
+    ],
+    "confidence_score": 0.9998512864112854,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.6493428912783752
+   },
+   {
+    "text": " This information will support our decision-making process.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.03884304314851761,
+    "confidence": "Low",
+    "start_index": 346,
+    "end_index": 405,
+    "word_count": 8,
+    "token_length": 9,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     0.961156964302063,
+     1.0166840920576917e-13,
+     0.03884304314851761
+    ],
+    "confidence_score": 0.961156964302063,
+    "uncertainty_highlighting": true,
+    "calibrated_confidence": 0.5309585690261428
+   },
+   {
+    "text": " We also request that you only use this chat to communicate with us and to please refrain from reaching out to our employees directly.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.928152165182496e-09,
+    "confidence": "Medium",
+    "start_index": 405,
+    "end_index": 539,
+    "word_count": 24,
+    "token_length": 25,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.741407493528906e-35,
+     2.928152165182496e-09
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9026359534552363
+   },
+   {
+    "text": " We want to make a deal and I assure you, you have our full attention.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.574737821005724e-20,
+    "confidence": "High",
+    "start_index": 539,
+    "end_index": 609,
+    "word_count": 15,
+    "token_length": 17,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.107498605360723e-38,
+     1.574737821005724e-20
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9940278343662212
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "Low",
+   "boundary": "human"
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.0016420361353084445,
+   "human": 0.9998512864112854,
+   "mixed": 0.00014873647887725383,
+   "ai": 3.2991834732432055e-39,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 0.0037782620638608932,
+    "std": 0.018835395574569702,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 0.9962217211723328,
+    "std": 0.018835395574569702,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}

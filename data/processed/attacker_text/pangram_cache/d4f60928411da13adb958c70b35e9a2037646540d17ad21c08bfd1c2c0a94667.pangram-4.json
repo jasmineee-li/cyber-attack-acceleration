@@ -1,0 +1,76 @@
+{
+ "text_sha256": "d4f60928411da13adb958c70b35e9a2037646540d17ad21c08bfd1c2c0a94667",
+ "model_requested": "pangram-4",
+ "preprocessing_version": "v1",
+ "submitted_at_utc": "2026-10-20T02:51:54+00:00",
+ "word_count": 87,
+ "attempts": 1,
+ "response": {
+  "stage": "STAGE_SUCCESS",
+  "text": "We don't have $150,000. We've made that very clear all along. We've been struggling immensely to get $100,000 for you. You decided to put our name on your blog and as far as we know, it's still there. With this, you already caused us irreparable damage. Consider yourself incredibly lucky we're still here offering $100,000. I know you recognize that $100,000 is much better than $0. This amount seems like a fair resolution for both parties, let's agree on this and bring the matter to a close.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.4528911314230083e-31,
+  "fraction_ai_assisted": 2.8866223921271266e-32,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "We don't have $150,000. We've made that very clear all along. We've been struggling immensely to get $100,000 for you. You decided to put our name on your blog and as far as we know, it's still there. With this, you already caused us irreparable damage. Consider yourself incredibly lucky we're still here offering $100,000. I know you recognize that $100,000 is much better than $0. This amount seems like a fair resolution for both parties, let's agree on this and bring the matter to a close.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.5972225595966317e-31,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 495,
+    "word_count": 97,
+    "token_length": 135,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.8866223921271266e-32,
+     2.4528911314230083e-31
+    ],
+    "confidence_score": 1.0,
+    "uncertainty_highlighting": false,
+    "calibrated_confidence": 0.9986486678398998
+   }
+  ],
+  "readout_policy_id": "pangram-4.1-continuous-readout-sentences-v1",
+  "segment_policy_id": "leading-class-rounded-support-confidence-v1",
+  "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "calibration_table_id": "p42-120b-invariance-step24516-sentence-calibration-v2",
+  "verdict_support": {
+   "source": "sentence_dp",
+   "coverage_resolution": 0.002020202111452818,
+   "human": 1.0,
+   "mixed": 0.0,
+   "ai": 0.0,
+   "human_threshold": 0.8999999761581421,
+   "ai_threshold": 0.800000011920929,
+   "ai_coverage": {
+    "mean": 2.4528911314230083e-31,
+    "std": 1.3722351968037372e-16,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.0
+   },
+   "human_coverage": {
+    "mean": 1.0,
+    "std": 1.4507341075394275e-16,
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0
+   }
+  }
+ },
+ "error": null
+}
