@@ -19,7 +19,7 @@ one-off backlog. It counts each (victim, gang) pair once. fig32 stacks US attack
 by a data-breach notice (red) on all other confirmed attacks (blue); the red part is the kind
 of confirmation that arrives last, so recent months are low partly because notices haven't
 been filed yet. October 2026 is incomplete (downloaded 19 October), so in the monthly graphs
-its bar is outlined and labelled, as in METR's charts. fig35 stops at 2026Q3, the last
+its bar is hatched (diagonal lines in each layer's colour on white) and labelled. fig35 stops at 2026Q3, the last
 complete quarter, as v10 does: a count of distinct groups in a part quarter isn't comparable.
 It counts group names as ransomware.live records them, so a renamed gang counts as a new group.
 
@@ -88,6 +88,14 @@ def series(src, freq, start):
     return m
 
 
+def hatch_partial(bars, partial, color):
+    """Redraw the bars of incomplete periods as diagonal lines in their colour on white, so a
+    part period stands apart from the solid complete ones, as in v09. partial: one flag per bar."""
+    for bar, p in zip(bars, partial):
+        if p:
+            bar.set(facecolor="white", edgecolor=color, hatch="////", linewidth=1.1)
+
+
 def figure(m, fname, title, subtitle, ylabel, source, layers):
     fig, ax = plt.subplots(figsize=(8.4, 5.2))
     fig.suptitle(title, x=0.12, y=0.985, ha="left", fontsize=FS_TITLE, fontweight="bold")
@@ -95,9 +103,13 @@ def figure(m, fname, title, subtitle, ylabel, source, layers):
 
     per_year = m.attrs["per_year"]
     width = 0.86 / per_year
+    # The last month may be incomplete: hatch its bar so it doesn't read as a collapse.
+    partial = [False] * (len(m) - 1) + [m.attrs["partial"]]
     bottom = 0
     for col, color, label in layers:
-        ax.bar(m["x"], m[col], bottom=bottom, width=width, color=color, label=label, zorder=3)
+        bars = ax.bar(m["x"], m[col], bottom=bottom, width=width, color=color, label=label,
+                      zorder=3)
+        hatch_partial(bars, partial, color)
         bottom = bottom + m[col]
     total = bottom
     if per_year == 12:
@@ -109,11 +121,9 @@ def figure(m, fname, title, subtitle, ylabel, source, layers):
     # Quarterly bars reach the top right, so leave room for the era label, as v10 does.
     ylim = total.max() * (1.3 if has_legend else 1.12 if per_year == 12 else 1.24)
     if m.attrs["partial"]:
-        # The last month is incomplete: outline its bar and say so, so it doesn't read as a
-        # collapse. Note above the last two years of bars, right-aligned over the partial one,
-        # below the "Jan 2026 onward" label (top ~10% of the axes), as in v09.
-        ax.bar([m["x"].iloc[-1]], [total.iloc[-1]], width=width, facecolor="none",
-               edgecolor="#444444", linewidth=1.1, zorder=4)
+        # Say the hatched month is partial. Note above the last two years of bars,
+        # right-aligned over the partial one, below the "Jan 2026 onward" label (top ~10% of
+        # the axes), as in v09.
         note_y = total.iloc[-2 * per_year:].max() * 1.05
         ylim = max(ylim, note_y / 0.74)
         ax.text(right - (right - ERA_START) * 0.025, note_y,

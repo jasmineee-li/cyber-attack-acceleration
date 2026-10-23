@@ -229,8 +229,8 @@ stages:
       size: 5
     - path: code/v10_fig_trackers_quarterly.py
       hash: md5
-      md5: b75ec9af09b2a7cc5c524324230bebcf
-      size: 8255
+      md5: 1f3c42d3902c031aed26c976aa06dc55
+      size: 8736
     - path: code/v11_tracker_trend_check.py
       hash: md5
       md5: 019b7c2fba3b6e03acf4b0a97cad1d5f
@@ -261,8 +261,8 @@ stages:
       size: 5
     - path: code/v09_fig_defillama_monthly_hacks.py
       hash: md5
-      md5: d6f4dabaf2d9471a677022033ebc5542
-      size: 7289
+      md5: 6be87c545320ca69cb04ace47f25af5a
+      size: 7562
     - path: data/processed/defillama_hacks_raw.csv
       hash: md5
       md5: fe3dbc2302b1dc22c5ef20f78d93169b
@@ -274,24 +274,24 @@ stages:
     outs:
     - path: figures/fig08_defillama_hacks_per_month.png
       hash: md5
-      md5: d71cf7a1f2f5a444b60b8edcee85801e
-      size: 79274
+      md5: e4c5b160e96dcb57b7746acbbd38b5a8
+      size: 79949
     - path: figures/fig09_defillama_avg_hack_size.png
       hash: md5
-      md5: 12cd93365984671cd924075de11b2366
-      size: 80536
+      md5: d97c348bd91830f29d9c3b5c9b978f01
+      size: 80529
     - path: figures/fig10_defillama_total_stolen.png
       hash: md5
-      md5: bd07f67929a234470293be6bae31c62d
-      size: 83448
+      md5: 6c695c2789ad1c6e4bc7e900cc1d743d
+      size: 83443
     - path: figures/fig11_defillama_small_hacks_per_month.png
       hash: md5
-      md5: 76242e554f782fbf25d1b280b3a19435
-      size: 85955
+      md5: b67a9be9c329d2238545771b342d75a9
+      size: 86703
     - path: figures/fig12_defillama_small_hacks_stolen.png
       hash: md5
-      md5: 3f15d1af1ea2bd98fe0892e47bd221dc
-      size: 83857
+      md5: d8fa35ef7fd92d131e844fb2c096e409
+      size: 84532
   fig_defillama_hacks_by_type:
     cmd: python -I code/v13_fig_defillama_hacks_by_type.py
     deps:
@@ -301,12 +301,12 @@ stages:
       size: 5
     - path: code/v09_fig_defillama_monthly_hacks.py
       hash: md5
-      md5: d6f4dabaf2d9471a677022033ebc5542
-      size: 7289
+      md5: 6be87c545320ca69cb04ace47f25af5a
+      size: 7562
     - path: code/v13_fig_defillama_hacks_by_type.py
       hash: md5
-      md5: c86aadba2d270731ff26236ab35f42c8
-      size: 7003
+      md5: 175a5655d3472c36e2fea053ac422704
+      size: 7421
     - path: data/processed/changepoint_by_class_results.csv
       hash: md5
       md5: 456d4acb663fc0d163db981527d14de3
@@ -322,12 +322,12 @@ stages:
     outs:
     - path: figures/fig36_defillama_hacks_by_type_accelerated_counts.png
       hash: md5
-      md5: 4e67b93892c73392f23bf25d7c9117f5
-      size: 307301
+      md5: 5e9c7a9ec314d5fb3d537982f3d8a840
+      size: 267698
     - path: figures/fig37_defillama_hacks_by_type_not_accelerated_counts.png
       hash: md5
-      md5: 49fad0efc53802e4b3a9c3d28324bed0
-      size: 256644
+      md5: 83f0321f6a2838e7f06f1dbaba440bcb
+      size: 296323
   fig_trackers_quarterly:
     cmd: python -I code/v10_fig_trackers_quarterly.py
     deps:
@@ -337,8 +337,8 @@ stages:
       size: 5
     - path: code/v10_fig_trackers_quarterly.py
       hash: md5
-      md5: b75ec9af09b2a7cc5c524324230bebcf
-      size: 8255
+      md5: 1f3c42d3902c031aed26c976aa06dc55
+      size: 8736
     - path: data/processed/certik_dashboard_monthly.csv
       hash: md5
       md5: a4ab327e334fabb18fe851bcfb598268
@@ -378,8 +378,8 @@ stages:
       size: 74672
     - path: figures/fig19_tracker_blocksec.png
       hash: md5
-      md5: 512b1414d5ebad99020f3df3a9059fe9
-      size: 78988
+      md5: 480ebafbbcd523dd7a17deab103dad80
+      size: 80266
   fig_ransomware_metr:
     cmd: python -I code/ransomware/fig_ransomware_metr.py
     deps:
@@ -389,8 +389,8 @@ stages:
       size: 5
     - path: code/ransomware/fig_ransomware_metr.py
       hash: md5
-      md5: 6d8ee566dfecd049913b4700acc451e2
-      size: 8072
+      md5: d4776fa1bd8f371c302262b5820a73c3
+      size: 8492
     - path: data/processed/comparitech_ransomware_monthly.csv
       hash: md5
       md5: e108f310fcc25f3787e340a130ddf2b1
@@ -410,12 +410,12 @@ stages:
     outs:
     - path: figures/fig31_ransomware_live_per_month.png
       hash: md5
-      md5: 2977ce1edae8a4861953694e70defc18
-      size: 88157
+      md5: d6bdd1f646d1b2bc4af4a158a2da8909
+      size: 89645
     - path: figures/fig32_comparitech_ransomware_per_month.png
       hash: md5
-      md5: 387f8fc33e00456417c1788ff0fcbca4
-      size: 101470
+      md5: 8bd2988884daef300acce11d5d87d55a
+      size: 101821
     - path: figures/fig35_ransomware_live_groups_per_quarter.png
       hash: md5
       md5: 36ddeee203fb15239c88d036331077e4
@@ -512,8 +512,8 @@ stages:
       size: 5
     - path: code/attacker_text/analyze.py
       hash: md5
-      md5: f66c6bdd8e4ed4f5430a2a1c49ad71e7
-      size: 14431
+      md5: 90887c278d07c08f943b5437755308c0
+      size: 14546
     - path: data/processed/attacker_text/conversations_eligibility.csv
       hash: md5
       md5: 8a957c493424fb52065f0426424fc1ba
@@ -550,16 +550,16 @@ stages:
       size: 4467
     - path: figures/attacker_text/pangram_flags_2025_2026_monthly.png
       hash: md5
-      md5: 38f514788ead799475e02230a1cb41f1
-      size: 172245
+      md5: 074812181c6b6b68c7e530057cb6067e
+      size: 142927
     - path: figures/attacker_text/pangram_flags_2025_2026_quarterly.png
       hash: md5
-      md5: 53b49fad768e7ef74e8a64c3914cc7f9
-      size: 158692
+      md5: ef99ef2a1a3c925bf6dff09c8a79eef2
+      size: 138329
     - path: figures/attacker_text/pangram_flags_over_time.png
       hash: md5
-      md5: b1b4396b6b8d9709588c19bbd91048ec
-      size: 152232
+      md5: a106f72b3a26264a3eede7356764ceba
+      size: 158021
   attacker_text_typography:
     cmd: python -I code/attacker_text/typography.py data/processed/attacker_text
     deps:

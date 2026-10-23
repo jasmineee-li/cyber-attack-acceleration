@@ -6,8 +6,8 @@ fig08-fig12 (v09).
 
 Input:  data/processed/defillama_hacks_raw.csv (from v08)
         data/processed/changepoint_by_class_results.csv (kink fits, from v27)
-Output: figures/fig36_defillama_hacks_by_type_accelerated_counts.png      7 types
-        figures/fig37_defillama_hacks_by_type_not_accelerated_counts.png  6 types
+Output: figures/fig36_defillama_hacks_by_type_accelerated_counts.png      6 types
+        figures/fig37_defillama_hacks_by_type_not_accelerated_counts.png  7 types
 
 The kink model (v21.kink): log-rate = a + b*t + d*max(0, t - t0), a negative-binomial fit
 with the kink month t0 profiled over Jul 2024 - Jul 2026. The rate's growth factor per year
@@ -25,6 +25,10 @@ best-fit Aug 2025, Bridge & Cross-Chain Jul 2024, each with 2026 months fitting 
 well). Governance and Market Manipulation have too few hacks to fit (under 25) and go in the
 second figure untested; Governance's counts do rise (2 a month from Jun 2026, after 5 single
 hacks over 2023-2025).
+
+The rule is overridden for the types in NOT_ACCELERATED, which go in the second figure by the
+authors' judgement. Protocol Logic passes all three tests, but the authors read it as not
+accelerating (23 Oct 2026).
 
 As in the do-file: months with no hacks of a type are 0, each panel has its own y-axis, and
 October 2026 (data to the 16th) is left out. The one hack with no classification (Locus
@@ -49,6 +53,7 @@ COLS = 4
 FIT = "#D98F6E"  # fitted line, as in fig29
 LR_MIN = 4.0
 ACCEL_WINDOW = pd.period_range("2025-10", "2026-06", freq="M")
+NOT_ACCELERATED = {"Protocol Logic"}  # judged not accelerated, whatever the rule says
 
 
 def kink_results():
@@ -68,7 +73,8 @@ def accelerated(r):
 
 def split(res):
     """(types that accelerated, types that did not), each largest type first."""
-    flags = res.apply(accelerated, axis=1)
+    assert NOT_ACCELERATED <= set(res.index), f"unknown type in {NOT_ACCELERATED}"
+    flags = res.apply(accelerated, axis=1) & ~res.index.isin(NOT_ACCELERATED)
     return list(res.index[flags]), list(res.index[~flags])
 
 

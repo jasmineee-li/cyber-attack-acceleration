@@ -6,8 +6,8 @@ Output: <proc_dir>/pangram_trends_by_year.csv   one row per period x sample x cu
         <proc_dir>/pangram_trends_by_period.csv the three-period table (2020-22, 2023-24, 2025-26) used in the memo
         <proc_dir>/pangram_flagged_messages.md  every flagged message in full, with Pangram's window labels
         figures/attacker_text/pangram_flags_over_time.png          by year, 2020 to 2026
-        figures/attacker_text/pangram_flags_2025_2026_quarterly.png by quarter, 2025 to 2026
-        figures/attacker_text/pangram_flags_2025_2026_monthly.png   by month, 2025 to 2026 (sparse; for inspection)
+        figures/attacker_text/pangram_flags_2025_2026_quarterly.png by quarter, Jan 2025 to Mar 2026
+        figures/attacker_text/pangram_flags_2025_2026_monthly.png   by month, Jan 2025 to Mar 2026 (sparse; for inspection)
 Samples present in the results file are each summarised: A_primary (attacker messages) always,
 victim (the comparator) when it has been run. They are never pooled.
 
@@ -46,6 +46,9 @@ rng = np.random.default_rng(20261019)
 # Dropped from the figure only (the tables keep it): a 2021 Conti victim's formally worded request to
 # remove a deadline, labelled Mixed at low confidence. Pre-ChatGPT, so a false positive; see the memo.
 FIGURE_EXCLUDED = {"519094c72735db8e-0033"}
+# The quarterly and monthly figures stop here: after March 2026 the archive has no victim messages
+# and only 2 attacker messages (Aug 2026, neither flagged). The yearly figure keeps them.
+RECENT_END = "2026-03"
 
 
 def cluster_bootstrap(flags: pd.Series, clusters: pd.Series, draws: int = 2000) -> tuple[float, float]:
@@ -112,9 +115,10 @@ def style_bar_panel(ax, title: str, color: str, labels: list[str], label_size: f
 
 
 def bar(ax, i: int, share: float, color: str, partial: bool, note: str, note_size: float, width: float = 0.62) -> None:
-    ax.bar(i, share, width=width, color=color, zorder=3)
-    if partial:  # outlined, as the incomplete month is in the DefiLlama charts
-        ax.bar(i, share, width=width, facecolor="none", edgecolor=GRAY, linewidth=1.3, zorder=4)
+    if partial:  # hatched in its colour on white, as the incomplete month is in the DefiLlama charts
+        ax.bar(i, share, width=width, facecolor="white", edgecolor=color, hatch="////", linewidth=1.3, zorder=3)
+    else:
+        ax.bar(i, share, width=width, color=color, zorder=3)
     ax.text(i, -0.07, note, ha="center", va="top", fontsize=note_size, color=AXIS_GRAY, transform=ax.get_xaxis_transform())
 
 
@@ -131,9 +135,9 @@ def figure_header(fig, title: str, subtitle: str) -> None:
 
 
 def draw_recent(panels: dict[str, pd.DataFrame], version: str, freq: str, fname: str) -> None:
-    """Flag share by quarter ("Q") or month ("M") from January 2025. Monthly bins hold a handful of messages each."""
+    """Flag share by quarter ("Q") or month ("M"), January 2025 to RECENT_END. Monthly bins hold a handful of messages each."""
     monthly = freq == "M"
-    bins = pd.period_range("2025-01", "2026-10", freq=freq)
+    bins = pd.period_range("2025-01", RECENT_END, freq=freq)
     if monthly:
         labels = [p.strftime("%b\n%Y") if p.month == 1 else p.strftime("%b") for p in bins]
     else:
@@ -150,11 +154,10 @@ def draw_recent(panels: dict[str, pd.DataFrame], version: str, freq: str, fname:
                 bar(ax, i, 0, color, False, "no\nmsgs", FS_NOTE - 3)
             else:
                 note = f"{int(k)}/{int(n)}" if monthly else f"{int(k)}/{int(n)}\n{int(chats)} chats"
-                bar(ax, i, k / n, color, i == len(bins) - 1, note, FS_NOTE - 3 if monthly else FS_NOTE, width=0.72)
+                bar(ax, i, k / n, color, False, note, FS_NOTE - 3 if monthly else FS_NOTE, width=0.72)
         style_bar_panel(ax, title, color, labels, FS_TICK - 3 if monthly else FS_TICK)
     axes[0].set_ylim(0, 1.0 if monthly else 0.5)
     axes[0].set_ylabel("Share of messages flagged", fontsize=FS_AXIS)
-    axes[1].text(0.98, 0.97, "Latest bin is partial:\nthrough Oct 19, 2026", transform=axes[1].transAxes, fontsize=FS_NOTE, color="#555555", ha="right", va="top")
     fig.subplots_adjust(left=0.065, right=0.985, top=0.78, bottom=0.19, wspace=0.08)
     fig.savefig(FIGS / fname, dpi=180, facecolor="white")
     plt.close(fig)

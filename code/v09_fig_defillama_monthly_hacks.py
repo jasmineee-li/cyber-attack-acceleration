@@ -15,7 +15,7 @@ switched off), "small" means under $4.5M (the 75th percentile of amounts since 2
 hacks with no amount count in the hack total but not as small. Unlike the Stata graphs,
 months with no hacks (only May 2020) are plotted as 0 rather than skipped.
 Blue = all hacks, red = small hacks. October 2026 is incomplete (downloaded 18 Oct), so its
-bar is outlined and labelled, as in METR's charts.
+bar is hatched (diagonal lines in the bar's colour on white) and labelled.
 
 Run: uv run python -I code/v09_fig_defillama_monthly_hacks.py  (or: uv run dvc repro)
 """
@@ -82,6 +82,14 @@ def event_lines(ax, events, top):
         ax.legend(loc="upper left", frameon=False, fontsize=FS_NOTE, handlelength=2.2)
 
 
+def hatch_partial(bars, partial, color):
+    """Redraw the bars of incomplete periods as diagonal lines in their colour on white, so a
+    part period stands apart from the solid complete ones. partial: one flag per bar."""
+    for bar, p in zip(bars, partial):
+        if p:
+            bar.set(facecolor="white", edgecolor=color, hatch="////", linewidth=1.1)
+
+
 def style(ax, xlabel, ylabel):
     """Axis styling, as in METR's style()."""
     ax.set_xlabel(xlabel, fontsize=FS_AXIS)
@@ -105,11 +113,9 @@ def figure(m, col, color, title, subtitle, ylabel, fname, events=()):
     fig, ax = frame(title, subtitle)
 
     width = 0.86 / 12
-    ax.bar(m["x"], m[col], width=width, color=color, zorder=3)
-    # The last month is incomplete: outline its bar and say so, so it doesn't read as a collapse.
-    x_last, y_last = m["x"].iloc[-1], m[col].fillna(0).iloc[-1]
-    ax.bar([x_last], [y_last], width=width, facecolor="none", edgecolor="#444444",
-           linewidth=1.1, zorder=4)
+    bars = ax.bar(m["x"], m[col], width=width, color=color, zorder=3)
+    # The last month is incomplete: hatch its bar and say so, so it doesn't read as a collapse.
+    hatch_partial(bars, [False] * (len(m) - 1) + [True], color)
     left, right = m["x"].iloc[0] - 1 / 12, m["x"].iloc[-1] + 1.5 / 12
     ax.set_xlim(left, right)
     # The note sits above the recent bars, right-aligned over the partial one, as in

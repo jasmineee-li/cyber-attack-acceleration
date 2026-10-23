@@ -13,7 +13,8 @@ amount given where a tracker leaves some blank), so a bar's full height is all i
 monthly totals by type, so its bars are one colour (slate, METR's colour for a count with no
 split) and count the "Exploit" type. Range 2022Q1 to 2026Q3, the last complete quarter, on
 the same x-axis in every graph; CertiK and BlockSec start in 2023. A quarter a tracker has
-not fully published (BlockSec's 2026Q3) is outlined and labelled, as in METR's charts.
+not fully published (BlockSec's 2026Q3) is hatched (diagonal lines in each layer's colour on
+white) and labelled, as v09 does for a part month.
 
 Run: uv run python -I code/v10_fig_trackers_quarterly.py  (or: uv run dvc repro)
 """
@@ -102,31 +103,41 @@ def last_covered(src):
     return dates[0]
 
 
+def hatch_partial(bars, partial, color):
+    """Redraw the bars of incomplete periods as diagonal lines in their colour on white, so a
+    part period stands apart from the solid complete ones, as in v09. partial: one flag per bar."""
+    for bar, p in zip(bars, partial):
+        if p:
+            bar.set(facecolor="white", edgecolor=color, hatch="////", linewidth=1.1)
+
+
 def figure(d, src, fname, title, subtitle, site):
     fig, ax = plt.subplots(figsize=(8.4, 5.2))
     fig.suptitle(title, x=0.12, y=0.985, ha="left", fontsize=FS_TITLE, fontweight="bold")
     ax.set_title(subtitle, loc="left", fontsize=FS_SUBTITLE, color="#444444", pad=14)
 
     width = 0.86 / 4
+    # A part quarter's bar is hatched so it doesn't read as a collapse.
     if d["big"].notna().any():
-        ax.bar(d["x"], d["big"], width=width, color=BLUE, label=r"\$1M or more", zorder=3)
+        bars = ax.bar(d["x"], d["big"], width=width, color=BLUE, label=r"\$1M or more",
+                      zorder=3)
+        hatch_partial(bars, d["partial"], BLUE)
         # rekt.news and BlockSec give an amount for every incident in range.
         rest = r"under \$1M or no amount" if d["no_amount"].sum() else r"under \$1M"
-        ax.bar(d["x"], d["rest"], bottom=d["big"], width=width, color=RED, label=rest,
-               zorder=3)
+        bars = ax.bar(d["x"], d["rest"], bottom=d["big"], width=width, color=RED, label=rest,
+                      zorder=3)
+        hatch_partial(bars, d["partial"], RED)
     else:
-        ax.bar(d["x"], d["rest"], width=width, color=SLATE, zorder=3)
+        bars = ax.bar(d["x"], d["rest"], width=width, color=SLATE, zorder=3)
+        hatch_partial(bars, d["partial"], SLATE)
 
     left, right = START.year - 0.06, END.year + END.quarter / 4 + 0.06
     ax.set_xlim(left, right)
     ylim = d["total"].max() * 1.24
     if d["partial"].any():
-        # A part quarter's bar is outlined and labelled so it doesn't read as a collapse. The
-        # label sits above the last two years of bars, right-aligned over the part bar, below
-        # the "Jan 2026 onward" label (top ~10% of the axes).
-        p = d[d["partial"]].iloc[-1]
-        ax.bar([p["x"]], [p["total"]], width=width, facecolor="none", edgecolor="#444444",
-               linewidth=1.1, zorder=4)
+        # Label the hatched part quarter. The label sits above the last two years of bars,
+        # right-aligned over the part bar, below the "Jan 2026 onward" label (top ~10% of the
+        # axes).
         note_y = d["total"].iloc[-8:].max() * 1.05
         ylim = max(ylim, note_y / 0.74)
         ax.text(right - (right - ERA_START) * 0.025, note_y,
