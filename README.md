@@ -2,10 +2,6 @@
 
 Code, data and figures for the blog post of the same name (Cheryl Wu and Jasmine Li, October 2026). <!-- TODO: link to the published post -->
 
-The post asks whether cyberattacks sped up in 2026, when AI models became much better at finding and exploiting software flaws. Following METR's method in [Cunningham and Rush (2026)](https://metr.org/notes/2026-08-14-llm-contribution-to-discoveries/), it counts one well-defined kind of event per month or quarter from public, re-downloadable data and looks for a change in the growth rate. Two series: **crypto hacks** (DeFiLlama's list, checked against six other trackers) and **ransomware attacks** (victims named on gangs' leak sites, and attacks confirmed by a second source). It also runs an AI-text detector over public ransomware negotiations.
-
-`figures/README.md` lists every figure in the post with the script and pipeline stage that makes it.
-
 ## Layout
 
 ```text
